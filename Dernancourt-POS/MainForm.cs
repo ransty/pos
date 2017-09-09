@@ -32,6 +32,13 @@ namespace Dernancourt_POS
             traditional2Panel.Visible = false;
             traditional3Panel.Visible = false;
             traditional4Panel.Visible = false;
+            gourmetPanel.Visible = false;
+            gourmet2Panel.Visible = false;
+            seafoodPanel.Visible = false;
+            abPanel.Visible = false;
+            ab2Panel.Visible = false;
+            pastaPanel.Visible = false;
+            pastaBakePanel.Visible = false;
             // on load make all panels fill
             orderPanel.Dock = DockStyle.Fill;
             mealDealPanel.Dock = DockStyle.Fill;
@@ -47,6 +54,14 @@ namespace Dernancourt_POS
             traditional2Panel.Dock = DockStyle.Fill;
             traditional3Panel.Dock = DockStyle.Fill;
             traditional4Panel.Dock = DockStyle.Fill;
+            gourmetPanel.Dock = DockStyle.Fill;
+            gourmet2Panel.Dock = DockStyle.Fill;
+            seafoodPanel.Dock = DockStyle.Fill;
+            abPanel.Dock = DockStyle.Fill;
+            ab2Panel.Dock = DockStyle.Fill;
+            pastaPanel.Dock = DockStyle.Fill;
+            pastaBakePanel.Dock = DockStyle.Fill;
+
 
         }
 
@@ -297,6 +312,99 @@ namespace Dernancourt_POS
         private void pnl2TraditionalBtn_Click(object sender, EventArgs e)
         {
             traditionalPanel.Visible = true;
+        }
+
+        private void button440_Click(object sender, EventArgs e)
+        {
+            gourmet2Panel.Visible = false;
+        }
+
+        private void button369_Click(object sender, EventArgs e)
+        {
+            gourmet2Panel.Visible = true;
+        }
+
+        private void button368_Click(object sender, EventArgs e)
+        {
+            gourmetPanel.Visible = false;
+        }
+
+        private void pnl2GourmetBtn_Click(object sender, EventArgs e)
+        {
+            gourmetPanel.Visible = true;
+        }
+
+        private void button369_Click_1(object sender, EventArgs e)
+        {
+            gourmet2Panel.Visible = true;
+        }
+
+        private void button368_Click_1(object sender, EventArgs e)
+        {
+            gourmetPanel.Visible = false;
+        }
+
+        private void button440_Click_1(object sender, EventArgs e)
+        {
+            gourmet2Panel.Visible = false;
+        }
+
+        private void button370_Click(object sender, EventArgs e)
+        {
+            seafoodPanel.Visible = false;
+        }
+
+        private void pnl2SeafoodBtn_Click(object sender, EventArgs e)
+        {
+            seafoodPanel.Visible = true;
+        }
+
+        private void abPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button394_Click(object sender, EventArgs e)
+        {
+            ab2Panel.Visible = false;
+        }
+
+        private void button385_Click(object sender, EventArgs e)
+        {
+            ab2Panel.Visible = true;
+        }
+
+        private void button384_Click(object sender, EventArgs e)
+        {
+            abPanel.Visible = false;
+
+        }
+
+        private void pnl2TheABBtn_Click(object sender, EventArgs e)
+        {
+            abPanel.Visible = true;
+        }
+
+        private void button395_Click(object sender, EventArgs e)
+        {
+            pastaPanel.Visible = false;
+
+        }
+
+        private void pnl2PastaBtn_Click(object sender, EventArgs e)
+        {
+            pastaPanel.Visible = true;
+        }
+
+        private void button396_Click(object sender, EventArgs e)
+        {
+            pastaBakePanel.Visible = false;
+
+        }
+
+        private void pnl2PastaBakeBtn_Click(object sender, EventArgs e)
+        {
+            pastaBakePanel.Visible = true;
         }
     }
 }
