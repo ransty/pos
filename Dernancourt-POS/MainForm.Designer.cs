@@ -251,10 +251,8 @@
             this.button109 = new System.Windows.Forms.Button();
             this.button110 = new System.Windows.Forms.Button();
             this.button111 = new System.Windows.Forms.Button();
-            this.button112 = new System.Windows.Forms.Button();
             this.button113 = new System.Windows.Forms.Button();
             this.label183 = new System.Windows.Forms.Label();
-            this.label184 = new System.Windows.Forms.Label();
             this.label185 = new System.Windows.Forms.Label();
             this.label186 = new System.Windows.Forms.Label();
             this.label187 = new System.Windows.Forms.Label();
@@ -262,11 +260,9 @@
             this.label189 = new System.Windows.Forms.Label();
             this.label190 = new System.Windows.Forms.Label();
             this.label191 = new System.Windows.Forms.Label();
-            this.label192 = new System.Windows.Forms.Label();
             this.label193 = new System.Windows.Forms.Label();
             this.label194 = new System.Windows.Forms.Label();
             this.label195 = new System.Windows.Forms.Label();
-            this.label196 = new System.Windows.Forms.Label();
             this.label197 = new System.Windows.Forms.Label();
             this.label198 = new System.Windows.Forms.Label();
             this.label145 = new System.Windows.Forms.Label();
@@ -677,28 +673,8 @@
             this.label170 = new System.Windows.Forms.Label();
             this.label171 = new System.Windows.Forms.Label();
             this.label172 = new System.Windows.Forms.Label();
-            this.label151 = new System.Windows.Forms.Label();
             this.label152 = new System.Windows.Forms.Label();
-            this.label153 = new System.Windows.Forms.Label();
-            this.label154 = new System.Windows.Forms.Label();
             this.label155 = new System.Windows.Forms.Label();
-            this.label156 = new System.Windows.Forms.Label();
-            this.label173 = new System.Windows.Forms.Label();
-            this.label174 = new System.Windows.Forms.Label();
-            this.label175 = new System.Windows.Forms.Label();
-            this.label176 = new System.Windows.Forms.Label();
-            this.label177 = new System.Windows.Forms.Label();
-            this.label178 = new System.Windows.Forms.Label();
-            this.button371 = new System.Windows.Forms.Button();
-            this.button372 = new System.Windows.Forms.Button();
-            this.button373 = new System.Windows.Forms.Button();
-            this.button374 = new System.Windows.Forms.Button();
-            this.button380 = new System.Windows.Forms.Button();
-            this.button381 = new System.Windows.Forms.Button();
-            this.button382 = new System.Windows.Forms.Button();
-            this.button383 = new System.Windows.Forms.Button();
-            this.label179 = new System.Windows.Forms.Label();
-            this.label180 = new System.Windows.Forms.Label();
             this.abPanel = new System.Windows.Forms.Panel();
             this.label213 = new System.Windows.Forms.Label();
             this.label212 = new System.Windows.Forms.Label();
@@ -774,6 +750,145 @@
             this.button406 = new System.Windows.Forms.Button();
             this.label231 = new System.Windows.Forms.Label();
             this.label232 = new System.Windows.Forms.Label();
+            this.ribsnwingsPanel = new System.Windows.Forms.Panel();
+            this.button408 = new System.Windows.Forms.Button();
+            this.button409 = new System.Windows.Forms.Button();
+            this.button443 = new System.Windows.Forms.Button();
+            this.button444 = new System.Windows.Forms.Button();
+            this.button445 = new System.Windows.Forms.Button();
+            this.label235 = new System.Windows.Forms.Label();
+            this.label236 = new System.Windows.Forms.Label();
+            this.label237 = new System.Windows.Forms.Label();
+            this.label238 = new System.Windows.Forms.Label();
+            this.label247 = new System.Windows.Forms.Label();
+            this.label248 = new System.Windows.Forms.Label();
+            this.label249 = new System.Windows.Forms.Label();
+            this.label250 = new System.Windows.Forms.Label();
+            this.risottoPanel = new System.Windows.Forms.Panel();
+            this.button407 = new System.Windows.Forms.Button();
+            this.button450 = new System.Windows.Forms.Button();
+            this.button451 = new System.Windows.Forms.Button();
+            this.button452 = new System.Windows.Forms.Button();
+            this.button453 = new System.Windows.Forms.Button();
+            this.label257 = new System.Windows.Forms.Label();
+            this.label258 = new System.Windows.Forms.Label();
+            this.label259 = new System.Windows.Forms.Label();
+            this.label260 = new System.Windows.Forms.Label();
+            this.label261 = new System.Windows.Forms.Label();
+            this.label262 = new System.Windows.Forms.Label();
+            this.label263 = new System.Windows.Forms.Label();
+            this.label264 = new System.Windows.Forms.Label();
+            this.kebabWrapPanel = new System.Windows.Forms.Panel();
+            this.button446 = new System.Windows.Forms.Button();
+            this.button448 = new System.Windows.Forms.Button();
+            this.button449 = new System.Windows.Forms.Button();
+            this.button454 = new System.Windows.Forms.Button();
+            this.label251 = new System.Windows.Forms.Label();
+            this.label252 = new System.Windows.Forms.Label();
+            this.label253 = new System.Windows.Forms.Label();
+            this.label254 = new System.Windows.Forms.Label();
+            this.label255 = new System.Windows.Forms.Label();
+            this.label256 = new System.Windows.Forms.Label();
+            this.saladsPanel = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label233 = new System.Windows.Forms.Label();
+            this.button447 = new System.Windows.Forms.Button();
+            this.button455 = new System.Windows.Forms.Button();
+            this.button456 = new System.Windows.Forms.Button();
+            this.button457 = new System.Windows.Forms.Button();
+            this.button458 = new System.Windows.Forms.Button();
+            this.button459 = new System.Windows.Forms.Button();
+            this.button460 = new System.Windows.Forms.Button();
+            this.label234 = new System.Windows.Forms.Label();
+            this.label265 = new System.Windows.Forms.Label();
+            this.label266 = new System.Windows.Forms.Label();
+            this.label267 = new System.Windows.Forms.Label();
+            this.label268 = new System.Windows.Forms.Label();
+            this.label269 = new System.Windows.Forms.Label();
+            this.label270 = new System.Windows.Forms.Label();
+            this.label271 = new System.Windows.Forms.Label();
+            this.label272 = new System.Windows.Forms.Label();
+            this.label273 = new System.Windows.Forms.Label();
+            this.label274 = new System.Windows.Forms.Label();
+            this.label275 = new System.Windows.Forms.Label();
+            this.button461 = new System.Windows.Forms.Button();
+            this.button463 = new System.Windows.Forms.Button();
+            this.button464 = new System.Windows.Forms.Button();
+            this.button465 = new System.Windows.Forms.Button();
+            this.button466 = new System.Windows.Forms.Button();
+            this.button467 = new System.Windows.Forms.Button();
+            this.button468 = new System.Windows.Forms.Button();
+            this.button469 = new System.Windows.Forms.Button();
+            this.button470 = new System.Windows.Forms.Button();
+            this.label276 = new System.Windows.Forms.Label();
+            this.label277 = new System.Windows.Forms.Label();
+            this.label278 = new System.Windows.Forms.Label();
+            this.label279 = new System.Windows.Forms.Label();
+            this.label280 = new System.Windows.Forms.Label();
+            this.label281 = new System.Windows.Forms.Label();
+            this.label282 = new System.Windows.Forms.Label();
+            this.label283 = new System.Windows.Forms.Label();
+            this.label284 = new System.Windows.Forms.Label();
+            this.label285 = new System.Windows.Forms.Label();
+            this.label286 = new System.Windows.Forms.Label();
+            this.label287 = new System.Windows.Forms.Label();
+            this.label288 = new System.Windows.Forms.Label();
+            this.label289 = new System.Windows.Forms.Label();
+            this.label290 = new System.Windows.Forms.Label();
+            this.label291 = new System.Windows.Forms.Label();
+            this.desertsPanel = new System.Windows.Forms.Panel();
+            this.button477 = new System.Windows.Forms.Button();
+            this.button478 = new System.Windows.Forms.Button();
+            this.button479 = new System.Windows.Forms.Button();
+            this.button480 = new System.Windows.Forms.Button();
+            this.button481 = new System.Windows.Forms.Button();
+            this.button482 = new System.Windows.Forms.Button();
+            this.button483 = new System.Windows.Forms.Button();
+            this.button484 = new System.Windows.Forms.Button();
+            this.button485 = new System.Windows.Forms.Button();
+            this.button486 = new System.Windows.Forms.Button();
+            this.label305 = new System.Windows.Forms.Label();
+            this.label306 = new System.Windows.Forms.Label();
+            this.label307 = new System.Windows.Forms.Label();
+            this.label308 = new System.Windows.Forms.Label();
+            this.label309 = new System.Windows.Forms.Label();
+            this.label310 = new System.Windows.Forms.Label();
+            this.label311 = new System.Windows.Forms.Label();
+            this.label312 = new System.Windows.Forms.Label();
+            this.label313 = new System.Windows.Forms.Label();
+            this.label314 = new System.Windows.Forms.Label();
+            this.label315 = new System.Windows.Forms.Label();
+            this.label316 = new System.Windows.Forms.Label();
+            this.label317 = new System.Windows.Forms.Label();
+            this.label318 = new System.Windows.Forms.Label();
+            this.label319 = new System.Windows.Forms.Label();
+            this.label320 = new System.Windows.Forms.Label();
+            this.desert2Panel = new System.Windows.Forms.Panel();
+            this.button462 = new System.Windows.Forms.Button();
+            this.button488 = new System.Windows.Forms.Button();
+            this.button489 = new System.Windows.Forms.Button();
+            this.label304 = new System.Windows.Forms.Label();
+            this.label321 = new System.Windows.Forms.Label();
+            this.label322 = new System.Windows.Forms.Label();
+            this.label323 = new System.Windows.Forms.Label();
+            this.beveragesPanel = new System.Windows.Forms.Panel();
+            this.button474 = new System.Windows.Forms.Button();
+            this.button492 = new System.Windows.Forms.Button();
+            this.button493 = new System.Windows.Forms.Button();
+            this.button494 = new System.Windows.Forms.Button();
+            this.button495 = new System.Windows.Forms.Button();
+            this.label324 = new System.Windows.Forms.Label();
+            this.label325 = new System.Windows.Forms.Label();
+            this.label326 = new System.Windows.Forms.Label();
+            this.label327 = new System.Windows.Forms.Label();
+            this.label328 = new System.Windows.Forms.Label();
+            this.label329 = new System.Windows.Forms.Label();
+            this.label330 = new System.Windows.Forms.Label();
+            this.label331 = new System.Windows.Forms.Label();
+            this.button112 = new System.Windows.Forms.Button();
+            this.label196 = new System.Windows.Forms.Label();
+            this.label192 = new System.Windows.Forms.Label();
+            this.label184 = new System.Windows.Forms.Label();
             this.mainMenu.SuspendLayout();
             this.orderPanel.SuspendLayout();
             this.startersPanel.SuspendLayout();
@@ -796,6 +911,14 @@
             this.ab2Panel.SuspendLayout();
             this.pastaPanel.SuspendLayout();
             this.pastaBakePanel.SuspendLayout();
+            this.ribsnwingsPanel.SuspendLayout();
+            this.risottoPanel.SuspendLayout();
+            this.kebabWrapPanel.SuspendLayout();
+            this.saladsPanel.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.desertsPanel.SuspendLayout();
+            this.desert2Panel.SuspendLayout();
+            this.beveragesPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // customerNameTxt
@@ -964,6 +1087,12 @@
             // 
             // orderPanel
             // 
+            this.orderPanel.Controls.Add(this.beveragesPanel);
+            this.orderPanel.Controls.Add(this.desertsPanel);
+            this.orderPanel.Controls.Add(this.saladsPanel);
+            this.orderPanel.Controls.Add(this.kebabWrapPanel);
+            this.orderPanel.Controls.Add(this.risottoPanel);
+            this.orderPanel.Controls.Add(this.ribsnwingsPanel);
             this.orderPanel.Controls.Add(this.pastaBakePanel);
             this.orderPanel.Controls.Add(this.pastaPanel);
             this.orderPanel.Controls.Add(this.abPanel);
@@ -2718,6 +2847,7 @@
             this.pnl2BeveragesBtn.TabIndex = 17;
             this.pnl2BeveragesBtn.Text = "Beverages";
             this.pnl2BeveragesBtn.UseVisualStyleBackColor = true;
+            this.pnl2BeveragesBtn.Click += new System.EventHandler(this.pnl2BeveragesBtn_Click);
             // 
             // pnl2DesertsBtn
             // 
@@ -2728,6 +2858,7 @@
             this.pnl2DesertsBtn.TabIndex = 16;
             this.pnl2DesertsBtn.Text = "Deserts";
             this.pnl2DesertsBtn.UseVisualStyleBackColor = true;
+            this.pnl2DesertsBtn.Click += new System.EventHandler(this.pnl2DesertsBtn_Click);
             // 
             // pnl2SaladsBtn
             // 
@@ -2738,6 +2869,7 @@
             this.pnl2SaladsBtn.TabIndex = 15;
             this.pnl2SaladsBtn.Text = "Salads";
             this.pnl2SaladsBtn.UseVisualStyleBackColor = true;
+            this.pnl2SaladsBtn.Click += new System.EventHandler(this.pnl2SaladsBtn_Click);
             // 
             // pnl2KebabWrapBtn
             // 
@@ -2748,6 +2880,7 @@
             this.pnl2KebabWrapBtn.TabIndex = 14;
             this.pnl2KebabWrapBtn.Text = "Kebab/ Wrap";
             this.pnl2KebabWrapBtn.UseVisualStyleBackColor = true;
+            this.pnl2KebabWrapBtn.Click += new System.EventHandler(this.pnl2KebabWrapBtn_Click);
             // 
             // pnl2RisottoBtn
             // 
@@ -2758,6 +2891,7 @@
             this.pnl2RisottoBtn.TabIndex = 13;
             this.pnl2RisottoBtn.Text = "Risotto";
             this.pnl2RisottoBtn.UseVisualStyleBackColor = true;
+            this.pnl2RisottoBtn.Click += new System.EventHandler(this.pnl2RisottoBtn_Click);
             // 
             // pnl2RibsWingsBtn
             // 
@@ -2768,6 +2902,7 @@
             this.pnl2RibsWingsBtn.TabIndex = 12;
             this.pnl2RibsWingsBtn.Text = "Ribs and Wings";
             this.pnl2RibsWingsBtn.UseVisualStyleBackColor = true;
+            this.pnl2RibsWingsBtn.Click += new System.EventHandler(this.pnl2RibsWingsBtn_Click);
             // 
             // pnl2PastaBakeBtn
             // 
@@ -3154,59 +3289,39 @@
             // mainsPanel
             // 
             this.mainsPanel.Controls.Add(this.mains2Panel);
-            this.mainsPanel.Controls.Add(this.label180);
             this.mainsPanel.Controls.Add(this.label146);
-            this.mainsPanel.Controls.Add(this.label179);
             this.mainsPanel.Controls.Add(this.label145);
-            this.mainsPanel.Controls.Add(this.button383);
             this.mainsPanel.Controls.Add(this.button104);
-            this.mainsPanel.Controls.Add(this.button382);
-            this.mainsPanel.Controls.Add(this.button381);
             this.mainsPanel.Controls.Add(this.button105);
-            this.mainsPanel.Controls.Add(this.button380);
             this.mainsPanel.Controls.Add(this.button106);
-            this.mainsPanel.Controls.Add(this.button374);
             this.mainsPanel.Controls.Add(this.button107);
-            this.mainsPanel.Controls.Add(this.button373);
             this.mainsPanel.Controls.Add(this.button108);
-            this.mainsPanel.Controls.Add(this.button372);
             this.mainsPanel.Controls.Add(this.button109);
-            this.mainsPanel.Controls.Add(this.button371);
             this.mainsPanel.Controls.Add(this.button110);
             this.mainsPanel.Controls.Add(this.button111);
             this.mainsPanel.Controls.Add(this.button112);
-            this.mainsPanel.Controls.Add(this.label178);
             this.mainsPanel.Controls.Add(this.button113);
-            this.mainsPanel.Controls.Add(this.label177);
             this.mainsPanel.Controls.Add(this.label183);
-            this.mainsPanel.Controls.Add(this.label176);
             this.mainsPanel.Controls.Add(this.label184);
-            this.mainsPanel.Controls.Add(this.label175);
             this.mainsPanel.Controls.Add(this.label185);
-            this.mainsPanel.Controls.Add(this.label174);
             this.mainsPanel.Controls.Add(this.label186);
-            this.mainsPanel.Controls.Add(this.label173);
             this.mainsPanel.Controls.Add(this.label187);
-            this.mainsPanel.Controls.Add(this.label156);
             this.mainsPanel.Controls.Add(this.label188);
             this.mainsPanel.Controls.Add(this.label155);
             this.mainsPanel.Controls.Add(this.label189);
-            this.mainsPanel.Controls.Add(this.label154);
             this.mainsPanel.Controls.Add(this.label190);
             this.mainsPanel.Controls.Add(this.label191);
-            this.mainsPanel.Controls.Add(this.label153);
             this.mainsPanel.Controls.Add(this.label192);
             this.mainsPanel.Controls.Add(this.label152);
             this.mainsPanel.Controls.Add(this.label193);
-            this.mainsPanel.Controls.Add(this.label151);
             this.mainsPanel.Controls.Add(this.label194);
             this.mainsPanel.Controls.Add(this.label195);
             this.mainsPanel.Controls.Add(this.label196);
             this.mainsPanel.Controls.Add(this.label197);
             this.mainsPanel.Controls.Add(this.label198);
-            this.mainsPanel.Location = new System.Drawing.Point(431, 47);
+            this.mainsPanel.Location = new System.Drawing.Point(22, 2);
             this.mainsPanel.Name = "mainsPanel";
-            this.mainsPanel.Size = new System.Drawing.Size(24, 21);
+            this.mainsPanel.Size = new System.Drawing.Size(423, 495);
             this.mainsPanel.TabIndex = 22;
             // 
             // button104
@@ -3284,22 +3399,12 @@
             // button111
             // 
             this.button111.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button111.Location = new System.Drawing.Point(345, 113);
+            this.button111.Location = new System.Drawing.Point(345, 108);
             this.button111.Name = "button111";
             this.button111.Size = new System.Drawing.Size(147, 38);
             this.button111.TabIndex = 71;
             this.button111.Text = "Add to Order";
             this.button111.UseVisualStyleBackColor = true;
-            // 
-            // button112
-            // 
-            this.button112.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button112.Location = new System.Drawing.Point(345, 59);
-            this.button112.Name = "button112";
-            this.button112.Size = new System.Drawing.Size(147, 38);
-            this.button112.TabIndex = 70;
-            this.button112.Text = "Add to Order";
-            this.button112.UseVisualStyleBackColor = true;
             // 
             // button113
             // 
@@ -3320,16 +3425,6 @@
             this.label183.Size = new System.Drawing.Size(41, 13);
             this.label183.TabIndex = 68;
             this.label183.Text = "6 Pack";
-            // 
-            // label184
-            // 
-            this.label184.AutoSize = true;
-            this.label184.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label184.Location = new System.Drawing.Point(23, 405);
-            this.label184.Name = "label184";
-            this.label184.Size = new System.Drawing.Size(247, 24);
-            this.label184.TabIndex = 67;
-            this.label184.Text = "Mexican Veal Parmigiana";
             // 
             // label185
             // 
@@ -3401,16 +3496,6 @@
             this.label191.TabIndex = 60;
             this.label191.Text = "Cut  veal freshly crumbed in house and served with chips and salad";
             // 
-            // label192
-            // 
-            this.label192.AutoSize = true;
-            this.label192.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label192.Location = new System.Drawing.Point(23, 175);
-            this.label192.Name = "label192";
-            this.label192.Size = new System.Drawing.Size(155, 24);
-            this.label192.TabIndex = 59;
-            this.label192.Text = "Veal Pamigiana";
-            // 
             // label193
             // 
             this.label193.AutoSize = true;
@@ -3440,16 +3525,6 @@
             this.label195.Size = new System.Drawing.Size(299, 12);
             this.label195.TabIndex = 56;
             this.label195.Text = "Choice cut veal freshly crumbed in house and served with chips or salad";
-            // 
-            // label196
-            // 
-            this.label196.AutoSize = true;
-            this.label196.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label196.Location = new System.Drawing.Point(23, 59);
-            this.label196.Name = "label196";
-            this.label196.Size = new System.Drawing.Size(143, 24);
-            this.label196.TabIndex = 55;
-            this.label196.Text = "Veal Schnitzel";
             // 
             // label197
             // 
@@ -3498,9 +3573,9 @@
             this.mains2Panel.Controls.Add(this.button89);
             this.mains2Panel.Controls.Add(this.label163);
             this.mains2Panel.Controls.Add(this.label164);
-            this.mains2Panel.Location = new System.Drawing.Point(112, 158);
+            this.mains2Panel.Location = new System.Drawing.Point(215, 470);
             this.mains2Panel.Name = "mains2Panel";
-            this.mains2Panel.Size = new System.Drawing.Size(200, 100);
+            this.mains2Panel.Size = new System.Drawing.Size(200, 86);
             this.mains2Panel.TabIndex = 81;
             // 
             // button80
@@ -7944,16 +8019,6 @@
             this.label172.TabIndex = 26;
             this.label172.Text = "Fried Fish Pack";
             // 
-            // label151
-            // 
-            this.label151.AutoSize = true;
-            this.label151.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label151.Location = new System.Drawing.Point(23, 90);
-            this.label151.Name = "label151";
-            this.label151.Size = new System.Drawing.Size(299, 12);
-            this.label151.TabIndex = 56;
-            this.label151.Text = "Choice cut veal freshly crumbed in house and served with chips or salad";
-            // 
             // label152
             // 
             this.label152.AutoSize = true;
@@ -7964,26 +8029,6 @@
             this.label152.TabIndex = 57;
             this.label152.Text = "Pollo Parmigiana";
             // 
-            // label153
-            // 
-            this.label153.AutoSize = true;
-            this.label153.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label153.Location = new System.Drawing.Point(23, 146);
-            this.label153.Name = "label153";
-            this.label153.Size = new System.Drawing.Size(201, 13);
-            this.label153.TabIndex = 58;
-            this.label153.Text = "Chicken breast freshly crumbed in house,";
-            // 
-            // label154
-            // 
-            this.label154.AutoSize = true;
-            this.label154.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label154.Location = new System.Drawing.Point(23, 206);
-            this.label154.Name = "label154";
-            this.label154.Size = new System.Drawing.Size(324, 13);
-            this.label154.TabIndex = 60;
-            this.label154.Text = "Cut  veal freshly crumbed in house and served with chips and salad";
-            // 
             // label155
             // 
             this.label155.AutoSize = true;
@@ -7993,179 +8038,6 @@
             this.label155.Size = new System.Drawing.Size(252, 24);
             this.label155.TabIndex = 61;
             this.label155.Text = "Mexican Pollo Parmigiana";
-            // 
-            // label156
-            // 
-            this.label156.AutoSize = true;
-            this.label156.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label156.Location = new System.Drawing.Point(23, 267);
-            this.label156.Name = "label156";
-            this.label156.Size = new System.Drawing.Size(311, 13);
-            this.label156.TabIndex = 62;
-            this.label156.Text = "Chicken breast freshly crumbed in house topped with napolitana ";
-            // 
-            // label173
-            // 
-            this.label173.AutoSize = true;
-            this.label173.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label173.Location = new System.Drawing.Point(23, 301);
-            this.label173.Name = "label173";
-            this.label173.Size = new System.Drawing.Size(240, 24);
-            this.label173.TabIndex = 63;
-            this.label173.Text = "Sicilian Pollo Parmigiana";
-            // 
-            // label174
-            // 
-            this.label174.AutoSize = true;
-            this.label174.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label174.Location = new System.Drawing.Point(23, 328);
-            this.label174.Name = "label174";
-            this.label174.Size = new System.Drawing.Size(96, 13);
-            this.label174.TabIndex = 64;
-            this.label174.Text = "With tomato sauce";
-            // 
-            // label175
-            // 
-            this.label175.AutoSize = true;
-            this.label175.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label175.Location = new System.Drawing.Point(23, 356);
-            this.label175.Name = "label175";
-            this.label175.Size = new System.Drawing.Size(253, 24);
-            this.label175.TabIndex = 65;
-            this.label175.Text = "Hawaiian Veal Parmigiana";
-            // 
-            // label176
-            // 
-            this.label176.AutoSize = true;
-            this.label176.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label176.Location = new System.Drawing.Point(23, 383);
-            this.label176.Name = "label176";
-            this.label176.Size = new System.Drawing.Size(85, 13);
-            this.label176.TabIndex = 66;
-            this.label176.Text = "Chips and Gravy";
-            // 
-            // label177
-            // 
-            this.label177.AutoSize = true;
-            this.label177.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label177.Location = new System.Drawing.Point(23, 409);
-            this.label177.Name = "label177";
-            this.label177.Size = new System.Drawing.Size(247, 24);
-            this.label177.TabIndex = 67;
-            this.label177.Text = "Mexican Veal Parmigiana";
-            // 
-            // label178
-            // 
-            this.label178.AutoSize = true;
-            this.label178.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label178.Location = new System.Drawing.Point(23, 436);
-            this.label178.Name = "label178";
-            this.label178.Size = new System.Drawing.Size(41, 13);
-            this.label178.TabIndex = 68;
-            this.label178.Text = "6 Pack";
-            // 
-            // button371
-            // 
-            this.button371.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button371.Location = new System.Drawing.Point(345, 117);
-            this.button371.Name = "button371";
-            this.button371.Size = new System.Drawing.Size(147, 38);
-            this.button371.TabIndex = 71;
-            this.button371.Text = "Add to Order";
-            this.button371.UseVisualStyleBackColor = true;
-            // 
-            // button372
-            // 
-            this.button372.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button372.Location = new System.Drawing.Point(345, 182);
-            this.button372.Name = "button372";
-            this.button372.Size = new System.Drawing.Size(147, 38);
-            this.button372.TabIndex = 72;
-            this.button372.Text = "Add to Order";
-            this.button372.UseVisualStyleBackColor = true;
-            // 
-            // button373
-            // 
-            this.button373.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button373.Location = new System.Drawing.Point(345, 246);
-            this.button373.Name = "button373";
-            this.button373.Size = new System.Drawing.Size(147, 38);
-            this.button373.TabIndex = 73;
-            this.button373.Text = "Add to Order";
-            this.button373.UseVisualStyleBackColor = true;
-            // 
-            // button374
-            // 
-            this.button374.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button374.Location = new System.Drawing.Point(345, 303);
-            this.button374.Name = "button374";
-            this.button374.Size = new System.Drawing.Size(147, 38);
-            this.button374.TabIndex = 74;
-            this.button374.Text = "Add to Order";
-            this.button374.UseVisualStyleBackColor = true;
-            // 
-            // button380
-            // 
-            this.button380.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button380.Location = new System.Drawing.Point(345, 358);
-            this.button380.Name = "button380";
-            this.button380.Size = new System.Drawing.Size(147, 38);
-            this.button380.TabIndex = 75;
-            this.button380.Text = "Add to Order";
-            this.button380.UseVisualStyleBackColor = true;
-            // 
-            // button381
-            // 
-            this.button381.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button381.Location = new System.Drawing.Point(345, 411);
-            this.button381.Name = "button381";
-            this.button381.Size = new System.Drawing.Size(147, 38);
-            this.button381.TabIndex = 76;
-            this.button381.Text = "Add to Order";
-            this.button381.UseVisualStyleBackColor = true;
-            // 
-            // button382
-            // 
-            this.button382.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button382.Location = new System.Drawing.Point(345, 471);
-            this.button382.Name = "button382";
-            this.button382.Size = new System.Drawing.Size(147, 38);
-            this.button382.TabIndex = 77;
-            this.button382.Text = "Next Page";
-            this.button382.UseVisualStyleBackColor = true;
-            this.button382.Click += new System.EventHandler(this.button105_Click);
-            // 
-            // button383
-            // 
-            this.button383.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button383.Location = new System.Drawing.Point(6, 471);
-            this.button383.Name = "button383";
-            this.button383.Size = new System.Drawing.Size(147, 38);
-            this.button383.TabIndex = 78;
-            this.button383.Text = "Back";
-            this.button383.UseVisualStyleBackColor = true;
-            this.button383.Click += new System.EventHandler(this.button104_Click);
-            // 
-            // label179
-            // 
-            this.label179.AutoSize = true;
-            this.label179.Location = new System.Drawing.Point(24, 159);
-            this.label179.Name = "label179";
-            this.label179.Size = new System.Drawing.Size(396, 13);
-            this.label179.TabIndex = 79;
-            this.label179.Text = "topped with napolitana sauce mozzarella and leg ham, served with chips and salad";
-            this.label179.Click += new System.EventHandler(this.label145_Click);
-            // 
-            // label180
-            // 
-            this.label180.AutoSize = true;
-            this.label180.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label180.Location = new System.Drawing.Point(24, 280);
-            this.label180.Name = "label180";
-            this.label180.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label180.Size = new System.Drawing.Size(300, 12);
-            this.label180.TabIndex = 80;
-            this.label180.Text = "mozzarella, jalapeno and roasted capsicum, served with chips and salad";
             // 
             // abPanel
             // 
@@ -8983,6 +8855,1512 @@
             this.label232.TabIndex = 77;
             this.label232.Text = "Lasagne";
             // 
+            // ribsnwingsPanel
+            // 
+            this.ribsnwingsPanel.Controls.Add(this.button408);
+            this.ribsnwingsPanel.Controls.Add(this.button409);
+            this.ribsnwingsPanel.Controls.Add(this.button443);
+            this.ribsnwingsPanel.Controls.Add(this.button444);
+            this.ribsnwingsPanel.Controls.Add(this.button445);
+            this.ribsnwingsPanel.Controls.Add(this.label235);
+            this.ribsnwingsPanel.Controls.Add(this.label236);
+            this.ribsnwingsPanel.Controls.Add(this.label237);
+            this.ribsnwingsPanel.Controls.Add(this.label238);
+            this.ribsnwingsPanel.Controls.Add(this.label247);
+            this.ribsnwingsPanel.Controls.Add(this.label248);
+            this.ribsnwingsPanel.Controls.Add(this.label249);
+            this.ribsnwingsPanel.Controls.Add(this.label250);
+            this.ribsnwingsPanel.Location = new System.Drawing.Point(402, 382);
+            this.ribsnwingsPanel.Name = "ribsnwingsPanel";
+            this.ribsnwingsPanel.Size = new System.Drawing.Size(13, 8);
+            this.ribsnwingsPanel.TabIndex = 31;
+            // 
+            // button408
+            // 
+            this.button408.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button408.Location = new System.Drawing.Point(12, 474);
+            this.button408.Name = "button408";
+            this.button408.Size = new System.Drawing.Size(147, 38);
+            this.button408.TabIndex = 92;
+            this.button408.Text = "Back";
+            this.button408.UseVisualStyleBackColor = true;
+            this.button408.Click += new System.EventHandler(this.button408_Click);
+            // 
+            // button409
+            // 
+            this.button409.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button409.Location = new System.Drawing.Point(351, 185);
+            this.button409.Name = "button409";
+            this.button409.Size = new System.Drawing.Size(147, 38);
+            this.button409.TabIndex = 91;
+            this.button409.Text = "Add to Order";
+            this.button409.UseVisualStyleBackColor = true;
+            // 
+            // button443
+            // 
+            this.button443.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button443.Location = new System.Drawing.Point(351, 120);
+            this.button443.Name = "button443";
+            this.button443.Size = new System.Drawing.Size(147, 38);
+            this.button443.TabIndex = 90;
+            this.button443.Text = "Add to Order";
+            this.button443.UseVisualStyleBackColor = true;
+            // 
+            // button444
+            // 
+            this.button444.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button444.Location = new System.Drawing.Point(351, 66);
+            this.button444.Name = "button444";
+            this.button444.Size = new System.Drawing.Size(147, 38);
+            this.button444.TabIndex = 89;
+            this.button444.Text = "Add to Order";
+            this.button444.UseVisualStyleBackColor = true;
+            // 
+            // button445
+            // 
+            this.button445.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button445.Location = new System.Drawing.Point(351, 16);
+            this.button445.Name = "button445";
+            this.button445.Size = new System.Drawing.Size(147, 38);
+            this.button445.TabIndex = 88;
+            this.button445.Text = "Add to Order";
+            this.button445.UseVisualStyleBackColor = true;
+            // 
+            // label235
+            // 
+            this.label235.AutoSize = true;
+            this.label235.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label235.Location = new System.Drawing.Point(29, 209);
+            this.label235.Name = "label235";
+            this.label235.Size = new System.Drawing.Size(262, 13);
+            this.label235.TabIndex = 87;
+            this.label235.Text = "1 x Family Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label236
+            // 
+            this.label236.AutoSize = true;
+            this.label236.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label236.Location = new System.Drawing.Point(29, 182);
+            this.label236.Name = "label236";
+            this.label236.Size = new System.Drawing.Size(277, 24);
+            this.label236.TabIndex = 86;
+            this.label236.Text = "BBQ Ribs and Wings Combo";
+            // 
+            // label237
+            // 
+            this.label237.AutoSize = true;
+            this.label237.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label237.Location = new System.Drawing.Point(29, 149);
+            this.label237.Name = "label237";
+            this.label237.Size = new System.Drawing.Size(260, 13);
+            this.label237.TabIndex = 85;
+            this.label237.Text = "1 x Large Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label238
+            // 
+            this.label238.AutoSize = true;
+            this.label238.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label238.Location = new System.Drawing.Point(29, 122);
+            this.label238.Name = "label238";
+            this.label238.Size = new System.Drawing.Size(51, 24);
+            this.label238.TabIndex = 84;
+            this.label238.Text = "Ribs";
+            // 
+            // label247
+            // 
+            this.label247.AutoSize = true;
+            this.label247.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label247.Location = new System.Drawing.Point(29, 93);
+            this.label247.Name = "label247";
+            this.label247.Size = new System.Drawing.Size(79, 13);
+            this.label247.TabIndex = 83;
+            this.label247.Text = "3 x Large Pizza";
+            // 
+            // label248
+            // 
+            this.label248.AutoSize = true;
+            this.label248.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label248.Location = new System.Drawing.Point(29, 66);
+            this.label248.Name = "label248";
+            this.label248.Size = new System.Drawing.Size(198, 24);
+            this.label248.TabIndex = 82;
+            this.label248.Text = "BBQ Chicken Wings";
+            // 
+            // label249
+            // 
+            this.label249.AutoSize = true;
+            this.label249.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label249.Location = new System.Drawing.Point(29, 41);
+            this.label249.Name = "label249";
+            this.label249.Size = new System.Drawing.Size(253, 13);
+            this.label249.TabIndex = 81;
+            this.label249.Text = "1 x Any Pasta, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label250
+            // 
+            this.label250.AutoSize = true;
+            this.label250.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label250.Location = new System.Drawing.Point(29, 14);
+            this.label250.Name = "label250";
+            this.label250.Size = new System.Drawing.Size(150, 24);
+            this.label250.TabIndex = 80;
+            this.label250.Text = "Chicken Wings";
+            // 
+            // risottoPanel
+            // 
+            this.risottoPanel.Controls.Add(this.button407);
+            this.risottoPanel.Controls.Add(this.button450);
+            this.risottoPanel.Controls.Add(this.button451);
+            this.risottoPanel.Controls.Add(this.button452);
+            this.risottoPanel.Controls.Add(this.button453);
+            this.risottoPanel.Controls.Add(this.label257);
+            this.risottoPanel.Controls.Add(this.label258);
+            this.risottoPanel.Controls.Add(this.label259);
+            this.risottoPanel.Controls.Add(this.label260);
+            this.risottoPanel.Controls.Add(this.label261);
+            this.risottoPanel.Controls.Add(this.label262);
+            this.risottoPanel.Controls.Add(this.label263);
+            this.risottoPanel.Controls.Add(this.label264);
+            this.risottoPanel.Location = new System.Drawing.Point(432, 425);
+            this.risottoPanel.Name = "risottoPanel";
+            this.risottoPanel.Size = new System.Drawing.Size(29, 24);
+            this.risottoPanel.TabIndex = 32;
+            // 
+            // button407
+            // 
+            this.button407.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button407.Location = new System.Drawing.Point(12, 474);
+            this.button407.Name = "button407";
+            this.button407.Size = new System.Drawing.Size(147, 38);
+            this.button407.TabIndex = 76;
+            this.button407.Text = "Back";
+            this.button407.UseVisualStyleBackColor = true;
+            this.button407.Click += new System.EventHandler(this.button407_Click);
+            // 
+            // button450
+            // 
+            this.button450.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button450.Location = new System.Drawing.Point(351, 185);
+            this.button450.Name = "button450";
+            this.button450.Size = new System.Drawing.Size(147, 38);
+            this.button450.TabIndex = 71;
+            this.button450.Text = "Add to Order";
+            this.button450.UseVisualStyleBackColor = true;
+            // 
+            // button451
+            // 
+            this.button451.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button451.Location = new System.Drawing.Point(351, 120);
+            this.button451.Name = "button451";
+            this.button451.Size = new System.Drawing.Size(147, 38);
+            this.button451.TabIndex = 70;
+            this.button451.Text = "Add to Order";
+            this.button451.UseVisualStyleBackColor = true;
+            // 
+            // button452
+            // 
+            this.button452.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button452.Location = new System.Drawing.Point(351, 66);
+            this.button452.Name = "button452";
+            this.button452.Size = new System.Drawing.Size(147, 38);
+            this.button452.TabIndex = 69;
+            this.button452.Text = "Add to Order";
+            this.button452.UseVisualStyleBackColor = true;
+            // 
+            // button453
+            // 
+            this.button453.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button453.Location = new System.Drawing.Point(351, 16);
+            this.button453.Name = "button453";
+            this.button453.Size = new System.Drawing.Size(147, 38);
+            this.button453.TabIndex = 68;
+            this.button453.Text = "Add to Order";
+            this.button453.UseVisualStyleBackColor = true;
+            // 
+            // label257
+            // 
+            this.label257.AutoSize = true;
+            this.label257.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label257.Location = new System.Drawing.Point(29, 209);
+            this.label257.Name = "label257";
+            this.label257.Size = new System.Drawing.Size(262, 13);
+            this.label257.TabIndex = 59;
+            this.label257.Text = "1 x Family Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label258
+            // 
+            this.label258.AutoSize = true;
+            this.label258.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label258.Location = new System.Drawing.Point(29, 182);
+            this.label258.Name = "label258";
+            this.label258.Size = new System.Drawing.Size(155, 24);
+            this.label258.TabIndex = 58;
+            this.label258.Text = "Chicken Risotto";
+            // 
+            // label259
+            // 
+            this.label259.AutoSize = true;
+            this.label259.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label259.Location = new System.Drawing.Point(29, 149);
+            this.label259.Name = "label259";
+            this.label259.Size = new System.Drawing.Size(260, 13);
+            this.label259.TabIndex = 57;
+            this.label259.Text = "1 x Large Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label260
+            // 
+            this.label260.AutoSize = true;
+            this.label260.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label260.Location = new System.Drawing.Point(29, 122);
+            this.label260.Name = "label260";
+            this.label260.Size = new System.Drawing.Size(284, 24);
+            this.label260.TabIndex = 56;
+            this.label260.Text = "Mushroom and Bacon Risotto";
+            // 
+            // label261
+            // 
+            this.label261.AutoSize = true;
+            this.label261.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label261.Location = new System.Drawing.Point(29, 93);
+            this.label261.Name = "label261";
+            this.label261.Size = new System.Drawing.Size(79, 13);
+            this.label261.TabIndex = 55;
+            this.label261.Text = "3 x Large Pizza";
+            // 
+            // label262
+            // 
+            this.label262.AutoSize = true;
+            this.label262.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label262.Location = new System.Drawing.Point(29, 66);
+            this.label262.Name = "label262";
+            this.label262.Size = new System.Drawing.Size(301, 24);
+            this.label262.TabIndex = 54;
+            this.label262.Text = "Mushroom and Spinach Risotto";
+            // 
+            // label263
+            // 
+            this.label263.AutoSize = true;
+            this.label263.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label263.Location = new System.Drawing.Point(29, 41);
+            this.label263.Name = "label263";
+            this.label263.Size = new System.Drawing.Size(253, 13);
+            this.label263.TabIndex = 53;
+            this.label263.Text = "1 x Any Pasta, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label264
+            // 
+            this.label264.AutoSize = true;
+            this.label264.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label264.Location = new System.Drawing.Point(29, 14);
+            this.label264.Name = "label264";
+            this.label264.Size = new System.Drawing.Size(156, 24);
+            this.label264.TabIndex = 52;
+            this.label264.Text = "Seafood Risotto";
+            // 
+            // kebabWrapPanel
+            // 
+            this.kebabWrapPanel.Controls.Add(this.button446);
+            this.kebabWrapPanel.Controls.Add(this.button448);
+            this.kebabWrapPanel.Controls.Add(this.button449);
+            this.kebabWrapPanel.Controls.Add(this.button454);
+            this.kebabWrapPanel.Controls.Add(this.label251);
+            this.kebabWrapPanel.Controls.Add(this.label252);
+            this.kebabWrapPanel.Controls.Add(this.label253);
+            this.kebabWrapPanel.Controls.Add(this.label254);
+            this.kebabWrapPanel.Controls.Add(this.label255);
+            this.kebabWrapPanel.Controls.Add(this.label256);
+            this.kebabWrapPanel.Location = new System.Drawing.Point(313, 413);
+            this.kebabWrapPanel.Name = "kebabWrapPanel";
+            this.kebabWrapPanel.Size = new System.Drawing.Size(29, 24);
+            this.kebabWrapPanel.TabIndex = 33;
+            // 
+            // button446
+            // 
+            this.button446.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button446.Location = new System.Drawing.Point(12, 474);
+            this.button446.Name = "button446";
+            this.button446.Size = new System.Drawing.Size(147, 38);
+            this.button446.TabIndex = 76;
+            this.button446.Text = "Back";
+            this.button446.UseVisualStyleBackColor = true;
+            this.button446.Click += new System.EventHandler(this.button446_Click);
+            // 
+            // button448
+            // 
+            this.button448.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button448.Location = new System.Drawing.Point(351, 120);
+            this.button448.Name = "button448";
+            this.button448.Size = new System.Drawing.Size(147, 38);
+            this.button448.TabIndex = 70;
+            this.button448.Text = "Add to Order";
+            this.button448.UseVisualStyleBackColor = true;
+            // 
+            // button449
+            // 
+            this.button449.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button449.Location = new System.Drawing.Point(351, 66);
+            this.button449.Name = "button449";
+            this.button449.Size = new System.Drawing.Size(147, 38);
+            this.button449.TabIndex = 69;
+            this.button449.Text = "Add to Order";
+            this.button449.UseVisualStyleBackColor = true;
+            // 
+            // button454
+            // 
+            this.button454.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button454.Location = new System.Drawing.Point(351, 16);
+            this.button454.Name = "button454";
+            this.button454.Size = new System.Drawing.Size(147, 38);
+            this.button454.TabIndex = 68;
+            this.button454.Text = "Add to Order";
+            this.button454.UseVisualStyleBackColor = true;
+            // 
+            // label251
+            // 
+            this.label251.AutoSize = true;
+            this.label251.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label251.Location = new System.Drawing.Point(29, 149);
+            this.label251.Name = "label251";
+            this.label251.Size = new System.Drawing.Size(260, 13);
+            this.label251.TabIndex = 57;
+            this.label251.Text = "1 x Large Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label252
+            // 
+            this.label252.AutoSize = true;
+            this.label252.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label252.Location = new System.Drawing.Point(29, 122);
+            this.label252.Name = "label252";
+            this.label252.Size = new System.Drawing.Size(193, 24);
+            this.label252.TabIndex = 56;
+            this.label252.Text = "Combination Kebab";
+            // 
+            // label253
+            // 
+            this.label253.AutoSize = true;
+            this.label253.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label253.Location = new System.Drawing.Point(29, 93);
+            this.label253.Name = "label253";
+            this.label253.Size = new System.Drawing.Size(79, 13);
+            this.label253.TabIndex = 55;
+            this.label253.Text = "3 x Large Pizza";
+            // 
+            // label254
+            // 
+            this.label254.AutoSize = true;
+            this.label254.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label254.Location = new System.Drawing.Point(29, 66);
+            this.label254.Name = "label254";
+            this.label254.Size = new System.Drawing.Size(127, 24);
+            this.label254.TabIndex = 54;
+            this.label254.Text = "Lamb Kebab";
+            // 
+            // label255
+            // 
+            this.label255.AutoSize = true;
+            this.label255.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label255.Location = new System.Drawing.Point(29, 41);
+            this.label255.Name = "label255";
+            this.label255.Size = new System.Drawing.Size(253, 13);
+            this.label255.TabIndex = 53;
+            this.label255.Text = "1 x Any Pasta, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label256
+            // 
+            this.label256.AutoSize = true;
+            this.label256.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label256.Location = new System.Drawing.Point(29, 14);
+            this.label256.Name = "label256";
+            this.label256.Size = new System.Drawing.Size(152, 24);
+            this.label256.TabIndex = 52;
+            this.label256.Text = "Chicken Kebab";
+            // 
+            // saladsPanel
+            // 
+            this.saladsPanel.Controls.Add(this.panel2);
+            this.saladsPanel.Controls.Add(this.button461);
+            this.saladsPanel.Controls.Add(this.button463);
+            this.saladsPanel.Controls.Add(this.button464);
+            this.saladsPanel.Controls.Add(this.button465);
+            this.saladsPanel.Controls.Add(this.button466);
+            this.saladsPanel.Controls.Add(this.button467);
+            this.saladsPanel.Controls.Add(this.button468);
+            this.saladsPanel.Controls.Add(this.button469);
+            this.saladsPanel.Controls.Add(this.button470);
+            this.saladsPanel.Controls.Add(this.label276);
+            this.saladsPanel.Controls.Add(this.label277);
+            this.saladsPanel.Controls.Add(this.label278);
+            this.saladsPanel.Controls.Add(this.label279);
+            this.saladsPanel.Controls.Add(this.label280);
+            this.saladsPanel.Controls.Add(this.label281);
+            this.saladsPanel.Controls.Add(this.label282);
+            this.saladsPanel.Controls.Add(this.label283);
+            this.saladsPanel.Controls.Add(this.label284);
+            this.saladsPanel.Controls.Add(this.label285);
+            this.saladsPanel.Controls.Add(this.label286);
+            this.saladsPanel.Controls.Add(this.label287);
+            this.saladsPanel.Controls.Add(this.label288);
+            this.saladsPanel.Controls.Add(this.label289);
+            this.saladsPanel.Controls.Add(this.label290);
+            this.saladsPanel.Controls.Add(this.label291);
+            this.saladsPanel.Location = new System.Drawing.Point(263, 479);
+            this.saladsPanel.Name = "saladsPanel";
+            this.saladsPanel.Size = new System.Drawing.Size(23, 23);
+            this.saladsPanel.TabIndex = 34;
+            this.saladsPanel.Visible = false;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.label233);
+            this.panel2.Controls.Add(this.button447);
+            this.panel2.Controls.Add(this.button455);
+            this.panel2.Controls.Add(this.button456);
+            this.panel2.Controls.Add(this.button457);
+            this.panel2.Controls.Add(this.button458);
+            this.panel2.Controls.Add(this.button459);
+            this.panel2.Controls.Add(this.button460);
+            this.panel2.Controls.Add(this.label234);
+            this.panel2.Controls.Add(this.label265);
+            this.panel2.Controls.Add(this.label266);
+            this.panel2.Controls.Add(this.label267);
+            this.panel2.Controls.Add(this.label268);
+            this.panel2.Controls.Add(this.label269);
+            this.panel2.Controls.Add(this.label270);
+            this.panel2.Controls.Add(this.label271);
+            this.panel2.Controls.Add(this.label272);
+            this.panel2.Controls.Add(this.label273);
+            this.panel2.Controls.Add(this.label274);
+            this.panel2.Controls.Add(this.label275);
+            this.panel2.Location = new System.Drawing.Point(275, 14);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(16, 20);
+            this.panel2.TabIndex = 26;
+            this.panel2.Visible = false;
+            // 
+            // label233
+            // 
+            this.label233.AutoSize = true;
+            this.label233.Location = new System.Drawing.Point(29, 353);
+            this.label233.Name = "label233";
+            this.label233.Size = new System.Drawing.Size(292, 13);
+            this.label233.TabIndex = 52;
+            this.label233.Text = "&& 1 x 1.25L Soft Drink, 6 x Chicken Wings, 1 x Cheese Cake";
+            // 
+            // button447
+            // 
+            this.button447.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button447.Location = new System.Drawing.Point(12, 474);
+            this.button447.Name = "button447";
+            this.button447.Size = new System.Drawing.Size(147, 38);
+            this.button447.TabIndex = 51;
+            this.button447.Text = "Back";
+            this.button447.UseVisualStyleBackColor = true;
+            // 
+            // button455
+            // 
+            this.button455.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button455.Location = new System.Drawing.Point(351, 306);
+            this.button455.Name = "button455";
+            this.button455.Size = new System.Drawing.Size(147, 38);
+            this.button455.TabIndex = 47;
+            this.button455.Text = "Add to Order";
+            this.button455.UseVisualStyleBackColor = true;
+            // 
+            // button456
+            // 
+            this.button456.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button456.Location = new System.Drawing.Point(351, 249);
+            this.button456.Name = "button456";
+            this.button456.Size = new System.Drawing.Size(147, 38);
+            this.button456.TabIndex = 46;
+            this.button456.Text = "Add to Order";
+            this.button456.UseVisualStyleBackColor = true;
+            // 
+            // button457
+            // 
+            this.button457.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button457.Location = new System.Drawing.Point(351, 185);
+            this.button457.Name = "button457";
+            this.button457.Size = new System.Drawing.Size(147, 38);
+            this.button457.TabIndex = 45;
+            this.button457.Text = "Add to Order";
+            this.button457.UseVisualStyleBackColor = true;
+            // 
+            // button458
+            // 
+            this.button458.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button458.Location = new System.Drawing.Point(351, 120);
+            this.button458.Name = "button458";
+            this.button458.Size = new System.Drawing.Size(147, 38);
+            this.button458.TabIndex = 44;
+            this.button458.Text = "Add to Order";
+            this.button458.UseVisualStyleBackColor = true;
+            // 
+            // button459
+            // 
+            this.button459.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button459.Location = new System.Drawing.Point(351, 66);
+            this.button459.Name = "button459";
+            this.button459.Size = new System.Drawing.Size(147, 38);
+            this.button459.TabIndex = 43;
+            this.button459.Text = "Add to Order";
+            this.button459.UseVisualStyleBackColor = true;
+            // 
+            // button460
+            // 
+            this.button460.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button460.Location = new System.Drawing.Point(351, 16);
+            this.button460.Name = "button460";
+            this.button460.Size = new System.Drawing.Size(147, 38);
+            this.button460.TabIndex = 42;
+            this.button460.Text = "Add to Order";
+            this.button460.UseVisualStyleBackColor = true;
+            // 
+            // label234
+            // 
+            this.label234.AutoSize = true;
+            this.label234.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label234.Location = new System.Drawing.Point(29, 331);
+            this.label234.Name = "label234";
+            this.label234.Size = new System.Drawing.Size(236, 13);
+            this.label234.TabIndex = 37;
+            this.label234.Text = "2 x Any Large Traditional Pizza, 1 x Garlic Bread &";
+            // 
+            // label265
+            // 
+            this.label265.AutoSize = true;
+            this.label265.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label265.Location = new System.Drawing.Point(29, 304);
+            this.label265.Name = "label265";
+            this.label265.Size = new System.Drawing.Size(128, 24);
+            this.label265.TabIndex = 36;
+            this.label265.Text = "Family Feast";
+            // 
+            // label266
+            // 
+            this.label266.AutoSize = true;
+            this.label266.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label266.Location = new System.Drawing.Point(29, 270);
+            this.label266.Name = "label266";
+            this.label266.Size = new System.Drawing.Size(101, 13);
+            this.label266.TabIndex = 35;
+            this.label266.Text = "2 x 1.25L Soft Drink";
+            // 
+            // label267
+            // 
+            this.label267.AutoSize = true;
+            this.label267.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label267.Location = new System.Drawing.Point(29, 243);
+            this.label267.Name = "label267";
+            this.label267.Size = new System.Drawing.Size(80, 24);
+            this.label267.TabIndex = 34;
+            this.label267.Text = "Deal 11";
+            // 
+            // label268
+            // 
+            this.label268.AutoSize = true;
+            this.label268.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label268.Location = new System.Drawing.Point(29, 209);
+            this.label268.Name = "label268";
+            this.label268.Size = new System.Drawing.Size(82, 13);
+            this.label268.TabIndex = 33;
+            this.label268.Text = "2 x Garlic Bread";
+            // 
+            // label269
+            // 
+            this.label269.AutoSize = true;
+            this.label269.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label269.Location = new System.Drawing.Point(29, 182);
+            this.label269.Name = "label269";
+            this.label269.Size = new System.Drawing.Size(80, 24);
+            this.label269.TabIndex = 32;
+            this.label269.Text = "Deal 10";
+            // 
+            // label270
+            // 
+            this.label270.AutoSize = true;
+            this.label270.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label270.Location = new System.Drawing.Point(29, 149);
+            this.label270.Name = "label270";
+            this.label270.Size = new System.Drawing.Size(76, 13);
+            this.label270.TabIndex = 31;
+            this.label270.Text = "2 x Party Pizza";
+            // 
+            // label271
+            // 
+            this.label271.AutoSize = true;
+            this.label271.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label271.Location = new System.Drawing.Point(29, 122);
+            this.label271.Name = "label271";
+            this.label271.Size = new System.Drawing.Size(69, 24);
+            this.label271.TabIndex = 30;
+            this.label271.Text = "Deal 9";
+            // 
+            // label272
+            // 
+            this.label272.AutoSize = true;
+            this.label272.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label272.Location = new System.Drawing.Point(29, 93);
+            this.label272.Name = "label272";
+            this.label272.Size = new System.Drawing.Size(81, 13);
+            this.label272.TabIndex = 29;
+            this.label272.Text = "2 x Family Pizza";
+            // 
+            // label273
+            // 
+            this.label273.AutoSize = true;
+            this.label273.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label273.Location = new System.Drawing.Point(29, 66);
+            this.label273.Name = "label273";
+            this.label273.Size = new System.Drawing.Size(69, 24);
+            this.label273.TabIndex = 28;
+            this.label273.Text = "Deal 8";
+            // 
+            // label274
+            // 
+            this.label274.AutoSize = true;
+            this.label274.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label274.Location = new System.Drawing.Point(29, 41);
+            this.label274.Name = "label274";
+            this.label274.Size = new System.Drawing.Size(79, 13);
+            this.label274.TabIndex = 27;
+            this.label274.Text = "2 x Large Pizza";
+            // 
+            // label275
+            // 
+            this.label275.AutoSize = true;
+            this.label275.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label275.Location = new System.Drawing.Point(29, 14);
+            this.label275.Name = "label275";
+            this.label275.Size = new System.Drawing.Size(69, 24);
+            this.label275.TabIndex = 26;
+            this.label275.Text = "Deal 7";
+            // 
+            // button461
+            // 
+            this.button461.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button461.Location = new System.Drawing.Point(12, 477);
+            this.button461.Name = "button461";
+            this.button461.Size = new System.Drawing.Size(147, 38);
+            this.button461.TabIndex = 25;
+            this.button461.Text = "Back";
+            this.button461.UseVisualStyleBackColor = true;
+            this.button461.Click += new System.EventHandler(this.button461_Click);
+            // 
+            // button463
+            // 
+            this.button463.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button463.Location = new System.Drawing.Point(351, 417);
+            this.button463.Name = "button463";
+            this.button463.Size = new System.Drawing.Size(147, 38);
+            this.button463.TabIndex = 23;
+            this.button463.Text = "Add to Order";
+            this.button463.UseVisualStyleBackColor = true;
+            // 
+            // button464
+            // 
+            this.button464.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button464.Location = new System.Drawing.Point(351, 364);
+            this.button464.Name = "button464";
+            this.button464.Size = new System.Drawing.Size(147, 38);
+            this.button464.TabIndex = 22;
+            this.button464.Text = "Add to Order";
+            this.button464.UseVisualStyleBackColor = true;
+            // 
+            // button465
+            // 
+            this.button465.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button465.Location = new System.Drawing.Point(351, 309);
+            this.button465.Name = "button465";
+            this.button465.Size = new System.Drawing.Size(147, 38);
+            this.button465.TabIndex = 21;
+            this.button465.Text = "Add to Order";
+            this.button465.UseVisualStyleBackColor = true;
+            // 
+            // button466
+            // 
+            this.button466.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button466.Location = new System.Drawing.Point(351, 252);
+            this.button466.Name = "button466";
+            this.button466.Size = new System.Drawing.Size(147, 38);
+            this.button466.TabIndex = 20;
+            this.button466.Text = "Add to Order";
+            this.button466.UseVisualStyleBackColor = true;
+            // 
+            // button467
+            // 
+            this.button467.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button467.Location = new System.Drawing.Point(351, 188);
+            this.button467.Name = "button467";
+            this.button467.Size = new System.Drawing.Size(147, 38);
+            this.button467.TabIndex = 19;
+            this.button467.Text = "Add to Order";
+            this.button467.UseVisualStyleBackColor = true;
+            // 
+            // button468
+            // 
+            this.button468.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button468.Location = new System.Drawing.Point(351, 123);
+            this.button468.Name = "button468";
+            this.button468.Size = new System.Drawing.Size(147, 38);
+            this.button468.TabIndex = 18;
+            this.button468.Text = "Add to Order";
+            this.button468.UseVisualStyleBackColor = true;
+            // 
+            // button469
+            // 
+            this.button469.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button469.Location = new System.Drawing.Point(351, 69);
+            this.button469.Name = "button469";
+            this.button469.Size = new System.Drawing.Size(147, 38);
+            this.button469.TabIndex = 17;
+            this.button469.Text = "Add to Order";
+            this.button469.UseVisualStyleBackColor = true;
+            // 
+            // button470
+            // 
+            this.button470.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button470.Location = new System.Drawing.Point(351, 19);
+            this.button470.Name = "button470";
+            this.button470.Size = new System.Drawing.Size(147, 38);
+            this.button470.TabIndex = 16;
+            this.button470.Text = "Add to Order";
+            this.button470.UseVisualStyleBackColor = true;
+            // 
+            // label276
+            // 
+            this.label276.AutoSize = true;
+            this.label276.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label276.Location = new System.Drawing.Point(29, 442);
+            this.label276.Name = "label276";
+            this.label276.Size = new System.Drawing.Size(257, 13);
+            this.label276.TabIndex = 15;
+            this.label276.Text = "2 x Party Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label277
+            // 
+            this.label277.AutoSize = true;
+            this.label277.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label277.Location = new System.Drawing.Point(29, 415);
+            this.label277.Name = "label277";
+            this.label277.Size = new System.Drawing.Size(208, 24);
+            this.label277.TabIndex = 14;
+            this.label277.Text = "Chicken Potato Salad";
+            // 
+            // label278
+            // 
+            this.label278.AutoSize = true;
+            this.label278.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label278.Location = new System.Drawing.Point(29, 389);
+            this.label278.Name = "label278";
+            this.label278.Size = new System.Drawing.Size(262, 13);
+            this.label278.TabIndex = 13;
+            this.label278.Text = "2 x Family Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label279
+            // 
+            this.label279.AutoSize = true;
+            this.label279.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label279.Location = new System.Drawing.Point(29, 362);
+            this.label279.Name = "label279";
+            this.label279.Size = new System.Drawing.Size(144, 24);
+            this.label279.TabIndex = 12;
+            this.label279.Text = "Chicken Salad";
+            // 
+            // label280
+            // 
+            this.label280.AutoSize = true;
+            this.label280.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label280.Location = new System.Drawing.Point(29, 334);
+            this.label280.Name = "label280";
+            this.label280.Size = new System.Drawing.Size(260, 13);
+            this.label280.TabIndex = 11;
+            this.label280.Text = "2 x Large Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label281
+            // 
+            this.label281.AutoSize = true;
+            this.label281.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label281.Location = new System.Drawing.Point(29, 307);
+            this.label281.Name = "label281";
+            this.label281.Size = new System.Drawing.Size(133, 24);
+            this.label281.TabIndex = 10;
+            this.label281.Text = "Caesar Salad";
+            // 
+            // label282
+            // 
+            this.label282.AutoSize = true;
+            this.label282.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label282.Location = new System.Drawing.Point(29, 273);
+            this.label282.Name = "label282";
+            this.label282.Size = new System.Drawing.Size(257, 13);
+            this.label282.TabIndex = 9;
+            this.label282.Text = "1 x Party Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label283
+            // 
+            this.label283.AutoSize = true;
+            this.label283.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label283.Location = new System.Drawing.Point(29, 246);
+            this.label283.Name = "label283";
+            this.label283.Size = new System.Drawing.Size(203, 24);
+            this.label283.TabIndex = 8;
+            this.label283.Text = "Mediterranean Salad";
+            // 
+            // label284
+            // 
+            this.label284.AutoSize = true;
+            this.label284.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label284.Location = new System.Drawing.Point(29, 212);
+            this.label284.Name = "label284";
+            this.label284.Size = new System.Drawing.Size(262, 13);
+            this.label284.TabIndex = 7;
+            this.label284.Text = "1 x Family Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label285
+            // 
+            this.label285.AutoSize = true;
+            this.label285.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label285.Location = new System.Drawing.Point(29, 185);
+            this.label285.Name = "label285";
+            this.label285.Size = new System.Drawing.Size(110, 24);
+            this.label285.TabIndex = 6;
+            this.label285.Text = "Side Salad";
+            // 
+            // label286
+            // 
+            this.label286.AutoSize = true;
+            this.label286.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label286.Location = new System.Drawing.Point(29, 152);
+            this.label286.Name = "label286";
+            this.label286.Size = new System.Drawing.Size(260, 13);
+            this.label286.TabIndex = 5;
+            this.label286.Text = "1 x Large Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label287
+            // 
+            this.label287.AutoSize = true;
+            this.label287.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label287.Location = new System.Drawing.Point(29, 125);
+            this.label287.Name = "label287";
+            this.label287.Size = new System.Drawing.Size(137, 24);
+            this.label287.TabIndex = 4;
+            this.label287.Text = "Garden Salad";
+            // 
+            // label288
+            // 
+            this.label288.AutoSize = true;
+            this.label288.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label288.Location = new System.Drawing.Point(29, 96);
+            this.label288.Name = "label288";
+            this.label288.Size = new System.Drawing.Size(79, 13);
+            this.label288.TabIndex = 3;
+            this.label288.Text = "3 x Large Pizza";
+            // 
+            // label289
+            // 
+            this.label289.AutoSize = true;
+            this.label289.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label289.Location = new System.Drawing.Point(29, 69);
+            this.label289.Name = "label289";
+            this.label289.Size = new System.Drawing.Size(173, 24);
+            this.label289.TabIndex = 2;
+            this.label289.Text = "Grilled Veg Salad";
+            // 
+            // label290
+            // 
+            this.label290.AutoSize = true;
+            this.label290.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label290.Location = new System.Drawing.Point(29, 44);
+            this.label290.Name = "label290";
+            this.label290.Size = new System.Drawing.Size(253, 13);
+            this.label290.TabIndex = 1;
+            this.label290.Text = "1 x Any Pasta, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label291
+            // 
+            this.label291.AutoSize = true;
+            this.label291.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label291.Location = new System.Drawing.Point(29, 17);
+            this.label291.Name = "label291";
+            this.label291.Size = new System.Drawing.Size(126, 24);
+            this.label291.TabIndex = 0;
+            this.label291.Text = "Prawn Salad";
+            // 
+            // desertsPanel
+            // 
+            this.desertsPanel.Controls.Add(this.desert2Panel);
+            this.desertsPanel.Controls.Add(this.button477);
+            this.desertsPanel.Controls.Add(this.button478);
+            this.desertsPanel.Controls.Add(this.button479);
+            this.desertsPanel.Controls.Add(this.button480);
+            this.desertsPanel.Controls.Add(this.button481);
+            this.desertsPanel.Controls.Add(this.button482);
+            this.desertsPanel.Controls.Add(this.button483);
+            this.desertsPanel.Controls.Add(this.button484);
+            this.desertsPanel.Controls.Add(this.button485);
+            this.desertsPanel.Controls.Add(this.button486);
+            this.desertsPanel.Controls.Add(this.label305);
+            this.desertsPanel.Controls.Add(this.label306);
+            this.desertsPanel.Controls.Add(this.label307);
+            this.desertsPanel.Controls.Add(this.label308);
+            this.desertsPanel.Controls.Add(this.label309);
+            this.desertsPanel.Controls.Add(this.label310);
+            this.desertsPanel.Controls.Add(this.label311);
+            this.desertsPanel.Controls.Add(this.label312);
+            this.desertsPanel.Controls.Add(this.label313);
+            this.desertsPanel.Controls.Add(this.label314);
+            this.desertsPanel.Controls.Add(this.label315);
+            this.desertsPanel.Controls.Add(this.label316);
+            this.desertsPanel.Controls.Add(this.label317);
+            this.desertsPanel.Controls.Add(this.label318);
+            this.desertsPanel.Controls.Add(this.label319);
+            this.desertsPanel.Controls.Add(this.label320);
+            this.desertsPanel.Location = new System.Drawing.Point(59, 405);
+            this.desertsPanel.Name = "desertsPanel";
+            this.desertsPanel.Size = new System.Drawing.Size(23, 23);
+            this.desertsPanel.TabIndex = 35;
+            this.desertsPanel.Visible = false;
+            // 
+            // button477
+            // 
+            this.button477.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button477.Location = new System.Drawing.Point(12, 477);
+            this.button477.Name = "button477";
+            this.button477.Size = new System.Drawing.Size(147, 38);
+            this.button477.TabIndex = 25;
+            this.button477.Text = "Back";
+            this.button477.UseVisualStyleBackColor = true;
+            this.button477.Click += new System.EventHandler(this.button477_Click);
+            // 
+            // button478
+            // 
+            this.button478.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button478.Location = new System.Drawing.Point(351, 477);
+            this.button478.Name = "button478";
+            this.button478.Size = new System.Drawing.Size(147, 38);
+            this.button478.TabIndex = 24;
+            this.button478.Text = "Next Page";
+            this.button478.UseVisualStyleBackColor = true;
+            this.button478.Click += new System.EventHandler(this.button478_Click);
+            // 
+            // button479
+            // 
+            this.button479.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button479.Location = new System.Drawing.Point(351, 417);
+            this.button479.Name = "button479";
+            this.button479.Size = new System.Drawing.Size(147, 38);
+            this.button479.TabIndex = 23;
+            this.button479.Text = "Add to Order";
+            this.button479.UseVisualStyleBackColor = true;
+            // 
+            // button480
+            // 
+            this.button480.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button480.Location = new System.Drawing.Point(351, 364);
+            this.button480.Name = "button480";
+            this.button480.Size = new System.Drawing.Size(147, 38);
+            this.button480.TabIndex = 22;
+            this.button480.Text = "Add to Order";
+            this.button480.UseVisualStyleBackColor = true;
+            // 
+            // button481
+            // 
+            this.button481.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button481.Location = new System.Drawing.Point(351, 309);
+            this.button481.Name = "button481";
+            this.button481.Size = new System.Drawing.Size(147, 38);
+            this.button481.TabIndex = 21;
+            this.button481.Text = "Add to Order";
+            this.button481.UseVisualStyleBackColor = true;
+            // 
+            // button482
+            // 
+            this.button482.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button482.Location = new System.Drawing.Point(351, 252);
+            this.button482.Name = "button482";
+            this.button482.Size = new System.Drawing.Size(147, 38);
+            this.button482.TabIndex = 20;
+            this.button482.Text = "Add to Order";
+            this.button482.UseVisualStyleBackColor = true;
+            // 
+            // button483
+            // 
+            this.button483.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button483.Location = new System.Drawing.Point(351, 188);
+            this.button483.Name = "button483";
+            this.button483.Size = new System.Drawing.Size(147, 38);
+            this.button483.TabIndex = 19;
+            this.button483.Text = "Add to Order";
+            this.button483.UseVisualStyleBackColor = true;
+            // 
+            // button484
+            // 
+            this.button484.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button484.Location = new System.Drawing.Point(351, 123);
+            this.button484.Name = "button484";
+            this.button484.Size = new System.Drawing.Size(147, 38);
+            this.button484.TabIndex = 18;
+            this.button484.Text = "Add to Order";
+            this.button484.UseVisualStyleBackColor = true;
+            // 
+            // button485
+            // 
+            this.button485.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button485.Location = new System.Drawing.Point(351, 69);
+            this.button485.Name = "button485";
+            this.button485.Size = new System.Drawing.Size(147, 38);
+            this.button485.TabIndex = 17;
+            this.button485.Text = "Add to Order";
+            this.button485.UseVisualStyleBackColor = true;
+            // 
+            // button486
+            // 
+            this.button486.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button486.Location = new System.Drawing.Point(351, 19);
+            this.button486.Name = "button486";
+            this.button486.Size = new System.Drawing.Size(147, 38);
+            this.button486.TabIndex = 16;
+            this.button486.Text = "Add to Order";
+            this.button486.UseVisualStyleBackColor = true;
+            // 
+            // label305
+            // 
+            this.label305.AutoSize = true;
+            this.label305.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label305.Location = new System.Drawing.Point(29, 442);
+            this.label305.Name = "label305";
+            this.label305.Size = new System.Drawing.Size(257, 13);
+            this.label305.TabIndex = 15;
+            this.label305.Text = "2 x Party Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label306
+            // 
+            this.label306.AutoSize = true;
+            this.label306.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label306.Location = new System.Drawing.Point(29, 415);
+            this.label306.Name = "label306";
+            this.label306.Size = new System.Drawing.Size(145, 24);
+            this.label306.TabIndex = 14;
+            this.label306.Text = "Gelato (300ml)";
+            // 
+            // label307
+            // 
+            this.label307.AutoSize = true;
+            this.label307.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label307.Location = new System.Drawing.Point(29, 389);
+            this.label307.Name = "label307";
+            this.label307.Size = new System.Drawing.Size(262, 13);
+            this.label307.TabIndex = 13;
+            this.label307.Text = "2 x Family Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label308
+            // 
+            this.label308.AutoSize = true;
+            this.label308.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label308.Location = new System.Drawing.Point(29, 362);
+            this.label308.Name = "label308";
+            this.label308.Size = new System.Drawing.Size(145, 24);
+            this.label308.TabIndex = 12;
+            this.label308.Text = "Gelato (500ml)";
+            // 
+            // label309
+            // 
+            this.label309.AutoSize = true;
+            this.label309.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label309.Location = new System.Drawing.Point(29, 334);
+            this.label309.Name = "label309";
+            this.label309.Size = new System.Drawing.Size(260, 13);
+            this.label309.TabIndex = 11;
+            this.label309.Text = "2 x Large Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label310
+            // 
+            this.label310.AutoSize = true;
+            this.label310.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label310.Location = new System.Drawing.Point(29, 307);
+            this.label310.Name = "label310";
+            this.label310.Size = new System.Drawing.Size(223, 24);
+            this.label310.TabIndex = 10;
+            this.label310.Text = "Mars Bar Cheese Cake";
+            // 
+            // label311
+            // 
+            this.label311.AutoSize = true;
+            this.label311.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label311.Location = new System.Drawing.Point(29, 273);
+            this.label311.Name = "label311";
+            this.label311.Size = new System.Drawing.Size(257, 13);
+            this.label311.TabIndex = 9;
+            this.label311.Text = "1 x Party Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label312
+            // 
+            this.label312.AutoSize = true;
+            this.label312.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label312.Location = new System.Drawing.Point(29, 246);
+            this.label312.Name = "label312";
+            this.label312.Size = new System.Drawing.Size(192, 24);
+            this.label312.TabIndex = 8;
+            this.label312.Text = "Death by Chocolate";
+            // 
+            // label313
+            // 
+            this.label313.AutoSize = true;
+            this.label313.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label313.Location = new System.Drawing.Point(29, 212);
+            this.label313.Name = "label313";
+            this.label313.Size = new System.Drawing.Size(262, 13);
+            this.label313.TabIndex = 7;
+            this.label313.Text = "1 x Family Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label314
+            // 
+            this.label314.AutoSize = true;
+            this.label314.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label314.Location = new System.Drawing.Point(29, 185);
+            this.label314.Name = "label314";
+            this.label314.Size = new System.Drawing.Size(183, 24);
+            this.label314.TabIndex = 6;
+            this.label314.Text = "Chocolate Mousse";
+            // 
+            // label315
+            // 
+            this.label315.AutoSize = true;
+            this.label315.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label315.Location = new System.Drawing.Point(29, 152);
+            this.label315.Name = "label315";
+            this.label315.Size = new System.Drawing.Size(260, 13);
+            this.label315.TabIndex = 5;
+            this.label315.Text = "1 x Large Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label316
+            // 
+            this.label316.AutoSize = true;
+            this.label316.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label316.Location = new System.Drawing.Point(29, 125);
+            this.label316.Name = "label316";
+            this.label316.Size = new System.Drawing.Size(135, 24);
+            this.label316.TabIndex = 4;
+            this.label316.Text = "Cheese Cake";
+            // 
+            // label317
+            // 
+            this.label317.AutoSize = true;
+            this.label317.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label317.Location = new System.Drawing.Point(29, 96);
+            this.label317.Name = "label317";
+            this.label317.Size = new System.Drawing.Size(79, 13);
+            this.label317.TabIndex = 3;
+            this.label317.Text = "3 x Large Pizza";
+            // 
+            // label318
+            // 
+            this.label318.AutoSize = true;
+            this.label318.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label318.Location = new System.Drawing.Point(29, 69);
+            this.label318.Name = "label318";
+            this.label318.Size = new System.Drawing.Size(188, 24);
+            this.label318.TabIndex = 2;
+            this.label318.Text = "Chocolate Pudding";
+            // 
+            // label319
+            // 
+            this.label319.AutoSize = true;
+            this.label319.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label319.Location = new System.Drawing.Point(29, 44);
+            this.label319.Name = "label319";
+            this.label319.Size = new System.Drawing.Size(253, 13);
+            this.label319.TabIndex = 1;
+            this.label319.Text = "1 x Any Pasta, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label320
+            // 
+            this.label320.AutoSize = true;
+            this.label320.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label320.Location = new System.Drawing.Point(29, 17);
+            this.label320.Name = "label320";
+            this.label320.Size = new System.Drawing.Size(101, 24);
+            this.label320.TabIndex = 0;
+            this.label320.Text = "Apple Pie";
+            // 
+            // desert2Panel
+            // 
+            this.desert2Panel.Controls.Add(this.button462);
+            this.desert2Panel.Controls.Add(this.button488);
+            this.desert2Panel.Controls.Add(this.button489);
+            this.desert2Panel.Controls.Add(this.label304);
+            this.desert2Panel.Controls.Add(this.label321);
+            this.desert2Panel.Controls.Add(this.label322);
+            this.desert2Panel.Controls.Add(this.label323);
+            this.desert2Panel.Location = new System.Drawing.Point(180, 407);
+            this.desert2Panel.Name = "desert2Panel";
+            this.desert2Panel.Size = new System.Drawing.Size(200, 100);
+            this.desert2Panel.TabIndex = 26;
+            // 
+            // button462
+            // 
+            this.button462.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button462.Location = new System.Drawing.Point(12, 474);
+            this.button462.Name = "button462";
+            this.button462.Size = new System.Drawing.Size(147, 38);
+            this.button462.TabIndex = 51;
+            this.button462.Text = "Back";
+            this.button462.UseVisualStyleBackColor = true;
+            this.button462.Click += new System.EventHandler(this.button462_Click_1);
+            // 
+            // button488
+            // 
+            this.button488.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button488.Location = new System.Drawing.Point(351, 66);
+            this.button488.Name = "button488";
+            this.button488.Size = new System.Drawing.Size(147, 38);
+            this.button488.TabIndex = 43;
+            this.button488.Text = "Add to Order";
+            this.button488.UseVisualStyleBackColor = true;
+            // 
+            // button489
+            // 
+            this.button489.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button489.Location = new System.Drawing.Point(351, 16);
+            this.button489.Name = "button489";
+            this.button489.Size = new System.Drawing.Size(147, 38);
+            this.button489.TabIndex = 42;
+            this.button489.Text = "Add to Order";
+            this.button489.UseVisualStyleBackColor = true;
+            // 
+            // label304
+            // 
+            this.label304.AutoSize = true;
+            this.label304.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label304.Location = new System.Drawing.Point(29, 93);
+            this.label304.Name = "label304";
+            this.label304.Size = new System.Drawing.Size(79, 13);
+            this.label304.TabIndex = 29;
+            this.label304.Text = "3 x Large Pizza";
+            // 
+            // label321
+            // 
+            this.label321.AutoSize = true;
+            this.label321.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label321.Location = new System.Drawing.Point(29, 66);
+            this.label321.Name = "label321";
+            this.label321.Size = new System.Drawing.Size(186, 24);
+            this.label321.TabIndex = 28;
+            this.label321.Text = "Chocolate Brownie";
+            // 
+            // label322
+            // 
+            this.label322.AutoSize = true;
+            this.label322.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label322.Location = new System.Drawing.Point(29, 41);
+            this.label322.Name = "label322";
+            this.label322.Size = new System.Drawing.Size(253, 13);
+            this.label322.TabIndex = 27;
+            this.label322.Text = "1 x Any Pasta, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label323
+            // 
+            this.label323.AutoSize = true;
+            this.label323.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label323.Location = new System.Drawing.Point(29, 14);
+            this.label323.Name = "label323";
+            this.label323.Size = new System.Drawing.Size(246, 24);
+            this.label323.TabIndex = 26;
+            this.label323.Text = "Apple and Blackberry Pie";
+            // 
+            // beveragesPanel
+            // 
+            this.beveragesPanel.Controls.Add(this.button474);
+            this.beveragesPanel.Controls.Add(this.button492);
+            this.beveragesPanel.Controls.Add(this.button493);
+            this.beveragesPanel.Controls.Add(this.button494);
+            this.beveragesPanel.Controls.Add(this.button495);
+            this.beveragesPanel.Controls.Add(this.label324);
+            this.beveragesPanel.Controls.Add(this.label325);
+            this.beveragesPanel.Controls.Add(this.label326);
+            this.beveragesPanel.Controls.Add(this.label327);
+            this.beveragesPanel.Controls.Add(this.label328);
+            this.beveragesPanel.Controls.Add(this.label329);
+            this.beveragesPanel.Controls.Add(this.label330);
+            this.beveragesPanel.Controls.Add(this.label331);
+            this.beveragesPanel.Location = new System.Drawing.Point(162, 471);
+            this.beveragesPanel.Name = "beveragesPanel";
+            this.beveragesPanel.Size = new System.Drawing.Size(23, 23);
+            this.beveragesPanel.TabIndex = 36;
+            this.beveragesPanel.Visible = false;
+            // 
+            // button474
+            // 
+            this.button474.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button474.Location = new System.Drawing.Point(12, 477);
+            this.button474.Name = "button474";
+            this.button474.Size = new System.Drawing.Size(147, 38);
+            this.button474.TabIndex = 25;
+            this.button474.Text = "Back";
+            this.button474.UseVisualStyleBackColor = true;
+            this.button474.Click += new System.EventHandler(this.button474_Click);
+            // 
+            // button492
+            // 
+            this.button492.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button492.Location = new System.Drawing.Point(351, 188);
+            this.button492.Name = "button492";
+            this.button492.Size = new System.Drawing.Size(147, 38);
+            this.button492.TabIndex = 19;
+            this.button492.Text = "Add to Order";
+            this.button492.UseVisualStyleBackColor = true;
+            // 
+            // button493
+            // 
+            this.button493.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button493.Location = new System.Drawing.Point(351, 123);
+            this.button493.Name = "button493";
+            this.button493.Size = new System.Drawing.Size(147, 38);
+            this.button493.TabIndex = 18;
+            this.button493.Text = "Add to Order";
+            this.button493.UseVisualStyleBackColor = true;
+            // 
+            // button494
+            // 
+            this.button494.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button494.Location = new System.Drawing.Point(351, 69);
+            this.button494.Name = "button494";
+            this.button494.Size = new System.Drawing.Size(147, 38);
+            this.button494.TabIndex = 17;
+            this.button494.Text = "Add to Order";
+            this.button494.UseVisualStyleBackColor = true;
+            // 
+            // button495
+            // 
+            this.button495.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button495.Location = new System.Drawing.Point(351, 19);
+            this.button495.Name = "button495";
+            this.button495.Size = new System.Drawing.Size(147, 38);
+            this.button495.TabIndex = 16;
+            this.button495.Text = "Add to Order";
+            this.button495.UseVisualStyleBackColor = true;
+            // 
+            // label324
+            // 
+            this.label324.AutoSize = true;
+            this.label324.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label324.Location = new System.Drawing.Point(29, 212);
+            this.label324.Name = "label324";
+            this.label324.Size = new System.Drawing.Size(262, 13);
+            this.label324.TabIndex = 7;
+            this.label324.Text = "1 x Family Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label325
+            // 
+            this.label325.AutoSize = true;
+            this.label325.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label325.Location = new System.Drawing.Point(29, 185);
+            this.label325.Name = "label325";
+            this.label325.Size = new System.Drawing.Size(212, 24);
+            this.label325.TabIndex = 6;
+            this.label325.Text = "Monster Energy Drink";
+            // 
+            // label326
+            // 
+            this.label326.AutoSize = true;
+            this.label326.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label326.Location = new System.Drawing.Point(29, 152);
+            this.label326.Name = "label326";
+            this.label326.Size = new System.Drawing.Size(260, 13);
+            this.label326.TabIndex = 5;
+            this.label326.Text = "1 x Large Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label327
+            // 
+            this.label327.AutoSize = true;
+            this.label327.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label327.Location = new System.Drawing.Point(29, 125);
+            this.label327.Name = "label327";
+            this.label327.Size = new System.Drawing.Size(149, 24);
+            this.label327.TabIndex = 4;
+            this.label327.Text = "Soft Drink 1.25l";
+            // 
+            // label328
+            // 
+            this.label328.AutoSize = true;
+            this.label328.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label328.Location = new System.Drawing.Point(29, 96);
+            this.label328.Name = "label328";
+            this.label328.Size = new System.Drawing.Size(79, 13);
+            this.label328.TabIndex = 3;
+            this.label328.Text = "3 x Large Pizza";
+            // 
+            // label329
+            // 
+            this.label329.AutoSize = true;
+            this.label329.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label329.Location = new System.Drawing.Point(29, 69);
+            this.label329.Name = "label329";
+            this.label329.Size = new System.Drawing.Size(125, 24);
+            this.label329.TabIndex = 2;
+            this.label329.Text = "Water 500ml";
+            // 
+            // label330
+            // 
+            this.label330.AutoSize = true;
+            this.label330.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label330.Location = new System.Drawing.Point(29, 44);
+            this.label330.Name = "label330";
+            this.label330.Size = new System.Drawing.Size(253, 13);
+            this.label330.TabIndex = 1;
+            this.label330.Text = "1 x Any Pasta, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
+            // 
+            // label331
+            // 
+            this.label331.AutoSize = true;
+            this.label331.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label331.Location = new System.Drawing.Point(29, 17);
+            this.label331.Name = "label331";
+            this.label331.Size = new System.Drawing.Size(156, 24);
+            this.label331.TabIndex = 0;
+            this.label331.Text = "Soft Drink (Can)";
+            // 
+            // button112
+            // 
+            this.button112.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button112.Location = new System.Drawing.Point(345, 59);
+            this.button112.Name = "button112";
+            this.button112.Size = new System.Drawing.Size(147, 38);
+            this.button112.TabIndex = 70;
+            this.button112.Text = "Add to Order";
+            this.button112.UseVisualStyleBackColor = true;
+            // 
+            // label196
+            // 
+            this.label196.AutoSize = true;
+            this.label196.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label196.Location = new System.Drawing.Point(23, 59);
+            this.label196.Name = "label196";
+            this.label196.Size = new System.Drawing.Size(143, 24);
+            this.label196.TabIndex = 55;
+            this.label196.Text = "Veal Schnitzel";
+            // 
+            // label192
+            // 
+            this.label192.AutoSize = true;
+            this.label192.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label192.Location = new System.Drawing.Point(23, 175);
+            this.label192.Name = "label192";
+            this.label192.Size = new System.Drawing.Size(155, 24);
+            this.label192.TabIndex = 59;
+            this.label192.Text = "Veal Pamigiana";
+            // 
+            // label184
+            // 
+            this.label184.AutoSize = true;
+            this.label184.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label184.Location = new System.Drawing.Point(23, 405);
+            this.label184.Name = "label184";
+            this.label184.Size = new System.Drawing.Size(247, 24);
+            this.label184.TabIndex = 67;
+            this.label184.Text = "Mexican Veal Parmigiana";
+            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -9049,6 +10427,22 @@
             this.pastaPanel.PerformLayout();
             this.pastaBakePanel.ResumeLayout(false);
             this.pastaBakePanel.PerformLayout();
+            this.ribsnwingsPanel.ResumeLayout(false);
+            this.ribsnwingsPanel.PerformLayout();
+            this.risottoPanel.ResumeLayout(false);
+            this.risottoPanel.PerformLayout();
+            this.kebabWrapPanel.ResumeLayout(false);
+            this.kebabWrapPanel.PerformLayout();
+            this.saladsPanel.ResumeLayout(false);
+            this.saladsPanel.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.desertsPanel.ResumeLayout(false);
+            this.desertsPanel.PerformLayout();
+            this.desert2Panel.ResumeLayout(false);
+            this.desert2Panel.PerformLayout();
+            this.beveragesPanel.ResumeLayout(false);
+            this.beveragesPanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -9255,10 +10649,8 @@
         private System.Windows.Forms.Button button109;
         private System.Windows.Forms.Button button110;
         private System.Windows.Forms.Button button111;
-        private System.Windows.Forms.Button button112;
         private System.Windows.Forms.Button button113;
         private System.Windows.Forms.Label label183;
-        private System.Windows.Forms.Label label184;
         private System.Windows.Forms.Label label185;
         private System.Windows.Forms.Label label186;
         private System.Windows.Forms.Label label187;
@@ -9266,11 +10658,9 @@
         private System.Windows.Forms.Label label189;
         private System.Windows.Forms.Label label190;
         private System.Windows.Forms.Label label191;
-        private System.Windows.Forms.Label label192;
         private System.Windows.Forms.Label label193;
         private System.Windows.Forms.Label label194;
         private System.Windows.Forms.Label label195;
-        private System.Windows.Forms.Label label196;
         private System.Windows.Forms.Label label197;
         private System.Windows.Forms.Label label198;
         private System.Windows.Forms.Button button54;
@@ -9732,28 +11122,8 @@
         private System.Windows.Forms.Label label211;
         private System.Windows.Forms.Label label212;
         private System.Windows.Forms.Label label213;
-        private System.Windows.Forms.Label label180;
-        private System.Windows.Forms.Label label179;
-        private System.Windows.Forms.Button button383;
-        private System.Windows.Forms.Button button382;
-        private System.Windows.Forms.Button button381;
-        private System.Windows.Forms.Button button380;
-        private System.Windows.Forms.Button button374;
-        private System.Windows.Forms.Button button373;
-        private System.Windows.Forms.Button button372;
-        private System.Windows.Forms.Button button371;
-        private System.Windows.Forms.Label label178;
-        private System.Windows.Forms.Label label177;
-        private System.Windows.Forms.Label label176;
-        private System.Windows.Forms.Label label175;
-        private System.Windows.Forms.Label label174;
-        private System.Windows.Forms.Label label173;
-        private System.Windows.Forms.Label label156;
         private System.Windows.Forms.Label label155;
-        private System.Windows.Forms.Label label154;
-        private System.Windows.Forms.Label label153;
         private System.Windows.Forms.Label label152;
-        private System.Windows.Forms.Label label151;
         private System.Windows.Forms.Panel ab2Panel;
         private System.Windows.Forms.Button button394;
         private System.Windows.Forms.Button button403;
@@ -9802,6 +11172,145 @@
         private System.Windows.Forms.Label label244;
         private System.Windows.Forms.Label label245;
         private System.Windows.Forms.Label label246;
+        private System.Windows.Forms.Panel ribsnwingsPanel;
+        private System.Windows.Forms.Button button408;
+        private System.Windows.Forms.Button button409;
+        private System.Windows.Forms.Button button443;
+        private System.Windows.Forms.Button button444;
+        private System.Windows.Forms.Button button445;
+        private System.Windows.Forms.Label label235;
+        private System.Windows.Forms.Label label236;
+        private System.Windows.Forms.Label label237;
+        private System.Windows.Forms.Label label238;
+        private System.Windows.Forms.Label label247;
+        private System.Windows.Forms.Label label248;
+        private System.Windows.Forms.Label label249;
+        private System.Windows.Forms.Label label250;
+        private System.Windows.Forms.Panel risottoPanel;
+        private System.Windows.Forms.Button button407;
+        private System.Windows.Forms.Button button450;
+        private System.Windows.Forms.Button button451;
+        private System.Windows.Forms.Button button452;
+        private System.Windows.Forms.Button button453;
+        private System.Windows.Forms.Label label257;
+        private System.Windows.Forms.Label label258;
+        private System.Windows.Forms.Label label259;
+        private System.Windows.Forms.Label label260;
+        private System.Windows.Forms.Label label261;
+        private System.Windows.Forms.Label label262;
+        private System.Windows.Forms.Label label263;
+        private System.Windows.Forms.Label label264;
+        private System.Windows.Forms.Panel kebabWrapPanel;
+        private System.Windows.Forms.Button button446;
+        private System.Windows.Forms.Button button448;
+        private System.Windows.Forms.Button button449;
+        private System.Windows.Forms.Button button454;
+        private System.Windows.Forms.Label label251;
+        private System.Windows.Forms.Label label252;
+        private System.Windows.Forms.Label label253;
+        private System.Windows.Forms.Label label254;
+        private System.Windows.Forms.Label label255;
+        private System.Windows.Forms.Label label256;
+        private System.Windows.Forms.Panel saladsPanel;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label233;
+        private System.Windows.Forms.Button button447;
+        private System.Windows.Forms.Button button455;
+        private System.Windows.Forms.Button button456;
+        private System.Windows.Forms.Button button457;
+        private System.Windows.Forms.Button button458;
+        private System.Windows.Forms.Button button459;
+        private System.Windows.Forms.Button button460;
+        private System.Windows.Forms.Label label234;
+        private System.Windows.Forms.Label label265;
+        private System.Windows.Forms.Label label266;
+        private System.Windows.Forms.Label label267;
+        private System.Windows.Forms.Label label268;
+        private System.Windows.Forms.Label label269;
+        private System.Windows.Forms.Label label270;
+        private System.Windows.Forms.Label label271;
+        private System.Windows.Forms.Label label272;
+        private System.Windows.Forms.Label label273;
+        private System.Windows.Forms.Label label274;
+        private System.Windows.Forms.Label label275;
+        private System.Windows.Forms.Button button461;
+        private System.Windows.Forms.Button button463;
+        private System.Windows.Forms.Button button464;
+        private System.Windows.Forms.Button button465;
+        private System.Windows.Forms.Button button466;
+        private System.Windows.Forms.Button button467;
+        private System.Windows.Forms.Button button468;
+        private System.Windows.Forms.Button button469;
+        private System.Windows.Forms.Button button470;
+        private System.Windows.Forms.Label label276;
+        private System.Windows.Forms.Label label277;
+        private System.Windows.Forms.Label label278;
+        private System.Windows.Forms.Label label279;
+        private System.Windows.Forms.Label label280;
+        private System.Windows.Forms.Label label281;
+        private System.Windows.Forms.Label label282;
+        private System.Windows.Forms.Label label283;
+        private System.Windows.Forms.Label label284;
+        private System.Windows.Forms.Label label285;
+        private System.Windows.Forms.Label label286;
+        private System.Windows.Forms.Label label287;
+        private System.Windows.Forms.Label label288;
+        private System.Windows.Forms.Label label289;
+        private System.Windows.Forms.Label label290;
+        private System.Windows.Forms.Label label291;
+        private System.Windows.Forms.Panel desertsPanel;
+        private System.Windows.Forms.Button button477;
+        private System.Windows.Forms.Button button478;
+        private System.Windows.Forms.Button button479;
+        private System.Windows.Forms.Button button480;
+        private System.Windows.Forms.Button button481;
+        private System.Windows.Forms.Button button482;
+        private System.Windows.Forms.Button button483;
+        private System.Windows.Forms.Button button484;
+        private System.Windows.Forms.Button button485;
+        private System.Windows.Forms.Button button486;
+        private System.Windows.Forms.Label label305;
+        private System.Windows.Forms.Label label306;
+        private System.Windows.Forms.Label label307;
+        private System.Windows.Forms.Label label308;
+        private System.Windows.Forms.Label label309;
+        private System.Windows.Forms.Label label310;
+        private System.Windows.Forms.Label label311;
+        private System.Windows.Forms.Label label312;
+        private System.Windows.Forms.Label label313;
+        private System.Windows.Forms.Label label314;
+        private System.Windows.Forms.Label label315;
+        private System.Windows.Forms.Label label316;
+        private System.Windows.Forms.Label label317;
+        private System.Windows.Forms.Label label318;
+        private System.Windows.Forms.Label label319;
+        private System.Windows.Forms.Label label320;
+        private System.Windows.Forms.Panel desert2Panel;
+        private System.Windows.Forms.Button button462;
+        private System.Windows.Forms.Button button488;
+        private System.Windows.Forms.Button button489;
+        private System.Windows.Forms.Label label304;
+        private System.Windows.Forms.Label label321;
+        private System.Windows.Forms.Label label322;
+        private System.Windows.Forms.Label label323;
+        private System.Windows.Forms.Panel beveragesPanel;
+        private System.Windows.Forms.Button button474;
+        private System.Windows.Forms.Button button492;
+        private System.Windows.Forms.Button button493;
+        private System.Windows.Forms.Button button494;
+        private System.Windows.Forms.Button button495;
+        private System.Windows.Forms.Label label324;
+        private System.Windows.Forms.Label label325;
+        private System.Windows.Forms.Label label326;
+        private System.Windows.Forms.Label label327;
+        private System.Windows.Forms.Label label328;
+        private System.Windows.Forms.Label label329;
+        private System.Windows.Forms.Label label330;
+        private System.Windows.Forms.Label label331;
+        private System.Windows.Forms.Button button112;
+        private System.Windows.Forms.Label label184;
+        private System.Windows.Forms.Label label192;
+        private System.Windows.Forms.Label label196;
     }
 }
 
