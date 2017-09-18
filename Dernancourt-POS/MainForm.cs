@@ -12,9 +12,29 @@ namespace Dernancourt_POS
 {
     public partial class mainForm : Form
     {
+        Order myOrder;
+
+        /* INSTANCE ITEMS */
+        Item pastaDeal = new Item() { ItemID = 1, ItemName = "Pasta Deal", ItemPrice = 19.90f };
+        Item footyDeal = new Item() { ItemID = 2, ItemName = "Footy Special Deal", ItemPrice = 36.90f };
+        Item largeDeal = new Item() { ItemID = 3, ItemName = "Large Deal", ItemPrice = 19.90f };
+        Item familyDeal = new Item() { ItemID = 4, ItemName = "Family Deal", ItemPrice = 25.90f };
+        Item partyDeal = new Item() { ItemID = 5, ItemName = "Party Deal", ItemPrice = 29.90f };
+        Item largeTwoDeal = new Item() { ItemID = 6, ItemName = "2 Large Pizza Deal w/ GB and Drink", ItemPrice = 31.90f };
+        Item familyTwoDeal = new Item() { ItemID = 7, ItemName = "2 Family Pizza Deal w/ GB and Drink", ItemPrice = 44.90f };
+        Item partyTwoDeal = new Item() { ItemID = 8, ItemName = "2 Party Pizza Deal w/ GB and Drink", ItemPrice = 55.90f };
+        Item largeTwo = new Item() { ItemID = 9, ItemName = "2 Large Pizzas", ItemPrice = 23.50f };
+        Item familyTwo = new Item() { ItemID = 10, ItemName = "2 Family Pizzas", ItemPrice = 36.50f };
+        Item partyTwo = new Item() { ItemID = 11, ItemName = "2 Party Pizzas", ItemPrice = 43.50f };
+        Item gbTwo = new Item() { ItemID = 12, ItemName = "2 x Garlic Bread", ItemPrice = 6.00f };
+        Item drinkTwo = new Item() { ItemID = 13, ItemName = "2 x 1.25L Soft Drink", ItemPrice = 8.00f }; 
+
+
+
         public mainForm()
         {
             InitializeComponent();
+            //Order order = new Order();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -120,19 +140,45 @@ namespace Dernancourt_POS
 
         private void continueBtn_Click(object sender, EventArgs e)
         {
-            // move to orderPanel
-            orderPanel.Visible = true;
+
+            // now lets check if they want a delivery or takeaway (If there is an address or not)
+            if (string.IsNullOrEmpty(customerPhoneNumberTxt.Text))
+            {
+                const string message =
+                     "At least a phone number is required, please enter a phone number";
+                const string caption = "Form Validation";
+                MessageBox.Show(message, caption,
+                                             MessageBoxButtons.OK,
+                                             MessageBoxIcon.Error);
+            }
+
+            if (customerAddressTxt.Text.Length > 0 && (!string.IsNullOrEmpty(customerPhoneNumberTxt.Text)))
+            {
+                // delivery
+                myOrder = new Order(customerNameTxt.Text, customerPhoneNumberTxt.Text, customerAddressTxt.Text, customerSuburbTxt.Text);
+                Console.WriteLine(myOrder.ToString());
+
+                // move to orderPanel
+                orderPanel.Visible = true;
+            }
+            else if (!string.IsNullOrEmpty(customerPhoneNumberTxt.Text))
+            {
+                // takeaway
+                myOrder = new Order(customerNameTxt.Text, customerPhoneNumberTxt.Text);
+                Console.WriteLine("TAKEAWAY:");
+                Console.WriteLine(myOrder.ToString());
+
+                // move to orderPanel
+                orderPanel.Visible = true;
+            }
+
+
         }
 
         private void pnl2BackBtn_Click(object sender, EventArgs e)
         {
             // make orderPanel invisible
             orderPanel.Visible = false;
-        }
-
-        private void mealDealPanel_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void mealDealPanel2_Paint(object sender, PaintEventArgs e)
@@ -144,7 +190,7 @@ namespace Dernancourt_POS
         {
             // make mealDealPanel vis
             //orderPanel.Visible = false;
-            mealDealPanel.Visible = true; 
+            mealDealPanel.Visible = true;
         }
 
         private void mealDealNxtBtn_Click(object sender, EventArgs e)
@@ -498,6 +544,11 @@ namespace Dernancourt_POS
         private void pnl2BeveragesBtn_Click(object sender, EventArgs e)
         {
             beveragesPanel.Visible = true;
+        }
+
+        private void pastaDealBtn_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(pastaDeal);
         }
     }
 }
