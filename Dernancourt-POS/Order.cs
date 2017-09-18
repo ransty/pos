@@ -47,7 +47,7 @@ namespace Dernancourt_POS
             Items.Add(item);
             Console.WriteLine("SUCCESSFULLY ADDED: " + item.ItemName);
             CalculatePrice();
-            Console.WriteLine("CURRENT PRICE OF ORDER: " + this.Price);
+            Console.WriteLine("CURRENT PRICE OF ORDER: $" + this.Price);
         }
 
         public void RemoveItem(Item item)
@@ -55,7 +55,7 @@ namespace Dernancourt_POS
             Items.Remove(item);
             Console.WriteLine("SUCCESSFULLY REMOVED: " + item.ItemName);
             CalculatePrice();
-            Console.WriteLine("CURRENT PRICE OF ORDER: " + this.Price);
+            Console.WriteLine("CURRENT PRICE OF ORDER: $" + this.Price);
         }
 
         public void RemoveItemAtIndex(int index)
@@ -63,7 +63,7 @@ namespace Dernancourt_POS
             Items.RemoveAt(index);
             Console.WriteLine("SUCCESSFULLY REMOVED ITEM AT INDEX: " + index);
             CalculatePrice();
-            Console.WriteLine("CURRENT PRICE OF ORDER: " + this.Price);
+            Console.WriteLine("CURRENT PRICE OF ORDER: $" + this.Price);
         }
 
         public int GetIndex(Item item)
