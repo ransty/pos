@@ -889,6 +889,10 @@
             this.pnl2MealDealsBtn = new System.Windows.Forms.Button();
             this.pnl2NextBtn = new System.Windows.Forms.Button();
             this.pnl2BackBtn = new System.Windows.Forms.Button();
+            this.summaryPanel = new System.Windows.Forms.Panel();
+            this.orderSummary = new System.Windows.Forms.RichTextBox();
+            this.button371 = new System.Windows.Forms.Button();
+            this.button372 = new System.Windows.Forms.Button();
             this.mainMenu.SuspendLayout();
             this.orderPanel.SuspendLayout();
             this.beveragesPanel.SuspendLayout();
@@ -919,6 +923,7 @@
             this.starters4Panel.SuspendLayout();
             this.mealDealPanel.SuspendLayout();
             this.mealDealPanel2.SuspendLayout();
+            this.summaryPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // customerNameTxt
@@ -1087,6 +1092,7 @@
             // 
             // orderPanel
             // 
+            this.orderPanel.Controls.Add(this.summaryPanel);
             this.orderPanel.Controls.Add(this.beveragesPanel);
             this.orderPanel.Controls.Add(this.desertsPanel);
             this.orderPanel.Controls.Add(this.saladsPanel);
@@ -1170,6 +1176,7 @@
             this.button492.TabIndex = 19;
             this.button492.Text = "Add to Order";
             this.button492.UseVisualStyleBackColor = true;
+            this.button492.Click += new System.EventHandler(this.button492_Click);
             // 
             // button493
             // 
@@ -1180,6 +1187,7 @@
             this.button493.TabIndex = 18;
             this.button493.Text = "Add to Order";
             this.button493.UseVisualStyleBackColor = true;
+            this.button493.Click += new System.EventHandler(this.button493_Click);
             // 
             // button494
             // 
@@ -1190,6 +1198,7 @@
             this.button494.TabIndex = 17;
             this.button494.Text = "Add to Order";
             this.button494.UseVisualStyleBackColor = true;
+            this.button494.Click += new System.EventHandler(this.button494_Click);
             // 
             // button495
             // 
@@ -1200,6 +1209,7 @@
             this.button495.TabIndex = 16;
             this.button495.Text = "Add to Order";
             this.button495.UseVisualStyleBackColor = true;
+            this.button495.Click += new System.EventHandler(this.button495_Click);
             // 
             // label324
             // 
@@ -1310,7 +1320,7 @@
             this.desertsPanel.Controls.Add(this.label318);
             this.desertsPanel.Controls.Add(this.label319);
             this.desertsPanel.Controls.Add(this.label320);
-            this.desertsPanel.Location = new System.Drawing.Point(59, 405);
+            this.desertsPanel.Location = new System.Drawing.Point(207, 470);
             this.desertsPanel.Name = "desertsPanel";
             this.desertsPanel.Size = new System.Drawing.Size(23, 23);
             this.desertsPanel.TabIndex = 35;
@@ -1350,6 +1360,7 @@
             this.button488.TabIndex = 43;
             this.button488.Text = "Add to Order";
             this.button488.UseVisualStyleBackColor = true;
+            this.button488.Click += new System.EventHandler(this.button488_Click);
             // 
             // button489
             // 
@@ -1360,6 +1371,7 @@
             this.button489.TabIndex = 42;
             this.button489.Text = "Add to Order";
             this.button489.UseVisualStyleBackColor = true;
+            this.button489.Click += new System.EventHandler(this.button489_Click);
             // 
             // label304
             // 
@@ -1432,6 +1444,7 @@
             this.button479.TabIndex = 23;
             this.button479.Text = "Add to Order";
             this.button479.UseVisualStyleBackColor = true;
+            this.button479.Click += new System.EventHandler(this.button479_Click);
             // 
             // button480
             // 
@@ -1442,6 +1455,7 @@
             this.button480.TabIndex = 22;
             this.button480.Text = "Add to Order";
             this.button480.UseVisualStyleBackColor = true;
+            this.button480.Click += new System.EventHandler(this.button480_Click);
             // 
             // button481
             // 
@@ -1452,6 +1466,7 @@
             this.button481.TabIndex = 21;
             this.button481.Text = "Add to Order";
             this.button481.UseVisualStyleBackColor = true;
+            this.button481.Click += new System.EventHandler(this.button481_Click);
             // 
             // button482
             // 
@@ -1462,6 +1477,7 @@
             this.button482.TabIndex = 20;
             this.button482.Text = "Add to Order";
             this.button482.UseVisualStyleBackColor = true;
+            this.button482.Click += new System.EventHandler(this.button482_Click);
             // 
             // button483
             // 
@@ -1472,6 +1488,7 @@
             this.button483.TabIndex = 19;
             this.button483.Text = "Add to Order";
             this.button483.UseVisualStyleBackColor = true;
+            this.button483.Click += new System.EventHandler(this.button483_Click);
             // 
             // button484
             // 
@@ -1482,6 +1499,7 @@
             this.button484.TabIndex = 18;
             this.button484.Text = "Add to Order";
             this.button484.UseVisualStyleBackColor = true;
+            this.button484.Click += new System.EventHandler(this.button484_Click);
             // 
             // button485
             // 
@@ -1492,6 +1510,7 @@
             this.button485.TabIndex = 17;
             this.button485.Text = "Add to Order";
             this.button485.UseVisualStyleBackColor = true;
+            this.button485.Click += new System.EventHandler(this.button485_Click);
             // 
             // button486
             // 
@@ -1502,6 +1521,7 @@
             this.button486.TabIndex = 16;
             this.button486.Text = "Add to Order";
             this.button486.UseVisualStyleBackColor = true;
+            this.button486.Click += new System.EventHandler(this.button486_Click);
             // 
             // label305
             // 
@@ -1944,6 +1964,7 @@
             this.button463.TabIndex = 23;
             this.button463.Text = "Add to Order";
             this.button463.UseVisualStyleBackColor = true;
+            this.button463.Click += new System.EventHandler(this.button463_Click);
             // 
             // button464
             // 
@@ -1954,6 +1975,7 @@
             this.button464.TabIndex = 22;
             this.button464.Text = "Add to Order";
             this.button464.UseVisualStyleBackColor = true;
+            this.button464.Click += new System.EventHandler(this.button464_Click);
             // 
             // button465
             // 
@@ -1964,6 +1986,7 @@
             this.button465.TabIndex = 21;
             this.button465.Text = "Add to Order";
             this.button465.UseVisualStyleBackColor = true;
+            this.button465.Click += new System.EventHandler(this.button465_Click);
             // 
             // button466
             // 
@@ -1974,6 +1997,7 @@
             this.button466.TabIndex = 20;
             this.button466.Text = "Add to Order";
             this.button466.UseVisualStyleBackColor = true;
+            this.button466.Click += new System.EventHandler(this.button466_Click);
             // 
             // button467
             // 
@@ -1984,6 +2008,7 @@
             this.button467.TabIndex = 19;
             this.button467.Text = "Add to Order";
             this.button467.UseVisualStyleBackColor = true;
+            this.button467.Click += new System.EventHandler(this.button467_Click);
             // 
             // button468
             // 
@@ -1994,6 +2019,7 @@
             this.button468.TabIndex = 18;
             this.button468.Text = "Add to Order";
             this.button468.UseVisualStyleBackColor = true;
+            this.button468.Click += new System.EventHandler(this.button468_Click);
             // 
             // button469
             // 
@@ -2004,6 +2030,7 @@
             this.button469.TabIndex = 17;
             this.button469.Text = "Add to Order";
             this.button469.UseVisualStyleBackColor = true;
+            this.button469.Click += new System.EventHandler(this.button469_Click);
             // 
             // button470
             // 
@@ -2014,6 +2041,7 @@
             this.button470.TabIndex = 16;
             this.button470.Text = "Add to Order";
             this.button470.UseVisualStyleBackColor = true;
+            this.button470.Click += new System.EventHandler(this.button470_Click);
             // 
             // label276
             // 
@@ -2212,6 +2240,7 @@
             this.button448.TabIndex = 70;
             this.button448.Text = "Add to Order";
             this.button448.UseVisualStyleBackColor = true;
+            this.button448.Click += new System.EventHandler(this.button448_Click);
             // 
             // button449
             // 
@@ -2222,6 +2251,7 @@
             this.button449.TabIndex = 69;
             this.button449.Text = "Add to Order";
             this.button449.UseVisualStyleBackColor = true;
+            this.button449.Click += new System.EventHandler(this.button449_Click);
             // 
             // button454
             // 
@@ -2232,6 +2262,7 @@
             this.button454.TabIndex = 68;
             this.button454.Text = "Add to Order";
             this.button454.UseVisualStyleBackColor = true;
+            this.button454.Click += new System.EventHandler(this.button454_Click);
             // 
             // label251
             // 
@@ -2333,6 +2364,7 @@
             this.button450.TabIndex = 71;
             this.button450.Text = "Add to Order";
             this.button450.UseVisualStyleBackColor = true;
+            this.button450.Click += new System.EventHandler(this.button450_Click);
             // 
             // button451
             // 
@@ -2343,6 +2375,7 @@
             this.button451.TabIndex = 70;
             this.button451.Text = "Add to Order";
             this.button451.UseVisualStyleBackColor = true;
+            this.button451.Click += new System.EventHandler(this.button451_Click);
             // 
             // button452
             // 
@@ -2353,6 +2386,7 @@
             this.button452.TabIndex = 69;
             this.button452.Text = "Add to Order";
             this.button452.UseVisualStyleBackColor = true;
+            this.button452.Click += new System.EventHandler(this.button452_Click);
             // 
             // button453
             // 
@@ -2363,6 +2397,7 @@
             this.button453.TabIndex = 68;
             this.button453.Text = "Add to Order";
             this.button453.UseVisualStyleBackColor = true;
+            this.button453.Click += new System.EventHandler(this.button453_Click);
             // 
             // label257
             // 
@@ -2484,6 +2519,7 @@
             this.button409.TabIndex = 91;
             this.button409.Text = "Add to Order";
             this.button409.UseVisualStyleBackColor = true;
+            this.button409.Click += new System.EventHandler(this.button409_Click);
             // 
             // button443
             // 
@@ -2494,6 +2530,7 @@
             this.button443.TabIndex = 90;
             this.button443.Text = "Add to Order";
             this.button443.UseVisualStyleBackColor = true;
+            this.button443.Click += new System.EventHandler(this.button443_Click);
             // 
             // button444
             // 
@@ -2504,6 +2541,7 @@
             this.button444.TabIndex = 89;
             this.button444.Text = "Add to Order";
             this.button444.UseVisualStyleBackColor = true;
+            this.button444.Click += new System.EventHandler(this.button444_Click);
             // 
             // button445
             // 
@@ -2514,6 +2552,7 @@
             this.button445.TabIndex = 88;
             this.button445.Text = "Add to Order";
             this.button445.UseVisualStyleBackColor = true;
+            this.button445.Click += new System.EventHandler(this.button445_Click);
             // 
             // label235
             // 
@@ -2627,6 +2666,7 @@
             this.button406.TabIndex = 79;
             this.button406.Text = "Add to Order";
             this.button406.UseVisualStyleBackColor = true;
+            this.button406.Click += new System.EventHandler(this.button406_Click);
             // 
             // label231
             // 
@@ -2668,6 +2708,7 @@
             this.button410.TabIndex = 71;
             this.button410.Text = "Add to Order";
             this.button410.UseVisualStyleBackColor = true;
+            this.button410.Click += new System.EventHandler(this.button410_Click);
             // 
             // button411
             // 
@@ -2678,6 +2719,7 @@
             this.button411.TabIndex = 70;
             this.button411.Text = "Add to Order";
             this.button411.UseVisualStyleBackColor = true;
+            this.button411.Click += new System.EventHandler(this.button411_Click);
             // 
             // button441
             // 
@@ -2688,6 +2730,7 @@
             this.button441.TabIndex = 69;
             this.button441.Text = "Add to Order";
             this.button441.UseVisualStyleBackColor = true;
+            this.button441.Click += new System.EventHandler(this.button441_Click);
             // 
             // button442
             // 
@@ -2698,6 +2741,7 @@
             this.button442.TabIndex = 68;
             this.button442.Text = "Add to Order";
             this.button442.UseVisualStyleBackColor = true;
+            this.button442.Click += new System.EventHandler(this.button442_Click);
             // 
             // label239
             // 
@@ -2831,6 +2875,7 @@
             this.button397.TabIndex = 49;
             this.button397.Text = "Add to Order";
             this.button397.UseVisualStyleBackColor = true;
+            this.button397.Click += new System.EventHandler(this.button397_Click);
             // 
             // button398
             // 
@@ -2841,6 +2886,7 @@
             this.button398.TabIndex = 48;
             this.button398.Text = "Add to Order";
             this.button398.UseVisualStyleBackColor = true;
+            this.button398.Click += new System.EventHandler(this.button398_Click);
             // 
             // button399
             // 
@@ -2851,6 +2897,7 @@
             this.button399.TabIndex = 47;
             this.button399.Text = "Add to Order";
             this.button399.UseVisualStyleBackColor = true;
+            this.button399.Click += new System.EventHandler(this.button399_Click);
             // 
             // button400
             // 
@@ -2861,6 +2908,7 @@
             this.button400.TabIndex = 46;
             this.button400.Text = "Add to Order";
             this.button400.UseVisualStyleBackColor = true;
+            this.button400.Click += new System.EventHandler(this.button400_Click);
             // 
             // button401
             // 
@@ -2871,6 +2919,7 @@
             this.button401.TabIndex = 45;
             this.button401.Text = "Add to Order";
             this.button401.UseVisualStyleBackColor = true;
+            this.button401.Click += new System.EventHandler(this.button401_Click);
             // 
             // button402
             // 
@@ -2881,6 +2930,7 @@
             this.button402.TabIndex = 44;
             this.button402.Text = "Add to Order";
             this.button402.UseVisualStyleBackColor = true;
+            this.button402.Click += new System.EventHandler(this.button402_Click);
             // 
             // button404
             // 
@@ -2891,6 +2941,7 @@
             this.button404.TabIndex = 43;
             this.button404.Text = "Add to Order";
             this.button404.UseVisualStyleBackColor = true;
+            this.button404.Click += new System.EventHandler(this.button404_Click);
             // 
             // button405
             // 
@@ -2901,6 +2952,7 @@
             this.button405.TabIndex = 42;
             this.button405.Text = "Add to Order";
             this.button405.UseVisualStyleBackColor = true;
+            this.button405.Click += new System.EventHandler(this.button405_Click);
             // 
             // label181
             // 
@@ -3128,6 +3180,7 @@
             this.button403.TabIndex = 124;
             this.button403.Text = "Add to Order";
             this.button403.UseVisualStyleBackColor = true;
+            this.button403.Click += new System.EventHandler(this.button403_Click);
             // 
             // label227
             // 
@@ -3190,6 +3243,7 @@
             this.button386.TabIndex = 103;
             this.button386.Text = "Add to Order";
             this.button386.UseVisualStyleBackColor = true;
+            this.button386.Click += new System.EventHandler(this.button386_Click);
             // 
             // button387
             // 
@@ -3200,6 +3254,7 @@
             this.button387.TabIndex = 102;
             this.button387.Text = "Add to Order";
             this.button387.UseVisualStyleBackColor = true;
+            this.button387.Click += new System.EventHandler(this.button387_Click);
             // 
             // button388
             // 
@@ -3210,6 +3265,7 @@
             this.button388.TabIndex = 101;
             this.button388.Text = "Add to Order";
             this.button388.UseVisualStyleBackColor = true;
+            this.button388.Click += new System.EventHandler(this.button388_Click);
             // 
             // button389
             // 
@@ -3220,6 +3276,7 @@
             this.button389.TabIndex = 100;
             this.button389.Text = "Add to Order";
             this.button389.UseVisualStyleBackColor = true;
+            this.button389.Click += new System.EventHandler(this.button389_Click);
             // 
             // button390
             // 
@@ -3230,6 +3287,7 @@
             this.button390.TabIndex = 99;
             this.button390.Text = "Add to Order";
             this.button390.UseVisualStyleBackColor = true;
+            this.button390.Click += new System.EventHandler(this.button390_Click);
             // 
             // button391
             // 
@@ -3240,6 +3298,7 @@
             this.button391.TabIndex = 98;
             this.button391.Text = "Add to Order";
             this.button391.UseVisualStyleBackColor = true;
+            this.button391.Click += new System.EventHandler(this.button391_Click);
             // 
             // button392
             // 
@@ -3250,6 +3309,7 @@
             this.button392.TabIndex = 97;
             this.button392.Text = "Add to Order";
             this.button392.UseVisualStyleBackColor = true;
+            this.button392.Click += new System.EventHandler(this.button392_Click);
             // 
             // label199
             // 
@@ -3270,6 +3330,7 @@
             this.button393.TabIndex = 96;
             this.button393.Text = "Add to Order";
             this.button393.UseVisualStyleBackColor = true;
+            this.button393.Click += new System.EventHandler(this.button393_Click);
             // 
             // label200
             // 
@@ -3454,6 +3515,7 @@
             this.button375.TabIndex = 46;
             this.button375.Text = "Add to Order";
             this.button375.UseVisualStyleBackColor = true;
+            this.button375.Click += new System.EventHandler(this.button375_Click);
             // 
             // button376
             // 
@@ -3464,6 +3526,7 @@
             this.button376.TabIndex = 45;
             this.button376.Text = "Add to Order";
             this.button376.UseVisualStyleBackColor = true;
+            this.button376.Click += new System.EventHandler(this.button376_Click);
             // 
             // button377
             // 
@@ -3474,6 +3537,7 @@
             this.button377.TabIndex = 44;
             this.button377.Text = "Add to Order";
             this.button377.UseVisualStyleBackColor = true;
+            this.button377.Click += new System.EventHandler(this.button377_Click);
             // 
             // button378
             // 
@@ -3484,6 +3548,7 @@
             this.button378.TabIndex = 43;
             this.button378.Text = "Add to Order";
             this.button378.UseVisualStyleBackColor = true;
+            this.button378.Click += new System.EventHandler(this.button378_Click);
             // 
             // button379
             // 
@@ -3494,6 +3559,7 @@
             this.button379.TabIndex = 42;
             this.button379.Text = "Add to Order";
             this.button379.UseVisualStyleBackColor = true;
+            this.button379.Click += new System.EventHandler(this.button379_Click);
             // 
             // label161
             // 
@@ -7844,7 +7910,7 @@
             this.mainsPanel.Controls.Add(this.label196);
             this.mainsPanel.Controls.Add(this.label197);
             this.mainsPanel.Controls.Add(this.label198);
-            this.mainsPanel.Location = new System.Drawing.Point(107, 419);
+            this.mainsPanel.Location = new System.Drawing.Point(122, 467);
             this.mainsPanel.Name = "mainsPanel";
             this.mainsPanel.Size = new System.Drawing.Size(25, 29);
             this.mainsPanel.TabIndex = 22;
@@ -7880,6 +7946,7 @@
             this.button89.TabIndex = 97;
             this.button89.Text = "Add to Order";
             this.button89.UseVisualStyleBackColor = true;
+            this.button89.Click += new System.EventHandler(this.button89_Click);
             // 
             // label163
             // 
@@ -7953,6 +8020,7 @@
             this.button106.TabIndex = 76;
             this.button106.Text = "Add to Order";
             this.button106.UseVisualStyleBackColor = true;
+            this.button106.Click += new System.EventHandler(this.button106_Click);
             // 
             // button107
             // 
@@ -7963,6 +8031,7 @@
             this.button107.TabIndex = 75;
             this.button107.Text = "Add to Order";
             this.button107.UseVisualStyleBackColor = true;
+            this.button107.Click += new System.EventHandler(this.button107_Click);
             // 
             // button108
             // 
@@ -7973,6 +8042,7 @@
             this.button108.TabIndex = 74;
             this.button108.Text = "Add to Order";
             this.button108.UseVisualStyleBackColor = true;
+            this.button108.Click += new System.EventHandler(this.button108_Click);
             // 
             // button109
             // 
@@ -7983,6 +8053,7 @@
             this.button109.TabIndex = 73;
             this.button109.Text = "Add to Order";
             this.button109.UseVisualStyleBackColor = true;
+            this.button109.Click += new System.EventHandler(this.button109_Click);
             // 
             // button110
             // 
@@ -7993,6 +8064,7 @@
             this.button110.TabIndex = 72;
             this.button110.Text = "Add to Order";
             this.button110.UseVisualStyleBackColor = true;
+            this.button110.Click += new System.EventHandler(this.button110_Click);
             // 
             // button111
             // 
@@ -8003,6 +8075,7 @@
             this.button111.TabIndex = 71;
             this.button111.Text = "Add to Order";
             this.button111.UseVisualStyleBackColor = true;
+            this.button111.Click += new System.EventHandler(this.button111_Click);
             // 
             // button112
             // 
@@ -8013,6 +8086,7 @@
             this.button112.TabIndex = 70;
             this.button112.Text = "Add to Order";
             this.button112.UseVisualStyleBackColor = true;
+            this.button112.Click += new System.EventHandler(this.button112_Click);
             // 
             // button113
             // 
@@ -8023,6 +8097,7 @@
             this.button113.TabIndex = 69;
             this.button113.Text = "Add to Order";
             this.button113.UseVisualStyleBackColor = true;
+            this.button113.Click += new System.EventHandler(this.button113_Click);
             // 
             // label183
             // 
@@ -8244,6 +8319,7 @@
             this.button3.TabIndex = 37;
             this.button3.Text = "Add to Order";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -8254,6 +8330,7 @@
             this.button4.TabIndex = 36;
             this.button4.Text = "Add to Order";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button11
             // 
@@ -8264,6 +8341,7 @@
             this.button11.TabIndex = 35;
             this.button11.Text = "Add to Order";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
@@ -8274,6 +8352,7 @@
             this.button12.TabIndex = 34;
             this.button12.Text = "Add to Order";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // label17
             // 
@@ -8519,6 +8598,7 @@
             this.button49.TabIndex = 122;
             this.button49.Text = "Add to Order";
             this.button49.UseVisualStyleBackColor = true;
+            this.button49.Click += new System.EventHandler(this.button49_Click);
             // 
             // button50
             // 
@@ -8529,6 +8609,7 @@
             this.button50.TabIndex = 121;
             this.button50.Text = "Add to Order";
             this.button50.UseVisualStyleBackColor = true;
+            this.button50.Click += new System.EventHandler(this.button50_Click);
             // 
             // button51
             // 
@@ -8539,6 +8620,7 @@
             this.button51.TabIndex = 120;
             this.button51.Text = "Add to Order";
             this.button51.UseVisualStyleBackColor = true;
+            this.button51.Click += new System.EventHandler(this.button51_Click);
             // 
             // label95
             // 
@@ -8631,6 +8713,7 @@
             this.button34.TabIndex = 101;
             this.button34.Text = "Add to Order";
             this.button34.UseVisualStyleBackColor = true;
+            this.button34.Click += new System.EventHandler(this.button34_Click);
             // 
             // button35
             // 
@@ -8641,6 +8724,7 @@
             this.button35.TabIndex = 100;
             this.button35.Text = "Add to Order";
             this.button35.UseVisualStyleBackColor = true;
+            this.button35.Click += new System.EventHandler(this.button35_Click);
             // 
             // button36
             // 
@@ -8651,6 +8735,7 @@
             this.button36.TabIndex = 99;
             this.button36.Text = "Add to Order";
             this.button36.UseVisualStyleBackColor = true;
+            this.button36.Click += new System.EventHandler(this.button36_Click);
             // 
             // button37
             // 
@@ -8661,6 +8746,7 @@
             this.button37.TabIndex = 98;
             this.button37.Text = "Add to Order";
             this.button37.UseVisualStyleBackColor = true;
+            this.button37.Click += new System.EventHandler(this.button37_Click);
             // 
             // button38
             // 
@@ -8671,6 +8757,7 @@
             this.button38.TabIndex = 97;
             this.button38.Text = "Add to Order";
             this.button38.UseVisualStyleBackColor = true;
+            this.button38.Click += new System.EventHandler(this.button38_Click);
             // 
             // button39
             // 
@@ -8681,6 +8768,7 @@
             this.button39.TabIndex = 96;
             this.button39.Text = "Add to Order";
             this.button39.UseVisualStyleBackColor = true;
+            this.button39.Click += new System.EventHandler(this.button39_Click);
             // 
             // button40
             // 
@@ -8691,6 +8779,7 @@
             this.button40.TabIndex = 95;
             this.button40.Text = "Add to Order";
             this.button40.UseVisualStyleBackColor = true;
+            this.button40.Click += new System.EventHandler(this.button40_Click);
             // 
             // button41
             // 
@@ -8701,6 +8790,7 @@
             this.button41.TabIndex = 94;
             this.button41.Text = "Add to Order";
             this.button41.UseVisualStyleBackColor = true;
+            this.button41.Click += new System.EventHandler(this.button41_Click);
             // 
             // label69
             // 
@@ -8893,6 +8983,7 @@
             this.button24.TabIndex = 75;
             this.button24.Text = "Add to Order";
             this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
             // button25
             // 
@@ -8903,6 +8994,7 @@
             this.button25.TabIndex = 74;
             this.button25.Text = "Add to Order";
             this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.button25_Click);
             // 
             // button26
             // 
@@ -8913,6 +9005,7 @@
             this.button26.TabIndex = 73;
             this.button26.Text = "Add to Order";
             this.button26.UseVisualStyleBackColor = true;
+            this.button26.Click += new System.EventHandler(this.button26_Click);
             // 
             // button27
             // 
@@ -8923,6 +9016,7 @@
             this.button27.TabIndex = 72;
             this.button27.Text = "Add to Order";
             this.button27.UseVisualStyleBackColor = true;
+            this.button27.Click += new System.EventHandler(this.button27_Click);
             // 
             // button28
             // 
@@ -8933,6 +9027,7 @@
             this.button28.TabIndex = 71;
             this.button28.Text = "Add to Order";
             this.button28.UseVisualStyleBackColor = true;
+            this.button28.Click += new System.EventHandler(this.button28_Click);
             // 
             // button29
             // 
@@ -8943,6 +9038,7 @@
             this.button29.TabIndex = 70;
             this.button29.Text = "Add to Order";
             this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.button29_Click);
             // 
             // button30
             // 
@@ -8953,6 +9049,7 @@
             this.button30.TabIndex = 69;
             this.button30.Text = "Add to Order";
             this.button30.UseVisualStyleBackColor = true;
+            this.button30.Click += new System.EventHandler(this.button30_Click);
             // 
             // button31
             // 
@@ -8963,6 +9060,7 @@
             this.button31.TabIndex = 68;
             this.button31.Text = "Add to Order";
             this.button31.UseVisualStyleBackColor = true;
+            this.button31.Click += new System.EventHandler(this.button31_Click);
             // 
             // label53
             // 
@@ -9155,6 +9253,7 @@
             this.button53.TabIndex = 49;
             this.button53.Text = "Add to Order";
             this.button53.UseVisualStyleBackColor = true;
+            this.button53.Click += new System.EventHandler(this.button53_Click);
             // 
             // button13
             // 
@@ -9176,6 +9275,7 @@
             this.button52.TabIndex = 48;
             this.button52.Text = "Add to Order";
             this.button52.UseVisualStyleBackColor = true;
+            this.button52.Click += new System.EventHandler(this.button52_Click);
             // 
             // button14
             // 
@@ -9196,6 +9296,7 @@
             this.button48.TabIndex = 47;
             this.button48.Text = "Add to Order";
             this.button48.UseVisualStyleBackColor = true;
+            this.button48.Click += new System.EventHandler(this.button48_Click);
             // 
             // button15
             // 
@@ -9216,6 +9317,7 @@
             this.button47.TabIndex = 46;
             this.button47.Text = "Add to Order";
             this.button47.UseVisualStyleBackColor = true;
+            this.button47.Click += new System.EventHandler(this.button47_Click);
             // 
             // button16
             // 
@@ -9236,6 +9338,7 @@
             this.button46.TabIndex = 45;
             this.button46.Text = "Add to Order";
             this.button46.UseVisualStyleBackColor = true;
+            this.button46.Click += new System.EventHandler(this.button46_Click);
             // 
             // button17
             // 
@@ -9256,6 +9359,7 @@
             this.button45.TabIndex = 44;
             this.button45.Text = "Add to Order";
             this.button45.UseVisualStyleBackColor = true;
+            this.button45.Click += new System.EventHandler(this.button45_Click);
             // 
             // button18
             // 
@@ -9276,6 +9380,7 @@
             this.button44.TabIndex = 43;
             this.button44.Text = "Add to Order";
             this.button44.UseVisualStyleBackColor = true;
+            this.button44.Click += new System.EventHandler(this.button44_Click);
             // 
             // button19
             // 
@@ -9296,6 +9401,7 @@
             this.button43.TabIndex = 42;
             this.button43.Text = "Add to Order";
             this.button43.UseVisualStyleBackColor = true;
+            this.button43.Click += new System.EventHandler(this.button43_Click);
             // 
             // button20
             // 
@@ -9666,12 +9772,12 @@
             this.mealDealPanel.Controls.Add(this.label3);
             this.mealDealPanel.Controls.Add(this.label2);
             this.mealDealPanel.Controls.Add(this.pastaDealLbl);
-            this.mealDealPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mealDealPanel.Location = new System.Drawing.Point(0, 0);
+            this.mealDealPanel.Location = new System.Drawing.Point(10, 9);
             this.mealDealPanel.Name = "mealDealPanel";
-            this.mealDealPanel.Size = new System.Drawing.Size(510, 527);
+            this.mealDealPanel.Size = new System.Drawing.Size(411, 433);
             this.mealDealPanel.TabIndex = 18;
             this.mealDealPanel.Visible = false;
+            this.mealDealPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.mealDealPanel_Paint);
             // 
             // mealDealPanel2
             // 
@@ -9731,6 +9837,7 @@
             this.button5.TabIndex = 47;
             this.button5.Text = "Add to Order";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -9741,6 +9848,7 @@
             this.button6.TabIndex = 46;
             this.button6.Text = "Add to Order";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -9751,6 +9859,7 @@
             this.button7.TabIndex = 45;
             this.button7.Text = "Add to Order";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -9761,6 +9870,7 @@
             this.button8.TabIndex = 44;
             this.button8.Text = "Add to Order";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -9771,6 +9881,7 @@
             this.button9.TabIndex = 43;
             this.button9.Text = "Add to Order";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -9781,6 +9892,7 @@
             this.button10.TabIndex = 42;
             this.button10.Text = "Add to Order";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // label20
             // 
@@ -9933,6 +10045,7 @@
             this.deal6Btn.TabIndex = 23;
             this.deal6Btn.Text = "Add to Order";
             this.deal6Btn.UseVisualStyleBackColor = true;
+            this.deal6Btn.Click += new System.EventHandler(this.deal6Btn_Click);
             // 
             // deal5Btn
             // 
@@ -9943,6 +10056,7 @@
             this.deal5Btn.TabIndex = 22;
             this.deal5Btn.Text = "Add to Order";
             this.deal5Btn.UseVisualStyleBackColor = true;
+            this.deal5Btn.Click += new System.EventHandler(this.deal5Btn_Click);
             // 
             // deal4Btn
             // 
@@ -9953,6 +10067,7 @@
             this.deal4Btn.TabIndex = 21;
             this.deal4Btn.Text = "Add to Order";
             this.deal4Btn.UseVisualStyleBackColor = true;
+            this.deal4Btn.Click += new System.EventHandler(this.deal4Btn_Click);
             // 
             // deal3Btn
             // 
@@ -9963,6 +10078,7 @@
             this.deal3Btn.TabIndex = 20;
             this.deal3Btn.Text = "Add to Order";
             this.deal3Btn.UseVisualStyleBackColor = true;
+            this.deal3Btn.Click += new System.EventHandler(this.deal3Btn_Click);
             // 
             // deal2Btn
             // 
@@ -9973,6 +10089,7 @@
             this.deal2Btn.TabIndex = 19;
             this.deal2Btn.Text = "Add to Order";
             this.deal2Btn.UseVisualStyleBackColor = true;
+            this.deal2Btn.Click += new System.EventHandler(this.deal2Btn_Click);
             // 
             // deal1Btn
             // 
@@ -9983,6 +10100,7 @@
             this.deal1Btn.TabIndex = 18;
             this.deal1Btn.Text = "Add to Order";
             this.deal1Btn.UseVisualStyleBackColor = true;
+            this.deal1Btn.Click += new System.EventHandler(this.deal1Btn_Click);
             // 
             // footyDealBtn
             // 
@@ -9993,6 +10111,7 @@
             this.footyDealBtn.TabIndex = 17;
             this.footyDealBtn.Text = "Add to Order";
             this.footyDealBtn.UseVisualStyleBackColor = true;
+            this.footyDealBtn.Click += new System.EventHandler(this.footyDealBtn_Click);
             // 
             // pastaDealBtn
             // 
@@ -10350,6 +10469,7 @@
             this.pnl2NextBtn.TabIndex = 1;
             this.pnl2NextBtn.Text = "Finish";
             this.pnl2NextBtn.UseVisualStyleBackColor = true;
+            this.pnl2NextBtn.Click += new System.EventHandler(this.pnl2NextBtn_Click);
             // 
             // pnl2BackBtn
             // 
@@ -10361,6 +10481,48 @@
             this.pnl2BackBtn.Text = "Back";
             this.pnl2BackBtn.UseVisualStyleBackColor = true;
             this.pnl2BackBtn.Click += new System.EventHandler(this.pnl2BackBtn_Click);
+            // 
+            // summaryPanel
+            // 
+            this.summaryPanel.Controls.Add(this.button372);
+            this.summaryPanel.Controls.Add(this.button371);
+            this.summaryPanel.Controls.Add(this.orderSummary);
+            this.summaryPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.summaryPanel.Location = new System.Drawing.Point(0, 0);
+            this.summaryPanel.Name = "summaryPanel";
+            this.summaryPanel.Size = new System.Drawing.Size(510, 527);
+            this.summaryPanel.TabIndex = 37;
+            // 
+            // orderSummary
+            // 
+            this.orderSummary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.orderSummary.Location = new System.Drawing.Point(22, 17);
+            this.orderSummary.Name = "orderSummary";
+            this.orderSummary.ReadOnly = true;
+            this.orderSummary.Size = new System.Drawing.Size(471, 389);
+            this.orderSummary.TabIndex = 0;
+            this.orderSummary.Text = "";
+            // 
+            // button371
+            // 
+            this.button371.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button371.Location = new System.Drawing.Point(3, 479);
+            this.button371.Name = "button371";
+            this.button371.Size = new System.Drawing.Size(90, 44);
+            this.button371.TabIndex = 1;
+            this.button371.Text = "Back";
+            this.button371.UseVisualStyleBackColor = true;
+            this.button371.Click += new System.EventHandler(this.button371_Click);
+            // 
+            // button372
+            // 
+            this.button372.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button372.Location = new System.Drawing.Point(414, 476);
+            this.button372.Name = "button372";
+            this.button372.Size = new System.Drawing.Size(90, 44);
+            this.button372.TabIndex = 2;
+            this.button372.Text = "Print";
+            this.button372.UseVisualStyleBackColor = true;
             // 
             // mainForm
             // 
@@ -10444,6 +10606,7 @@
             this.mealDealPanel.PerformLayout();
             this.mealDealPanel2.ResumeLayout(false);
             this.mealDealPanel2.PerformLayout();
+            this.summaryPanel.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -11312,6 +11475,10 @@
         private System.Windows.Forms.Label label184;
         private System.Windows.Forms.Label label192;
         private System.Windows.Forms.Label label196;
+        private System.Windows.Forms.Panel summaryPanel;
+        private System.Windows.Forms.RichTextBox orderSummary;
+        private System.Windows.Forms.Button button372;
+        private System.Windows.Forms.Button button371;
     }
 }
 

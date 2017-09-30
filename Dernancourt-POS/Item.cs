@@ -16,7 +16,7 @@ namespace Dernancourt_POS
 
         public override string ToString()
         {
-            return "ID: " + ItemID + " Item Name: " + ItemName +  " Item Price: " + ItemPrice;
+            return "x1 " + ItemName +  " - $" + ItemPrice;
         }
         public override bool Equals(object obj)
         {

@@ -10,7 +10,7 @@ namespace Dernancourt_POS
     public class Order
     {
         private float Price; // total price of order
-        private List<Item> Items; // items of the order
+        public List<Item> Items; // items of the order
         private string Name;
         private string PhoneNumber;
         private string Address;
@@ -37,16 +37,26 @@ namespace Dernancourt_POS
             Items = new List<Item>();
             this.Name = Name;
             this.PhoneNumber = PhoneNumber;
-            this.Address = Address; 
+            this.Address = Address;
             this.Suburb = Suburb;
             this.Delivery = true;
+        }
+
+        public bool isDelivery()
+        {
+            return Delivery;
+        }
+
+        public float getPrice()
+        {
+            return this.Price;
         }
 
         public void AddItem(Item item)
         {
             Items.Add(item);
             Console.WriteLine("SUCCESSFULLY ADDED: " + item.ItemName);
-            CalculatePrice();
+            this.Price += item.ItemPrice;
             Console.WriteLine("CURRENT PRICE OF ORDER: $" + this.Price);
         }
 
@@ -54,7 +64,7 @@ namespace Dernancourt_POS
         {
             Items.Remove(item);
             Console.WriteLine("SUCCESSFULLY REMOVED: " + item.ItemName);
-            CalculatePrice();
+            this.Price -= item.ItemPrice;
             Console.WriteLine("CURRENT PRICE OF ORDER: $" + this.Price);
         }
 
@@ -62,7 +72,6 @@ namespace Dernancourt_POS
         {
             Items.RemoveAt(index);
             Console.WriteLine("SUCCESSFULLY REMOVED ITEM AT INDEX: " + index);
-            CalculatePrice();
             Console.WriteLine("CURRENT PRICE OF ORDER: $" + this.Price);
         }
 
@@ -79,10 +88,18 @@ namespace Dernancourt_POS
             }
         }
 
+        public string getTotalPrice()
+        {
+            return this.Price.ToString();
+        }
+
         public override string ToString()
         {
-            return "Name: " + this.Name + " Phone Number: " + this.PhoneNumber + " Delivery?: " + this.Delivery
-                 + " Address: " + this.Address + " Suburb: " + this.Suburb + "Total Price: $" + this.Price;
+            if (this.isDelivery())
+            {
+                return "Name: " + this.Name + Environment.NewLine + "Phone Number: " + this.PhoneNumber + Environment.NewLine + "Address: " + this.Address + Environment.NewLine + "Suburb: " + this.Suburb + Environment.NewLine + Environment.NewLine;
+            }
+            return "Name: " + this.Name + Environment.NewLine + "Phone Number: " + this.PhoneNumber + Environment.NewLine + Environment.NewLine;
         }
 
     }
