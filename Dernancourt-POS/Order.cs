@@ -40,6 +40,8 @@ namespace Dernancourt_POS
             this.Address = Address;
             this.Suburb = Suburb;
             this.Delivery = true;
+            // add $5 to delivery
+            this.Price += 5;
         }
 
         public bool isDelivery()
@@ -70,8 +72,10 @@ namespace Dernancourt_POS
 
         public void RemoveItemAtIndex(int index)
         {
+            Item temp = Items[index];
             Items.RemoveAt(index);
             Console.WriteLine("SUCCESSFULLY REMOVED ITEM AT INDEX: " + index);
+            this.Price -= temp.ItemPrice;
             Console.WriteLine("CURRENT PRICE OF ORDER: $" + this.Price);
         }
 
