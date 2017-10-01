@@ -51,6 +51,13 @@ namespace Dernancourt_POS
         List<string> gVegetarian = new List<string>();
         List<string> gMediterranean = new List<string>();
         List<string> gLamb = new List<string>();
+        List<string> gChicken = new List<string>();
+        List<string> gThaiChicken = new List<string>();
+        List<string> gSpecial = new List<string>();
+        List<string> gMexicana = new List<string>();
+        List<string> gGarlicPrawn = new List<string>();
+        List<string> satayChicken = new List<string>();
+        List<string> elPaso = new List<string>();
 
         public mainForm()
         {
@@ -277,6 +284,50 @@ namespace Dernancourt_POS
             gLamb.Add("Diced Tomato");
             gLamb.Add("Basil");
             gLamb.Add("Garlic sauce");
+            gChicken.Add("Tomato");
+            gChicken.Add("Cheese");
+            gChicken.Add("Chicken");
+            gChicken.Add("Mushrooms");
+            gChicken.Add("Sundried Tomato");
+            gChicken.Add("Roasted Capsicum");
+            gChicken.Add("Spanish Onion");
+            gChicken.Add("Oregano");
+            gThaiChicken.Add("Sweet Chilli Sauce");
+            gThaiChicken.Add("Cheese");
+            gThaiChicken.Add("Chicken");
+            gThaiChicken.Add("Capsicum");
+            gThaiChicken.Add("Garlic");
+            gSpecial.Add("Tomato");
+            gSpecial.Add("Cheese");
+            gSpecial.Add("Leg Ham");
+            gSpecial.Add("Salami");
+            gSpecial.Add("Mushrooms");
+            gSpecial.Add("Roasted Capsicum");
+            gSpecial.Add("Olives");
+            gMexicana.Add("Tomato");
+            gMexicana.Add("Mozzarella");
+            gMexicana.Add("Spicy Italian Salami");
+            gMexicana.Add("Spanish Onion");
+            gMexicana.Add("Roasted Capsicum");
+            gMexicana.Add("Olives");
+            gGarlicPrawn.Add("Tomato");
+            gGarlicPrawn.Add("Cheese");
+            gGarlicPrawn.Add("Prawn");
+            gGarlicPrawn.Add("Garlic");
+            satayChicken.Add("Satay Sauce");
+            satayChicken.Add("Cheese");
+            satayChicken.Add("Mushrooms");
+            satayChicken.Add("Roasted Capsicum");
+            satayChicken.Add("Roasted onion");
+            satayChicken.Add("Chicken");
+            elPaso.Add("Tomato");
+            elPaso.Add("Cheese");
+            elPaso.Add("Chicken");
+            elPaso.Add("Roasted capsicum");
+            elPaso.Add("Jalapenos");
+            elPaso.Add("Beef");
+            elPaso.Add("Chilli Flakes");
+            elPaso.Add("Garlic Sauce");
 
         }
 
@@ -2845,6 +2896,251 @@ namespace Dernancourt_POS
         private void button332_Click(object sender, EventArgs e)
         {
             myOrder.AddItem(new Pizza("(Large G Free) Gourmet Lamb", 18f, gLamb));
+        }
+
+        private void button331_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Small) Gourmet Chicken", 13f, gChicken));
+        }
+
+        private void button330_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Large) Gourmet Chicken", 17f, gChicken));
+        }
+
+        private void button329_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Family) Gourmet Chicken", 23f, gChicken));
+        }
+
+        private void button328_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Party) Gourmet Chicken", 27f, gChicken));
+        }
+
+        private void button327_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Chicken", 52f, gChicken));
+        }
+
+        private void button326_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Calzone) Gourmet Chicken", 18f, gChicken));
+        }
+
+        private void button325_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Chicken", 18f, gChicken));
+        }
+
+        private void button324_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Small) Gourmet Thai Chicken", 13f, gThaiChicken));
+        }
+
+        private void button323_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Large) Gourmet Thai Chicken", 17f, gThaiChicken));
+        }
+
+        private void button322_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Family) Gourmet Thai Chicken", 23f, gThaiChicken));
+        }
+
+        private void button321_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Party) Gourmet Thai Chicken", 27f, gThaiChicken));
+        }
+
+        private void button320_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Thai Chicken", 52f, gThaiChicken));
+        }
+
+        private void button319_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Calzone) Gourmet Thai Chicken", 18f, gThaiChicken));
+        }
+
+        private void button318_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Thai Chicken", 18f, gThaiChicken));
+        }
+
+        private void button317_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Small) Gourmet Special", 13f, gSpecial));
+        }
+
+        private void button316_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Large) Gourmet Special", 17f, gSpecial));
+        }
+
+        private void button315_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Family) Gourmet Special", 23f, gSpecial));
+        }
+
+        private void button314_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Party) Gourmet Special", 27f, gSpecial));
+        }
+
+        private void button313_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Special", 52f, gSpecial));
+        }
+
+        private void button312_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Calzone) Gourmet Special", 18f, gSpecial));
+        }
+
+        private void button311_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Special", 18f, gSpecial));
+        }
+
+        private void button310_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Small) Gourmet Mexicana", 13f, gMexicana));
+        }
+
+        private void button309_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Large) Gourmet Mexicana", 17f, gMexicana));
+        }
+
+        private void button308_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Family) Gourmet Mexicana", 23f, gMexicana));
+        }
+
+        private void button307_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Party) Gourmet Mexicana", 27f, gMexicana));
+        }
+
+        private void button306_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Mexicana", 52f, gMexicana));
+        }
+
+        private void button305_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Calzone) Gourmet Mexicana", 18f, gMexicana));
+        }
+
+        private void button304_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Mexicana", 18f, gMexicana));
+        }
+
+        private void button303_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Small) Gourmet Garlic Prawn", 13f, gGarlicPrawn));
+        }
+
+        private void button302_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Large) Gourmet Garlic Prawn", 17f, gGarlicPrawn));
+        }
+
+        private void button301_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Family) Gourmet Garlic Prawn", 23f, gGarlicPrawn));
+        }
+
+        private void button300_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Party) Gourmet Garlic Prawn", 27f, gGarlicPrawn));
+        }
+
+        private void button299_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Garlic Prawn", 52f, gGarlicPrawn));
+        }
+
+        private void button298_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Calzone) Gourmet Garlic Prawn", 18f, gGarlicPrawn));
+        }
+
+        private void button297_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Garlic Prawn", 18f, gGarlicPrawn));
+        }
+
+        private void button296_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Small) Satay Chicken", 13f, satayChicken));
+        }
+
+        private void button295_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Large) Satay Chicken", 17f, satayChicken));
+        }
+
+        private void button294_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Family) Satay Chicken", 23f, satayChicken));
+        }
+
+        private void button293_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Party) Satay Chicken", 27f, satayChicken));
+        }
+
+        private void button292_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Jumbo) Satay Chicken", 52f, satayChicken));
+        }
+
+        private void button291_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Calzone) Satay Chicken", 18f, satayChicken));
+        }
+
+        private void button290_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Large G Free) Satay Chicken", 18f, satayChicken));
+        }
+
+        private void button289_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Small) El Paso", 13f, elPaso));
+        }
+
+        private void button288_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Large) El Paso", 17f, elPaso));
+        }
+
+        private void button287_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Family) El Paso", 23f, elPaso));
+        }
+
+        private void button286_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Party) El Paso", 27f, elPaso));
+        }
+
+        private void button285_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Jumbo) El Paso", 52f, elPaso));
+        }
+
+        private void button284_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Calzone) El Paso", 18f, elPaso));
+        }
+
+        private void button283_Click(object sender, EventArgs e)
+        {
+            myOrder.AddItem(new Pizza("(Large G Free) El Paso", 18f, elPaso));
         }
     }
 }
