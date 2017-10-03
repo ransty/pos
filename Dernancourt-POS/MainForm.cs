@@ -14,7 +14,7 @@ namespace Dernancourt_POS
 {
     public partial class mainForm : Form
     {
-        Order myOrder;
+        public Order myOrder;
 
         List<string> simplyCheese = new List<string>();
         List<string> hamCheese = new List<string>();
@@ -331,6 +331,11 @@ namespace Dernancourt_POS
 
         }
 
+        public void displayMessage(string Message)
+        {
+            MessageBox.Show(Message);
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             halfhalfPanel.Visible = false;
@@ -362,6 +367,7 @@ namespace Dernancourt_POS
             beveragesPanel.Visible = false;
             summaryPanel.Visible = false;
             editItemsPanel.Visible = false;
+            commentPanel.Visible = false;
             // on load make all panels fill
             orderPanel.Dock = DockStyle.Fill;
             mealDealPanel.Dock = DockStyle.Fill;
@@ -393,6 +399,7 @@ namespace Dernancourt_POS
             beveragesPanel.Dock = DockStyle.Fill;
             summaryPanel.Dock = DockStyle.Fill;
             editItemsPanel.Dock = DockStyle.Fill;
+            commentPanel.Dock = DockStyle.Fill;
 
         }
 
@@ -864,34 +871,7 @@ namespace Dernancourt_POS
 
         private void pnl2NextBtn_Click(object sender, EventArgs e)
         {
-            orderSummary.Text = "";
-            summaryPanel.Visible = true;
-            // add order deets
-            orderSummary.Text += myOrder.ToString();
-            // add all the items from myOrder to the orderSummary
-            foreach (Item item in myOrder.Items)
-            {
-                orderSummary.Text += item.ToString() + Environment.NewLine;
-            }
-            // add a space before total price
-            orderSummary.Text += Environment.NewLine;
-            if (myOrder.getPrice() % 1 != 0)
-            {
-                if (myOrder.isDelivery())
-                {
-                    orderSummary.Text += "Delivery Charge: $5" + Environment.NewLine;
-                }
-                orderSummary.Text += "Total price: $" + myOrder.getTotalPrice() + "0";
-            }
-            else
-            {
-                if (myOrder.isDelivery())
-                {
-                    orderSummary.Text += "Delivery Charge: $5" + Environment.NewLine;
-                }
-                orderSummary.Text += "Total price: $" + myOrder.getTotalPrice();
-            }
-
+            commentPanel.Visible = true;
         }
 
         private void footyDealBtn_Click(object sender, EventArgs e)
@@ -1611,1125 +1591,1125 @@ namespace Dernancourt_POS
 
         private void button64_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Simply Cheese", 10f, simplyCheese));
+            myOrder.AddItem(new Pizza("(Small) Simply Cheese", 10f, simplyCheese, this));
         }
 
         private void button65_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Simply Cheese", 14f, simplyCheese));
+            myOrder.AddItem(new Pizza("(Large) Simply Cheese", 14f, simplyCheese, this));
         }
 
         private void button66_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Simply Cheese", 20f, simplyCheese));
+            myOrder.AddItem(new Pizza("(Family) Simply Cheese", 20f, simplyCheese, this));
         }
 
         private void button67_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Simply Cheese", 25f, simplyCheese));
+            myOrder.AddItem(new Pizza("(Party) Simply Cheese", 25f, simplyCheese, this));
         }
 
         private void button68_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Simply Cheese", 44f, simplyCheese));
+            myOrder.AddItem(new Pizza("(Jumbo) Simply Cheese", 44f, simplyCheese, this));
         }
 
         private void button69_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Simply Cheese", 16f, simplyCheese));
+            myOrder.AddItem(new Pizza("(Calzone) Simply Cheese", 16f, simplyCheese, this));
         }
 
         private void button70_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Simply Cheese", 16f, simplyCheese));
+            myOrder.AddItem(new Pizza("(Large G Free) Simply Cheese", 16f, simplyCheese, this));
         }
 
         private void button63_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Ham and Cheese", 10f, hamCheese));
+            myOrder.AddItem(new Pizza("(Small) Ham and Cheese", 10f, hamCheese, this));
         }
 
         private void button62_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Ham and Cheese", 14f, simplyCheese));
+            myOrder.AddItem(new Pizza("(Large) Ham and Cheese", 14f, simplyCheese, this));
         }
 
         private void button61_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Ham and Cheese", 20f, simplyCheese));
+            myOrder.AddItem(new Pizza("(Family) Ham and Cheese", 20f, simplyCheese, this));
         }
 
         private void button60_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Ham and Cheese", 25f, simplyCheese));
+            myOrder.AddItem(new Pizza("(Party) Ham and Cheese", 25f, simplyCheese, this));
         }
 
         private void button59_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Ham and Cheese", 44f, simplyCheese));
+            myOrder.AddItem(new Pizza("(Jumbo) Ham and Cheese", 44f, simplyCheese, this));
         }
 
         private void button58_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Ham and Cheese", 16f, simplyCheese));
+            myOrder.AddItem(new Pizza("(Calzone) Ham and Cheese", 16f, simplyCheese, this));
         }
 
         private void button57_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Ham and Cheese", 16f, simplyCheese));
+            myOrder.AddItem(new Pizza("(Large G Free) Ham and Cheese", 16f, simplyCheese, this));
         }
 
         private void button77_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Aussie", 10f, aussie));
+            myOrder.AddItem(new Pizza("(Small) Aussie", 10f, aussie, this));
         }
 
         private void button76_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Aussie", 14f, aussie));
+            myOrder.AddItem(new Pizza("(Large) Aussie", 14f, aussie, this));
         }
 
         private void button75_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Aussie", 20f, aussie));
+            myOrder.AddItem(new Pizza("(Family) Aussie", 20f, aussie, this));
         }
 
         private void button74_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Aussie", 25f, aussie));
+            myOrder.AddItem(new Pizza("(Party) Aussie", 25f, aussie, this));
         }
 
         private void button73_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Aussie", 44f, aussie));
+            myOrder.AddItem(new Pizza("(Jumbo) Aussie", 44f, aussie, this));
         }
 
         private void button72_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Aussie", 16f, aussie));
+            myOrder.AddItem(new Pizza("(Calzone) Aussie", 16f, aussie, this));
         }
 
         private void button71_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Aussie", 16f, aussie));
+            myOrder.AddItem(new Pizza("(Large G Free) Aussie", 16f, aussie, this));
         }
 
         private void button85_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Ham and Pineapple", 10f, hamPineapple));
+            myOrder.AddItem(new Pizza("(Small) Ham and Pineapple", 10f, hamPineapple, this));
 
         }
 
         private void button84_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Ham and Pineapple", 14f, hamPineapple));
+            myOrder.AddItem(new Pizza("(Large) Ham and Pineapple", 14f, hamPineapple, this));
         }
 
         private void button83_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Ham and Pineapple", 20f, hamPineapple));
+            myOrder.AddItem(new Pizza("(Family) Ham and Pineapple", 20f, hamPineapple, this));
         }
 
         private void button82_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Ham and Pineapple", 25f, hamPineapple));
+            myOrder.AddItem(new Pizza("(Party) Ham and Pineapple", 25f, hamPineapple, this));
         }
 
         private void button81_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Ham and Pineapple", 44f, hamPineapple));
+            myOrder.AddItem(new Pizza("(Jumbo) Ham and Pineapple", 44f, hamPineapple, this));
         }
 
         private void button79_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Ham and Pineapple", 16f, hamPineapple));
+            myOrder.AddItem(new Pizza("(Calzone) Ham and Pineapple", 16f, hamPineapple, this));
         }
 
         private void button78_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Ham and Pineapple", 16f, hamPineapple));
+            myOrder.AddItem(new Pizza("(Large G Free) Ham and Pineapple", 16f, hamPineapple, this));
         }
 
         private void button93_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) American", 10f, american));
+            myOrder.AddItem(new Pizza("(Small) American", 10f, american, this));
         }
 
         private void button92_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) American", 14f, american));
+            myOrder.AddItem(new Pizza("(Large) American", 14f, american, this));
         }
 
         private void button91_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) American", 20f, american));
+            myOrder.AddItem(new Pizza("(Family) American", 20f, american, this));
         }
 
         private void button90_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) American", 25f, american));
+            myOrder.AddItem(new Pizza("(Party) American", 25f, american, this));
         }
 
         private void button88_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) American", 44f, american));
+            myOrder.AddItem(new Pizza("(Jumbo) American", 44f, american, this));
         }
 
         private void button87_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) American", 16f, american));
+            myOrder.AddItem(new Pizza("(Calzone) American", 16f, american, this));
         }
 
         private void button86_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) American", 16f, american));
+            myOrder.AddItem(new Pizza("(Large G Free) American", 16f, american, this));
         }
 
         private void button100_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Margherita", 10f, margherita));
+            myOrder.AddItem(new Pizza("(Small) Margherita", 10f, margherita, this));
         }
 
         private void button99_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Margherita", 14f, margherita));
+            myOrder.AddItem(new Pizza("(Large) Margherita", 14f, margherita, this));
         }
 
         private void button98_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Margherita", 20f, margherita));
+            myOrder.AddItem(new Pizza("(Family) Margherita", 20f, margherita, this));
         }
 
         private void button97_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Margherita", 25f, margherita));
+            myOrder.AddItem(new Pizza("(Party) Margherita", 25f, margherita, this));
         }
 
         private void button96_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Margherita", 44f, margherita));
+            myOrder.AddItem(new Pizza("(Jumbo) Margherita", 44f, margherita, this));
         }
 
         private void button95_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Margherita", 16f, margherita));
+            myOrder.AddItem(new Pizza("(Calzone) Margherita", 16f, margherita, this));
         }
 
         private void button94_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Margherita", 16f, margherita));
+            myOrder.AddItem(new Pizza("(Large G Free) Margherita", 16f, margherita, this));
         }
 
         private void button117_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Vegetarian", 10f, vegetarian));
+            myOrder.AddItem(new Pizza("(Small) Vegetarian", 10f, vegetarian, this));
         }
 
         private void button116_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Vegetarian", 14f, vegetarian));
+            myOrder.AddItem(new Pizza("(Large) Vegetarian", 14f, vegetarian, this));
         }
 
         private void button115_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Vegetarian", 20f, vegetarian));
+            myOrder.AddItem(new Pizza("(Family) Vegetarian", 20f, vegetarian, this));
         }
 
         private void button114_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Vegetarian", 25f, vegetarian));
+            myOrder.AddItem(new Pizza("(Party) Vegetarian", 25f, vegetarian, this));
         }
 
         private void button103_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Vegetarian", 44f, vegetarian));
+            myOrder.AddItem(new Pizza("(Jumbo) Vegetarian", 44f, vegetarian, this));
         }
 
         private void button102_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Vegetarian", 16f, vegetarian));
+            myOrder.AddItem(new Pizza("(Calzone) Vegetarian", 16f, vegetarian, this));
         }
 
         private void button101_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Vegetarian", 16f, vegetarian));
+            myOrder.AddItem(new Pizza("(Large G Free) Vegetarian", 16f, vegetarian, this));
         }
 
         private void button124_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Seafood", 10f, seafood));
+            myOrder.AddItem(new Pizza("(Small) Seafood", 10f, seafood, this));
         }
 
         private void button123_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Seafood", 14f, seafood));
+            myOrder.AddItem(new Pizza("(Large) Seafood", 14f, seafood, this));
         }
 
         private void button122_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Seafood", 20f, seafood));
+            myOrder.AddItem(new Pizza("(Family) Seafood", 20f, seafood, this));
         }
 
         private void button121_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Seafood", 25f, seafood));
+            myOrder.AddItem(new Pizza("(Party) Seafood", 25f, seafood, this));
         }
 
         private void button120_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Seafood", 44f, seafood));
+            myOrder.AddItem(new Pizza("(Jumbo) Seafood", 44f, seafood, this));
         }
 
         private void button119_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Seafood", 16f, seafood));
+            myOrder.AddItem(new Pizza("(Calzone) Seafood", 16f, seafood, this));
         }
 
         private void button118_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Seafood", 16f, seafood));
+            myOrder.AddItem(new Pizza("(Large G Free) Seafood", 16f, seafood, this));
         }
 
         private void button131_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Dernancourt", 10f, dernancourt));
+            myOrder.AddItem(new Pizza("(Small) Dernancourt", 10f, dernancourt, this));
         }
 
         private void button130_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Dernancourt", 14f, dernancourt));
+            myOrder.AddItem(new Pizza("(Large) Dernancourt", 14f, dernancourt, this));
         }
 
         private void button129_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Dernancourt", 20f, dernancourt));
+            myOrder.AddItem(new Pizza("(Family) Dernancourt", 20f, dernancourt, this));
         }
 
         private void button128_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Dernancourt", 25f, dernancourt));
+            myOrder.AddItem(new Pizza("(Party) Dernancourt", 25f, dernancourt, this));
         }
 
         private void button127_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Dernancourt", 44f, dernancourt));
+            myOrder.AddItem(new Pizza("(Jumbo) Dernancourt", 44f, dernancourt, this));
         }
 
         private void button126_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Dernancourt", 16f, dernancourt));
+            myOrder.AddItem(new Pizza("(Calzone) Dernancourt", 16f, dernancourt, this));
         }
 
         private void button125_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Dernancourt", 16f, dernancourt));
+            myOrder.AddItem(new Pizza("(Large G Free) Dernancourt", 16f, dernancourt, this));
         }
 
         private void button138_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Special", 10f, special));
+            myOrder.AddItem(new Pizza("(Small) Special", 10f, special, this));
         }
 
         private void button137_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Special", 14f, special));
+            myOrder.AddItem(new Pizza("(Large) Special", 14f, special, this));
         }
 
         private void button136_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Special", 20f, special));
+            myOrder.AddItem(new Pizza("(Family) Special", 20f, special, this));
         }
 
         private void button135_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Special", 25f, special));
+            myOrder.AddItem(new Pizza("(Party) Special", 25f, special, this));
         }
 
         private void button134_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Special", 44f, special));
+            myOrder.AddItem(new Pizza("(Jumbo) Special", 44f, special, this));
         }
 
         private void button133_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Special", 16f, special));
+            myOrder.AddItem(new Pizza("(Calzone) Special", 16f, special, this));
         }
 
         private void button132_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Special", 16f, special));
+            myOrder.AddItem(new Pizza("(Large G Free) Special", 16f, special, this));
         }
 
         private void button208_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Mushroom", 10f, mushroom));
+            myOrder.AddItem(new Pizza("(Small) Mushroom", 10f, mushroom, this));
         }
 
         private void button207_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Mushroom", 14f, mushroom));
+            myOrder.AddItem(new Pizza("(Large) Mushroom", 14f, mushroom, this));
         }
 
         private void button206_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Mushroom", 20f, mushroom));
+            myOrder.AddItem(new Pizza("(Family) Mushroom", 20f, mushroom, this));
         }
 
         private void button205_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Mushroom", 25f, mushroom));
+            myOrder.AddItem(new Pizza("(Party) Mushroom", 25f, mushroom, this));
         }
 
         private void button204_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Mushroom", 44f, mushroom));
+            myOrder.AddItem(new Pizza("(Jumbo) Mushroom", 44f, mushroom, this));
         }
 
         private void button203_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Mushroom", 16f, mushroom));
+            myOrder.AddItem(new Pizza("(Calzone) Mushroom", 16f, mushroom, this));
         }
 
         private void button202_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Mushroom", 16f, mushroom));
+            myOrder.AddItem(new Pizza("(Large G Free) Mushroom", 16f, mushroom, this));
         }
 
         private void button201_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Capricciosa", 10f, capricciosa));
+            myOrder.AddItem(new Pizza("(Small) Capricciosa", 10f, capricciosa, this));
         }
 
         private void button200_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Capricciosa", 14f, capricciosa));
+            myOrder.AddItem(new Pizza("(Large) Capricciosa", 14f, capricciosa, this));
         }
 
         private void button199_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Capricciosa", 20f, capricciosa));
+            myOrder.AddItem(new Pizza("(Family) Capricciosa", 20f, capricciosa, this));
         }
 
         private void button198_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Capricciosa", 25f, capricciosa));
+            myOrder.AddItem(new Pizza("(Party) Capricciosa", 25f, capricciosa, this));
         }
 
         private void button197_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Capricciosa", 44f, capricciosa));
+            myOrder.AddItem(new Pizza("(Jumbo) Capricciosa", 44f, capricciosa, this));
         }
 
         private void button196_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Capricciosa", 16f, capricciosa));
+            myOrder.AddItem(new Pizza("(Calzone) Capricciosa", 16f, capricciosa, this));
         }
 
         private void button195_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Capricciosa", 16f, capricciosa));
+            myOrder.AddItem(new Pizza("(Large G Free) Capricciosa", 16f, capricciosa, this));
         }
 
         private void button194_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Chicken Deluxe", 10f, chickenDeluxe));
+            myOrder.AddItem(new Pizza("(Small) Chicken Deluxe", 10f, chickenDeluxe, this));
         }
 
         private void button193_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Chicken Deluxe", 14f, chickenDeluxe));
+            myOrder.AddItem(new Pizza("(Large) Chicken Deluxe", 14f, chickenDeluxe, this));
         }
 
         private void button192_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Chicken Deluxe", 20f, chickenDeluxe));
+            myOrder.AddItem(new Pizza("(Family) Chicken Deluxe", 20f, chickenDeluxe, this));
         }
 
         private void button191_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Chicken Deluxe", 25f, chickenDeluxe));
+            myOrder.AddItem(new Pizza("(Party) Chicken Deluxe", 25f, chickenDeluxe, this));
         }
 
         private void button190_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Chicken Deluxe", 44f, chickenDeluxe));
+            myOrder.AddItem(new Pizza("(Jumbo) Chicken Deluxe", 44f, chickenDeluxe, this));
         }
 
         private void button189_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Chicken Deluxe", 16f, chickenDeluxe));
+            myOrder.AddItem(new Pizza("(Calzone) Chicken Deluxe", 16f, chickenDeluxe, this));
         }
 
         private void button188_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Chicken Deluxe", 16f, chickenDeluxe));
+            myOrder.AddItem(new Pizza("(Large G Free) Chicken Deluxe", 16f, chickenDeluxe, this));
         }
 
         private void button187_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Pepperoni", 10f, pepperoni));
+            myOrder.AddItem(new Pizza("(Small) Pepperoni", 10f, pepperoni, this));
         }
 
         private void button186_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Pepperoni", 14f, pepperoni));
+            myOrder.AddItem(new Pizza("(Large) Pepperoni", 14f, pepperoni, this));
         }
 
         private void button185_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Pepperoni", 20f, pepperoni));
+            myOrder.AddItem(new Pizza("(Family) Pepperoni", 20f, pepperoni, this));
         }
 
         private void button184_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Pepperoni", 25f, pepperoni));
+            myOrder.AddItem(new Pizza("(Party) Pepperoni", 25f, pepperoni, this));
         }
 
         private void button183_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Pepperoni", 44f, pepperoni));
+            myOrder.AddItem(new Pizza("(Jumbo) Pepperoni", 44f, pepperoni, this));
         }
 
         private void button182_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Pepperoni", 16f, pepperoni));
+            myOrder.AddItem(new Pizza("(Calzone) Pepperoni", 16f, pepperoni, this));
         }
 
         private void button181_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Pepperoni", 16f, pepperoni));
+            myOrder.AddItem(new Pizza("(Large G Free) Pepperoni", 16f, pepperoni, this));
         }
 
         private void button180_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Calabrese", 10f, calabrese));
+            myOrder.AddItem(new Pizza("(Small) Calabrese", 10f, calabrese, this));
         }
 
         private void button179_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Calabrese", 14f, calabrese));
+            myOrder.AddItem(new Pizza("(Large) Calabrese", 14f, calabrese, this));
         }
 
         private void button178_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Calabrese", 20f, calabrese));
+            myOrder.AddItem(new Pizza("(Family) Calabrese", 20f, calabrese, this));
         }
 
         private void button177_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Calabrese", 25f, calabrese));
+            myOrder.AddItem(new Pizza("(Party) Calabrese", 25f, calabrese, this));
         }
 
         private void button176_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Calabrese", 44f, calabrese));
+            myOrder.AddItem(new Pizza("(Jumbo) Calabrese", 44f, calabrese, this));
         }
 
         private void button175_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Calabrese", 16f, calabrese));
+            myOrder.AddItem(new Pizza("(Calzone) Calabrese", 16f, calabrese, this));
         }
 
         private void button174_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Calabrese", 16f, calabrese));
+            myOrder.AddItem(new Pizza("(Large G Free) Calabrese", 16f, calabrese, this));
         }
 
         private void button173_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) BBQ Chicken", 10f, bbqChicken));
+            myOrder.AddItem(new Pizza("(Small) BBQ Chicken", 10f, bbqChicken, this));
         }
 
         private void button172_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) BBQ Chicken", 14f, bbqChicken));
+            myOrder.AddItem(new Pizza("(Large) BBQ Chicken", 14f, bbqChicken, this));
         }
 
         private void button171_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) BBQ Chicken", 20f, bbqChicken));
+            myOrder.AddItem(new Pizza("(Family) BBQ Chicken", 20f, bbqChicken, this));
         }
 
         private void button170_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) BBQ Chicken", 25f, bbqChicken));
+            myOrder.AddItem(new Pizza("(Party) BBQ Chicken", 25f, bbqChicken, this));
         }
 
         private void button169_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) BBQ Chicken", 44f, bbqChicken));
+            myOrder.AddItem(new Pizza("(Jumbo) BBQ Chicken", 44f, bbqChicken, this));
         }
 
         private void button168_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) BBQ Chicken", 16f, bbqChicken));
+            myOrder.AddItem(new Pizza("(Calzone) BBQ Chicken", 16f, bbqChicken, this));
         }
 
         private void button167_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) BBQ Chicken", 16f, bbqChicken));
+            myOrder.AddItem(new Pizza("(Large G Free) BBQ Chicken", 16f, bbqChicken, this));
         }
 
         private void button166_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Meatlovers", 10f, meatlovers));
+            myOrder.AddItem(new Pizza("(Small) Meatlovers", 10f, meatlovers, this));
         }
 
         private void button165_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Meatlovers", 14f, meatlovers));
+            myOrder.AddItem(new Pizza("(Large) Meatlovers", 14f, meatlovers, this));
         }
 
         private void button164_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Meatlovers", 20f, meatlovers));
+            myOrder.AddItem(new Pizza("(Family) Meatlovers", 20f, meatlovers, this));
         }
 
         private void button163_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Meatlovers", 25f, meatlovers));
+            myOrder.AddItem(new Pizza("(Party) Meatlovers", 25f, meatlovers, this));
         }
 
         private void button162_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Meatlovers", 44f, meatlovers));
+            myOrder.AddItem(new Pizza("(Jumbo) Meatlovers", 44f, meatlovers, this));
         }
 
         private void button161_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Meatlovers", 16f, meatlovers));
+            myOrder.AddItem(new Pizza("(Calzone) Meatlovers", 16f, meatlovers, this));
         }
 
         private void button160_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Meatlovers", 16f, meatlovers));
+            myOrder.AddItem(new Pizza("(Large G Free) Meatlovers", 16f, meatlovers, this));
         }
 
         private void button159_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) House Special", 10f, houseSpecial));
+            myOrder.AddItem(new Pizza("(Small) House Special", 10f, houseSpecial, this));
         }
 
         private void button158_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) House Special", 14f, houseSpecial));
+            myOrder.AddItem(new Pizza("(Large) House Special", 14f, houseSpecial, this));
         }
 
         private void button157_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) House Special", 20f, houseSpecial));
+            myOrder.AddItem(new Pizza("(Family) House Special", 20f, houseSpecial, this));
         }
 
         private void button156_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) House Special", 25f, houseSpecial));
+            myOrder.AddItem(new Pizza("(Party) House Special", 25f, houseSpecial, this));
         }
 
         private void button155_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) House Special", 44f, houseSpecial));
+            myOrder.AddItem(new Pizza("(Jumbo) House Special", 44f, houseSpecial, this));
         }
 
         private void button154_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) House Special", 16f, houseSpecial));
+            myOrder.AddItem(new Pizza("(Calzone) House Special", 16f, houseSpecial, this));
         }
 
         private void button153_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) House Special", 16f, houseSpecial));
+            myOrder.AddItem(new Pizza("(Large G Free) House Special", 16f, houseSpecial, this));
         }
 
         private void button152_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Mexican", 10f, mexican));
+            myOrder.AddItem(new Pizza("(Small) Mexican", 10f, mexican, this));
         }
 
         private void button151_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Mexican", 14f, mexican));
+            myOrder.AddItem(new Pizza("(Large) Mexican", 14f, mexican, this));
         }
 
         private void button150_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Mexican", 20f, mexican));
+            myOrder.AddItem(new Pizza("(Family) Mexican", 20f, mexican, this));
         }
 
         private void button149_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Mexican", 25f, mexican));
+            myOrder.AddItem(new Pizza("(Party) Mexican", 25f, mexican, this));
         }
 
         private void button148_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Mexican", 44f, mexican));
+            myOrder.AddItem(new Pizza("(Jumbo) Mexican", 44f, mexican, this));
         }
 
         private void button147_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Mexican", 16f, mexican));
+            myOrder.AddItem(new Pizza("(Calzone) Mexican", 16f, mexican, this));
         }
 
         private void button146_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Mexican", 16f, mexican));
+            myOrder.AddItem(new Pizza("(Large G Free) Mexican", 16f, mexican, this));
         }
 
         private void button145_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Yiros", 10f, yiros));
+            myOrder.AddItem(new Pizza("(Small) Yiros", 10f, yiros, this));
         }
 
         private void button144_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Yiros", 14f, yiros));
+            myOrder.AddItem(new Pizza("(Large) Yiros", 14f, yiros, this));
         }
 
         private void button143_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Yiros", 20f, yiros));
+            myOrder.AddItem(new Pizza("(Family) Yiros", 20f, yiros, this));
         }
 
         private void button142_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Yiros", 25f, yiros));
+            myOrder.AddItem(new Pizza("(Party) Yiros", 25f, yiros, this));
         }
 
         private void button141_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Yiros", 44f, yiros));
+            myOrder.AddItem(new Pizza("(Jumbo) Yiros", 44f, yiros, this));
         }
 
         private void button140_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Yiros", 16f, yiros));
+            myOrder.AddItem(new Pizza("(Calzone) Yiros", 16f, yiros, this));
         }
 
         private void button139_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Yiros", 16f, yiros));
+            myOrder.AddItem(new Pizza("(Large G Free) Yiros", 16f, yiros, this));
         }
 
         private void button280_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Chicken Hawaiian", 10f, chickenHawaiian));
+            myOrder.AddItem(new Pizza("(Small) Chicken Hawaiian", 10f, chickenHawaiian, this));
         }
 
         private void button279_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Chicken Hawaiian", 14f, chickenHawaiian));
+            myOrder.AddItem(new Pizza("(Large) Chicken Hawaiian", 14f, chickenHawaiian, this));
         }
 
         private void button278_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Chicken Hawaiian", 20f, chickenHawaiian));
+            myOrder.AddItem(new Pizza("(Family) Chicken Hawaiian", 20f, chickenHawaiian, this));
         }
 
         private void button277_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Chicken Hawaiian", 25f, chickenHawaiian));
+            myOrder.AddItem(new Pizza("(Party) Chicken Hawaiian", 25f, chickenHawaiian, this));
         }
 
         private void button276_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Chicken Hawaiian", 44f, chickenHawaiian));
+            myOrder.AddItem(new Pizza("(Jumbo) Chicken Hawaiian", 44f, chickenHawaiian, this));
         }
 
         private void button275_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Chicken Hawaiian", 16f, chickenHawaiian));
+            myOrder.AddItem(new Pizza("(Calzone) Chicken Hawaiian", 16f, chickenHawaiian, this));
         }
 
         private void button274_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Chicken Hawaiian", 16f, chickenHawaiian));
+            myOrder.AddItem(new Pizza("(Large G Free) Chicken Hawaiian", 16f, chickenHawaiian, this));
         }
 
         private void button273_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Bacon Deluxe", 10f, baconDeluxe));
+            myOrder.AddItem(new Pizza("(Small) Bacon Deluxe", 10f, baconDeluxe, this));
         }
 
         private void button272_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Bacon Deluxe", 14f, baconDeluxe));
+            myOrder.AddItem(new Pizza("(Large) Bacon Deluxe", 14f, baconDeluxe, this));
         }
 
         private void button271_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Bacon Deluxe", 20f, baconDeluxe));
+            myOrder.AddItem(new Pizza("(Family) Bacon Deluxe", 20f, baconDeluxe, this));
         }
 
         private void button270_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Bacon Deluxe", 25f, baconDeluxe));
+            myOrder.AddItem(new Pizza("(Party) Bacon Deluxe", 25f, baconDeluxe, this));
         }
 
         private void button269_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Bacon Deluxe", 44f, baconDeluxe));
+            myOrder.AddItem(new Pizza("(Jumbo) Bacon Deluxe", 44f, baconDeluxe, this));
         }
 
         private void button268_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Bacon Deluxe", 16f, baconDeluxe));
+            myOrder.AddItem(new Pizza("(Calzone) Bacon Deluxe", 16f, baconDeluxe, this));
         }
 
         private void button267_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Bacon Deluxe", 16f, baconDeluxe));
+            myOrder.AddItem(new Pizza("(Large G Free) Bacon Deluxe", 16f, baconDeluxe, this));
         }
 
         private void button266_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Outback", 10f, outback));
+            myOrder.AddItem(new Pizza("(Small) Outback", 10f, outback, this));
         }
 
         private void button265_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Outback", 14f, outback));
+            myOrder.AddItem(new Pizza("(Large) Outback", 14f, outback, this));
         }
 
         private void button264_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Outback", 20f, outback));
+            myOrder.AddItem(new Pizza("(Family) Outback", 20f, outback, this));
         }
 
         private void button263_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Outback", 25f, outback));
+            myOrder.AddItem(new Pizza("(Party) Outback", 25f, outback, this));
         }
 
         private void button262_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Outback", 44f, outback));
+            myOrder.AddItem(new Pizza("(Jumbo) Outback", 44f, outback, this));
         }
 
         private void button261_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Outback", 16f, outback));
+            myOrder.AddItem(new Pizza("(Calzone) Outback", 16f, outback, this));
         }
 
         private void button260_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Outback", 16f, outback));
+            myOrder.AddItem(new Pizza("(Large G Free) Outback", 16f, outback, this));
         }
 
         private void button259_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Supreme", 10f, supreme));
+            myOrder.AddItem(new Pizza("(Small) Supreme", 10f, supreme, this));
         }
 
         private void button258_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Supreme", 14f, supreme));
+            myOrder.AddItem(new Pizza("(Large) Supreme", 14f, supreme, this));
         }
 
         private void button257_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Supreme", 20f, supreme));
+            myOrder.AddItem(new Pizza("(Family) Supreme", 20f, supreme, this));
         }
 
         private void button256_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Supreme", 25f, supreme));
+            myOrder.AddItem(new Pizza("(Party) Supreme", 25f, supreme, this));
         }
 
         private void button255_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Supreme", 44f, supreme));
+            myOrder.AddItem(new Pizza("(Jumbo) Supreme", 44f, supreme, this));
         }
 
         private void button254_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Supreme", 16f, supreme));
+            myOrder.AddItem(new Pizza("(Calzone) Supreme", 16f, supreme, this));
         }
 
         private void button253_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Supreme", 16f, supreme));
+            myOrder.AddItem(new Pizza("(Large G Free) Supreme", 16f, supreme, this));
         }
 
         private void button252_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) The Lot", 10f, theLot));
+            myOrder.AddItem(new Pizza("(Small) The Lot", 10f, theLot, this));
         }
 
         private void button251_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) The Lot", 14f, theLot));
+            myOrder.AddItem(new Pizza("(Large) The Lot", 14f, theLot, this));
         }
 
         private void button250_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) The Lot", 20f, theLot));
+            myOrder.AddItem(new Pizza("(Family) The Lot", 20f, theLot, this));
         }
 
         private void button249_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) The Lot", 25f, theLot));
+            myOrder.AddItem(new Pizza("(Party) The Lot", 25f, theLot, this));
         }
 
         private void button248_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) The Lot", 44f, theLot));
+            myOrder.AddItem(new Pizza("(Jumbo) The Lot", 44f, theLot, this));
         }
 
         private void button247_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) The Lot", 16f, theLot));
+            myOrder.AddItem(new Pizza("(Calzone) The Lot", 16f, theLot, this));
         }
 
         private void button246_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) The Lot", 16f, theLot));
+            myOrder.AddItem(new Pizza("(Large G Free) The Lot", 16f, theLot, this));
         }
 
         private void button245_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Four Cheese", 10f, fourCheese));
+            myOrder.AddItem(new Pizza("(Small) Four Cheese", 10f, fourCheese, this));
         }
 
         private void button244_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Four Cheese", 14f, fourCheese));
+            myOrder.AddItem(new Pizza("(Large) Four Cheese", 14f, fourCheese, this));
         }
 
         private void button243_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Four Cheese", 20f, fourCheese));
+            myOrder.AddItem(new Pizza("(Family) Four Cheese", 20f, fourCheese, this));
         }
 
         private void button242_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Four Cheese", 25f, fourCheese));
+            myOrder.AddItem(new Pizza("(Party) Four Cheese", 25f, fourCheese, this));
         }
 
         private void button241_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Four Cheese", 44f, fourCheese));
+            myOrder.AddItem(new Pizza("(Jumbo) Four Cheese", 44f, fourCheese, this));
         }
 
         private void button240_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Four Cheese", 16f, fourCheese));
+            myOrder.AddItem(new Pizza("(Calzone) Four Cheese", 16f, fourCheese, this));
         }
 
         private void button239_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Four Cheese", 16f, fourCheese));
+            myOrder.AddItem(new Pizza("(Large G Free) Four Cheese", 16f, fourCheese, this));
         }
 
         private void button238_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Tandoori Chicken", 10f, tandooriChicken));
+            myOrder.AddItem(new Pizza("(Small) Tandoori Chicken", 10f, tandooriChicken, this));
         }
 
         private void button237_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Tandoori Chicken", 14f, tandooriChicken));
+            myOrder.AddItem(new Pizza("(Large) Tandoori Chicken", 14f, tandooriChicken, this));
         }
 
         private void button236_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Tandoori Chicken", 20f, tandooriChicken));
+            myOrder.AddItem(new Pizza("(Family) Tandoori Chicken", 20f, tandooriChicken, this));
         }
 
         private void button235_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Tandoori Chicken", 25f, tandooriChicken));
+            myOrder.AddItem(new Pizza("(Party) Tandoori Chicken", 25f, tandooriChicken, this));
         }
 
         private void button234_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Tandoori Chicken", 44f, tandooriChicken));
+            myOrder.AddItem(new Pizza("(Jumbo) Tandoori Chicken", 44f, tandooriChicken, this));
         }
 
         private void button233_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Tandoori Chicken", 16f, tandooriChicken));
+            myOrder.AddItem(new Pizza("(Calzone) Tandoori Chicken", 16f, tandooriChicken, this));
         }
 
         private void button232_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Tandoori Chicken", 16f, tandooriChicken));
+            myOrder.AddItem(new Pizza("(Large G Free) Tandoori Chicken", 16f, tandooriChicken, this));
         }
 
         private void button231_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Mango Chicken", 10f, mangoChicken));
+            myOrder.AddItem(new Pizza("(Small) Mango Chicken", 10f, mangoChicken, this));
         }
 
         private void button230_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Mango Chicken", 14f, mangoChicken));
+            myOrder.AddItem(new Pizza("(Large) Mango Chicken", 14f, mangoChicken, this));
         }
 
         private void button229_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Mango Chicken", 20f, mangoChicken));
+            myOrder.AddItem(new Pizza("(Family) Mango Chicken", 20f, mangoChicken, this));
         }
 
         private void button228_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Mango Chicken", 25f, mangoChicken));
+            myOrder.AddItem(new Pizza("(Party) Mango Chicken", 25f, mangoChicken, this));
         }
 
         private void button227_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Mango Chicken", 44f, mangoChicken));
+            myOrder.AddItem(new Pizza("(Jumbo) Mango Chicken", 44f, mangoChicken, this));
         }
 
         private void button226_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Mango Chicken", 16f, mangoChicken));
+            myOrder.AddItem(new Pizza("(Calzone) Mango Chicken", 16f, mangoChicken, this));
 
         }
 
         private void button225_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Mango Chicken", 16f, mangoChicken));
+            myOrder.AddItem(new Pizza("(Large G Free) Mango Chicken", 16f, mangoChicken, this));
 
         }
 
         private void button224_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Chicken Supreme", 10f, chickenSupreme));
+            myOrder.AddItem(new Pizza("(Small) Chicken Supreme", 10f, chickenSupreme, this));
         }
 
         private void button223_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Chicken Supreme", 14f, chickenSupreme));
+            myOrder.AddItem(new Pizza("(Large) Chicken Supreme", 14f, chickenSupreme, this));
         }
 
         private void button222_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Chicken Supreme", 20f, chickenSupreme));
+            myOrder.AddItem(new Pizza("(Family) Chicken Supreme", 20f, chickenSupreme, this));
         }
 
         private void button221_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Chicken Supreme", 25f, chickenSupreme));
+            myOrder.AddItem(new Pizza("(Party) Chicken Supreme", 25f, chickenSupreme, this));
         }
 
         private void button220_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Chicken Supreme", 44f, chickenSupreme));
+            myOrder.AddItem(new Pizza("(Jumbo) Chicken Supreme", 44f, chickenSupreme, this));
         }
 
         private void button219_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Chicken Supreme", 16f, chickenSupreme));
+            myOrder.AddItem(new Pizza("(Calzone) Chicken Supreme", 16f, chickenSupreme, this));
         }
 
         private void button218_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Chicken Supreme", 16f, chickenSupreme));
+            myOrder.AddItem(new Pizza("(Large G Free) Chicken Supreme", 16f, chickenSupreme, this));
         }
 
         private void button217_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Hot and Spicy", 10f, hotSpicy));
+            myOrder.AddItem(new Pizza("(Small) Hot and Spicy", 10f, hotSpicy, this));
         }
 
         private void button216_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Hot and Spicy", 14f, hotSpicy));
+            myOrder.AddItem(new Pizza("(Large) Hot and Spicy", 14f, hotSpicy, this));
         }
 
         private void button215_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Hot and Spicy", 20f, hotSpicy));
+            myOrder.AddItem(new Pizza("(Family) Hot and Spicy", 20f, hotSpicy, this));
         }
 
         private void button214_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Hot and Spicy", 25f, hotSpicy));
+            myOrder.AddItem(new Pizza("(Party) Hot and Spicy", 25f, hotSpicy, this));
         }
 
         private void button213_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Hot and Spicy", 44f, hotSpicy));
+            myOrder.AddItem(new Pizza("(Jumbo) Hot and Spicy", 44f, hotSpicy, this));
         }
 
         private void button212_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Hot and Spicy", 16f, hotSpicy));
+            myOrder.AddItem(new Pizza("(Calzone) Hot and Spicy", 16f, hotSpicy, this));
         }
 
         private void button211_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Hot and Spicy", 16f, hotSpicy));
+            myOrder.AddItem(new Pizza("(Large G Free) Hot and Spicy", 16f, hotSpicy, this));
         }
 
         private void button352_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Marinara", 10f, marinara));
+            myOrder.AddItem(new Pizza("(Small) Marinara", 10f, marinara, this));
         }
 
         private void button351_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Marinara", 14f, marinara));
+            myOrder.AddItem(new Pizza("(Large) Marinara", 14f, marinara, this));
         }
 
         private void button350_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Marinara", 20f, marinara));
+            myOrder.AddItem(new Pizza("(Family) Marinara", 20f, marinara, this));
         }
 
         private void button349_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Marinara", 25f, marinara));
+            myOrder.AddItem(new Pizza("(Party) Marinara", 25f, marinara, this));
         }
 
         private void button348_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Marinara", 44f, marinara));
+            myOrder.AddItem(new Pizza("(Jumbo) Marinara", 44f, marinara, this));
         }
 
         private void button347_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Marinara", 16f, marinara));
+            myOrder.AddItem(new Pizza("(Calzone) Marinara", 16f, marinara, this));
         }
 
         private void button346_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Marinara", 16f, marinara));
+            myOrder.AddItem(new Pizza("(Large G Free) Marinara", 16f, marinara, this));
         }
 
         private void button345_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Peri Peri Chicken", 10f, periChicken));
+            myOrder.AddItem(new Pizza("(Small) Peri Peri Chicken", 10f, periChicken, this));
         }
 
         private void button344_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Peri Peri Chicken", 14f, periChicken));
+            myOrder.AddItem(new Pizza("(Large) Peri Peri Chicken", 14f, periChicken, this));
         }
 
         private void button343_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Peri Peri Chicken", 20f, periChicken));
+            myOrder.AddItem(new Pizza("(Family) Peri Peri Chicken", 20f, periChicken, this));
         }
 
         private void button342_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Peri Peri Chicken", 25f, periChicken));
+            myOrder.AddItem(new Pizza("(Party) Peri Peri Chicken", 25f, periChicken, this));
         }
 
         private void button341_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Peri Peri Chicken", 44f, periChicken));
+            myOrder.AddItem(new Pizza("(Jumbo) Peri Peri Chicken", 44f, periChicken, this));
         }
 
         private void button340_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Peri Peri Chicken", 16f, periChicken));
+            myOrder.AddItem(new Pizza("(Calzone) Peri Peri Chicken", 16f, periChicken, this));
         }
 
         private void button339_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Peri Peri Chicken", 16f, periChicken));
+            myOrder.AddItem(new Pizza("(Large G Free) Peri Peri Chicken", 16f, periChicken, this));
         }
 
         private void pastaDealLbl_Click(object sender, EventArgs e)
@@ -2795,352 +2775,434 @@ namespace Dernancourt_POS
 
         private void button367_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Gourmet Vegetarian", 13f, gVegetarian));
+            myOrder.AddItem(new Pizza("(Small) Gourmet Vegetarian", 13f, gVegetarian, this));
         }
 
         private void button366_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Gourmet Vegetarian", 17f, gVegetarian));
+            myOrder.AddItem(new Pizza("(Large) Gourmet Vegetarian", 17f, gVegetarian, this));
         }
 
         private void button365_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Gourmet Vegetarian", 23f, gVegetarian));
+            myOrder.AddItem(new Pizza("(Family) Gourmet Vegetarian", 23f, gVegetarian, this));
         }
 
         private void button364_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Gourmet Vegetarian", 27f, gVegetarian));
+            myOrder.AddItem(new Pizza("(Party) Gourmet Vegetarian", 27f, gVegetarian, this));
         }
 
         private void button363_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Vegetarian", 52f, gVegetarian));
+            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Vegetarian", 52f, gVegetarian, this));
         }
 
         private void button362_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Gourmet Vegetarian", 18f, gVegetarian));
+            myOrder.AddItem(new Pizza("(Calzone) Gourmet Vegetarian", 18f, gVegetarian, this));
         }
 
         private void button361_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Vegetarian", 18f, gVegetarian));
+            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Vegetarian", 18f, gVegetarian, this));
         }
 
         private void button360_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Gourmet Mediterranean", 13f, gMediterranean));
+            myOrder.AddItem(new Pizza("(Small) Gourmet Mediterranean", 13f, gMediterranean, this));
         }
 
         private void button359_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Gourmet Mediterranean", 17f, gMediterranean));
+            myOrder.AddItem(new Pizza("(Large) Gourmet Mediterranean", 17f, gMediterranean, this));
         }
 
         private void button358_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Gourmet Mediterranean", 23f, gMediterranean));
+            myOrder.AddItem(new Pizza("(Family) Gourmet Mediterranean", 23f, gMediterranean, this));
         }
 
         private void button357_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Gourmet Mediterranean", 27f, gMediterranean));
+            myOrder.AddItem(new Pizza("(Party) Gourmet Mediterranean", 27f, gMediterranean, this));
         }
 
         private void button356_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Mediterranean", 52f, gMediterranean));
+            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Mediterranean", 52f, gMediterranean, this));
         }
 
         private void button355_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Gourmet Mediterranean", 18f, gMediterranean));
+            myOrder.AddItem(new Pizza("(Calzone) Gourmet Mediterranean", 18f, gMediterranean, this));
         }
 
         private void button354_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Mediterranean", 18f, gMediterranean));
+            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Mediterranean", 18f, gMediterranean, this));
         }
 
         private void button338_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Gourmet Lamb", 13f, gLamb));
+            myOrder.AddItem(new Pizza("(Small) Gourmet Lamb", 13f, gLamb, this));
         }
 
         private void button337_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Gourmet Lamb", 17f, gLamb));
+            myOrder.AddItem(new Pizza("(Large) Gourmet Lamb", 17f, gLamb, this));
         }
 
         private void button336_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Gourmet Lamb", 23f, gLamb));
+            myOrder.AddItem(new Pizza("(Family) Gourmet Lamb", 23f, gLamb, this));
         }
 
         private void button335_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Gourmet Lamb", 27f, gLamb));
+            myOrder.AddItem(new Pizza("(Party) Gourmet Lamb", 27f, gLamb, this));
         }
 
         private void button334_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Lamb", 52f, gLamb));
+            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Lamb", 52f, gLamb, this));
         }
 
         private void button333_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Gourmet Lamb", 18f, gLamb));
+            myOrder.AddItem(new Pizza("(Calzone) Gourmet Lamb", 18f, gLamb, this));
         }
 
         private void button332_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Lamb", 18f, gLamb));
+            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Lamb", 18f, gLamb, this));
         }
 
         private void button331_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Gourmet Chicken", 13f, gChicken));
+            myOrder.AddItem(new Pizza("(Small) Gourmet Chicken", 13f, gChicken, this));
         }
 
         private void button330_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Gourmet Chicken", 17f, gChicken));
+            myOrder.AddItem(new Pizza("(Large) Gourmet Chicken", 17f, gChicken, this));
         }
 
         private void button329_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Gourmet Chicken", 23f, gChicken));
+            myOrder.AddItem(new Pizza("(Family) Gourmet Chicken", 23f, gChicken, this));
         }
 
         private void button328_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Gourmet Chicken", 27f, gChicken));
+            myOrder.AddItem(new Pizza("(Party) Gourmet Chicken", 27f, gChicken, this));
         }
 
         private void button327_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Chicken", 52f, gChicken));
+            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Chicken", 52f, gChicken, this));
         }
 
         private void button326_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Gourmet Chicken", 18f, gChicken));
+            myOrder.AddItem(new Pizza("(Calzone) Gourmet Chicken", 18f, gChicken, this));
         }
 
         private void button325_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Chicken", 18f, gChicken));
+            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Chicken", 18f, gChicken, this));
         }
 
         private void button324_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Gourmet Thai Chicken", 13f, gThaiChicken));
+            myOrder.AddItem(new Pizza("(Small) Gourmet Thai Chicken", 13f, gThaiChicken, this));
         }
 
         private void button323_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Gourmet Thai Chicken", 17f, gThaiChicken));
+            myOrder.AddItem(new Pizza("(Large) Gourmet Thai Chicken", 17f, gThaiChicken, this));
         }
 
         private void button322_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Gourmet Thai Chicken", 23f, gThaiChicken));
+            myOrder.AddItem(new Pizza("(Family) Gourmet Thai Chicken", 23f, gThaiChicken, this));
         }
 
         private void button321_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Gourmet Thai Chicken", 27f, gThaiChicken));
+            myOrder.AddItem(new Pizza("(Party) Gourmet Thai Chicken", 27f, gThaiChicken, this));
         }
 
         private void button320_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Thai Chicken", 52f, gThaiChicken));
+            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Thai Chicken", 52f, gThaiChicken, this));
         }
 
         private void button319_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Gourmet Thai Chicken", 18f, gThaiChicken));
+            myOrder.AddItem(new Pizza("(Calzone) Gourmet Thai Chicken", 18f, gThaiChicken, this));
         }
 
         private void button318_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Thai Chicken", 18f, gThaiChicken));
+            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Thai Chicken", 18f, gThaiChicken, this));
         }
 
         private void button317_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Gourmet Special", 13f, gSpecial));
+            myOrder.AddItem(new Pizza("(Small) Gourmet Special", 13f, gSpecial, this));
         }
 
         private void button316_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Gourmet Special", 17f, gSpecial));
+            myOrder.AddItem(new Pizza("(Large) Gourmet Special", 17f, gSpecial, this));
         }
 
         private void button315_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Gourmet Special", 23f, gSpecial));
+            myOrder.AddItem(new Pizza("(Family) Gourmet Special", 23f, gSpecial, this));
         }
 
         private void button314_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Gourmet Special", 27f, gSpecial));
+            myOrder.AddItem(new Pizza("(Party) Gourmet Special", 27f, gSpecial, this));
         }
 
         private void button313_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Special", 52f, gSpecial));
+            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Special", 52f, gSpecial, this));
         }
 
         private void button312_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Gourmet Special", 18f, gSpecial));
+            myOrder.AddItem(new Pizza("(Calzone) Gourmet Special", 18f, gSpecial, this));
         }
 
         private void button311_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Special", 18f, gSpecial));
+            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Special", 18f, gSpecial, this));
         }
 
         private void button310_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Gourmet Mexicana", 13f, gMexicana));
+            myOrder.AddItem(new Pizza("(Small) Gourmet Mexicana", 13f, gMexicana, this));
         }
 
         private void button309_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Gourmet Mexicana", 17f, gMexicana));
+            myOrder.AddItem(new Pizza("(Large) Gourmet Mexicana", 17f, gMexicana, this));
         }
 
         private void button308_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Gourmet Mexicana", 23f, gMexicana));
+            myOrder.AddItem(new Pizza("(Family) Gourmet Mexicana", 23f, gMexicana, this));
         }
 
         private void button307_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Gourmet Mexicana", 27f, gMexicana));
+            myOrder.AddItem(new Pizza("(Party) Gourmet Mexicana", 27f, gMexicana, this));
         }
 
         private void button306_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Mexicana", 52f, gMexicana));
+            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Mexicana", 52f, gMexicana, this));
         }
 
         private void button305_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Gourmet Mexicana", 18f, gMexicana));
+            myOrder.AddItem(new Pizza("(Calzone) Gourmet Mexicana", 18f, gMexicana, this));
         }
 
         private void button304_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Mexicana", 18f, gMexicana));
+            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Mexicana", 18f, gMexicana, this));
         }
 
         private void button303_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Gourmet Garlic Prawn", 13f, gGarlicPrawn));
+            myOrder.AddItem(new Pizza("(Small) Gourmet Garlic Prawn", 13f, gGarlicPrawn, this));
         }
 
         private void button302_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Gourmet Garlic Prawn", 17f, gGarlicPrawn));
+            myOrder.AddItem(new Pizza("(Large) Gourmet Garlic Prawn", 17f, gGarlicPrawn, this));
         }
 
         private void button301_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Gourmet Garlic Prawn", 23f, gGarlicPrawn));
+            myOrder.AddItem(new Pizza("(Family) Gourmet Garlic Prawn", 23f, gGarlicPrawn, this));
         }
 
         private void button300_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Gourmet Garlic Prawn", 27f, gGarlicPrawn));
+            myOrder.AddItem(new Pizza("(Party) Gourmet Garlic Prawn", 27f, gGarlicPrawn, this));
         }
 
         private void button299_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Garlic Prawn", 52f, gGarlicPrawn));
+            myOrder.AddItem(new Pizza("(Jumbo) Gourmet Garlic Prawn", 52f, gGarlicPrawn, this));
         }
 
         private void button298_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Gourmet Garlic Prawn", 18f, gGarlicPrawn));
+            myOrder.AddItem(new Pizza("(Calzone) Gourmet Garlic Prawn", 18f, gGarlicPrawn, this));
         }
 
         private void button297_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Garlic Prawn", 18f, gGarlicPrawn));
+            myOrder.AddItem(new Pizza("(Large G Free) Gourmet Garlic Prawn", 18f, gGarlicPrawn, this));
         }
 
         private void button296_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) Satay Chicken", 13f, satayChicken));
+            myOrder.AddItem(new Pizza("(Small) Satay Chicken", 13f, satayChicken, this));
         }
 
         private void button295_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) Satay Chicken", 17f, satayChicken));
+            myOrder.AddItem(new Pizza("(Large) Satay Chicken", 17f, satayChicken, this));
         }
 
         private void button294_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) Satay Chicken", 23f, satayChicken));
+            myOrder.AddItem(new Pizza("(Family) Satay Chicken", 23f, satayChicken, this));
         }
 
         private void button293_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) Satay Chicken", 27f, satayChicken));
+            myOrder.AddItem(new Pizza("(Party) Satay Chicken", 27f, satayChicken, this));
         }
 
         private void button292_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) Satay Chicken", 52f, satayChicken));
+            myOrder.AddItem(new Pizza("(Jumbo) Satay Chicken", 52f, satayChicken, this));
         }
 
         private void button291_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) Satay Chicken", 18f, satayChicken));
+            myOrder.AddItem(new Pizza("(Calzone) Satay Chicken", 18f, satayChicken, this));
         }
 
         private void button290_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) Satay Chicken", 18f, satayChicken));
+            myOrder.AddItem(new Pizza("(Large G Free) Satay Chicken", 18f, satayChicken, this));
         }
 
         private void button289_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Small) El Paso", 13f, elPaso));
+            myOrder.AddItem(new Pizza("(Small) El Paso", 13f, elPaso, this));
         }
 
         private void button288_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large) El Paso", 17f, elPaso));
+            myOrder.AddItem(new Pizza("(Large) El Paso", 17f, elPaso, this));
         }
 
         private void button287_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Family) El Paso", 23f, elPaso));
+            myOrder.AddItem(new Pizza("(Family) El Paso", 23f, elPaso, this));
         }
 
         private void button286_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Party) El Paso", 27f, elPaso));
+            myOrder.AddItem(new Pizza("(Party) El Paso", 27f, elPaso, this));
         }
 
         private void button285_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Jumbo) El Paso", 52f, elPaso));
+            myOrder.AddItem(new Pizza("(Jumbo) El Paso", 52f, elPaso, this));
         }
 
         private void button284_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Calzone) El Paso", 18f, elPaso));
+            myOrder.AddItem(new Pizza("(Calzone) El Paso", 18f, elPaso, this));
         }
 
         private void button283_Click(object sender, EventArgs e)
         {
-            myOrder.AddItem(new Pizza("(Large G Free) El Paso", 18f, elPaso));
+            myOrder.AddItem(new Pizza("(Large G Free) El Paso", 18f, elPaso, this));
         }
+
+        private void button381_Click(object sender, EventArgs e)
+        {
+            orderSummary.Text = "";
+            commentPanel.Visible = false;
+            summaryPanel.Visible = true;
+            // add order deets
+            orderSummary.Text += myOrder.ToString();
+            // add all the items from myOrder to the orderSummary
+            foreach (Item item in myOrder.Items)
+            {
+                if (item.ItemName == null)
+                {
+                    continue;
+                } else
+                {
+                    if (item.isModified && item.added.Count > 0 && item.removed.Count > 0)
+                    {
+                        orderSummary.Text += item.ToString() + Environment.NewLine;
+                        for (int i = 0; i < item.removed.Count; i++)
+                        {
+                            orderSummary.Text += "REMOVE -- " + item.removed[i] + Environment.NewLine;
+                        }
+                        for (int i = 0; i < item.added.Count; i++)
+                        {
+                            orderSummary.Text += "ADD -- " + item.added[i] + Environment.NewLine;
+                        }
+                    } else if (item.isModified && item.removed.Count > 0)
+                    {
+                        orderSummary.Text += item.ToString() + Environment.NewLine;
+                        for (int i = 0; i < item.removed.Count; i++)
+                        {
+                            orderSummary.Text += "REMOVE -- " + item.removed[i] + Environment.NewLine;
+                        }
+                    } else if (item.isModified && item.added.Count > 0)
+                    {
+                        orderSummary.Text += item.ToString() + Environment.NewLine;
+                        for (int i = 0; i < item.added.Count; i++)
+                        {
+                            orderSummary.Text += "ADD -- " + item.added[i] + Environment.NewLine;
+                        }
+                        
+                    }  else
+                    {
+                        orderSummary.Text += item.ToString() + Environment.NewLine;
+                    }
+                }
+            }
+            // add a space before total price
+            orderSummary.Text += Environment.NewLine;
+            if (myOrder.getPrice() % 1 != 0)
+            {
+                if (myOrder.isDelivery())
+                {
+                    orderSummary.Text += "Delivery Charge: $5" + Environment.NewLine;
+                }
+                orderSummary.Text += "Total price: $" + myOrder.getTotalPrice() + "0";
+            }
+            else
+            {
+                if (myOrder.isDelivery())
+                {
+                    orderSummary.Text += "Delivery Charge: $5" + Environment.NewLine;
+                }
+                orderSummary.Text += "Total price: $" + myOrder.getTotalPrice();
+            }
+
+            orderSummary.Text += Environment.NewLine + Environment.NewLine + txComments.Text;
+
+
+        }
+
+        private void button380_Click(object sender, EventArgs e)
+        {
+            commentPanel.Visible = false;            
+        }
+
+        private void gourmetPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
     }
 }
