@@ -362,6 +362,7 @@ namespace Dernancourt_POS
             beveragesPanel.Visible = false;
             summaryPanel.Visible = false;
             editItemsPanel.Visible = false;
+            commentPanel.Visible = false;
             // on load make all panels fill
             orderPanel.Dock = DockStyle.Fill;
             mealDealPanel.Dock = DockStyle.Fill;
@@ -393,6 +394,7 @@ namespace Dernancourt_POS
             beveragesPanel.Dock = DockStyle.Fill;
             summaryPanel.Dock = DockStyle.Fill;
             editItemsPanel.Dock = DockStyle.Fill;
+            commentPanel.Dock = DockStyle.Fill;
 
         }
 
@@ -864,34 +866,7 @@ namespace Dernancourt_POS
 
         private void pnl2NextBtn_Click(object sender, EventArgs e)
         {
-            orderSummary.Text = "";
-            summaryPanel.Visible = true;
-            // add order deets
-            orderSummary.Text += myOrder.ToString();
-            // add all the items from myOrder to the orderSummary
-            foreach (Item item in myOrder.Items)
-            {
-                orderSummary.Text += item.ToString() + Environment.NewLine;
-            }
-            // add a space before total price
-            orderSummary.Text += Environment.NewLine;
-            if (myOrder.getPrice() % 1 != 0)
-            {
-                if (myOrder.isDelivery())
-                {
-                    orderSummary.Text += "Delivery Charge: $5" + Environment.NewLine;
-                }
-                orderSummary.Text += "Total price: $" + myOrder.getTotalPrice() + "0";
-            }
-            else
-            {
-                if (myOrder.isDelivery())
-                {
-                    orderSummary.Text += "Delivery Charge: $5" + Environment.NewLine;
-                }
-                orderSummary.Text += "Total price: $" + myOrder.getTotalPrice();
-            }
-
+            commentPanel.Visible = true;
         }
 
         private void footyDealBtn_Click(object sender, EventArgs e)
@@ -3141,6 +3116,47 @@ namespace Dernancourt_POS
         private void button283_Click(object sender, EventArgs e)
         {
             myOrder.AddItem(new Pizza("(Large G Free) El Paso", 18f, elPaso));
+        }
+
+        private void button381_Click(object sender, EventArgs e)
+        {
+            orderSummary.Text = "";
+            commentPanel.Visible = false;
+            summaryPanel.Visible = true;
+            // add order deets
+            orderSummary.Text += myOrder.ToString();
+            // add all the items from myOrder to the orderSummary
+            foreach (Item item in myOrder.Items)
+            {
+                orderSummary.Text += item.ToString() + Environment.NewLine;
+            }
+            // add a space before total price
+            orderSummary.Text += Environment.NewLine;
+            if (myOrder.getPrice() % 1 != 0)
+            {
+                if (myOrder.isDelivery())
+                {
+                    orderSummary.Text += "Delivery Charge: $5" + Environment.NewLine;
+                }
+                orderSummary.Text += "Total price: $" + myOrder.getTotalPrice() + "0";
+            }
+            else
+            {
+                if (myOrder.isDelivery())
+                {
+                    orderSummary.Text += "Delivery Charge: $5" + Environment.NewLine;
+                }
+                orderSummary.Text += "Total price: $" + myOrder.getTotalPrice();
+            }
+
+            orderSummary.Text += Environment.NewLine + Environment.NewLine + txComments.Text;
+
+
+        }
+
+        private void button380_Click(object sender, EventArgs e)
+        {
+            commentPanel.Visible = false;            
         }
     }
 }
