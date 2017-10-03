@@ -8,6 +8,11 @@ namespace Dernancourt_POS
 {
     public class Item
     {
+
+        public bool isModified;
+        public List<string> removed;
+        public List<string> added;
+
         public string ItemName { get; set; }
 
         public int ItemID { get; set; }

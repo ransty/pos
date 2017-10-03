@@ -14,7 +14,7 @@ namespace Dernancourt_POS
 {
     public partial class mainForm : Form
     {
-        Order myOrder;
+        public Order myOrder;
 
         List<string> simplyCheese = new List<string>();
         List<string> hamCheese = new List<string>();
@@ -3133,7 +3133,42 @@ namespace Dernancourt_POS
             // add all the items from myOrder to the orderSummary
             foreach (Item item in myOrder.Items)
             {
-                orderSummary.Text += item.ToString() + Environment.NewLine;
+                if (item.ItemName == null)
+                {
+                    continue;
+                } else
+                {
+                    if (item.isModified && item.added.Count > 0 && item.removed.Count > 0)
+                    {
+                        orderSummary.Text += item.ToString() + Environment.NewLine;
+                        for (int i = 0; i < item.removed.Count; i++)
+                        {
+                            orderSummary.Text += "REMOVE -- " + item.removed[i] + Environment.NewLine;
+                        }
+                        for (int i = 0; i < item.added.Count; i++)
+                        {
+                            orderSummary.Text += "ADD -- " + item.added[i] + Environment.NewLine;
+                        }
+                    } else if (item.isModified && item.removed.Count > 0)
+                    {
+                        orderSummary.Text += item.ToString() + Environment.NewLine;
+                        for (int i = 0; i < item.removed.Count; i++)
+                        {
+                            orderSummary.Text += "REMOVE -- " + item.removed[i] + Environment.NewLine;
+                        }
+                    } else if (item.isModified && item.added.Count > 0)
+                    {
+                        orderSummary.Text += item.ToString() + Environment.NewLine;
+                        for (int i = 0; i < item.added.Count; i++)
+                        {
+                            orderSummary.Text += "ADD -- " + item.added[i] + Environment.NewLine;
+                        }
+                        
+                    }  else
+                    {
+                        orderSummary.Text += item.ToString() + Environment.NewLine;
+                    }
+                }
             }
             // add a space before total price
             orderSummary.Text += Environment.NewLine;
