@@ -4455,6 +4455,7 @@
             this.gourmetPanel.Name = "gourmetPanel";
             this.gourmetPanel.Size = new System.Drawing.Size(498, 539);
             this.gourmetPanel.TabIndex = 26;
+            this.gourmetPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.gourmetPanel_Paint);
             // 
             // gourmet2Panel
             // 
