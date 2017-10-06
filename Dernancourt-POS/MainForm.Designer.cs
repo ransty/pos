@@ -1441,7 +1441,8 @@
             this.mealDealNxtBtn.Click += new System.EventHandler(this.mealDealNxtBtn_Click);
             // 
             // deal6Btn
-            // 
+            //
+            this.deal6Btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.deal6Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deal6Btn.Location = new System.Drawing.Point(351, 417);
             this.deal6Btn.Name = "deal6Btn";
@@ -1452,7 +1453,8 @@
             this.deal6Btn.Click += new System.EventHandler(this.deal6Btn_Click);
             // 
             // deal5Btn
-            // 
+            //
+            this.deal5Btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.deal5Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deal5Btn.Location = new System.Drawing.Point(351, 364);
             this.deal5Btn.Name = "deal5Btn";
@@ -1463,7 +1465,8 @@
             this.deal5Btn.Click += new System.EventHandler(this.deal5Btn_Click);
             // 
             // deal4Btn
-            // 
+            //
+            this.deal4Btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.deal4Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deal4Btn.Location = new System.Drawing.Point(351, 309);
             this.deal4Btn.Name = "deal4Btn";
@@ -1474,7 +1477,8 @@
             this.deal4Btn.Click += new System.EventHandler(this.deal4Btn_Click);
             // 
             // deal3Btn
-            // 
+            //
+            this.deal3Btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.deal3Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deal3Btn.Location = new System.Drawing.Point(351, 252);
             this.deal3Btn.Name = "deal3Btn";
@@ -1485,7 +1489,8 @@
             this.deal3Btn.Click += new System.EventHandler(this.deal3Btn_Click);
             // 
             // deal2Btn
-            // 
+            //
+            this.deal2Btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.deal2Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deal2Btn.Location = new System.Drawing.Point(351, 188);
             this.deal2Btn.Name = "deal2Btn";
@@ -1496,7 +1501,8 @@
             this.deal2Btn.Click += new System.EventHandler(this.deal2Btn_Click);
             // 
             // deal1Btn
-            // 
+            //
+            this.deal1Btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.deal1Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deal1Btn.Location = new System.Drawing.Point(351, 123);
             this.deal1Btn.Name = "deal1Btn";
@@ -1507,7 +1513,8 @@
             this.deal1Btn.Click += new System.EventHandler(this.deal1Btn_Click);
             // 
             // footyDealBtn
-            // 
+            //
+            this.footyDealBtn.BackColor = System.Drawing.Color.Gray;
             this.footyDealBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.footyDealBtn.Location = new System.Drawing.Point(351, 69);
             this.footyDealBtn.Name = "footyDealBtn";
@@ -1518,7 +1525,8 @@
             this.footyDealBtn.Click += new System.EventHandler(this.footyDealBtn_Click);
             // 
             // pastaDealBtn
-            // 
+            //
+            this.pastaDealBtn.BackColor = System.Drawing.Color.Silver;
             this.pastaDealBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pastaDealBtn.Location = new System.Drawing.Point(351, 19);
             this.pastaDealBtn.Name = "pastaDealBtn";
