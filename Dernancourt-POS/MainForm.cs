@@ -1570,7 +1570,7 @@ namespace Dernancourt_POS
 
             LinesPerPage = e.MarginBounds.Height / PrintFont.GetHeight(e.Graphics);
 
-            while (Count < LinesPerPage && ((line = reader.ReadLine()) != null))
+            while (Count <= LinesPerPage && ((line = reader.ReadLine()) != null))
             {
                 YPosition = TopMargin + (Count * PrintFont.GetHeight(e.Graphics));
                 e.Graphics.DrawString(line, PrintFont, PrintBrush, 0,
