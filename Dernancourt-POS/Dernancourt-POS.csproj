@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DBConnection.cs" />
+    <Compile Include="Topping.cs" />
     <Compile Include="Pizza.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="MainForm.cs">

@@ -21,7 +21,7 @@ namespace Dernancourt_POS
 
         public override string ToString()
         {
-            return "x1 " + ItemName +  " - $" + ItemPrice;
+            return Environment.NewLine + "x1 " + ItemName +  " - $" + ItemPrice + Environment.NewLine;
         }
         public override bool Equals(object obj)
         {

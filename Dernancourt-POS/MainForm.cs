@@ -1573,7 +1573,7 @@ namespace Dernancourt_POS
             while (Count < LinesPerPage && ((line = reader.ReadLine()) != null))
             {
                 YPosition = TopMargin + (Count * PrintFont.GetHeight(e.Graphics));
-                e.Graphics.DrawString(line, PrintFont, PrintBrush, LeftMargin,
+                e.Graphics.DrawString(line, PrintFont, PrintBrush, 0,
                     YPosition, new StringFormat());
                 Count++;
             }
@@ -3140,7 +3140,7 @@ namespace Dernancourt_POS
                 {
                     if (item.isModified && item.added.Count > 0 && item.removed.Count > 0)
                     {
-                        orderSummary.Text += item.ToString() + Environment.NewLine;
+                        orderSummary.Text += item.ToString();
                         for (int i = 0; i < item.removed.Count; i++)
                         {
                             orderSummary.Text += "REMOVE -- " + item.removed[i] + Environment.NewLine;
@@ -3151,14 +3151,14 @@ namespace Dernancourt_POS
                         }
                     } else if (item.isModified && item.removed.Count > 0)
                     {
-                        orderSummary.Text += item.ToString() + Environment.NewLine;
+                        orderSummary.Text += item.ToString();
                         for (int i = 0; i < item.removed.Count; i++)
                         {
                             orderSummary.Text += "REMOVE -- " + item.removed[i] + Environment.NewLine;
                         }
                     } else if (item.isModified && item.added.Count > 0)
                     {
-                        orderSummary.Text += item.ToString() + Environment.NewLine;
+                        orderSummary.Text += item.ToString();
                         for (int i = 0; i < item.added.Count; i++)
                         {
                             orderSummary.Text += "ADD -- " + item.added[i] + Environment.NewLine;
@@ -3166,7 +3166,7 @@ namespace Dernancourt_POS
                         
                     }  else
                     {
-                        orderSummary.Text += item.ToString() + Environment.NewLine;
+                        orderSummary.Text += item.ToString();
                     }
                 }
             }
@@ -3189,7 +3189,11 @@ namespace Dernancourt_POS
                 orderSummary.Text += "Total price: $" + myOrder.getTotalPrice();
             }
 
-            orderSummary.Text += Environment.NewLine + Environment.NewLine + txComments.Text;
+            orderSummary.Text += Environment.NewLine + Environment.NewLine + "Customer Comments: ";
+
+            orderSummary.Text += Environment.NewLine + txComments.Text;
+
+            orderSummary.Text += Environment.NewLine;
 
 
         }
