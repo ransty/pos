@@ -48,6 +48,11 @@ namespace Dernancourt_POS
         {
             return Delivery;
         }
+        
+        public void SetPrice(float price)
+        {
+            this.Price = price;
+        }
 
         public float getPrice()
         {
@@ -84,6 +89,7 @@ namespace Dernancourt_POS
             return Items.IndexOf(item);
         }
 
+        // DEPRECIATED: This metod is no longer supported, i.e it actually just doubles the price every time it is called
         public void CalculatePrice()
         {
             for (int i = 0; i < Items.Count; i++)
