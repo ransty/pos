@@ -103,6 +103,7 @@
             this.button371 = new System.Windows.Forms.Button();
             this.orderSummary = new System.Windows.Forms.RichTextBox();
             this.commentPanel = new System.Windows.Forms.Panel();
+            this.button382 = new System.Windows.Forms.Button();
             this.button381 = new System.Windows.Forms.Button();
             this.button380 = new System.Windows.Forms.Button();
             this.label151 = new System.Windows.Forms.Label();
@@ -903,6 +904,9 @@
             this.pnl2MealDealsBtn = new System.Windows.Forms.Button();
             this.pnl2NextBtn = new System.Windows.Forms.Button();
             this.pnl2BackBtn = new System.Windows.Forms.Button();
+            this.button383 = new System.Windows.Forms.Button();
+            this.label153 = new System.Windows.Forms.Label();
+            this.button471 = new System.Windows.Forms.Button();
             this.mainMenu.SuspendLayout();
             this.orderPanel.SuspendLayout();
             this.mealDealPanel.SuspendLayout();
@@ -1106,7 +1110,6 @@
             // 
             this.orderPanel.Controls.Add(this.mealDealPanel);
             this.orderPanel.Controls.Add(this.summaryPanel);
-            this.orderPanel.Controls.Add(this.commentPanel);
             this.orderPanel.Controls.Add(this.beveragesPanel);
             this.orderPanel.Controls.Add(this.desertsPanel);
             this.orderPanel.Controls.Add(this.saladsPanel);
@@ -1788,22 +1791,37 @@
             // 
             // commentPanel
             // 
+            this.commentPanel.Controls.Add(this.button471);
+            this.commentPanel.Controls.Add(this.label153);
+            this.commentPanel.Controls.Add(this.button383);
+            this.commentPanel.Controls.Add(this.button382);
             this.commentPanel.Controls.Add(this.button381);
             this.commentPanel.Controls.Add(this.button380);
             this.commentPanel.Controls.Add(this.label151);
             this.commentPanel.Controls.Add(this.txComments);
-            this.commentPanel.Location = new System.Drawing.Point(46, 16);
+            this.commentPanel.Location = new System.Drawing.Point(18, 25);
             this.commentPanel.Name = "commentPanel";
-            this.commentPanel.Size = new System.Drawing.Size(72, 61);
+            this.commentPanel.Size = new System.Drawing.Size(149, 79);
             this.commentPanel.TabIndex = 213;
             this.commentPanel.Visible = false;
+            // 
+            // button382
+            // 
+            this.button382.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.button382.Location = new System.Drawing.Point(164, 477);
+            this.button382.Name = "button382";
+            this.button382.Size = new System.Drawing.Size(56, 31);
+            this.button382.TabIndex = 5;
+            this.button382.Text = "$5";
+            this.button382.UseVisualStyleBackColor = true;
+            this.button382.Click += new System.EventHandler(this.button382_Click);
             // 
             // button381
             // 
             this.button381.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.button381.Location = new System.Drawing.Point(342, 472);
             this.button381.Name = "button381";
-            this.button381.Size = new System.Drawing.Size(147, 38);
+            this.button381.Size = new System.Drawing.Size(145, 38);
             this.button381.TabIndex = 3;
             this.button381.Text = "Next Page";
             this.button381.UseVisualStyleBackColor = true;
@@ -1814,7 +1832,7 @@
             this.button380.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.button380.Location = new System.Drawing.Point(13, 472);
             this.button380.Name = "button380";
-            this.button380.Size = new System.Drawing.Size(147, 38);
+            this.button380.Size = new System.Drawing.Size(145, 38);
             this.button380.TabIndex = 2;
             this.button380.Text = "Back";
             this.button380.UseVisualStyleBackColor = true;
@@ -10941,11 +10959,44 @@
             this.pnl2BackBtn.UseVisualStyleBackColor = true;
             this.pnl2BackBtn.Click += new System.EventHandler(this.pnl2BackBtn_Click);
             // 
+            // button383
+            // 
+            this.button383.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.button383.Location = new System.Drawing.Point(222, 477);
+            this.button383.Name = "button383";
+            this.button383.Size = new System.Drawing.Size(56, 31);
+            this.button383.TabIndex = 6;
+            this.button383.Text = "$7";
+            this.button383.UseVisualStyleBackColor = true;
+            this.button383.Click += new System.EventHandler(this.button383_Click);
+            // 
+            // label153
+            // 
+            this.label153.AutoSize = true;
+            this.label153.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.label153.Location = new System.Drawing.Point(186, 458);
+            this.label153.Name = "label153";
+            this.label153.Size = new System.Drawing.Size(124, 18);
+            this.label153.TabIndex = 7;
+            this.label153.Text = "Delivery charge";
+            // 
+            // button471
+            // 
+            this.button471.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.button471.Location = new System.Drawing.Point(280, 477);
+            this.button471.Name = "button471";
+            this.button471.Size = new System.Drawing.Size(56, 31);
+            this.button471.TabIndex = 8;
+            this.button471.Text = "$10";
+            this.button471.UseVisualStyleBackColor = true;
+            this.button471.Click += new System.EventHandler(this.button471_Click);
+            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(510, 551);
+            this.Controls.Add(this.commentPanel);
             this.Controls.Add(this.orderPanel);
             this.Controls.Add(this.clearBtn);
             this.Controls.Add(this.continueBtn);
@@ -11909,6 +11960,10 @@
         private System.Windows.Forms.Button button380;
         private System.Windows.Forms.Label label151;
         private System.Windows.Forms.TextBox txComments;
+        private System.Windows.Forms.Button button382;
+        private System.Windows.Forms.Button button383;
+        private System.Windows.Forms.Button button471;
+        private System.Windows.Forms.Label label153;
     }
 }
 

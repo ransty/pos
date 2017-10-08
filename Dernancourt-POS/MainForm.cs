@@ -872,6 +872,7 @@ namespace Dernancourt_POS
         private void pnl2NextBtn_Click(object sender, EventArgs e)
         {
             commentPanel.Visible = true;
+            commentPanel.BringToFront();
         }
 
         private void footyDealBtn_Click(object sender, EventArgs e)
@@ -3208,5 +3209,19 @@ namespace Dernancourt_POS
 
         }
 
+        private void button382_Click(object sender, EventArgs e)
+        {
+            myOrder.SetPrice(myOrder.getPrice() + 5);//add $5 delivery charge to order
+        }
+
+        private void button383_Click(object sender, EventArgs e)
+        {
+            myOrder.SetPrice(myOrder.getPrice() + 7);//add $7 delivery charge to order
+        }
+
+        private void button471_Click(object sender, EventArgs e)
+        {
+            myOrder.SetPrice(myOrder.getPrice() + 10);//add $10 delivery charge to order
+        }
     }
 }
