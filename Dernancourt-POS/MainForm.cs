@@ -3134,52 +3134,39 @@ namespace Dernancourt_POS
             // add order deets
             this.orderSummary.Text += this.myOrder.ToString();
             // add all the items from myOrder to the orderSummary
+
+            var sb = new StringBuilder(this.orderSummary.Text);
             foreach (Item item in this.myOrder.Items.Where(x => !string.IsNullOrWhiteSpace(x.ItemName)))
             {
-                var sb = new StringBuilder(this.orderSummary.Text);
                 sb.Append(item.ToString());
 
                 if (item.IsModified)
                 {
-                    for (int i = 0; i < item.removed.Count; i++)
+                    for (int i = 0; i < item.Removed.Count; i++)
                     {
-                        sb.AppendLine("REMOVE -- " + item.removed[i]);
+                        sb.AppendLine("REMOVE -- " + item.Removed[i]);
                     }
-                    for (int i = 0; i < item.added.Count; i++)
+                    for (int i = 0; i < item.Added.Count; i++)
                     {
-                        sb.AppendLine("ADD -- " + item.added[i]);
+                        sb.AppendLine("ADD -- " + item.Added[i]);
                     }
-
                 }
-
-                this.orderSummary.Text = sb.ToString();
             }
             // add a space before total price
-            this.orderSummary.Text += Environment.NewLine;
-            if (this.myOrder.Price % 1 != 0)
+            sb.AppendLine();
+            if (this.myOrder.IsDelivery)
             {
-                if (this.myOrder.IsDelivery)
-                {
-                    this.orderSummary.Text += "Delivery Charge: $5" + Environment.NewLine;
-                }
-                this.orderSummary.Text += "Total price: $" + this.myOrder.GetTotalPrice() + "0";
-            }
-            else
-            {
-                if (this.myOrder.IsDelivery)
-                {
-                    this.orderSummary.Text += "Delivery Charge: $5" + Environment.NewLine;
-                }
-                this.orderSummary.Text += "Total price: $" + this.myOrder.GetTotalPrice();
+                sb.AppendLine("Delivery Charge: $5");
             }
 
-            this.orderSummary.Text += Environment.NewLine + Environment.NewLine + "Customer Comments: ";
+            sb.AppendLine("Total price: $" + this.myOrder.GetTotalPrice() + (this.myOrder.Price % 1 != 0 ? "0" : ""));
+            sb.AppendLine();
+            sb.AppendLine();
+            sb.AppendLine("Customer Comments: ");
+            sb.AppendLine(this.txComments.Text);
+            sb.AppendLine();
 
-            this.orderSummary.Text += Environment.NewLine + this.txComments.Text;
-
-            this.orderSummary.Text += Environment.NewLine;
-
-
+            this.orderSummary.Text = sb.ToString();
         }
 
         private void button380_Click(object sender, EventArgs e)

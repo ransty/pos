@@ -1,16 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Dernancourt_POS
 {
     public class Pizza : Item
     {
-
         string PizzaName;
         private List<String> toppings;
         mainForm mainForm;
@@ -33,13 +29,11 @@ namespace Dernancourt_POS
             this.PizzaName = PizzaName;
             this.toppings = toppings;
             this.mainForm = form;
-            this.added = new List<string>();
-            this.removed = new List<string>();
             this.type = Regex.Match(PizzaName, @"\(([^)]*)\)").Groups[1].Value;
 
-            Console.WriteLine(type);
+            Console.WriteLine(this.type);
 
-            PickToppings();
+            this.PickToppings();
         }
 
         private void PickToppings()
@@ -47,19 +41,19 @@ namespace Dernancourt_POS
             DialogResult halfResult = MessageBox.Show("Would you like half toppings?", "Dernancourt POS", MessageBoxButtons.YesNo);
             if (halfResult == DialogResult.Yes)
             {
-                form = new Form();
+                this.form = new Form();
                 Label firstHalf = new Label();
                 Label secondHalf = new Label();
-                accept = new Button();
-                decline = new Button();
-                accept.Click += new EventHandler(AcceptToppings);
-                decline.Click += new EventHandler(Decline);
-                accept.Text = "Accept";
-                decline.Text = "Decline";
-                accept.Font = new System.Drawing.Font(accept.Font, System.Drawing.FontStyle.Bold);
-                decline.Font = new System.Drawing.Font(decline.Font, System.Drawing.FontStyle.Bold);
-                accept.Location = new System.Drawing.Point(300, 250);
-                decline.Location = new System.Drawing.Point(300, 280);
+                this.accept = new Button();
+                this.decline = new Button();
+                this.accept.Click += new EventHandler(this.AcceptToppings);
+                this.decline.Click += new EventHandler(this.Decline);
+                this.accept.Text = "Accept";
+                this.decline.Text = "Decline";
+                this.accept.Font = new System.Drawing.Font(this.accept.Font, System.Drawing.FontStyle.Bold);
+                this.decline.Font = new System.Drawing.Font(this.decline.Font, System.Drawing.FontStyle.Bold);
+                this.accept.Location = new System.Drawing.Point(300, 250);
+                this.decline.Location = new System.Drawing.Point(300, 280);
                 firstHalf.Text = "First Half";
                 secondHalf.Text = "Second Half";
                 firstHalf.Font = new System.Drawing.Font(firstHalf.Font, System.Drawing.FontStyle.Bold);
@@ -69,22 +63,22 @@ namespace Dernancourt_POS
                 firstHalf.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
                 secondHalf.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
                 secondHalf.Location = new System.Drawing.Point(150, 0);
-                form.Size = new System.Drawing.Size(500, 700);
-                form.StartPosition = FormStartPosition.CenterScreen;
-                panel = new Panel();
-                box = new ListBox();
-                box2 = new ListBox();
-                panel.Dock = DockStyle.Fill;
-                form.FormClosed += new FormClosedEventHandler(Form_FormClosed);
-                form.Controls.
+                this.form.Size = new System.Drawing.Size(500, 700);
+                this.form.StartPosition = FormStartPosition.CenterScreen;
+                this.panel = new Panel();
+                this.box = new ListBox();
+                this.box2 = new ListBox();
+                this.panel.Dock = DockStyle.Fill;
+                this.form.FormClosed += new FormClosedEventHandler(this.Form_FormClosed);
+                this.form.Controls.
                     Add(firstHalf);
-                form.Controls.
+                this.form.Controls.
                     Add(secondHalf);
-                form.Controls.Add(panel);
+                this.form.Controls.Add(this.panel);
                 // 32 tradiationals
                 // 14 gourmet = 46 total
-                box.IntegralHeight = false;
-                box2.IntegralHeight = false;
+                this.box.IntegralHeight = false;
+                this.box2.IntegralHeight = false;
 
                 LinkedList<string> list = new LinkedList<string>();
                 list.AddLast("Simply Cheese");
@@ -135,21 +129,21 @@ namespace Dernancourt_POS
 
                 foreach (string name in list)
                 {
-                    box.Items.Add(name);
-                    box2.Items.Add(name);
+                    this.box.Items.Add(name);
+                    this.box2.Items.Add(name);
                 }
 
-                box.Height = box.PreferredHeight;
-                box2.Height = box2.PreferredHeight;
+                this.box.Height = this.box.PreferredHeight;
+                this.box2.Height = this.box2.PreferredHeight;
 
-                box.Location = new System.Drawing.Point(0, 25);
-                box2.Location = new System.Drawing.Point(150, 25);
+                this.box.Location = new System.Drawing.Point(0, 25);
+                this.box2.Location = new System.Drawing.Point(150, 25);
 
-                panel.Controls.Add(box);
-                panel.Controls.Add(box2);
-                panel.Controls.Add(accept);
-                panel.Controls.Add(decline);
-                form.ShowDialog();
+                this.panel.Controls.Add(this.box);
+                this.panel.Controls.Add(this.box2);
+                this.panel.Controls.Add(this.accept);
+                this.panel.Controls.Add(this.decline);
+                this.form.ShowDialog();
 
                 return;
             }
@@ -157,48 +151,48 @@ namespace Dernancourt_POS
             DialogResult dialogResult = MessageBox.Show("Would you like to add/remove toppings?", "Dernancourt POS", MessageBoxButtons.YesNo);
             if (dialogResult == DialogResult.Yes)
             {
-                form = new Form();
-                panel = new Panel();
-                dButton = new Button();
-                aButton = new Button();
-                form.Size = new System.Drawing.Size(500, 500);
-                form.StartPosition = FormStartPosition.CenterScreen;
+                this.form = new Form();
+                this.panel = new Panel();
+                this.dButton = new Button();
+                this.aButton = new Button();
+                this.form.Size = new System.Drawing.Size(500, 500);
+                this.form.StartPosition = FormStartPosition.CenterScreen;
                 Button okButton = new Button();
-                panel.Dock = DockStyle.Fill;
-                form.FormClosed += new FormClosedEventHandler(Form_FormClosed);
-                form.Controls.Add(panel);
+                this.panel.Dock = DockStyle.Fill;
+                this.form.FormClosed += new FormClosedEventHandler(this.Form_FormClosed);
+                this.form.Controls.Add(this.panel);
 
-                dButton.Text = "Delete";
-                aButton.Text = "Add";
+                this.dButton.Text = "Delete";
+                this.aButton.Text = "Add";
                 okButton.Text = "OK";
-                dButton.Location = new System.Drawing.Point(5, panel.Size.Height - 30);
-                aButton.Location = new System.Drawing.Point(85, panel.Size.Height - 30);
-                okButton.Location = new System.Drawing.Point(165, panel.Size.Height - 30);
-                
+                this.dButton.Location = new System.Drawing.Point(5, this.panel.Size.Height - 30);
+                this.aButton.Location = new System.Drawing.Point(85, this.panel.Size.Height - 30);
+                okButton.Location = new System.Drawing.Point(165, this.panel.Size.Height - 30);
 
-                box = new ListBox();
-                panel.Controls.Add(box);
-                box.IntegralHeight = false;
+
+                this.box = new ListBox();
+                this.panel.Controls.Add(this.box);
+                this.box.IntegralHeight = false;
 
                 // add items to box
-                foreach (string topping in toppings)
+                foreach (string topping in this.toppings)
                 {
-                    box.Items.Add(topping);
+                    this.box.Items.Add(topping);
                 }
 
-                box.Height = box.PreferredHeight;
-                box.ScrollAlwaysVisible = true;
+                this.box.Height = this.box.PreferredHeight;
+                this.box.ScrollAlwaysVisible = true;
 
-                panel.Controls.Add(dButton);
-                panel.Controls.Add(aButton);
-                panel.Controls.
+                this.panel.Controls.Add(this.dButton);
+                this.panel.Controls.Add(this.aButton);
+                this.panel.Controls.
                     Add(okButton);
 
-                dButton.Click += new EventHandler(deleteTopping);
-                aButton.Click += new EventHandler(addTopping);
-                okButton.Click += new EventHandler(okButton_Click);
+                this.dButton.Click += new EventHandler(this.deleteTopping);
+                this.aButton.Click += new EventHandler(this.addTopping);
+                okButton.Click += new EventHandler(this.okButton_Click);
 
-                form.ShowDialog();
+                this.form.ShowDialog();
 
             } else if (dialogResult == DialogResult.No)
             {
@@ -215,34 +209,34 @@ namespace Dernancourt_POS
 
         private void AcceptToppings(object sender, EventArgs e)
         {
-            if (box.SelectedIndex != -1 && box2.SelectedIndex != -1)
+            if (this.box.SelectedIndex != -1 && this.box2.SelectedIndex != -1)
             {
-                for (int i = box.SelectedItems.Count - 1; i >= 0; i--)
+                for (int i = this.box.SelectedItems.Count - 1; i >= 0; i--)
                 {
-                    this.ItemName = "(" + this.type + ")" + Environment.NewLine + "Half: " + box.SelectedItems[i].ToString() + Environment.NewLine + "Half " + box2.SelectedItems[i].ToString() + Environment.NewLine;
-                    this.PizzaName = "(" + this.type + ")" + Environment.NewLine +  "Half: " + box.SelectedItems[i].ToString() + Environment.NewLine + "Half " + box2.SelectedItems[i].ToString() + Environment.NewLine;
+                    this.ItemName = "(" + this.type + ")" + Environment.NewLine + "Half: " + this.box.SelectedItems[i].ToString() + Environment.NewLine + "Half " + this.box2.SelectedItems[i].ToString() + Environment.NewLine;
+                    this.PizzaName = "(" + this.type + ")" + Environment.NewLine +  "Half: " + this.box.SelectedItems[i].ToString() + Environment.NewLine + "Half " + this.box2.SelectedItems[i].ToString() + Environment.NewLine;
                     this.ItemPrice += 1;
                 }
                 this.IsModified = true;
-                form.Dispose();
+                this.form.Dispose();
             }
         }
 
         private void okButton_Click(object sender, EventArgs e)
         {
-            form.Dispose();
+            this.form.Dispose();
         }
 
         private void deleteTopping(object sender, EventArgs e)
         {
             this.IsModified = true;
             
-            if (box.SelectedIndex != -1)
+            if (this.box.SelectedIndex != -1)
             {
-                for (int i = box.SelectedItems.Count - 1; i >= 0; i--)
+                for (int i = this.box.SelectedItems.Count - 1; i >= 0; i--)
                 {
-                    this.removed.Add(box.SelectedItems[i].ToString());
-                    box.Items.Remove(box.SelectedItems[i]);
+                    this.Removed.Add(this.box.SelectedItems[i].ToString());
+                    this.box.Items.Remove(this.box.SelectedItems[i]);
                     
                 }
             }
@@ -253,19 +247,19 @@ namespace Dernancourt_POS
             this.IsModified = true;
             
             string input = Microsoft.VisualBasic.Interaction.InputBox("Type the topping you would like to add and then click OK", "Dernancourt POS", "Topping...", -1, -1);
-            added.Add(input);
-            box.Items.Add(input);
+            this.Added.Add(input);
+            this.box.Items.Add(input);
 
-            if (type.Equals("Small"))
+            if (this.type.Equals("Small"))
             {
                 this.ItemPrice += 0.5f;
-            } else if (type.Equals("Large"))
+            } else if (this.type.Equals("Large"))
             {
                 this.ItemPrice += 1.0f;
-            } else if (type.Equals("Family"))
+            } else if (this.type.Equals("Family"))
             {
                 this.ItemPrice += 1.5f;
-            } else if (type.Equals("Jumbo"))
+            } else if (this.type.Equals("Jumbo"))
             {
                 this.ItemPrice += 2.5f;
             } else
@@ -284,19 +278,19 @@ namespace Dernancourt_POS
                 this.ItemName = null;
                 this.toppings = null;
                 //this.mainForm = null;
-                mainForm.myOrder.RemoveItem(this);
+                this.mainForm.myOrder.RemoveItem(this);
             }
 
         }
 
         public void RemoveTopping(string ToppingName)
         {
-            toppings.Remove(ToppingName);
+            this.toppings.Remove(ToppingName);
         }
 
         public void AddTopping(string ToppingName)
         {
-            toppings.Add(ToppingName);
+            this.toppings.Add(ToppingName);
         }
 
         public override string ToString()

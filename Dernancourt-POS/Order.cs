@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
+using System.Linq;
 using System.Text;
 
 namespace Dernancourt_POS
@@ -67,18 +67,13 @@ namespace Dernancourt_POS
             Console.WriteLine("CURRENT PRICE OF ORDER: $" + this.Price);
         }
 
-        public int GetIndex(Item item)
-        {
-            return this.items.IndexOf(item);
-        }
+        public int this[Item item] => this.items.IndexOf(item);
+        public Item this[int itemId] => this.items.Find(x => x.ItemID == itemId);
 
         // DEPRECIATED: This metod is no longer supported, i.e it actually just doubles the Price every time it is called
         public void CalculatePrice()
         {
-            for (int i = 0; i < this.items.Count; i++)
-            {
-                this.Price += this.items[i].ItemPrice;
-            }
+            this.Price = this.items.Sum(x => x.ItemPrice);
         }
 
         public string GetTotalPrice()

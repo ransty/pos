@@ -8,16 +8,21 @@ namespace Dernancourt_POS
 {
     public class Item : IEquatable<Item>
     {
-
         public bool IsModified { get; protected set; }
-        public List<string> removed;
-        public List<string> added;
+        public List<string> Removed { get; private set; }
+        public List<string> Added { get; private set; }
 
         public string ItemName { get; set; }
 
         public int ItemID { get; set; }
 
         public float ItemPrice { get; set; }
+
+        public Item()
+        {
+            this.Added = new List<string>();
+            this.Removed = new List<string>();
+        }
 
         public override string ToString()
         {
