@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Text;
 
 namespace Dernancourt_POS
 {
@@ -9,54 +11,40 @@ namespace Dernancourt_POS
      **/
     public class Order
     {
-        private float Price; // total price of order
-        public List<Item> Items; // items of the order
-        private string Name;
-        private string PhoneNumber;
-        private string Address;
-        private string Suburb;
-        private bool Delivery;
+        private readonly List<Item> items;  // items of the order
+        private readonly string name;
+        private readonly string phoneNumber;
+        private readonly string address;
+        private readonly string suburb;
+        public bool IsDelivery { get; set; }
 
-        public Order()
-        {
-            Items = new List<Item>();
-        }
+        public float Price { get; set; }// total price of order
+        public IReadOnlyList<Item> Items => this.items;
 
-        public Order(string Name, string PhoneNumber)
+        public Order() : this(null, null) { }
+
+        public Order(string name, string phoneNumber) : this(name, phoneNumber, null, null)
         {
             // takeaway order
-            Items = new List<Item>();
-            this.Name = Name;
-            this.PhoneNumber = Name;
-            this.Delivery = false;
+            this.IsDelivery = false;
         }
 
-        public Order(string Name, string PhoneNumber, string Address, string Suburb)
+        public Order(string name, string phoneNumber, string address, string suburb)
         {
             // delivery order
-            Items = new List<Item>();
-            this.Name = Name;
-            this.PhoneNumber = PhoneNumber;
-            this.Address = Address;
-            this.Suburb = Suburb;
-            this.Delivery = true;
+            this.items = new List<Item>();
+            this.name = name;
+            this.phoneNumber = phoneNumber;
+            this.address = address;
+            this.suburb = suburb;
+            this.IsDelivery = true;
             // add $5 to delivery
             this.Price += 5;
         }
 
-        public bool isDelivery()
-        {
-            return Delivery;
-        }
-
-        public float getPrice()
-        {
-            return this.Price;
-        }
-
         public void AddItem(Item item)
         {
-            Items.Add(item);
+            this.items.Add(item);
             Console.WriteLine("SUCCESSFULLY ADDED: " + item.ItemName);
             this.Price += item.ItemPrice;
             Console.WriteLine("CURRENT PRICE OF ORDER: $" + this.Price);
@@ -64,7 +52,7 @@ namespace Dernancourt_POS
 
         public void RemoveItem(Item item)
         {
-            Items.Remove(item);
+            this.items.Remove(item);
             Console.WriteLine("SUCCESSFULLY REMOVED: " + item.ItemName);
             this.Price -= item.ItemPrice;
             Console.WriteLine("CURRENT PRICE OF ORDER: $" + this.Price);
@@ -72,8 +60,8 @@ namespace Dernancourt_POS
 
         public void RemoveItemAtIndex(int index)
         {
-            Item temp = Items[index];
-            Items.RemoveAt(index);
+            Item temp = this.items[index];
+            this.items.RemoveAt(index);
             Console.WriteLine("SUCCESSFULLY REMOVED ITEM AT INDEX: " + index);
             this.Price -= temp.ItemPrice;
             Console.WriteLine("CURRENT PRICE OF ORDER: $" + this.Price);
@@ -81,29 +69,41 @@ namespace Dernancourt_POS
 
         public int GetIndex(Item item)
         {
-            return Items.IndexOf(item);
+            return this.items.IndexOf(item);
         }
 
+        // DEPRECIATED: This metod is no longer supported, i.e it actually just doubles the Price every time it is called
         public void CalculatePrice()
         {
-            for (int i = 0; i < Items.Count; i++)
+            for (int i = 0; i < this.items.Count; i++)
             {
-                Price += Items[i].ItemPrice;
+                this.Price += this.items[i].ItemPrice;
             }
         }
 
-        public string getTotalPrice()
+        public string GetTotalPrice()
         {
-            return this.Price.ToString();
+            return this.Price.ToString("##.###");
         }
 
         public override string ToString()
         {
-            if (this.isDelivery())
+            var stringBuilder = new StringBuilder("Name: ");
+            stringBuilder.Append(this.name);
+            stringBuilder.AppendLine("Phone Number: ");
+            stringBuilder.Append(this.phoneNumber);
+
+            if (this.IsDelivery)
             {
-                return "Name: " + this.Name + Environment.NewLine + "Phone Number: " + this.PhoneNumber + Environment.NewLine + "Address: " + this.Address + Environment.NewLine + "Suburb: " + this.Suburb + Environment.NewLine + Environment.NewLine;
+                stringBuilder.AppendLine("Address: ");
+                stringBuilder.Append(this.address);
+                stringBuilder.AppendLine("Suburb: ");
+                stringBuilder.Append(this.suburb);
+                stringBuilder.AppendLine();
+                stringBuilder.AppendLine();
             }
-            return "Name: " + this.Name + Environment.NewLine + "Phone Number: " + this.PhoneNumber + Environment.NewLine + Environment.NewLine;
+
+            return stringBuilder.ToString();
         }
 
     }

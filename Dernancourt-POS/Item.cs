@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Dernancourt_POS
 {
-    public class Item
+    public class Item : IEquatable<Item>
     {
 
-        public bool isModified;
+        public bool IsModified { get; protected set; }
         public List<string> removed;
         public List<string> added;
 
@@ -21,18 +21,15 @@ namespace Dernancourt_POS
 
         public override string ToString()
         {
-            return "x1 " + ItemName +  " - $" + ItemPrice;
+            return $"{Environment.NewLine}x1 {this.ItemName} - ${this.ItemPrice}{Environment.NewLine}";
         }
         public override bool Equals(object obj)
         {
-            if (obj == null) return false;
-            Item objAsItem = obj as Item;
-            if (objAsItem == null) return false;
-            else return Equals(objAsItem);
+            return obj != null && this.Equals(obj as Item);
         }
         public override int GetHashCode()
         {
-            return ItemID;
+            return this.ItemID;
         }
         public bool Equals(Item other)
         {
