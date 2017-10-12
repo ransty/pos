@@ -330,6 +330,15 @@
             this.label171 = new System.Windows.Forms.Label();
             this.label172 = new System.Windows.Forms.Label();
             this.gourmetPanel = new System.Windows.Forms.Panel();
+            this.commentPanel = new System.Windows.Forms.Panel();
+            this.button471 = new System.Windows.Forms.Button();
+            this.label153 = new System.Windows.Forms.Label();
+            this.button383 = new System.Windows.Forms.Button();
+            this.button382 = new System.Windows.Forms.Button();
+            this.button381 = new System.Windows.Forms.Button();
+            this.button380 = new System.Windows.Forms.Button();
+            this.label151 = new System.Windows.Forms.Label();
+            this.txComments = new System.Windows.Forms.TextBox();
             this.gourmet2Panel = new System.Windows.Forms.Panel();
             this.button412 = new System.Windows.Forms.Button();
             this.button413 = new System.Windows.Forms.Button();
@@ -898,15 +907,6 @@
             this.pnl2MealDealsBtn = new System.Windows.Forms.Button();
             this.pnl2NextBtn = new System.Windows.Forms.Button();
             this.pnl2BackBtn = new System.Windows.Forms.Button();
-            this.commentPanel = new System.Windows.Forms.Panel();
-            this.button471 = new System.Windows.Forms.Button();
-            this.label153 = new System.Windows.Forms.Label();
-            this.button383 = new System.Windows.Forms.Button();
-            this.button382 = new System.Windows.Forms.Button();
-            this.button381 = new System.Windows.Forms.Button();
-            this.button380 = new System.Windows.Forms.Button();
-            this.label151 = new System.Windows.Forms.Label();
-            this.txComments = new System.Windows.Forms.TextBox();
             this.mainMenu.SuspendLayout();
             this.orderPanel.SuspendLayout();
             this.mealDealPanel.SuspendLayout();
@@ -927,6 +927,7 @@
             this.ab2Panel.SuspendLayout();
             this.seafoodPanel.SuspendLayout();
             this.gourmetPanel.SuspendLayout();
+            this.commentPanel.SuspendLayout();
             this.gourmet2Panel.SuspendLayout();
             this.traditionalPanel.SuspendLayout();
             this.traditional2Panel.SuspendLayout();
@@ -939,7 +940,6 @@
             this.starters2Panel.SuspendLayout();
             this.starters3Panel.SuspendLayout();
             this.starters4Panel.SuspendLayout();
-            this.commentPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // customerNameTxt
@@ -947,7 +947,7 @@
             this.customerNameTxt.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.customerNameTxt.BackColor = System.Drawing.SystemColors.Window;
             this.customerNameTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerNameTxt.Location = new System.Drawing.Point(229, 38);
+            this.customerNameTxt.Location = new System.Drawing.Point(504, 116);
             this.customerNameTxt.Name = "customerNameTxt";
             this.customerNameTxt.Size = new System.Drawing.Size(230, 29);
             this.customerNameTxt.TabIndex = 0;
@@ -958,7 +958,7 @@
             this.customerPhoneNumberTxt.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.customerPhoneNumberTxt.BackColor = System.Drawing.SystemColors.Window;
             this.customerPhoneNumberTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerPhoneNumberTxt.Location = new System.Drawing.Point(229, 104);
+            this.customerPhoneNumberTxt.Location = new System.Drawing.Point(504, 182);
             this.customerPhoneNumberTxt.Name = "customerPhoneNumberTxt";
             this.customerPhoneNumberTxt.Size = new System.Drawing.Size(230, 29);
             this.customerPhoneNumberTxt.TabIndex = 1;
@@ -969,7 +969,7 @@
             this.customerAddressTxt.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.customerAddressTxt.BackColor = System.Drawing.SystemColors.Window;
             this.customerAddressTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerAddressTxt.Location = new System.Drawing.Point(229, 158);
+            this.customerAddressTxt.Location = new System.Drawing.Point(504, 236);
             this.customerAddressTxt.Name = "customerAddressTxt";
             this.customerAddressTxt.Size = new System.Drawing.Size(230, 29);
             this.customerAddressTxt.TabIndex = 2;
@@ -980,7 +980,7 @@
             this.customerSuburbTxt.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.customerSuburbTxt.BackColor = System.Drawing.SystemColors.Window;
             this.customerSuburbTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerSuburbTxt.Location = new System.Drawing.Point(229, 221);
+            this.customerSuburbTxt.Location = new System.Drawing.Point(504, 299);
             this.customerSuburbTxt.Name = "customerSuburbTxt";
             this.customerSuburbTxt.Size = new System.Drawing.Size(230, 29);
             this.customerSuburbTxt.TabIndex = 3;
@@ -992,7 +992,7 @@
             this.fileToolStripMenuItem});
             this.mainMenu.Location = new System.Drawing.Point(0, 0);
             this.mainMenu.Name = "mainMenu";
-            this.mainMenu.Size = new System.Drawing.Size(510, 24);
+            this.mainMenu.Size = new System.Drawing.Size(1060, 24);
             this.mainMenu.TabIndex = 4;
             this.mainMenu.Text = "mainMenu";
             // 
@@ -1029,7 +1029,7 @@
             this.nameLbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.nameLbl.AutoSize = true;
             this.nameLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameLbl.Location = new System.Drawing.Point(28, 41);
+            this.nameLbl.Location = new System.Drawing.Point(303, 119);
             this.nameLbl.Name = "nameLbl";
             this.nameLbl.Size = new System.Drawing.Size(65, 24);
             this.nameLbl.TabIndex = 5;
@@ -1041,7 +1041,7 @@
             this.phoneNumberLbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.phoneNumberLbl.AutoSize = true;
             this.phoneNumberLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.phoneNumberLbl.Location = new System.Drawing.Point(28, 107);
+            this.phoneNumberLbl.Location = new System.Drawing.Point(303, 185);
             this.phoneNumberLbl.Name = "phoneNumberLbl";
             this.phoneNumberLbl.Size = new System.Drawing.Size(152, 24);
             this.phoneNumberLbl.TabIndex = 6;
@@ -1053,7 +1053,7 @@
             this.addressLbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.addressLbl.AutoSize = true;
             this.addressLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addressLbl.Location = new System.Drawing.Point(28, 161);
+            this.addressLbl.Location = new System.Drawing.Point(303, 239);
             this.addressLbl.Name = "addressLbl";
             this.addressLbl.Size = new System.Drawing.Size(87, 24);
             this.addressLbl.TabIndex = 7;
@@ -1065,7 +1065,7 @@
             this.suburbLbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.suburbLbl.AutoSize = true;
             this.suburbLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.suburbLbl.Location = new System.Drawing.Point(28, 224);
+            this.suburbLbl.Location = new System.Drawing.Point(303, 302);
             this.suburbLbl.Name = "suburbLbl";
             this.suburbLbl.Size = new System.Drawing.Size(78, 24);
             this.suburbLbl.TabIndex = 8;
@@ -1076,7 +1076,7 @@
             // 
             this.searchBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.searchBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchBtn.Location = new System.Drawing.Point(136, 315);
+            this.searchBtn.Location = new System.Drawing.Point(411, 393);
             this.searchBtn.Name = "searchBtn";
             this.searchBtn.Size = new System.Drawing.Size(146, 56);
             this.searchBtn.TabIndex = 9;
@@ -1087,7 +1087,7 @@
             // 
             this.continueBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.continueBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.continueBtn.Location = new System.Drawing.Point(313, 315);
+            this.continueBtn.Location = new System.Drawing.Point(588, 393);
             this.continueBtn.Name = "continueBtn";
             this.continueBtn.Size = new System.Drawing.Size(146, 56);
             this.continueBtn.TabIndex = 10;
@@ -1099,7 +1099,7 @@
             // 
             this.clearBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.clearBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clearBtn.Location = new System.Drawing.Point(219, 377);
+            this.clearBtn.Location = new System.Drawing.Point(494, 455);
             this.clearBtn.Name = "clearBtn";
             this.clearBtn.Size = new System.Drawing.Size(146, 56);
             this.clearBtn.TabIndex = 11;
@@ -1108,6 +1108,7 @@
             // 
             // orderPanel
             // 
+            this.orderPanel.Controls.Add(this.commentPanel);
             this.orderPanel.Controls.Add(this.mealDealPanel);
             this.orderPanel.Controls.Add(this.summaryPanel);
             this.orderPanel.Controls.Add(this.beveragesPanel);
@@ -1139,13 +1140,14 @@
             this.orderPanel.Controls.Add(this.pnl2TraditionalBtn);
             this.orderPanel.Controls.Add(this.pnl2MainsBtn);
             this.orderPanel.Controls.Add(this.pnl2StartersBtn);
-            this.orderPanel.Controls.Add(this.pnl2HalfBtn);
             this.orderPanel.Controls.Add(this.pnl2MealDealsBtn);
             this.orderPanel.Controls.Add(this.pnl2NextBtn);
             this.orderPanel.Controls.Add(this.pnl2BackBtn);
-            this.orderPanel.Location = new System.Drawing.Point(7, 28);
+            this.orderPanel.Controls.Add(this.pnl2HalfBtn);
+            this.orderPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.orderPanel.Location = new System.Drawing.Point(0, 24);
             this.orderPanel.Name = "orderPanel";
-            this.orderPanel.Size = new System.Drawing.Size(498, 539);
+            this.orderPanel.Size = new System.Drawing.Size(1060, 682);
             this.orderPanel.TabIndex = 12;
             this.orderPanel.Visible = false;
             this.orderPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.orderPanel_Paint);
@@ -1179,9 +1181,9 @@
             this.mealDealPanel.Controls.Add(this.label3);
             this.mealDealPanel.Controls.Add(this.label2);
             this.mealDealPanel.Controls.Add(this.pastaDealLbl);
-            this.mealDealPanel.Location = new System.Drawing.Point(69, 379);
+            this.mealDealPanel.Location = new System.Drawing.Point(291, 549);
             this.mealDealPanel.Name = "mealDealPanel";
-            this.mealDealPanel.Size = new System.Drawing.Size(90, 41);
+            this.mealDealPanel.Size = new System.Drawing.Size(23, 25);
             this.mealDealPanel.TabIndex = 18;
             this.mealDealPanel.Visible = false;
             this.mealDealPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.mealDealPanel_Paint);
@@ -1699,7 +1701,7 @@
             this.summaryPanel.Controls.Add(this.button372);
             this.summaryPanel.Controls.Add(this.button371);
             this.summaryPanel.Controls.Add(this.orderSummary);
-            this.summaryPanel.Location = new System.Drawing.Point(316, 465);
+            this.summaryPanel.Location = new System.Drawing.Point(618, 603);
             this.summaryPanel.Name = "summaryPanel";
             this.summaryPanel.Size = new System.Drawing.Size(55, 45);
             this.summaryPanel.TabIndex = 37;
@@ -1804,7 +1806,7 @@
             this.beveragesPanel.Controls.Add(this.label329);
             this.beveragesPanel.Controls.Add(this.label330);
             this.beveragesPanel.Controls.Add(this.label331);
-            this.beveragesPanel.Location = new System.Drawing.Point(162, 471);
+            this.beveragesPanel.Location = new System.Drawing.Point(53, 546);
             this.beveragesPanel.Name = "beveragesPanel";
             this.beveragesPanel.Size = new System.Drawing.Size(23, 23);
             this.beveragesPanel.TabIndex = 36;
@@ -1974,7 +1976,7 @@
             this.desertsPanel.Controls.Add(this.label318);
             this.desertsPanel.Controls.Add(this.label319);
             this.desertsPanel.Controls.Add(this.label320);
-            this.desertsPanel.Location = new System.Drawing.Point(207, 470);
+            this.desertsPanel.Location = new System.Drawing.Point(102, 542);
             this.desertsPanel.Name = "desertsPanel";
             this.desertsPanel.Size = new System.Drawing.Size(23, 23);
             this.desertsPanel.TabIndex = 35;
@@ -2365,7 +2367,7 @@
             this.saladsPanel.Controls.Add(this.label289);
             this.saladsPanel.Controls.Add(this.label290);
             this.saladsPanel.Controls.Add(this.label291);
-            this.saladsPanel.Location = new System.Drawing.Point(263, 479);
+            this.saladsPanel.Location = new System.Drawing.Point(155, 540);
             this.saladsPanel.Name = "saladsPanel";
             this.saladsPanel.Size = new System.Drawing.Size(23, 23);
             this.saladsPanel.TabIndex = 34;
@@ -2869,7 +2871,7 @@
             this.kebabWrapPanel.Controls.Add(this.label254);
             this.kebabWrapPanel.Controls.Add(this.label255);
             this.kebabWrapPanel.Controls.Add(this.label256);
-            this.kebabWrapPanel.Location = new System.Drawing.Point(313, 413);
+            this.kebabWrapPanel.Location = new System.Drawing.Point(458, 552);
             this.kebabWrapPanel.Name = "kebabWrapPanel";
             this.kebabWrapPanel.Size = new System.Drawing.Size(24, 19);
             this.kebabWrapPanel.TabIndex = 33;
@@ -2993,7 +2995,7 @@
             this.risottoPanel.Controls.Add(this.label262);
             this.risottoPanel.Controls.Add(this.label263);
             this.risottoPanel.Controls.Add(this.label264);
-            this.risottoPanel.Location = new System.Drawing.Point(432, 425);
+            this.risottoPanel.Location = new System.Drawing.Point(498, 547);
             this.risottoPanel.Name = "risottoPanel";
             this.risottoPanel.Size = new System.Drawing.Size(29, 24);
             this.risottoPanel.TabIndex = 32;
@@ -3148,7 +3150,7 @@
             this.ribsnwingsPanel.Controls.Add(this.label248);
             this.ribsnwingsPanel.Controls.Add(this.label249);
             this.ribsnwingsPanel.Controls.Add(this.label250);
-            this.ribsnwingsPanel.Location = new System.Drawing.Point(402, 382);
+            this.ribsnwingsPanel.Location = new System.Drawing.Point(433, 552);
             this.ribsnwingsPanel.Name = "ribsnwingsPanel";
             this.ribsnwingsPanel.Size = new System.Drawing.Size(13, 8);
             this.ribsnwingsPanel.TabIndex = 31;
@@ -3306,7 +3308,7 @@
             this.pastaBakePanel.Controls.Add(this.label244);
             this.pastaBakePanel.Controls.Add(this.label245);
             this.pastaBakePanel.Controls.Add(this.label246);
-            this.pastaBakePanel.Location = new System.Drawing.Point(424, 326);
+            this.pastaBakePanel.Location = new System.Drawing.Point(533, 550);
             this.pastaBakePanel.Name = "pastaBakePanel";
             this.pastaBakePanel.Size = new System.Drawing.Size(47, 22);
             this.pastaBakePanel.TabIndex = 30;
@@ -3504,7 +3506,7 @@
             this.pastaPanel.Controls.Add(this.label226);
             this.pastaPanel.Controls.Add(this.label229);
             this.pastaPanel.Controls.Add(this.label230);
-            this.pastaPanel.Location = new System.Drawing.Point(438, 282);
+            this.pastaPanel.Location = new System.Drawing.Point(586, 549);
             this.pastaPanel.Name = "pastaPanel";
             this.pastaPanel.Size = new System.Drawing.Size(33, 24);
             this.pastaPanel.TabIndex = 29;
@@ -3797,7 +3799,7 @@
             this.abPanel.Controls.Add(this.label211);
             this.abPanel.Controls.Add(this.label212);
             this.abPanel.Controls.Add(this.label213);
-            this.abPanel.Location = new System.Drawing.Point(430, 246);
+            this.abPanel.Location = new System.Drawing.Point(629, 557);
             this.abPanel.Name = "abPanel";
             this.abPanel.Size = new System.Drawing.Size(29, 12);
             this.abPanel.TabIndex = 28;
@@ -4144,7 +4146,7 @@
             this.seafoodPanel.Controls.Add(this.label170);
             this.seafoodPanel.Controls.Add(this.label171);
             this.seafoodPanel.Controls.Add(this.label172);
-            this.seafoodPanel.Location = new System.Drawing.Point(438, 219);
+            this.seafoodPanel.Location = new System.Drawing.Point(681, 555);
             this.seafoodPanel.Name = "seafoodPanel";
             this.seafoodPanel.Size = new System.Drawing.Size(33, 17);
             this.seafoodPanel.TabIndex = 27;
@@ -4317,7 +4319,6 @@
             // 
             // gourmetPanel
             // 
-            this.gourmetPanel.Controls.Add(this.commentPanel);
             this.gourmetPanel.Controls.Add(this.gourmet2Panel);
             this.gourmetPanel.Controls.Add(this.button283);
             this.gourmetPanel.Controls.Add(this.button284);
@@ -4401,11 +4402,111 @@
             this.gourmetPanel.Controls.Add(this.button368);
             this.gourmetPanel.Controls.Add(this.button369);
             this.gourmetPanel.Controls.Add(this.label150);
-            this.gourmetPanel.Location = new System.Drawing.Point(430, 172);
+            this.gourmetPanel.Location = new System.Drawing.Point(396, 603);
             this.gourmetPanel.Name = "gourmetPanel";
             this.gourmetPanel.Size = new System.Drawing.Size(59, 24);
             this.gourmetPanel.TabIndex = 26;
             this.gourmetPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.gourmetPanel_Paint);
+            // 
+            // commentPanel
+            // 
+            this.commentPanel.Controls.Add(this.button471);
+            this.commentPanel.Controls.Add(this.label153);
+            this.commentPanel.Controls.Add(this.button383);
+            this.commentPanel.Controls.Add(this.button382);
+            this.commentPanel.Controls.Add(this.button381);
+            this.commentPanel.Controls.Add(this.button380);
+            this.commentPanel.Controls.Add(this.label151);
+            this.commentPanel.Controls.Add(this.txComments);
+            this.commentPanel.Location = new System.Drawing.Point(0, 0);
+            this.commentPanel.Name = "commentPanel";
+            this.commentPanel.Size = new System.Drawing.Size(77, 37);
+            this.commentPanel.TabIndex = 213;
+            this.commentPanel.Visible = false;
+            // 
+            // button471
+            // 
+            this.button471.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.button471.Location = new System.Drawing.Point(280, 477);
+            this.button471.Name = "button471";
+            this.button471.Size = new System.Drawing.Size(56, 31);
+            this.button471.TabIndex = 8;
+            this.button471.Text = "$10";
+            this.button471.UseVisualStyleBackColor = true;
+            this.button471.Click += new System.EventHandler(this.button471_Click);
+            // 
+            // label153
+            // 
+            this.label153.AutoSize = true;
+            this.label153.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.label153.Location = new System.Drawing.Point(186, 458);
+            this.label153.Name = "label153";
+            this.label153.Size = new System.Drawing.Size(124, 18);
+            this.label153.TabIndex = 7;
+            this.label153.Text = "Delivery charge";
+            // 
+            // button383
+            // 
+            this.button383.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.button383.Location = new System.Drawing.Point(222, 477);
+            this.button383.Name = "button383";
+            this.button383.Size = new System.Drawing.Size(56, 31);
+            this.button383.TabIndex = 6;
+            this.button383.Text = "$7";
+            this.button383.UseVisualStyleBackColor = true;
+            this.button383.Click += new System.EventHandler(this.button383_Click);
+            // 
+            // button382
+            // 
+            this.button382.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.button382.Location = new System.Drawing.Point(164, 477);
+            this.button382.Name = "button382";
+            this.button382.Size = new System.Drawing.Size(56, 31);
+            this.button382.TabIndex = 5;
+            this.button382.Text = "$5";
+            this.button382.UseVisualStyleBackColor = true;
+            this.button382.Click += new System.EventHandler(this.button382_Click);
+            // 
+            // button381
+            // 
+            this.button381.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.button381.Location = new System.Drawing.Point(342, 472);
+            this.button381.Name = "button381";
+            this.button381.Size = new System.Drawing.Size(145, 38);
+            this.button381.TabIndex = 3;
+            this.button381.Text = "Next Page";
+            this.button381.UseVisualStyleBackColor = true;
+            this.button381.Click += new System.EventHandler(this.button381_Click);
+            // 
+            // button380
+            // 
+            this.button380.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.button380.Location = new System.Drawing.Point(13, 472);
+            this.button380.Name = "button380";
+            this.button380.Size = new System.Drawing.Size(145, 38);
+            this.button380.TabIndex = 2;
+            this.button380.Text = "Back";
+            this.button380.UseVisualStyleBackColor = true;
+            this.button380.Click += new System.EventHandler(this.button380_Click);
+            // 
+            // label151
+            // 
+            this.label151.AutoSize = true;
+            this.label151.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.label151.Location = new System.Drawing.Point(19, 19);
+            this.label151.Name = "label151";
+            this.label151.Size = new System.Drawing.Size(201, 24);
+            this.label151.TabIndex = 1;
+            this.label151.Text = "Customer comments";
+            // 
+            // txComments
+            // 
+            this.txComments.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.txComments.Location = new System.Drawing.Point(23, 48);
+            this.txComments.Multiline = true;
+            this.txComments.Name = "txComments";
+            this.txComments.Size = new System.Drawing.Size(459, 406);
+            this.txComments.TabIndex = 0;
             // 
             // gourmet2Panel
             // 
@@ -5756,7 +5857,7 @@
             this.traditionalPanel.Controls.Add(this.button56);
             this.traditionalPanel.Controls.Add(this.label121);
             this.traditionalPanel.Cursor = System.Windows.Forms.Cursors.Default;
-            this.traditionalPanel.Location = new System.Drawing.Point(429, 143);
+            this.traditionalPanel.Location = new System.Drawing.Point(487, 624);
             this.traditionalPanel.Name = "traditionalPanel";
             this.traditionalPanel.Size = new System.Drawing.Size(26, 20);
             this.traditionalPanel.TabIndex = 23;
@@ -8860,7 +8961,7 @@
             this.mainsPanel.Controls.Add(this.label196);
             this.mainsPanel.Controls.Add(this.label197);
             this.mainsPanel.Controls.Add(this.label198);
-            this.mainsPanel.Location = new System.Drawing.Point(122, 467);
+            this.mainsPanel.Location = new System.Drawing.Point(310, 625);
             this.mainsPanel.Name = "mainsPanel";
             this.mainsPanel.Size = new System.Drawing.Size(25, 29);
             this.mainsPanel.TabIndex = 22;
@@ -9244,7 +9345,7 @@
             this.halfhalfPanel.Controls.Add(this.label34);
             this.halfhalfPanel.Controls.Add(this.label35);
             this.halfhalfPanel.Controls.Add(this.label36);
-            this.halfhalfPanel.Location = new System.Drawing.Point(431, 74);
+            this.halfhalfPanel.Location = new System.Drawing.Point(720, 633);
             this.halfhalfPanel.Name = "halfhalfPanel";
             this.halfhalfPanel.Size = new System.Drawing.Size(23, 22);
             this.halfhalfPanel.TabIndex = 19;
@@ -9438,7 +9539,7 @@
             this.startersPanel.Controls.Add(this.label85);
             this.startersPanel.Controls.Add(this.label51);
             this.startersPanel.Controls.Add(this.label52);
-            this.startersPanel.Location = new System.Drawing.Point(431, 106);
+            this.startersPanel.Location = new System.Drawing.Point(525, 625);
             this.startersPanel.Name = "startersPanel";
             this.startersPanel.Size = new System.Drawing.Size(22, 29);
             this.startersPanel.TabIndex = 21;
@@ -10695,11 +10796,12 @@
             // 
             // pnl2BeveragesBtn
             // 
+            this.pnl2BeveragesBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2BeveragesBtn.BackColor = System.Drawing.Color.HotPink;
             this.pnl2BeveragesBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2BeveragesBtn.Location = new System.Drawing.Point(162, 365);
+            this.pnl2BeveragesBtn.Location = new System.Drawing.Point(289, 415);
             this.pnl2BeveragesBtn.Name = "pnl2BeveragesBtn";
-            this.pnl2BeveragesBtn.Size = new System.Drawing.Size(124, 63);
+            this.pnl2BeveragesBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2BeveragesBtn.TabIndex = 17;
             this.pnl2BeveragesBtn.Text = "Beverages";
             this.pnl2BeveragesBtn.UseVisualStyleBackColor = false;
@@ -10707,11 +10809,12 @@
             // 
             // pnl2DesertsBtn
             // 
+            this.pnl2DesertsBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2DesertsBtn.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.pnl2DesertsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2DesertsBtn.Location = new System.Drawing.Point(292, 296);
+            this.pnl2DesertsBtn.Location = new System.Drawing.Point(791, 415);
             this.pnl2DesertsBtn.Name = "pnl2DesertsBtn";
-            this.pnl2DesertsBtn.Size = new System.Drawing.Size(124, 63);
+            this.pnl2DesertsBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2DesertsBtn.TabIndex = 16;
             this.pnl2DesertsBtn.Text = "Deserts";
             this.pnl2DesertsBtn.UseVisualStyleBackColor = false;
@@ -10719,11 +10822,12 @@
             // 
             // pnl2SaladsBtn
             // 
+            this.pnl2SaladsBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2SaladsBtn.BackColor = System.Drawing.Color.DarkKhaki;
             this.pnl2SaladsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2SaladsBtn.Location = new System.Drawing.Point(292, 227);
+            this.pnl2SaladsBtn.Location = new System.Drawing.Point(542, 415);
             this.pnl2SaladsBtn.Name = "pnl2SaladsBtn";
-            this.pnl2SaladsBtn.Size = new System.Drawing.Size(124, 63);
+            this.pnl2SaladsBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2SaladsBtn.TabIndex = 15;
             this.pnl2SaladsBtn.Text = "Salads";
             this.pnl2SaladsBtn.UseVisualStyleBackColor = false;
@@ -10731,11 +10835,12 @@
             // 
             // pnl2KebabWrapBtn
             // 
+            this.pnl2KebabWrapBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2KebabWrapBtn.BackColor = System.Drawing.Color.Khaki;
             this.pnl2KebabWrapBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2KebabWrapBtn.Location = new System.Drawing.Point(292, 155);
+            this.pnl2KebabWrapBtn.Location = new System.Drawing.Point(791, 299);
             this.pnl2KebabWrapBtn.Name = "pnl2KebabWrapBtn";
-            this.pnl2KebabWrapBtn.Size = new System.Drawing.Size(124, 63);
+            this.pnl2KebabWrapBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2KebabWrapBtn.TabIndex = 14;
             this.pnl2KebabWrapBtn.Text = "Kebab/ Wrap";
             this.pnl2KebabWrapBtn.UseVisualStyleBackColor = false;
@@ -10743,11 +10848,12 @@
             // 
             // pnl2RisottoBtn
             // 
+            this.pnl2RisottoBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2RisottoBtn.BackColor = System.Drawing.Color.Gold;
             this.pnl2RisottoBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2RisottoBtn.Location = new System.Drawing.Point(292, 86);
+            this.pnl2RisottoBtn.Location = new System.Drawing.Point(791, 183);
             this.pnl2RisottoBtn.Name = "pnl2RisottoBtn";
-            this.pnl2RisottoBtn.Size = new System.Drawing.Size(124, 63);
+            this.pnl2RisottoBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2RisottoBtn.TabIndex = 13;
             this.pnl2RisottoBtn.Text = "Risotto";
             this.pnl2RisottoBtn.UseVisualStyleBackColor = false;
@@ -10755,11 +10861,12 @@
             // 
             // pnl2RibsWingsBtn
             // 
+            this.pnl2RibsWingsBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2RibsWingsBtn.BackColor = System.Drawing.Color.Yellow;
             this.pnl2RibsWingsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2RibsWingsBtn.Location = new System.Drawing.Point(292, 17);
+            this.pnl2RibsWingsBtn.Location = new System.Drawing.Point(791, 67);
             this.pnl2RibsWingsBtn.Name = "pnl2RibsWingsBtn";
-            this.pnl2RibsWingsBtn.Size = new System.Drawing.Size(124, 63);
+            this.pnl2RibsWingsBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2RibsWingsBtn.TabIndex = 12;
             this.pnl2RibsWingsBtn.Text = "Ribs and Wings";
             this.pnl2RibsWingsBtn.UseVisualStyleBackColor = false;
@@ -10767,11 +10874,12 @@
             // 
             // pnl2PastaBakeBtn
             // 
+            this.pnl2PastaBakeBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2PastaBakeBtn.BackColor = System.Drawing.Color.Orchid;
             this.pnl2PastaBakeBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2PastaBakeBtn.Location = new System.Drawing.Point(162, 296);
+            this.pnl2PastaBakeBtn.Location = new System.Drawing.Point(289, 299);
             this.pnl2PastaBakeBtn.Name = "pnl2PastaBakeBtn";
-            this.pnl2PastaBakeBtn.Size = new System.Drawing.Size(124, 63);
+            this.pnl2PastaBakeBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2PastaBakeBtn.TabIndex = 11;
             this.pnl2PastaBakeBtn.Text = "Pasta Bake";
             this.pnl2PastaBakeBtn.UseVisualStyleBackColor = false;
@@ -10779,11 +10887,12 @@
             // 
             // pnl2PastaBtn
             // 
+            this.pnl2PastaBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2PastaBtn.BackColor = System.Drawing.Color.MediumVioletRed;
             this.pnl2PastaBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2PastaBtn.Location = new System.Drawing.Point(162, 227);
+            this.pnl2PastaBtn.Location = new System.Drawing.Point(537, 299);
             this.pnl2PastaBtn.Name = "pnl2PastaBtn";
-            this.pnl2PastaBtn.Size = new System.Drawing.Size(124, 63);
+            this.pnl2PastaBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2PastaBtn.TabIndex = 10;
             this.pnl2PastaBtn.Text = "Pasta";
             this.pnl2PastaBtn.UseVisualStyleBackColor = false;
@@ -10791,11 +10900,12 @@
             // 
             // pnl2TheABBtn
             // 
+            this.pnl2TheABBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2TheABBtn.BackColor = System.Drawing.Color.DeepPink;
             this.pnl2TheABBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2TheABBtn.Location = new System.Drawing.Point(162, 155);
+            this.pnl2TheABBtn.Location = new System.Drawing.Point(537, 184);
             this.pnl2TheABBtn.Name = "pnl2TheABBtn";
-            this.pnl2TheABBtn.Size = new System.Drawing.Size(124, 63);
+            this.pnl2TheABBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2TheABBtn.TabIndex = 9;
             this.pnl2TheABBtn.Text = "The AB";
             this.pnl2TheABBtn.UseVisualStyleBackColor = false;
@@ -10803,11 +10913,12 @@
             // 
             // pnl2SeafoodBtn
             // 
+            this.pnl2SeafoodBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2SeafoodBtn.BackColor = System.Drawing.Color.Red;
             this.pnl2SeafoodBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2SeafoodBtn.Location = new System.Drawing.Point(162, 17);
+            this.pnl2SeafoodBtn.Location = new System.Drawing.Point(537, 67);
             this.pnl2SeafoodBtn.Name = "pnl2SeafoodBtn";
-            this.pnl2SeafoodBtn.Size = new System.Drawing.Size(124, 63);
+            this.pnl2SeafoodBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2SeafoodBtn.TabIndex = 8;
             this.pnl2SeafoodBtn.Text = "Seafood";
             this.pnl2SeafoodBtn.UseVisualStyleBackColor = false;
@@ -10815,11 +10926,12 @@
             // 
             // pnl2GourmetBtn
             // 
+            this.pnl2GourmetBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2GourmetBtn.BackColor = System.Drawing.Color.Crimson;
             this.pnl2GourmetBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2GourmetBtn.Location = new System.Drawing.Point(162, 86);
+            this.pnl2GourmetBtn.Location = new System.Drawing.Point(284, 184);
             this.pnl2GourmetBtn.Name = "pnl2GourmetBtn";
-            this.pnl2GourmetBtn.Size = new System.Drawing.Size(124, 63);
+            this.pnl2GourmetBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2GourmetBtn.TabIndex = 7;
             this.pnl2GourmetBtn.Text = "Gourmet Pizzas";
             this.pnl2GourmetBtn.UseVisualStyleBackColor = false;
@@ -10827,11 +10939,12 @@
             // 
             // pnl2TraditionalBtn
             // 
+            this.pnl2TraditionalBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2TraditionalBtn.BackColor = System.Drawing.Color.YellowGreen;
             this.pnl2TraditionalBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2TraditionalBtn.Location = new System.Drawing.Point(32, 86);
+            this.pnl2TraditionalBtn.Location = new System.Drawing.Point(33, 183);
             this.pnl2TraditionalBtn.Name = "pnl2TraditionalBtn";
-            this.pnl2TraditionalBtn.Size = new System.Drawing.Size(124, 63);
+            this.pnl2TraditionalBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2TraditionalBtn.TabIndex = 6;
             this.pnl2TraditionalBtn.Text = "Traditional Pizzas";
             this.pnl2TraditionalBtn.UseVisualStyleBackColor = false;
@@ -10839,11 +10952,12 @@
             // 
             // pnl2MainsBtn
             // 
+            this.pnl2MainsBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2MainsBtn.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.pnl2MainsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2MainsBtn.Location = new System.Drawing.Point(32, 296);
+            this.pnl2MainsBtn.Location = new System.Drawing.Point(289, 67);
             this.pnl2MainsBtn.Name = "pnl2MainsBtn";
-            this.pnl2MainsBtn.Size = new System.Drawing.Size(124, 63);
+            this.pnl2MainsBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2MainsBtn.TabIndex = 5;
             this.pnl2MainsBtn.Text = "Mains";
             this.pnl2MainsBtn.UseVisualStyleBackColor = false;
@@ -10851,11 +10965,12 @@
             // 
             // pnl2StartersBtn
             // 
+            this.pnl2StartersBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2StartersBtn.BackColor = System.Drawing.Color.GreenYellow;
             this.pnl2StartersBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2StartersBtn.Location = new System.Drawing.Point(32, 155);
+            this.pnl2StartersBtn.Location = new System.Drawing.Point(33, 299);
             this.pnl2StartersBtn.Name = "pnl2StartersBtn";
-            this.pnl2StartersBtn.Size = new System.Drawing.Size(124, 63);
+            this.pnl2StartersBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2StartersBtn.TabIndex = 4;
             this.pnl2StartersBtn.Text = "Starters";
             this.pnl2StartersBtn.UseVisualStyleBackColor = false;
@@ -10863,11 +10978,12 @@
             // 
             // pnl2HalfBtn
             // 
+            this.pnl2HalfBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2HalfBtn.BackColor = System.Drawing.Color.PaleGreen;
             this.pnl2HalfBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2HalfBtn.Location = new System.Drawing.Point(32, 227);
+            this.pnl2HalfBtn.Location = new System.Drawing.Point(33, 415);
             this.pnl2HalfBtn.Name = "pnl2HalfBtn";
-            this.pnl2HalfBtn.Size = new System.Drawing.Size(124, 63);
+            this.pnl2HalfBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2HalfBtn.TabIndex = 3;
             this.pnl2HalfBtn.Text = "Half \'n\' Half";
             this.pnl2HalfBtn.UseVisualStyleBackColor = false;
@@ -10875,11 +10991,12 @@
             // 
             // pnl2MealDealsBtn
             // 
+            this.pnl2MealDealsBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2MealDealsBtn.BackColor = System.Drawing.Color.SeaGreen;
             this.pnl2MealDealsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2MealDealsBtn.Location = new System.Drawing.Point(32, 17);
+            this.pnl2MealDealsBtn.Location = new System.Drawing.Point(33, 67);
             this.pnl2MealDealsBtn.Name = "pnl2MealDealsBtn";
-            this.pnl2MealDealsBtn.Size = new System.Drawing.Size(124, 63);
+            this.pnl2MealDealsBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2MealDealsBtn.TabIndex = 2;
             this.pnl2MealDealsBtn.Text = "Meal Deals";
             this.pnl2MealDealsBtn.UseVisualStyleBackColor = false;
@@ -10887,10 +11004,11 @@
             // 
             // pnl2NextBtn
             // 
+            this.pnl2NextBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2NextBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2NextBtn.Location = new System.Drawing.Point(395, 466);
+            this.pnl2NextBtn.Location = new System.Drawing.Point(809, 570);
             this.pnl2NextBtn.Name = "pnl2NextBtn";
-            this.pnl2NextBtn.Size = new System.Drawing.Size(103, 49);
+            this.pnl2NextBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2NextBtn.TabIndex = 1;
             this.pnl2NextBtn.Text = "Finish";
             this.pnl2NextBtn.UseVisualStyleBackColor = true;
@@ -10898,120 +11016,21 @@
             // 
             // pnl2BackBtn
             // 
+            this.pnl2BackBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2BackBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2BackBtn.Location = new System.Drawing.Point(12, 466);
+            this.pnl2BackBtn.Location = new System.Drawing.Point(12, 569);
             this.pnl2BackBtn.Name = "pnl2BackBtn";
-            this.pnl2BackBtn.Size = new System.Drawing.Size(103, 49);
+            this.pnl2BackBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2BackBtn.TabIndex = 0;
             this.pnl2BackBtn.Text = "Back";
             this.pnl2BackBtn.UseVisualStyleBackColor = true;
             this.pnl2BackBtn.Click += new System.EventHandler(this.pnl2BackBtn_Click);
             // 
-            // commentPanel
-            // 
-            this.commentPanel.Controls.Add(this.button471);
-            this.commentPanel.Controls.Add(this.label153);
-            this.commentPanel.Controls.Add(this.button383);
-            this.commentPanel.Controls.Add(this.button382);
-            this.commentPanel.Controls.Add(this.button381);
-            this.commentPanel.Controls.Add(this.button380);
-            this.commentPanel.Controls.Add(this.label151);
-            this.commentPanel.Controls.Add(this.txComments);
-            this.commentPanel.Location = new System.Drawing.Point(151, 311);
-            this.commentPanel.Name = "commentPanel";
-            this.commentPanel.Size = new System.Drawing.Size(77, 37);
-            this.commentPanel.TabIndex = 213;
-            this.commentPanel.Visible = false;
-            // 
-            // button471
-            // 
-            this.button471.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.button471.Location = new System.Drawing.Point(280, 477);
-            this.button471.Name = "button471";
-            this.button471.Size = new System.Drawing.Size(56, 31);
-            this.button471.TabIndex = 8;
-            this.button471.Text = "$10";
-            this.button471.UseVisualStyleBackColor = true;
-            this.button471.Click += new System.EventHandler(this.button471_Click);
-            // 
-            // label153
-            // 
-            this.label153.AutoSize = true;
-            this.label153.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
-            this.label153.Location = new System.Drawing.Point(186, 458);
-            this.label153.Name = "label153";
-            this.label153.Size = new System.Drawing.Size(124, 18);
-            this.label153.TabIndex = 7;
-            this.label153.Text = "Delivery charge";
-            // 
-            // button383
-            // 
-            this.button383.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.button383.Location = new System.Drawing.Point(222, 477);
-            this.button383.Name = "button383";
-            this.button383.Size = new System.Drawing.Size(56, 31);
-            this.button383.TabIndex = 6;
-            this.button383.Text = "$7";
-            this.button383.UseVisualStyleBackColor = true;
-            this.button383.Click += new System.EventHandler(this.button383_Click);
-            // 
-            // button382
-            // 
-            this.button382.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.button382.Location = new System.Drawing.Point(164, 477);
-            this.button382.Name = "button382";
-            this.button382.Size = new System.Drawing.Size(56, 31);
-            this.button382.TabIndex = 5;
-            this.button382.Text = "$5";
-            this.button382.UseVisualStyleBackColor = true;
-            this.button382.Click += new System.EventHandler(this.button382_Click);
-            // 
-            // button381
-            // 
-            this.button381.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.button381.Location = new System.Drawing.Point(342, 472);
-            this.button381.Name = "button381";
-            this.button381.Size = new System.Drawing.Size(145, 38);
-            this.button381.TabIndex = 3;
-            this.button381.Text = "Next Page";
-            this.button381.UseVisualStyleBackColor = true;
-            this.button381.Click += new System.EventHandler(this.button381_Click);
-            // 
-            // button380
-            // 
-            this.button380.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.button380.Location = new System.Drawing.Point(13, 472);
-            this.button380.Name = "button380";
-            this.button380.Size = new System.Drawing.Size(145, 38);
-            this.button380.TabIndex = 2;
-            this.button380.Text = "Back";
-            this.button380.UseVisualStyleBackColor = true;
-            this.button380.Click += new System.EventHandler(this.button380_Click);
-            // 
-            // label151
-            // 
-            this.label151.AutoSize = true;
-            this.label151.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.label151.Location = new System.Drawing.Point(19, 19);
-            this.label151.Name = "label151";
-            this.label151.Size = new System.Drawing.Size(201, 24);
-            this.label151.TabIndex = 1;
-            this.label151.Text = "Customer comments";
-            // 
-            // txComments
-            // 
-            this.txComments.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.txComments.Location = new System.Drawing.Point(23, 48);
-            this.txComments.Multiline = true;
-            this.txComments.Name = "txComments";
-            this.txComments.Size = new System.Drawing.Size(459, 406);
-            this.txComments.TabIndex = 0;
-            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(510, 551);
+            this.ClientSize = new System.Drawing.Size(1060, 706);
             this.Controls.Add(this.orderPanel);
             this.Controls.Add(this.clearBtn);
             this.Controls.Add(this.continueBtn);
@@ -11029,6 +11048,7 @@
             this.Name = "mainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dernancourt POS";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.mainMenu.ResumeLayout(false);
             this.mainMenu.PerformLayout();
@@ -11067,6 +11087,8 @@
             this.seafoodPanel.PerformLayout();
             this.gourmetPanel.ResumeLayout(false);
             this.gourmetPanel.PerformLayout();
+            this.commentPanel.ResumeLayout(false);
+            this.commentPanel.PerformLayout();
             this.gourmet2Panel.ResumeLayout(false);
             this.gourmet2Panel.PerformLayout();
             this.traditionalPanel.ResumeLayout(false);
@@ -11091,8 +11113,6 @@
             this.starters3Panel.PerformLayout();
             this.starters4Panel.ResumeLayout(false);
             this.starters4Panel.PerformLayout();
-            this.commentPanel.ResumeLayout(false);
-            this.commentPanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

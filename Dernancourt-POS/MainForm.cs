@@ -866,7 +866,7 @@ namespace Dernancourt_POS
 
         private void mealDealPanel_Paint(object sender, PaintEventArgs e)
         {
-
+            // fix
         }
 
         private void pnl2NextBtn_Click(object sender, EventArgs e)
