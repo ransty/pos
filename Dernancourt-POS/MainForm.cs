@@ -15,6 +15,7 @@ namespace Dernancourt_POS
     public partial class mainForm : Form
     {
         public Order myOrder;
+        string filePath;
 
         List<string> simplyCheese = new List<string>();
         List<string> hamCheese = new List<string>();
@@ -401,6 +402,12 @@ namespace Dernancourt_POS
             editItemsPanel.Dock = DockStyle.Fill;
             commentPanel.Dock = DockStyle.Fill;
 
+            this.filePath = @"data.csv";
+            if (!(File.Exists(filePath)))
+            {
+                File.Create(filePath).Dispose();
+            }
+
         }
 
         private void nameLbl_Click(object sender, EventArgs e)
@@ -473,6 +480,22 @@ namespace Dernancourt_POS
 
                 // move to orderPanel
                 orderPanel.Visible = true;
+
+                //before your loop
+                var csv = new StringBuilder();
+
+                //in your loop
+                var first = customerNameTxt.Text.ToString();
+                var second = customerPhoneNumberTxt.Text.ToString();
+                var third = customerAddressTxt.Text.ToString();
+                var fourth = customerSuburbTxt.Text.ToString();
+                var newLine = string.Format("{0},{1},{2},{3}", first, second, third, fourth);
+                csv.Append(newLine);
+
+                //after your loop
+                TextWriter tsw = new StreamWriter(filePath, true);
+                tsw.Write(csv.ToString());
+                tsw.Close();
             }
             else if (!string.IsNullOrEmpty(customerPhoneNumberTxt.Text))
             {
@@ -483,8 +506,22 @@ namespace Dernancourt_POS
 
                 // move to orderPanel
                 orderPanel.Visible = true;
-            }
 
+
+                //before your loop
+                var csv = new StringBuilder();
+
+                //in your loop
+                var first = customerNameTxt.Text.ToString();
+                var second = customerPhoneNumberTxt.Text.ToString();
+                var newLine = string.Format("{0},{1}", first, second);
+                csv.Append(newLine);
+
+                //after your loop
+                TextWriter tsw = new StreamWriter(filePath, true);
+                tsw.Write(csv.ToString());
+                tsw.Close();
+            }
 
         }
 
@@ -3222,6 +3259,130 @@ namespace Dernancourt_POS
         private void button471_Click(object sender, EventArgs e)
         {
             myOrder.SetPrice(myOrder.getPrice() + 10);//add $10 delivery charge to order
+        }
+
+        private void finishBevPanel_Click(object sender, EventArgs e)
+        {
+            beveragesPanel.Visible = false;
+        }
+
+        private void button472_Click(object sender, EventArgs e)
+        {
+            abPanel.Visible = false;
+            ab2Panel.Visible = false;
+        }
+
+        private void button473_Click(object sender, EventArgs e)
+        {
+            pastaPanel.Visible = false;
+        }
+
+        private void button475_Click(object sender, EventArgs e)
+        {
+            pastaBakePanel.Visible = false;
+        }
+
+        private void button476_Click(object sender, EventArgs e)
+        {
+            risottoPanel.Visible = false;
+        }
+
+        private void button487_Click(object sender, EventArgs e)
+        {
+            startersPanel.Visible = false;
+            starters2Panel.Visible = false;
+            starters3Panel.Visible = false;
+            starters4Panel.Visible = false;
+        }
+
+        private void button13_Click_2(object sender, EventArgs e)
+        {
+            traditionalPanel.Visible = false;
+            traditional2Panel.Visible = false;
+            traditional3Panel.Visible = false;
+            traditional4Panel.Visible = false;
+        }
+
+        private void button490_Click(object sender, EventArgs e)
+        {
+            kebabWrapPanel.Visible = false;
+        }
+
+        private void button496_Click(object sender, EventArgs e)
+        {
+            mealDealPanel.Visible = false;
+            mealDealPanel2.Visible = false;
+        }
+
+        private void button497_Click(object sender, EventArgs e)
+        {
+            saladsPanel.Visible = false;
+        }
+
+        private void button498_Click(object sender, EventArgs e)
+        {
+            desertsPanel.Visible = false;
+            desert2Panel.Visible = false;
+        }
+
+        private void button499_Click(object sender, EventArgs e)
+        {
+            gourmetPanel.Visible = false;
+            gourmet2Panel.Visible = false;
+        }
+
+        private void button500_Click(object sender, EventArgs e)
+        {
+            mainsPanel.Visible = false;
+            mains2Panel.Visible = false;
+        }
+
+        private void clearBtn_Click(object sender, EventArgs e)
+        {
+            customerSuburbTxt.Text = "";
+            customerPhoneNumberTxt.Text = "";
+            customerAddressTxt.Text = "";
+            customerNameTxt.Text = "";
+        }
+
+        private void searchBtn_Click(object sender, EventArgs e)
+        {
+            string line = GetDetails(customerPhoneNumberTxt.Text);
+            string[] results = line.Split(',');
+            if (line.Equals(""))
+            {
+                return;
+            } else
+            {
+                if (results.Length == 2)
+                {
+                    customerNameTxt.Text = results[0];
+                    customerPhoneNumberTxt.Text = results[1];
+                }
+                else
+                {
+                    customerNameTxt.Text = results[0];
+                    customerPhoneNumberTxt.Text = results[1];
+                    customerAddressTxt.Text = results[2];
+                    customerSuburbTxt.Text = results[3];
+                }
+            }
+        }
+
+        private String GetDetails(String phoneNumber)
+        {
+            var strLines = File.ReadLines(filePath);
+            foreach (var line in strLines)
+            {
+                if (line.Equals(""))
+                {
+                    continue;
+                }
+                if (line.Split(',')[1].Equals(phoneNumber))
+                    return line;
+            }
+
+            return "";
         }
     }
 }

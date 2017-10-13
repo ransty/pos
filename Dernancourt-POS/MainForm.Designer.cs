@@ -45,6 +45,15 @@
             this.continueBtn = new System.Windows.Forms.Button();
             this.clearBtn = new System.Windows.Forms.Button();
             this.orderPanel = new System.Windows.Forms.Panel();
+            this.commentPanel = new System.Windows.Forms.Panel();
+            this.button471 = new System.Windows.Forms.Button();
+            this.label153 = new System.Windows.Forms.Label();
+            this.button383 = new System.Windows.Forms.Button();
+            this.button382 = new System.Windows.Forms.Button();
+            this.button381 = new System.Windows.Forms.Button();
+            this.button380 = new System.Windows.Forms.Button();
+            this.label151 = new System.Windows.Forms.Label();
+            this.txComments = new System.Windows.Forms.TextBox();
             this.mealDealPanel = new System.Windows.Forms.Panel();
             this.mealDealPanel2 = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
@@ -121,9 +130,7 @@
             this.button462 = new System.Windows.Forms.Button();
             this.button488 = new System.Windows.Forms.Button();
             this.button489 = new System.Windows.Forms.Button();
-            this.label304 = new System.Windows.Forms.Label();
             this.label321 = new System.Windows.Forms.Label();
-            this.label322 = new System.Windows.Forms.Label();
             this.label323 = new System.Windows.Forms.Label();
             this.button477 = new System.Windows.Forms.Button();
             this.button478 = new System.Windows.Forms.Button();
@@ -135,21 +142,13 @@
             this.button484 = new System.Windows.Forms.Button();
             this.button485 = new System.Windows.Forms.Button();
             this.button486 = new System.Windows.Forms.Button();
-            this.label305 = new System.Windows.Forms.Label();
             this.label306 = new System.Windows.Forms.Label();
-            this.label307 = new System.Windows.Forms.Label();
             this.label308 = new System.Windows.Forms.Label();
-            this.label309 = new System.Windows.Forms.Label();
             this.label310 = new System.Windows.Forms.Label();
-            this.label311 = new System.Windows.Forms.Label();
             this.label312 = new System.Windows.Forms.Label();
-            this.label313 = new System.Windows.Forms.Label();
             this.label314 = new System.Windows.Forms.Label();
-            this.label315 = new System.Windows.Forms.Label();
             this.label316 = new System.Windows.Forms.Label();
-            this.label317 = new System.Windows.Forms.Label();
             this.label318 = new System.Windows.Forms.Label();
-            this.label319 = new System.Windows.Forms.Label();
             this.label320 = new System.Windows.Forms.Label();
             this.saladsPanel = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -203,39 +202,18 @@
             this.button448 = new System.Windows.Forms.Button();
             this.button449 = new System.Windows.Forms.Button();
             this.button454 = new System.Windows.Forms.Button();
-            this.label251 = new System.Windows.Forms.Label();
             this.label252 = new System.Windows.Forms.Label();
-            this.label253 = new System.Windows.Forms.Label();
             this.label254 = new System.Windows.Forms.Label();
-            this.label255 = new System.Windows.Forms.Label();
             this.label256 = new System.Windows.Forms.Label();
-            this.risottoPanel = new System.Windows.Forms.Panel();
-            this.button407 = new System.Windows.Forms.Button();
-            this.button450 = new System.Windows.Forms.Button();
-            this.button451 = new System.Windows.Forms.Button();
-            this.button452 = new System.Windows.Forms.Button();
-            this.button453 = new System.Windows.Forms.Button();
-            this.label257 = new System.Windows.Forms.Label();
-            this.label258 = new System.Windows.Forms.Label();
-            this.label259 = new System.Windows.Forms.Label();
-            this.label260 = new System.Windows.Forms.Label();
-            this.label261 = new System.Windows.Forms.Label();
-            this.label262 = new System.Windows.Forms.Label();
-            this.label263 = new System.Windows.Forms.Label();
-            this.label264 = new System.Windows.Forms.Label();
             this.ribsnwingsPanel = new System.Windows.Forms.Panel();
             this.button408 = new System.Windows.Forms.Button();
             this.button409 = new System.Windows.Forms.Button();
             this.button443 = new System.Windows.Forms.Button();
             this.button444 = new System.Windows.Forms.Button();
             this.button445 = new System.Windows.Forms.Button();
-            this.label235 = new System.Windows.Forms.Label();
             this.label236 = new System.Windows.Forms.Label();
-            this.label237 = new System.Windows.Forms.Label();
             this.label238 = new System.Windows.Forms.Label();
-            this.label247 = new System.Windows.Forms.Label();
             this.label248 = new System.Windows.Forms.Label();
-            this.label249 = new System.Windows.Forms.Label();
             this.label250 = new System.Windows.Forms.Label();
             this.pastaBakePanel = new System.Windows.Forms.Panel();
             this.button406 = new System.Windows.Forms.Button();
@@ -330,15 +308,6 @@
             this.label171 = new System.Windows.Forms.Label();
             this.label172 = new System.Windows.Forms.Label();
             this.gourmetPanel = new System.Windows.Forms.Panel();
-            this.commentPanel = new System.Windows.Forms.Panel();
-            this.button471 = new System.Windows.Forms.Button();
-            this.label153 = new System.Windows.Forms.Label();
-            this.button383 = new System.Windows.Forms.Button();
-            this.button382 = new System.Windows.Forms.Button();
-            this.button381 = new System.Windows.Forms.Button();
-            this.button380 = new System.Windows.Forms.Button();
-            this.label151 = new System.Windows.Forms.Label();
-            this.txComments = new System.Windows.Forms.TextBox();
             this.gourmet2Panel = new System.Windows.Forms.Panel();
             this.button412 = new System.Windows.Forms.Button();
             this.button413 = new System.Windows.Forms.Button();
@@ -722,42 +691,7 @@
             this.button55 = new System.Windows.Forms.Button();
             this.button56 = new System.Windows.Forms.Button();
             this.label121 = new System.Windows.Forms.Label();
-            this.mainsPanel = new System.Windows.Forms.Panel();
-            this.mains2Panel = new System.Windows.Forms.Panel();
-            this.button80 = new System.Windows.Forms.Button();
-            this.button89 = new System.Windows.Forms.Button();
-            this.label163 = new System.Windows.Forms.Label();
-            this.label164 = new System.Windows.Forms.Label();
-            this.label146 = new System.Windows.Forms.Label();
-            this.label145 = new System.Windows.Forms.Label();
-            this.button104 = new System.Windows.Forms.Button();
             this.button105 = new System.Windows.Forms.Button();
-            this.button106 = new System.Windows.Forms.Button();
-            this.button107 = new System.Windows.Forms.Button();
-            this.button108 = new System.Windows.Forms.Button();
-            this.button109 = new System.Windows.Forms.Button();
-            this.button110 = new System.Windows.Forms.Button();
-            this.button111 = new System.Windows.Forms.Button();
-            this.button112 = new System.Windows.Forms.Button();
-            this.button113 = new System.Windows.Forms.Button();
-            this.label183 = new System.Windows.Forms.Label();
-            this.label184 = new System.Windows.Forms.Label();
-            this.label185 = new System.Windows.Forms.Label();
-            this.label186 = new System.Windows.Forms.Label();
-            this.label187 = new System.Windows.Forms.Label();
-            this.label188 = new System.Windows.Forms.Label();
-            this.label155 = new System.Windows.Forms.Label();
-            this.label189 = new System.Windows.Forms.Label();
-            this.label190 = new System.Windows.Forms.Label();
-            this.label191 = new System.Windows.Forms.Label();
-            this.label192 = new System.Windows.Forms.Label();
-            this.label152 = new System.Windows.Forms.Label();
-            this.label193 = new System.Windows.Forms.Label();
-            this.label194 = new System.Windows.Forms.Label();
-            this.label195 = new System.Windows.Forms.Label();
-            this.label196 = new System.Windows.Forms.Label();
-            this.label197 = new System.Windows.Forms.Label();
-            this.label198 = new System.Windows.Forms.Label();
             this.halfhalfPanel = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -841,7 +775,6 @@
             this.button54 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button53 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
             this.button52 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.button48 = new System.Windows.Forms.Button();
@@ -859,36 +792,20 @@
             this.label106 = new System.Windows.Forms.Label();
             this.button21 = new System.Windows.Forms.Button();
             this.label105 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
             this.label104 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
             this.label103 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
             this.label102 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
             this.label101 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
             this.label94 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
             this.label93 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
             this.label92 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
             this.label91 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
             this.label90 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
             this.label89 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
             this.label88 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
             this.label87 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
             this.label86 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
             this.label85 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
             this.pnl2BeveragesBtn = new System.Windows.Forms.Button();
             this.pnl2DesertsBtn = new System.Windows.Forms.Button();
             this.pnl2SaladsBtn = new System.Windows.Forms.Button();
@@ -903,12 +820,71 @@
             this.pnl2TraditionalBtn = new System.Windows.Forms.Button();
             this.pnl2MainsBtn = new System.Windows.Forms.Button();
             this.pnl2StartersBtn = new System.Windows.Forms.Button();
-            this.pnl2HalfBtn = new System.Windows.Forms.Button();
             this.pnl2MealDealsBtn = new System.Windows.Forms.Button();
             this.pnl2NextBtn = new System.Windows.Forms.Button();
             this.pnl2BackBtn = new System.Windows.Forms.Button();
+            this.pnl2HalfBtn = new System.Windows.Forms.Button();
+            this.finishBevPanel = new System.Windows.Forms.Button();
+            this.button472 = new System.Windows.Forms.Button();
+            this.button473 = new System.Windows.Forms.Button();
+            this.button475 = new System.Windows.Forms.Button();
+            this.label264 = new System.Windows.Forms.Label();
+            this.label262 = new System.Windows.Forms.Label();
+            this.label260 = new System.Windows.Forms.Label();
+            this.label258 = new System.Windows.Forms.Label();
+            this.button453 = new System.Windows.Forms.Button();
+            this.button452 = new System.Windows.Forms.Button();
+            this.button450 = new System.Windows.Forms.Button();
+            this.button407 = new System.Windows.Forms.Button();
+            this.button476 = new System.Windows.Forms.Button();
+            this.risottoPanel = new System.Windows.Forms.Panel();
+            this.button451 = new System.Windows.Forms.Button();
+            this.button487 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button490 = new System.Windows.Forms.Button();
+            this.button491 = new System.Windows.Forms.Button();
+            this.button496 = new System.Windows.Forms.Button();
+            this.button497 = new System.Windows.Forms.Button();
+            this.button498 = new System.Windows.Forms.Button();
+            this.button499 = new System.Windows.Forms.Button();
+            this.label198 = new System.Windows.Forms.Label();
+            this.label197 = new System.Windows.Forms.Label();
+            this.label196 = new System.Windows.Forms.Label();
+            this.label195 = new System.Windows.Forms.Label();
+            this.label194 = new System.Windows.Forms.Label();
+            this.label193 = new System.Windows.Forms.Label();
+            this.label152 = new System.Windows.Forms.Label();
+            this.label192 = new System.Windows.Forms.Label();
+            this.label191 = new System.Windows.Forms.Label();
+            this.label190 = new System.Windows.Forms.Label();
+            this.label189 = new System.Windows.Forms.Label();
+            this.label155 = new System.Windows.Forms.Label();
+            this.label188 = new System.Windows.Forms.Label();
+            this.label187 = new System.Windows.Forms.Label();
+            this.label186 = new System.Windows.Forms.Label();
+            this.label185 = new System.Windows.Forms.Label();
+            this.label184 = new System.Windows.Forms.Label();
+            this.button113 = new System.Windows.Forms.Button();
+            this.button112 = new System.Windows.Forms.Button();
+            this.button111 = new System.Windows.Forms.Button();
+            this.button110 = new System.Windows.Forms.Button();
+            this.button109 = new System.Windows.Forms.Button();
+            this.button108 = new System.Windows.Forms.Button();
+            this.button107 = new System.Windows.Forms.Button();
+            this.button106 = new System.Windows.Forms.Button();
+            this.button104 = new System.Windows.Forms.Button();
+            this.label145 = new System.Windows.Forms.Label();
+            this.label146 = new System.Windows.Forms.Label();
+            this.mains2Panel = new System.Windows.Forms.Panel();
+            this.label164 = new System.Windows.Forms.Label();
+            this.label163 = new System.Windows.Forms.Label();
+            this.button89 = new System.Windows.Forms.Button();
+            this.button80 = new System.Windows.Forms.Button();
+            this.button500 = new System.Windows.Forms.Button();
+            this.mainsPanel = new System.Windows.Forms.Panel();
             this.mainMenu.SuspendLayout();
             this.orderPanel.SuspendLayout();
+            this.commentPanel.SuspendLayout();
             this.mealDealPanel.SuspendLayout();
             this.mealDealPanel2.SuspendLayout();
             this.summaryPanel.SuspendLayout();
@@ -919,7 +895,6 @@
             this.saladsPanel.SuspendLayout();
             this.panel2.SuspendLayout();
             this.kebabWrapPanel.SuspendLayout();
-            this.risottoPanel.SuspendLayout();
             this.ribsnwingsPanel.SuspendLayout();
             this.pastaBakePanel.SuspendLayout();
             this.pastaPanel.SuspendLayout();
@@ -927,19 +902,19 @@
             this.ab2Panel.SuspendLayout();
             this.seafoodPanel.SuspendLayout();
             this.gourmetPanel.SuspendLayout();
-            this.commentPanel.SuspendLayout();
             this.gourmet2Panel.SuspendLayout();
             this.traditionalPanel.SuspendLayout();
             this.traditional2Panel.SuspendLayout();
             this.traditional3Panel.SuspendLayout();
             this.traditional4Panel.SuspendLayout();
-            this.mainsPanel.SuspendLayout();
-            this.mains2Panel.SuspendLayout();
             this.halfhalfPanel.SuspendLayout();
             this.startersPanel.SuspendLayout();
             this.starters2Panel.SuspendLayout();
             this.starters3Panel.SuspendLayout();
             this.starters4Panel.SuspendLayout();
+            this.risottoPanel.SuspendLayout();
+            this.mains2Panel.SuspendLayout();
+            this.mainsPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // customerNameTxt
@@ -947,7 +922,7 @@
             this.customerNameTxt.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.customerNameTxt.BackColor = System.Drawing.SystemColors.Window;
             this.customerNameTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerNameTxt.Location = new System.Drawing.Point(504, 116);
+            this.customerNameTxt.Location = new System.Drawing.Point(506, 141);
             this.customerNameTxt.Name = "customerNameTxt";
             this.customerNameTxt.Size = new System.Drawing.Size(230, 29);
             this.customerNameTxt.TabIndex = 0;
@@ -958,7 +933,7 @@
             this.customerPhoneNumberTxt.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.customerPhoneNumberTxt.BackColor = System.Drawing.SystemColors.Window;
             this.customerPhoneNumberTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerPhoneNumberTxt.Location = new System.Drawing.Point(504, 182);
+            this.customerPhoneNumberTxt.Location = new System.Drawing.Point(506, 207);
             this.customerPhoneNumberTxt.Name = "customerPhoneNumberTxt";
             this.customerPhoneNumberTxt.Size = new System.Drawing.Size(230, 29);
             this.customerPhoneNumberTxt.TabIndex = 1;
@@ -969,7 +944,7 @@
             this.customerAddressTxt.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.customerAddressTxt.BackColor = System.Drawing.SystemColors.Window;
             this.customerAddressTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerAddressTxt.Location = new System.Drawing.Point(504, 236);
+            this.customerAddressTxt.Location = new System.Drawing.Point(506, 261);
             this.customerAddressTxt.Name = "customerAddressTxt";
             this.customerAddressTxt.Size = new System.Drawing.Size(230, 29);
             this.customerAddressTxt.TabIndex = 2;
@@ -980,7 +955,7 @@
             this.customerSuburbTxt.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.customerSuburbTxt.BackColor = System.Drawing.SystemColors.Window;
             this.customerSuburbTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerSuburbTxt.Location = new System.Drawing.Point(504, 299);
+            this.customerSuburbTxt.Location = new System.Drawing.Point(506, 324);
             this.customerSuburbTxt.Name = "customerSuburbTxt";
             this.customerSuburbTxt.Size = new System.Drawing.Size(230, 29);
             this.customerSuburbTxt.TabIndex = 3;
@@ -992,7 +967,7 @@
             this.fileToolStripMenuItem});
             this.mainMenu.Location = new System.Drawing.Point(0, 0);
             this.mainMenu.Name = "mainMenu";
-            this.mainMenu.Size = new System.Drawing.Size(1060, 24);
+            this.mainMenu.Size = new System.Drawing.Size(1064, 24);
             this.mainMenu.TabIndex = 4;
             this.mainMenu.Text = "mainMenu";
             // 
@@ -1029,7 +1004,7 @@
             this.nameLbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.nameLbl.AutoSize = true;
             this.nameLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameLbl.Location = new System.Drawing.Point(303, 119);
+            this.nameLbl.Location = new System.Drawing.Point(305, 144);
             this.nameLbl.Name = "nameLbl";
             this.nameLbl.Size = new System.Drawing.Size(65, 24);
             this.nameLbl.TabIndex = 5;
@@ -1041,7 +1016,7 @@
             this.phoneNumberLbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.phoneNumberLbl.AutoSize = true;
             this.phoneNumberLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.phoneNumberLbl.Location = new System.Drawing.Point(303, 185);
+            this.phoneNumberLbl.Location = new System.Drawing.Point(305, 210);
             this.phoneNumberLbl.Name = "phoneNumberLbl";
             this.phoneNumberLbl.Size = new System.Drawing.Size(152, 24);
             this.phoneNumberLbl.TabIndex = 6;
@@ -1053,7 +1028,7 @@
             this.addressLbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.addressLbl.AutoSize = true;
             this.addressLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addressLbl.Location = new System.Drawing.Point(303, 239);
+            this.addressLbl.Location = new System.Drawing.Point(305, 264);
             this.addressLbl.Name = "addressLbl";
             this.addressLbl.Size = new System.Drawing.Size(87, 24);
             this.addressLbl.TabIndex = 7;
@@ -1065,7 +1040,7 @@
             this.suburbLbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.suburbLbl.AutoSize = true;
             this.suburbLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.suburbLbl.Location = new System.Drawing.Point(303, 302);
+            this.suburbLbl.Location = new System.Drawing.Point(305, 327);
             this.suburbLbl.Name = "suburbLbl";
             this.suburbLbl.Size = new System.Drawing.Size(78, 24);
             this.suburbLbl.TabIndex = 8;
@@ -1076,20 +1051,21 @@
             // 
             this.searchBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.searchBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchBtn.Location = new System.Drawing.Point(411, 393);
+            this.searchBtn.Location = new System.Drawing.Point(315, 429);
             this.searchBtn.Name = "searchBtn";
-            this.searchBtn.Size = new System.Drawing.Size(146, 56);
+            this.searchBtn.Size = new System.Drawing.Size(220, 102);
             this.searchBtn.TabIndex = 9;
             this.searchBtn.Text = "Search";
             this.searchBtn.UseVisualStyleBackColor = true;
+            this.searchBtn.Click += new System.EventHandler(this.searchBtn_Click);
             // 
             // continueBtn
             // 
             this.continueBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.continueBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.continueBtn.Location = new System.Drawing.Point(588, 393);
+            this.continueBtn.Location = new System.Drawing.Point(583, 429);
             this.continueBtn.Name = "continueBtn";
-            this.continueBtn.Size = new System.Drawing.Size(146, 56);
+            this.continueBtn.Size = new System.Drawing.Size(220, 102);
             this.continueBtn.TabIndex = 10;
             this.continueBtn.Text = "Continue";
             this.continueBtn.UseVisualStyleBackColor = true;
@@ -1099,12 +1075,13 @@
             // 
             this.clearBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.clearBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clearBtn.Location = new System.Drawing.Point(494, 455);
+            this.clearBtn.Location = new System.Drawing.Point(442, 553);
             this.clearBtn.Name = "clearBtn";
-            this.clearBtn.Size = new System.Drawing.Size(146, 56);
+            this.clearBtn.Size = new System.Drawing.Size(220, 102);
             this.clearBtn.TabIndex = 11;
             this.clearBtn.Text = "Clear";
             this.clearBtn.UseVisualStyleBackColor = true;
+            this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
             // 
             // orderPanel
             // 
@@ -1122,7 +1099,6 @@
             this.orderPanel.Controls.Add(this.abPanel);
             this.orderPanel.Controls.Add(this.seafoodPanel);
             this.orderPanel.Controls.Add(this.gourmetPanel);
-            this.orderPanel.Controls.Add(this.traditionalPanel);
             this.orderPanel.Controls.Add(this.mainsPanel);
             this.orderPanel.Controls.Add(this.halfhalfPanel);
             this.orderPanel.Controls.Add(this.startersPanel);
@@ -1144,16 +1120,124 @@
             this.orderPanel.Controls.Add(this.pnl2NextBtn);
             this.orderPanel.Controls.Add(this.pnl2BackBtn);
             this.orderPanel.Controls.Add(this.pnl2HalfBtn);
-            this.orderPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.orderPanel.Location = new System.Drawing.Point(0, 24);
+            this.orderPanel.Location = new System.Drawing.Point(63, 144);
             this.orderPanel.Name = "orderPanel";
-            this.orderPanel.Size = new System.Drawing.Size(1060, 682);
+            this.orderPanel.Size = new System.Drawing.Size(184, 234);
             this.orderPanel.TabIndex = 12;
             this.orderPanel.Visible = false;
             this.orderPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.orderPanel_Paint);
             // 
+            // commentPanel
+            // 
+            this.commentPanel.Controls.Add(this.button471);
+            this.commentPanel.Controls.Add(this.label153);
+            this.commentPanel.Controls.Add(this.button383);
+            this.commentPanel.Controls.Add(this.button382);
+            this.commentPanel.Controls.Add(this.button381);
+            this.commentPanel.Controls.Add(this.button380);
+            this.commentPanel.Controls.Add(this.label151);
+            this.commentPanel.Controls.Add(this.txComments);
+            this.commentPanel.Location = new System.Drawing.Point(0, 0);
+            this.commentPanel.Name = "commentPanel";
+            this.commentPanel.Size = new System.Drawing.Size(77, 37);
+            this.commentPanel.TabIndex = 213;
+            this.commentPanel.Visible = false;
+            // 
+            // button471
+            // 
+            this.button471.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button471.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.button471.Location = new System.Drawing.Point(170, 275);
+            this.button471.Name = "button471";
+            this.button471.Size = new System.Drawing.Size(105, 64);
+            this.button471.TabIndex = 8;
+            this.button471.Text = "$10";
+            this.button471.UseVisualStyleBackColor = true;
+            this.button471.Click += new System.EventHandler(this.button471_Click);
+            // 
+            // label153
+            // 
+            this.label153.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label153.AutoSize = true;
+            this.label153.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.label153.Location = new System.Drawing.Point(-12, 248);
+            this.label153.Name = "label153";
+            this.label153.Size = new System.Drawing.Size(124, 18);
+            this.label153.TabIndex = 7;
+            this.label153.Text = "Delivery charge";
+            // 
+            // button383
+            // 
+            this.button383.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button383.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.button383.Location = new System.Drawing.Point(-9, 275);
+            this.button383.Name = "button383";
+            this.button383.Size = new System.Drawing.Size(105, 64);
+            this.button383.TabIndex = 6;
+            this.button383.Text = "$7";
+            this.button383.UseVisualStyleBackColor = true;
+            this.button383.Click += new System.EventHandler(this.button383_Click);
+            // 
+            // button382
+            // 
+            this.button382.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button382.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.button382.Location = new System.Drawing.Point(-181, 275);
+            this.button382.Name = "button382";
+            this.button382.Size = new System.Drawing.Size(105, 64);
+            this.button382.TabIndex = 5;
+            this.button382.Text = "$5";
+            this.button382.UseVisualStyleBackColor = true;
+            this.button382.Click += new System.EventHandler(this.button382_Click);
+            // 
+            // button381
+            // 
+            this.button381.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button381.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.button381.Location = new System.Drawing.Point(314, 264);
+            this.button381.Name = "button381";
+            this.button381.Size = new System.Drawing.Size(242, 104);
+            this.button381.TabIndex = 3;
+            this.button381.Text = "Next Page";
+            this.button381.UseVisualStyleBackColor = true;
+            this.button381.Click += new System.EventHandler(this.button381_Click);
+            // 
+            // button380
+            // 
+            this.button380.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button380.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.button380.Location = new System.Drawing.Point(-482, 266);
+            this.button380.Name = "button380";
+            this.button380.Size = new System.Drawing.Size(242, 104);
+            this.button380.TabIndex = 2;
+            this.button380.Text = "Back";
+            this.button380.UseVisualStyleBackColor = true;
+            this.button380.Click += new System.EventHandler(this.button380_Click);
+            // 
+            // label151
+            // 
+            this.label151.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label151.AutoSize = true;
+            this.label151.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.label151.Location = new System.Drawing.Point(-51, -333);
+            this.label151.Name = "label151";
+            this.label151.Size = new System.Drawing.Size(201, 24);
+            this.label151.TabIndex = 1;
+            this.label151.Text = "Customer comments";
+            // 
+            // txComments
+            // 
+            this.txComments.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txComments.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.txComments.Location = new System.Drawing.Point(-174, -302);
+            this.txComments.Multiline = true;
+            this.txComments.Name = "txComments";
+            this.txComments.Size = new System.Drawing.Size(485, 544);
+            this.txComments.TabIndex = 0;
+            // 
             // mealDealPanel
             // 
+            this.mealDealPanel.Controls.Add(this.button496);
             this.mealDealPanel.Controls.Add(this.mealDealPanel2);
             this.mealDealPanel.Controls.Add(this.mealDealBackBtn);
             this.mealDealPanel.Controls.Add(this.mealDealNxtBtn);
@@ -1219,8 +1303,9 @@
             // 
             // label16
             // 
+            this.label16.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(29, 353);
+            this.label16.Location = new System.Drawing.Point(-247, 193);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(292, 13);
             this.label16.TabIndex = 52;
@@ -1228,10 +1313,11 @@
             // 
             // mealDealSecondBackBtn
             // 
+            this.mealDealSecondBackBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mealDealSecondBackBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mealDealSecondBackBtn.Location = new System.Drawing.Point(12, 474);
+            this.mealDealSecondBackBtn.Location = new System.Drawing.Point(-514, 297);
             this.mealDealSecondBackBtn.Name = "mealDealSecondBackBtn";
-            this.mealDealSecondBackBtn.Size = new System.Drawing.Size(147, 38);
+            this.mealDealSecondBackBtn.Size = new System.Drawing.Size(222, 72);
             this.mealDealSecondBackBtn.TabIndex = 51;
             this.mealDealSecondBackBtn.Text = "Back";
             this.mealDealSecondBackBtn.UseVisualStyleBackColor = true;
@@ -1239,8 +1325,9 @@
             // 
             // button5
             // 
+            this.button5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(351, 306);
+            this.button5.Location = new System.Drawing.Point(115, 146);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(147, 38);
             this.button5.TabIndex = 47;
@@ -1250,8 +1337,9 @@
             // 
             // button6
             // 
+            this.button6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(351, 249);
+            this.button6.Location = new System.Drawing.Point(115, 67);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(147, 38);
             this.button6.TabIndex = 46;
@@ -1261,8 +1349,9 @@
             // 
             // button7
             // 
+            this.button7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(351, 185);
+            this.button7.Location = new System.Drawing.Point(115, -4);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(147, 38);
             this.button7.TabIndex = 45;
@@ -1272,8 +1361,9 @@
             // 
             // button8
             // 
+            this.button8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(351, 120);
+            this.button8.Location = new System.Drawing.Point(118, -67);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(147, 38);
             this.button8.TabIndex = 44;
@@ -1283,8 +1373,9 @@
             // 
             // button9
             // 
+            this.button9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(351, 66);
+            this.button9.Location = new System.Drawing.Point(115, -142);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(147, 38);
             this.button9.TabIndex = 43;
@@ -1294,8 +1385,9 @@
             // 
             // button10
             // 
+            this.button10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(351, 16);
+            this.button10.Location = new System.Drawing.Point(115, -221);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(147, 38);
             this.button10.TabIndex = 42;
@@ -1305,9 +1397,10 @@
             // 
             // label20
             // 
+            this.label20.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(29, 331);
+            this.label20.Location = new System.Drawing.Point(-247, 171);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(236, 13);
             this.label20.TabIndex = 37;
@@ -1315,9 +1408,10 @@
             // 
             // label21
             // 
+            this.label21.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(29, 304);
+            this.label21.Location = new System.Drawing.Point(-247, 144);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(128, 24);
             this.label21.TabIndex = 36;
@@ -1325,9 +1419,10 @@
             // 
             // label22
             // 
+            this.label22.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(29, 270);
+            this.label22.Location = new System.Drawing.Point(-247, 88);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(101, 13);
             this.label22.TabIndex = 35;
@@ -1335,9 +1430,10 @@
             // 
             // label23
             // 
+            this.label23.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(29, 243);
+            this.label23.Location = new System.Drawing.Point(-247, 61);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(80, 24);
             this.label23.TabIndex = 34;
@@ -1345,9 +1441,10 @@
             // 
             // label24
             // 
+            this.label24.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(29, 209);
+            this.label24.Location = new System.Drawing.Point(-247, 20);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(82, 13);
             this.label24.TabIndex = 33;
@@ -1355,9 +1452,10 @@
             // 
             // label25
             // 
+            this.label25.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(29, 182);
+            this.label25.Location = new System.Drawing.Point(-247, -7);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(80, 24);
             this.label25.TabIndex = 32;
@@ -1365,9 +1463,10 @@
             // 
             // label26
             // 
+            this.label26.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(29, 149);
+            this.label26.Location = new System.Drawing.Point(-247, -47);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(76, 13);
             this.label26.TabIndex = 31;
@@ -1375,9 +1474,10 @@
             // 
             // label27
             // 
+            this.label27.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(29, 122);
+            this.label27.Location = new System.Drawing.Point(-247, -74);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(69, 24);
             this.label27.TabIndex = 30;
@@ -1385,9 +1485,10 @@
             // 
             // label28
             // 
+            this.label28.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(29, 93);
+            this.label28.Location = new System.Drawing.Point(-247, -115);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(81, 13);
             this.label28.TabIndex = 29;
@@ -1395,9 +1496,10 @@
             // 
             // label29
             // 
+            this.label29.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(29, 66);
+            this.label29.Location = new System.Drawing.Point(-247, -142);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(69, 24);
             this.label29.TabIndex = 28;
@@ -1405,9 +1507,10 @@
             // 
             // label30
             // 
+            this.label30.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(29, 41);
+            this.label30.Location = new System.Drawing.Point(-247, -196);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(79, 13);
             this.label30.TabIndex = 27;
@@ -1415,9 +1518,10 @@
             // 
             // label31
             // 
+            this.label31.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(29, 14);
+            this.label31.Location = new System.Drawing.Point(-247, -223);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(69, 24);
             this.label31.TabIndex = 26;
@@ -1425,10 +1529,11 @@
             // 
             // mealDealBackBtn
             // 
+            this.mealDealBackBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mealDealBackBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mealDealBackBtn.Location = new System.Drawing.Point(12, 477);
+            this.mealDealBackBtn.Location = new System.Drawing.Point(-511, 294);
             this.mealDealBackBtn.Name = "mealDealBackBtn";
-            this.mealDealBackBtn.Size = new System.Drawing.Size(147, 38);
+            this.mealDealBackBtn.Size = new System.Drawing.Size(222, 72);
             this.mealDealBackBtn.TabIndex = 25;
             this.mealDealBackBtn.Text = "Back";
             this.mealDealBackBtn.UseVisualStyleBackColor = true;
@@ -1436,10 +1541,11 @@
             // 
             // mealDealNxtBtn
             // 
+            this.mealDealNxtBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mealDealNxtBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mealDealNxtBtn.Location = new System.Drawing.Point(351, 477);
+            this.mealDealNxtBtn.Location = new System.Drawing.Point(-75, 296);
             this.mealDealNxtBtn.Name = "mealDealNxtBtn";
-            this.mealDealNxtBtn.Size = new System.Drawing.Size(147, 38);
+            this.mealDealNxtBtn.Size = new System.Drawing.Size(222, 72);
             this.mealDealNxtBtn.TabIndex = 24;
             this.mealDealNxtBtn.Text = "Next Page";
             this.mealDealNxtBtn.UseVisualStyleBackColor = true;
@@ -1447,8 +1553,9 @@
             // 
             // deal6Btn
             // 
+            this.deal6Btn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.deal6Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deal6Btn.Location = new System.Drawing.Point(351, 417);
+            this.deal6Btn.Location = new System.Drawing.Point(154, 207);
             this.deal6Btn.Name = "deal6Btn";
             this.deal6Btn.Size = new System.Drawing.Size(147, 38);
             this.deal6Btn.TabIndex = 23;
@@ -1458,8 +1565,9 @@
             // 
             // deal5Btn
             // 
+            this.deal5Btn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.deal5Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deal5Btn.Location = new System.Drawing.Point(351, 364);
+            this.deal5Btn.Location = new System.Drawing.Point(154, 127);
             this.deal5Btn.Name = "deal5Btn";
             this.deal5Btn.Size = new System.Drawing.Size(147, 38);
             this.deal5Btn.TabIndex = 22;
@@ -1469,8 +1577,9 @@
             // 
             // deal4Btn
             // 
+            this.deal4Btn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.deal4Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deal4Btn.Location = new System.Drawing.Point(351, 309);
+            this.deal4Btn.Location = new System.Drawing.Point(154, 56);
             this.deal4Btn.Name = "deal4Btn";
             this.deal4Btn.Size = new System.Drawing.Size(147, 38);
             this.deal4Btn.TabIndex = 21;
@@ -1480,8 +1589,9 @@
             // 
             // deal3Btn
             // 
+            this.deal3Btn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.deal3Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deal3Btn.Location = new System.Drawing.Point(351, 252);
+            this.deal3Btn.Location = new System.Drawing.Point(154, -12);
             this.deal3Btn.Name = "deal3Btn";
             this.deal3Btn.Size = new System.Drawing.Size(147, 38);
             this.deal3Btn.TabIndex = 20;
@@ -1491,8 +1601,9 @@
             // 
             // deal2Btn
             // 
+            this.deal2Btn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.deal2Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deal2Btn.Location = new System.Drawing.Point(351, 188);
+            this.deal2Btn.Location = new System.Drawing.Point(154, -83);
             this.deal2Btn.Name = "deal2Btn";
             this.deal2Btn.Size = new System.Drawing.Size(147, 38);
             this.deal2Btn.TabIndex = 19;
@@ -1502,8 +1613,9 @@
             // 
             // deal1Btn
             // 
+            this.deal1Btn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.deal1Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deal1Btn.Location = new System.Drawing.Point(351, 123);
+            this.deal1Btn.Location = new System.Drawing.Point(154, -166);
             this.deal1Btn.Name = "deal1Btn";
             this.deal1Btn.Size = new System.Drawing.Size(147, 38);
             this.deal1Btn.TabIndex = 18;
@@ -1513,8 +1625,9 @@
             // 
             // footyDealBtn
             // 
+            this.footyDealBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.footyDealBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.footyDealBtn.Location = new System.Drawing.Point(351, 69);
+            this.footyDealBtn.Location = new System.Drawing.Point(154, -245);
             this.footyDealBtn.Name = "footyDealBtn";
             this.footyDealBtn.Size = new System.Drawing.Size(147, 38);
             this.footyDealBtn.TabIndex = 17;
@@ -1524,8 +1637,9 @@
             // 
             // pastaDealBtn
             // 
+            this.pastaDealBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pastaDealBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pastaDealBtn.Location = new System.Drawing.Point(351, 19);
+            this.pastaDealBtn.Location = new System.Drawing.Point(154, -315);
             this.pastaDealBtn.Name = "pastaDealBtn";
             this.pastaDealBtn.Size = new System.Drawing.Size(147, 38);
             this.pastaDealBtn.TabIndex = 16;
@@ -1535,9 +1649,10 @@
             // 
             // label14
             // 
+            this.label14.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(29, 442);
+            this.label14.Location = new System.Drawing.Point(-306, 223);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(257, 13);
             this.label14.TabIndex = 15;
@@ -1545,9 +1660,10 @@
             // 
             // label15
             // 
+            this.label15.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(29, 415);
+            this.label15.Location = new System.Drawing.Point(-306, 196);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(69, 24);
             this.label15.TabIndex = 14;
@@ -1555,9 +1671,10 @@
             // 
             // label12
             // 
+            this.label12.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(29, 389);
+            this.label12.Location = new System.Drawing.Point(-306, 143);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(262, 13);
             this.label12.TabIndex = 13;
@@ -1565,9 +1682,10 @@
             // 
             // label13
             // 
+            this.label13.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(29, 362);
+            this.label13.Location = new System.Drawing.Point(-306, 116);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(69, 24);
             this.label13.TabIndex = 12;
@@ -1575,9 +1693,10 @@
             // 
             // label10
             // 
+            this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(29, 334);
+            this.label10.Location = new System.Drawing.Point(-306, 72);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(260, 13);
             this.label10.TabIndex = 11;
@@ -1585,9 +1704,10 @@
             // 
             // label11
             // 
+            this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(29, 307);
+            this.label11.Location = new System.Drawing.Point(-306, 45);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(69, 24);
             this.label11.TabIndex = 10;
@@ -1595,9 +1715,10 @@
             // 
             // label8
             // 
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(29, 273);
+            this.label8.Location = new System.Drawing.Point(-306, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(257, 13);
             this.label8.TabIndex = 9;
@@ -1605,9 +1726,10 @@
             // 
             // label9
             // 
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(29, 246);
+            this.label9.Location = new System.Drawing.Point(-306, -27);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(69, 24);
             this.label9.TabIndex = 8;
@@ -1615,9 +1737,10 @@
             // 
             // label6
             // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(29, 212);
+            this.label6.Location = new System.Drawing.Point(-306, -68);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(262, 13);
             this.label6.TabIndex = 7;
@@ -1625,9 +1748,10 @@
             // 
             // label7
             // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(29, 185);
+            this.label7.Location = new System.Drawing.Point(-306, -95);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(69, 24);
             this.label7.TabIndex = 6;
@@ -1635,9 +1759,10 @@
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(29, 152);
+            this.label4.Location = new System.Drawing.Point(-306, -146);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(260, 13);
             this.label4.TabIndex = 5;
@@ -1645,9 +1770,10 @@
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(29, 125);
+            this.label5.Location = new System.Drawing.Point(-306, -173);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(69, 24);
             this.label5.TabIndex = 4;
@@ -1655,9 +1781,10 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(29, 96);
+            this.label1.Location = new System.Drawing.Point(-306, -227);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(79, 13);
             this.label1.TabIndex = 3;
@@ -1665,9 +1792,10 @@
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(29, 69);
+            this.label3.Location = new System.Drawing.Point(-306, -254);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(185, 24);
             this.label3.TabIndex = 2;
@@ -1675,9 +1803,10 @@
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(29, 44);
+            this.label2.Location = new System.Drawing.Point(-306, -299);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(253, 13);
             this.label2.TabIndex = 1;
@@ -1685,9 +1814,10 @@
             // 
             // pastaDealLbl
             // 
+            this.pastaDealLbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pastaDealLbl.AutoSize = true;
             this.pastaDealLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pastaDealLbl.Location = new System.Drawing.Point(29, 17);
+            this.pastaDealLbl.Location = new System.Drawing.Point(-306, -326);
             this.pastaDealLbl.Name = "pastaDealLbl";
             this.pastaDealLbl.Size = new System.Drawing.Size(108, 24);
             this.pastaDealLbl.TabIndex = 0;
@@ -1750,10 +1880,11 @@
             // 
             // button373
             // 
+            this.button373.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button373.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button373.Location = new System.Drawing.Point(207, 476);
+            this.button373.Location = new System.Drawing.Point(-78, 274);
             this.button373.Name = "button373";
-            this.button373.Size = new System.Drawing.Size(90, 44);
+            this.button373.Size = new System.Drawing.Size(242, 104);
             this.button373.TabIndex = 3;
             this.button373.Text = "Edit";
             this.button373.UseVisualStyleBackColor = true;
@@ -1761,10 +1892,11 @@
             // 
             // button372
             // 
+            this.button372.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button372.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button372.Location = new System.Drawing.Point(414, 476);
+            this.button372.Location = new System.Drawing.Point(310, 275);
             this.button372.Name = "button372";
-            this.button372.Size = new System.Drawing.Size(90, 44);
+            this.button372.Size = new System.Drawing.Size(242, 104);
             this.button372.TabIndex = 2;
             this.button372.Text = "Print";
             this.button372.UseVisualStyleBackColor = true;
@@ -1772,10 +1904,11 @@
             // 
             // button371
             // 
+            this.button371.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button371.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button371.Location = new System.Drawing.Point(3, 479);
+            this.button371.Location = new System.Drawing.Point(-493, 274);
             this.button371.Name = "button371";
-            this.button371.Size = new System.Drawing.Size(90, 44);
+            this.button371.Size = new System.Drawing.Size(242, 104);
             this.button371.TabIndex = 1;
             this.button371.Text = "Back";
             this.button371.UseVisualStyleBackColor = true;
@@ -1783,16 +1916,18 @@
             // 
             // orderSummary
             // 
+            this.orderSummary.Dock = System.Windows.Forms.DockStyle.Fill;
             this.orderSummary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orderSummary.Location = new System.Drawing.Point(22, 17);
+            this.orderSummary.Location = new System.Drawing.Point(0, 0);
             this.orderSummary.Name = "orderSummary";
             this.orderSummary.ReadOnly = true;
-            this.orderSummary.Size = new System.Drawing.Size(471, 389);
+            this.orderSummary.Size = new System.Drawing.Size(55, 45);
             this.orderSummary.TabIndex = 0;
             this.orderSummary.Text = "";
             // 
             // beveragesPanel
             // 
+            this.beveragesPanel.Controls.Add(this.finishBevPanel);
             this.beveragesPanel.Controls.Add(this.button474);
             this.beveragesPanel.Controls.Add(this.button492);
             this.beveragesPanel.Controls.Add(this.button493);
@@ -1806,18 +1941,19 @@
             this.beveragesPanel.Controls.Add(this.label329);
             this.beveragesPanel.Controls.Add(this.label330);
             this.beveragesPanel.Controls.Add(this.label331);
-            this.beveragesPanel.Location = new System.Drawing.Point(53, 546);
+            this.beveragesPanel.Location = new System.Drawing.Point(758, 694);
             this.beveragesPanel.Name = "beveragesPanel";
-            this.beveragesPanel.Size = new System.Drawing.Size(23, 23);
+            this.beveragesPanel.Size = new System.Drawing.Size(30, 31);
             this.beveragesPanel.TabIndex = 36;
             this.beveragesPanel.Visible = false;
             // 
             // button474
             // 
+            this.button474.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button474.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button474.Location = new System.Drawing.Point(12, 477);
+            this.button474.Location = new System.Drawing.Point(-505, 270);
             this.button474.Name = "button474";
-            this.button474.Size = new System.Drawing.Size(147, 38);
+            this.button474.Size = new System.Drawing.Size(242, 104);
             this.button474.TabIndex = 25;
             this.button474.Text = "Back";
             this.button474.UseVisualStyleBackColor = true;
@@ -1825,10 +1961,11 @@
             // 
             // button492
             // 
+            this.button492.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button492.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button492.Location = new System.Drawing.Point(351, 188);
+            this.button492.Location = new System.Drawing.Point(179, 81);
             this.button492.Name = "button492";
-            this.button492.Size = new System.Drawing.Size(147, 38);
+            this.button492.Size = new System.Drawing.Size(242, 104);
             this.button492.TabIndex = 19;
             this.button492.Text = "Add to Order";
             this.button492.UseVisualStyleBackColor = true;
@@ -1836,10 +1973,11 @@
             // 
             // button493
             // 
+            this.button493.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button493.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button493.Location = new System.Drawing.Point(351, 123);
+            this.button493.Location = new System.Drawing.Point(179, -55);
             this.button493.Name = "button493";
-            this.button493.Size = new System.Drawing.Size(147, 38);
+            this.button493.Size = new System.Drawing.Size(242, 104);
             this.button493.TabIndex = 18;
             this.button493.Text = "Add to Order";
             this.button493.UseVisualStyleBackColor = true;
@@ -1847,10 +1985,11 @@
             // 
             // button494
             // 
+            this.button494.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button494.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button494.Location = new System.Drawing.Point(351, 69);
+            this.button494.Location = new System.Drawing.Point(177, -191);
             this.button494.Name = "button494";
-            this.button494.Size = new System.Drawing.Size(147, 38);
+            this.button494.Size = new System.Drawing.Size(242, 104);
             this.button494.TabIndex = 17;
             this.button494.Text = "Add to Order";
             this.button494.UseVisualStyleBackColor = true;
@@ -1858,10 +1997,11 @@
             // 
             // button495
             // 
+            this.button495.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button495.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button495.Location = new System.Drawing.Point(351, 19);
+            this.button495.Location = new System.Drawing.Point(179, -334);
             this.button495.Name = "button495";
-            this.button495.Size = new System.Drawing.Size(147, 38);
+            this.button495.Size = new System.Drawing.Size(242, 104);
             this.button495.TabIndex = 16;
             this.button495.Text = "Add to Order";
             this.button495.UseVisualStyleBackColor = true;
@@ -1871,17 +2011,17 @@
             // 
             this.label324.AutoSize = true;
             this.label324.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label324.Location = new System.Drawing.Point(29, 212);
+            this.label324.Location = new System.Drawing.Point(379, 499);
             this.label324.Name = "label324";
-            this.label324.Size = new System.Drawing.Size(262, 13);
+            this.label324.Size = new System.Drawing.Size(0, 13);
             this.label324.TabIndex = 7;
-            this.label324.Text = "1 x Family Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
             // 
             // label325
             // 
+            this.label325.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label325.AutoSize = true;
             this.label325.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label325.Location = new System.Drawing.Point(29, 185);
+            this.label325.Location = new System.Drawing.Point(-305, 121);
             this.label325.Name = "label325";
             this.label325.Size = new System.Drawing.Size(212, 24);
             this.label325.TabIndex = 6;
@@ -1891,17 +2031,17 @@
             // 
             this.label326.AutoSize = true;
             this.label326.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label326.Location = new System.Drawing.Point(29, 152);
+            this.label326.Location = new System.Drawing.Point(379, 363);
             this.label326.Name = "label326";
-            this.label326.Size = new System.Drawing.Size(260, 13);
+            this.label326.Size = new System.Drawing.Size(0, 13);
             this.label326.TabIndex = 5;
-            this.label326.Text = "1 x Large Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
             // 
             // label327
             // 
+            this.label327.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label327.AutoSize = true;
             this.label327.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label327.Location = new System.Drawing.Point(29, 125);
+            this.label327.Location = new System.Drawing.Point(-305, -15);
             this.label327.Name = "label327";
             this.label327.Size = new System.Drawing.Size(149, 24);
             this.label327.TabIndex = 4;
@@ -1911,17 +2051,17 @@
             // 
             this.label328.AutoSize = true;
             this.label328.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label328.Location = new System.Drawing.Point(29, 96);
+            this.label328.Location = new System.Drawing.Point(379, 227);
             this.label328.Name = "label328";
-            this.label328.Size = new System.Drawing.Size(79, 13);
+            this.label328.Size = new System.Drawing.Size(0, 13);
             this.label328.TabIndex = 3;
-            this.label328.Text = "3 x Large Pizza";
             // 
             // label329
             // 
+            this.label329.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label329.AutoSize = true;
             this.label329.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label329.Location = new System.Drawing.Point(29, 69);
+            this.label329.Location = new System.Drawing.Point(-305, -151);
             this.label329.Name = "label329";
             this.label329.Size = new System.Drawing.Size(125, 24);
             this.label329.TabIndex = 2;
@@ -1931,17 +2071,17 @@
             // 
             this.label330.AutoSize = true;
             this.label330.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label330.Location = new System.Drawing.Point(29, 44);
+            this.label330.Location = new System.Drawing.Point(379, 84);
             this.label330.Name = "label330";
-            this.label330.Size = new System.Drawing.Size(253, 13);
+            this.label330.Size = new System.Drawing.Size(0, 13);
             this.label330.TabIndex = 1;
-            this.label330.Text = "1 x Any Pasta, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
             // 
             // label331
             // 
+            this.label331.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label331.AutoSize = true;
             this.label331.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label331.Location = new System.Drawing.Point(29, 17);
+            this.label331.Location = new System.Drawing.Point(-305, -294);
             this.label331.Name = "label331";
             this.label331.Size = new System.Drawing.Size(156, 24);
             this.label331.TabIndex = 0;
@@ -1949,6 +2089,7 @@
             // 
             // desertsPanel
             // 
+            this.desertsPanel.Controls.Add(this.button498);
             this.desertsPanel.Controls.Add(this.desert2Panel);
             this.desertsPanel.Controls.Add(this.button477);
             this.desertsPanel.Controls.Add(this.button478);
@@ -1960,21 +2101,13 @@
             this.desertsPanel.Controls.Add(this.button484);
             this.desertsPanel.Controls.Add(this.button485);
             this.desertsPanel.Controls.Add(this.button486);
-            this.desertsPanel.Controls.Add(this.label305);
             this.desertsPanel.Controls.Add(this.label306);
-            this.desertsPanel.Controls.Add(this.label307);
             this.desertsPanel.Controls.Add(this.label308);
-            this.desertsPanel.Controls.Add(this.label309);
             this.desertsPanel.Controls.Add(this.label310);
-            this.desertsPanel.Controls.Add(this.label311);
             this.desertsPanel.Controls.Add(this.label312);
-            this.desertsPanel.Controls.Add(this.label313);
             this.desertsPanel.Controls.Add(this.label314);
-            this.desertsPanel.Controls.Add(this.label315);
             this.desertsPanel.Controls.Add(this.label316);
-            this.desertsPanel.Controls.Add(this.label317);
             this.desertsPanel.Controls.Add(this.label318);
-            this.desertsPanel.Controls.Add(this.label319);
             this.desertsPanel.Controls.Add(this.label320);
             this.desertsPanel.Location = new System.Drawing.Point(102, 542);
             this.desertsPanel.Name = "desertsPanel";
@@ -1987,21 +2120,20 @@
             this.desert2Panel.Controls.Add(this.button462);
             this.desert2Panel.Controls.Add(this.button488);
             this.desert2Panel.Controls.Add(this.button489);
-            this.desert2Panel.Controls.Add(this.label304);
             this.desert2Panel.Controls.Add(this.label321);
-            this.desert2Panel.Controls.Add(this.label322);
             this.desert2Panel.Controls.Add(this.label323);
-            this.desert2Panel.Location = new System.Drawing.Point(180, 407);
+            this.desert2Panel.Location = new System.Drawing.Point(238, 635);
             this.desert2Panel.Name = "desert2Panel";
             this.desert2Panel.Size = new System.Drawing.Size(200, 100);
             this.desert2Panel.TabIndex = 26;
             // 
             // button462
             // 
+            this.button462.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button462.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button462.Location = new System.Drawing.Point(12, 474);
+            this.button462.Location = new System.Drawing.Point(-418, 344);
             this.button462.Name = "button462";
-            this.button462.Size = new System.Drawing.Size(147, 38);
+            this.button462.Size = new System.Drawing.Size(185, 67);
             this.button462.TabIndex = 51;
             this.button462.Text = "Back";
             this.button462.UseVisualStyleBackColor = true;
@@ -2009,8 +2141,9 @@
             // 
             // button488
             // 
+            this.button488.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button488.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button488.Location = new System.Drawing.Point(351, 66);
+            this.button488.Location = new System.Drawing.Point(172, 64);
             this.button488.Name = "button488";
             this.button488.Size = new System.Drawing.Size(147, 38);
             this.button488.TabIndex = 43;
@@ -2020,8 +2153,9 @@
             // 
             // button489
             // 
+            this.button489.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button489.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button489.Location = new System.Drawing.Point(351, 16);
+            this.button489.Location = new System.Drawing.Point(171, -30);
             this.button489.Name = "button489";
             this.button489.Size = new System.Drawing.Size(147, 38);
             this.button489.TabIndex = 42;
@@ -2029,41 +2163,23 @@
             this.button489.UseVisualStyleBackColor = true;
             this.button489.Click += new System.EventHandler(this.button489_Click);
             // 
-            // label304
-            // 
-            this.label304.AutoSize = true;
-            this.label304.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label304.Location = new System.Drawing.Point(29, 93);
-            this.label304.Name = "label304";
-            this.label304.Size = new System.Drawing.Size(79, 13);
-            this.label304.TabIndex = 29;
-            this.label304.Text = "3 x Large Pizza";
-            // 
             // label321
             // 
+            this.label321.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label321.AutoSize = true;
             this.label321.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label321.Location = new System.Drawing.Point(29, 66);
+            this.label321.Location = new System.Drawing.Point(-150, 64);
             this.label321.Name = "label321";
             this.label321.Size = new System.Drawing.Size(186, 24);
             this.label321.TabIndex = 28;
             this.label321.Text = "Chocolate Brownie";
             // 
-            // label322
-            // 
-            this.label322.AutoSize = true;
-            this.label322.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label322.Location = new System.Drawing.Point(29, 41);
-            this.label322.Name = "label322";
-            this.label322.Size = new System.Drawing.Size(253, 13);
-            this.label322.TabIndex = 27;
-            this.label322.Text = "1 x Any Pasta, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
-            // 
             // label323
             // 
+            this.label323.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label323.AutoSize = true;
             this.label323.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label323.Location = new System.Drawing.Point(29, 14);
+            this.label323.Location = new System.Drawing.Point(-151, -32);
             this.label323.Name = "label323";
             this.label323.Size = new System.Drawing.Size(246, 24);
             this.label323.TabIndex = 26;
@@ -2071,10 +2187,11 @@
             // 
             // button477
             // 
+            this.button477.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button477.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button477.Location = new System.Drawing.Point(12, 477);
+            this.button477.Location = new System.Drawing.Point(-509, 308);
             this.button477.Name = "button477";
-            this.button477.Size = new System.Drawing.Size(147, 38);
+            this.button477.Size = new System.Drawing.Size(185, 67);
             this.button477.TabIndex = 25;
             this.button477.Text = "Back";
             this.button477.UseVisualStyleBackColor = true;
@@ -2082,10 +2199,11 @@
             // 
             // button478
             // 
+            this.button478.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button478.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button478.Location = new System.Drawing.Point(351, 477);
+            this.button478.Location = new System.Drawing.Point(-57, 304);
             this.button478.Name = "button478";
-            this.button478.Size = new System.Drawing.Size(147, 38);
+            this.button478.Size = new System.Drawing.Size(185, 67);
             this.button478.TabIndex = 24;
             this.button478.Text = "Next Page";
             this.button478.UseVisualStyleBackColor = true;
@@ -2093,8 +2211,9 @@
             // 
             // button479
             // 
+            this.button479.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button479.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button479.Location = new System.Drawing.Point(351, 417);
+            this.button479.Location = new System.Drawing.Point(245, 202);
             this.button479.Name = "button479";
             this.button479.Size = new System.Drawing.Size(147, 38);
             this.button479.TabIndex = 23;
@@ -2104,8 +2223,9 @@
             // 
             // button480
             // 
+            this.button480.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button480.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button480.Location = new System.Drawing.Point(351, 364);
+            this.button480.Location = new System.Drawing.Point(245, 136);
             this.button480.Name = "button480";
             this.button480.Size = new System.Drawing.Size(147, 38);
             this.button480.TabIndex = 22;
@@ -2115,8 +2235,9 @@
             // 
             // button481
             // 
+            this.button481.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button481.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button481.Location = new System.Drawing.Point(351, 309);
+            this.button481.Location = new System.Drawing.Point(245, 79);
             this.button481.Name = "button481";
             this.button481.Size = new System.Drawing.Size(147, 38);
             this.button481.TabIndex = 21;
@@ -2126,8 +2247,9 @@
             // 
             // button482
             // 
+            this.button482.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button482.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button482.Location = new System.Drawing.Point(351, 252);
+            this.button482.Location = new System.Drawing.Point(245, 2);
             this.button482.Name = "button482";
             this.button482.Size = new System.Drawing.Size(147, 38);
             this.button482.TabIndex = 20;
@@ -2137,8 +2259,9 @@
             // 
             // button483
             // 
+            this.button483.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button483.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button483.Location = new System.Drawing.Point(351, 188);
+            this.button483.Location = new System.Drawing.Point(245, -75);
             this.button483.Name = "button483";
             this.button483.Size = new System.Drawing.Size(147, 38);
             this.button483.TabIndex = 19;
@@ -2148,8 +2271,9 @@
             // 
             // button484
             // 
+            this.button484.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button484.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button484.Location = new System.Drawing.Point(351, 123);
+            this.button484.Location = new System.Drawing.Point(245, -146);
             this.button484.Name = "button484";
             this.button484.Size = new System.Drawing.Size(147, 38);
             this.button484.TabIndex = 18;
@@ -2159,8 +2283,9 @@
             // 
             // button485
             // 
+            this.button485.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button485.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button485.Location = new System.Drawing.Point(351, 69);
+            this.button485.Location = new System.Drawing.Point(245, -213);
             this.button485.Name = "button485";
             this.button485.Size = new System.Drawing.Size(147, 38);
             this.button485.TabIndex = 17;
@@ -2170,8 +2295,9 @@
             // 
             // button486
             // 
+            this.button486.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button486.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button486.Location = new System.Drawing.Point(351, 19);
+            this.button486.Location = new System.Drawing.Point(245, -297);
             this.button486.Name = "button486";
             this.button486.Size = new System.Drawing.Size(147, 38);
             this.button486.TabIndex = 16;
@@ -2179,161 +2305,89 @@
             this.button486.UseVisualStyleBackColor = true;
             this.button486.Click += new System.EventHandler(this.button486_Click);
             // 
-            // label305
-            // 
-            this.label305.AutoSize = true;
-            this.label305.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label305.Location = new System.Drawing.Point(29, 442);
-            this.label305.Name = "label305";
-            this.label305.Size = new System.Drawing.Size(257, 13);
-            this.label305.TabIndex = 15;
-            this.label305.Text = "2 x Party Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
-            // 
             // label306
             // 
+            this.label306.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label306.AutoSize = true;
             this.label306.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label306.Location = new System.Drawing.Point(29, 415);
+            this.label306.Location = new System.Drawing.Point(-315, 202);
             this.label306.Name = "label306";
             this.label306.Size = new System.Drawing.Size(145, 24);
             this.label306.TabIndex = 14;
             this.label306.Text = "Gelato (300ml)";
             // 
-            // label307
-            // 
-            this.label307.AutoSize = true;
-            this.label307.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label307.Location = new System.Drawing.Point(29, 389);
-            this.label307.Name = "label307";
-            this.label307.Size = new System.Drawing.Size(262, 13);
-            this.label307.TabIndex = 13;
-            this.label307.Text = "2 x Family Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
-            // 
             // label308
             // 
+            this.label308.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label308.AutoSize = true;
             this.label308.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label308.Location = new System.Drawing.Point(29, 362);
+            this.label308.Location = new System.Drawing.Point(-315, 136);
             this.label308.Name = "label308";
             this.label308.Size = new System.Drawing.Size(145, 24);
             this.label308.TabIndex = 12;
             this.label308.Text = "Gelato (500ml)";
             // 
-            // label309
-            // 
-            this.label309.AutoSize = true;
-            this.label309.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label309.Location = new System.Drawing.Point(29, 334);
-            this.label309.Name = "label309";
-            this.label309.Size = new System.Drawing.Size(260, 13);
-            this.label309.TabIndex = 11;
-            this.label309.Text = "2 x Large Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
-            // 
             // label310
             // 
+            this.label310.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label310.AutoSize = true;
             this.label310.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label310.Location = new System.Drawing.Point(29, 307);
+            this.label310.Location = new System.Drawing.Point(-315, 79);
             this.label310.Name = "label310";
             this.label310.Size = new System.Drawing.Size(223, 24);
             this.label310.TabIndex = 10;
             this.label310.Text = "Mars Bar Cheese Cake";
             // 
-            // label311
-            // 
-            this.label311.AutoSize = true;
-            this.label311.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label311.Location = new System.Drawing.Point(29, 273);
-            this.label311.Name = "label311";
-            this.label311.Size = new System.Drawing.Size(257, 13);
-            this.label311.TabIndex = 9;
-            this.label311.Text = "1 x Party Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
-            // 
             // label312
             // 
+            this.label312.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label312.AutoSize = true;
             this.label312.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label312.Location = new System.Drawing.Point(29, 246);
+            this.label312.Location = new System.Drawing.Point(-315, -2);
             this.label312.Name = "label312";
             this.label312.Size = new System.Drawing.Size(192, 24);
             this.label312.TabIndex = 8;
             this.label312.Text = "Death by Chocolate";
             // 
-            // label313
-            // 
-            this.label313.AutoSize = true;
-            this.label313.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label313.Location = new System.Drawing.Point(29, 212);
-            this.label313.Name = "label313";
-            this.label313.Size = new System.Drawing.Size(262, 13);
-            this.label313.TabIndex = 7;
-            this.label313.Text = "1 x Family Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
-            // 
             // label314
             // 
+            this.label314.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label314.AutoSize = true;
             this.label314.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label314.Location = new System.Drawing.Point(29, 185);
+            this.label314.Location = new System.Drawing.Point(-315, -76);
             this.label314.Name = "label314";
             this.label314.Size = new System.Drawing.Size(183, 24);
             this.label314.TabIndex = 6;
             this.label314.Text = "Chocolate Mousse";
             // 
-            // label315
-            // 
-            this.label315.AutoSize = true;
-            this.label315.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label315.Location = new System.Drawing.Point(29, 152);
-            this.label315.Name = "label315";
-            this.label315.Size = new System.Drawing.Size(260, 13);
-            this.label315.TabIndex = 5;
-            this.label315.Text = "1 x Large Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
-            // 
             // label316
             // 
+            this.label316.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label316.AutoSize = true;
             this.label316.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label316.Location = new System.Drawing.Point(29, 125);
+            this.label316.Location = new System.Drawing.Point(-315, -142);
             this.label316.Name = "label316";
             this.label316.Size = new System.Drawing.Size(135, 24);
             this.label316.TabIndex = 4;
             this.label316.Text = "Cheese Cake";
             // 
-            // label317
-            // 
-            this.label317.AutoSize = true;
-            this.label317.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label317.Location = new System.Drawing.Point(29, 96);
-            this.label317.Name = "label317";
-            this.label317.Size = new System.Drawing.Size(79, 13);
-            this.label317.TabIndex = 3;
-            this.label317.Text = "3 x Large Pizza";
-            // 
             // label318
             // 
+            this.label318.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label318.AutoSize = true;
             this.label318.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label318.Location = new System.Drawing.Point(29, 69);
+            this.label318.Location = new System.Drawing.Point(-315, -211);
             this.label318.Name = "label318";
             this.label318.Size = new System.Drawing.Size(188, 24);
             this.label318.TabIndex = 2;
             this.label318.Text = "Chocolate Pudding";
             // 
-            // label319
-            // 
-            this.label319.AutoSize = true;
-            this.label319.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label319.Location = new System.Drawing.Point(29, 44);
-            this.label319.Name = "label319";
-            this.label319.Size = new System.Drawing.Size(253, 13);
-            this.label319.TabIndex = 1;
-            this.label319.Text = "1 x Any Pasta, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
-            // 
             // label320
             // 
+            this.label320.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label320.AutoSize = true;
             this.label320.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label320.Location = new System.Drawing.Point(29, 17);
+            this.label320.Location = new System.Drawing.Point(-315, -297);
             this.label320.Name = "label320";
             this.label320.Size = new System.Drawing.Size(101, 24);
             this.label320.TabIndex = 0;
@@ -2341,6 +2395,7 @@
             // 
             // saladsPanel
             // 
+            this.saladsPanel.Controls.Add(this.button497);
             this.saladsPanel.Controls.Add(this.panel2);
             this.saladsPanel.Controls.Add(this.button461);
             this.saladsPanel.Controls.Add(this.button463);
@@ -2602,10 +2657,11 @@
             // 
             // button461
             // 
+            this.button461.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button461.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button461.Location = new System.Drawing.Point(12, 477);
+            this.button461.Location = new System.Drawing.Point(-513, 302);
             this.button461.Name = "button461";
-            this.button461.Size = new System.Drawing.Size(147, 38);
+            this.button461.Size = new System.Drawing.Size(202, 70);
             this.button461.TabIndex = 25;
             this.button461.Text = "Back";
             this.button461.UseVisualStyleBackColor = true;
@@ -2613,8 +2669,9 @@
             // 
             // button463
             // 
+            this.button463.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button463.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button463.Location = new System.Drawing.Point(351, 417);
+            this.button463.Location = new System.Drawing.Point(146, 193);
             this.button463.Name = "button463";
             this.button463.Size = new System.Drawing.Size(147, 38);
             this.button463.TabIndex = 23;
@@ -2624,8 +2681,9 @@
             // 
             // button464
             // 
+            this.button464.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button464.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button464.Location = new System.Drawing.Point(351, 364);
+            this.button464.Location = new System.Drawing.Point(146, 124);
             this.button464.Name = "button464";
             this.button464.Size = new System.Drawing.Size(147, 38);
             this.button464.TabIndex = 22;
@@ -2635,8 +2693,9 @@
             // 
             // button465
             // 
+            this.button465.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button465.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button465.Location = new System.Drawing.Point(351, 309);
+            this.button465.Location = new System.Drawing.Point(146, 59);
             this.button465.Name = "button465";
             this.button465.Size = new System.Drawing.Size(147, 38);
             this.button465.TabIndex = 21;
@@ -2646,8 +2705,9 @@
             // 
             // button466
             // 
+            this.button466.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button466.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button466.Location = new System.Drawing.Point(351, 252);
+            this.button466.Location = new System.Drawing.Point(146, 2);
             this.button466.Name = "button466";
             this.button466.Size = new System.Drawing.Size(147, 38);
             this.button466.TabIndex = 20;
@@ -2657,8 +2717,9 @@
             // 
             // button467
             // 
+            this.button467.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button467.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button467.Location = new System.Drawing.Point(351, 188);
+            this.button467.Location = new System.Drawing.Point(146, -62);
             this.button467.Name = "button467";
             this.button467.Size = new System.Drawing.Size(147, 38);
             this.button467.TabIndex = 19;
@@ -2668,8 +2729,9 @@
             // 
             // button468
             // 
+            this.button468.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button468.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button468.Location = new System.Drawing.Point(351, 123);
+            this.button468.Location = new System.Drawing.Point(146, -127);
             this.button468.Name = "button468";
             this.button468.Size = new System.Drawing.Size(147, 38);
             this.button468.TabIndex = 18;
@@ -2679,8 +2741,9 @@
             // 
             // button469
             // 
+            this.button469.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button469.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button469.Location = new System.Drawing.Point(351, 69);
+            this.button469.Location = new System.Drawing.Point(146, -186);
             this.button469.Name = "button469";
             this.button469.Size = new System.Drawing.Size(147, 38);
             this.button469.TabIndex = 17;
@@ -2690,8 +2753,9 @@
             // 
             // button470
             // 
+            this.button470.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button470.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button470.Location = new System.Drawing.Point(351, 19);
+            this.button470.Location = new System.Drawing.Point(146, -256);
             this.button470.Name = "button470";
             this.button470.Size = new System.Drawing.Size(147, 38);
             this.button470.TabIndex = 16;
@@ -2701,9 +2765,10 @@
             // 
             // label276
             // 
+            this.label276.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label276.AutoSize = true;
             this.label276.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label276.Location = new System.Drawing.Point(29, 442);
+            this.label276.Location = new System.Drawing.Point(-282, 218);
             this.label276.Name = "label276";
             this.label276.Size = new System.Drawing.Size(257, 13);
             this.label276.TabIndex = 15;
@@ -2711,9 +2776,10 @@
             // 
             // label277
             // 
+            this.label277.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label277.AutoSize = true;
             this.label277.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label277.Location = new System.Drawing.Point(29, 415);
+            this.label277.Location = new System.Drawing.Point(-282, 191);
             this.label277.Name = "label277";
             this.label277.Size = new System.Drawing.Size(208, 24);
             this.label277.TabIndex = 14;
@@ -2721,9 +2787,10 @@
             // 
             // label278
             // 
+            this.label278.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label278.AutoSize = true;
             this.label278.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label278.Location = new System.Drawing.Point(29, 389);
+            this.label278.Location = new System.Drawing.Point(-282, 149);
             this.label278.Name = "label278";
             this.label278.Size = new System.Drawing.Size(262, 13);
             this.label278.TabIndex = 13;
@@ -2731,9 +2798,10 @@
             // 
             // label279
             // 
+            this.label279.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label279.AutoSize = true;
             this.label279.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label279.Location = new System.Drawing.Point(29, 362);
+            this.label279.Location = new System.Drawing.Point(-282, 122);
             this.label279.Name = "label279";
             this.label279.Size = new System.Drawing.Size(144, 24);
             this.label279.TabIndex = 12;
@@ -2741,9 +2809,10 @@
             // 
             // label280
             // 
+            this.label280.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label280.AutoSize = true;
             this.label280.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label280.Location = new System.Drawing.Point(29, 334);
+            this.label280.Location = new System.Drawing.Point(-282, 84);
             this.label280.Name = "label280";
             this.label280.Size = new System.Drawing.Size(260, 13);
             this.label280.TabIndex = 11;
@@ -2751,9 +2820,10 @@
             // 
             // label281
             // 
+            this.label281.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label281.AutoSize = true;
             this.label281.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label281.Location = new System.Drawing.Point(29, 307);
+            this.label281.Location = new System.Drawing.Point(-282, 57);
             this.label281.Name = "label281";
             this.label281.Size = new System.Drawing.Size(133, 24);
             this.label281.TabIndex = 10;
@@ -2761,9 +2831,10 @@
             // 
             // label282
             // 
+            this.label282.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label282.AutoSize = true;
             this.label282.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label282.Location = new System.Drawing.Point(29, 273);
+            this.label282.Location = new System.Drawing.Point(-282, 23);
             this.label282.Name = "label282";
             this.label282.Size = new System.Drawing.Size(257, 13);
             this.label282.TabIndex = 9;
@@ -2771,9 +2842,10 @@
             // 
             // label283
             // 
+            this.label283.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label283.AutoSize = true;
             this.label283.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label283.Location = new System.Drawing.Point(29, 246);
+            this.label283.Location = new System.Drawing.Point(-282, -4);
             this.label283.Name = "label283";
             this.label283.Size = new System.Drawing.Size(203, 24);
             this.label283.TabIndex = 8;
@@ -2781,9 +2853,10 @@
             // 
             // label284
             // 
+            this.label284.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label284.AutoSize = true;
             this.label284.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label284.Location = new System.Drawing.Point(29, 212);
+            this.label284.Location = new System.Drawing.Point(-282, -38);
             this.label284.Name = "label284";
             this.label284.Size = new System.Drawing.Size(262, 13);
             this.label284.TabIndex = 7;
@@ -2791,9 +2864,10 @@
             // 
             // label285
             // 
+            this.label285.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label285.AutoSize = true;
             this.label285.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label285.Location = new System.Drawing.Point(29, 185);
+            this.label285.Location = new System.Drawing.Point(-282, -65);
             this.label285.Name = "label285";
             this.label285.Size = new System.Drawing.Size(110, 24);
             this.label285.TabIndex = 6;
@@ -2801,9 +2875,10 @@
             // 
             // label286
             // 
+            this.label286.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label286.AutoSize = true;
             this.label286.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label286.Location = new System.Drawing.Point(29, 152);
+            this.label286.Location = new System.Drawing.Point(-282, -98);
             this.label286.Name = "label286";
             this.label286.Size = new System.Drawing.Size(260, 13);
             this.label286.TabIndex = 5;
@@ -2811,9 +2886,10 @@
             // 
             // label287
             // 
+            this.label287.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label287.AutoSize = true;
             this.label287.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label287.Location = new System.Drawing.Point(29, 125);
+            this.label287.Location = new System.Drawing.Point(-282, -125);
             this.label287.Name = "label287";
             this.label287.Size = new System.Drawing.Size(137, 24);
             this.label287.TabIndex = 4;
@@ -2821,9 +2897,10 @@
             // 
             // label288
             // 
+            this.label288.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label288.AutoSize = true;
             this.label288.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label288.Location = new System.Drawing.Point(29, 96);
+            this.label288.Location = new System.Drawing.Point(-282, -159);
             this.label288.Name = "label288";
             this.label288.Size = new System.Drawing.Size(79, 13);
             this.label288.TabIndex = 3;
@@ -2831,9 +2908,10 @@
             // 
             // label289
             // 
+            this.label289.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label289.AutoSize = true;
             this.label289.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label289.Location = new System.Drawing.Point(29, 69);
+            this.label289.Location = new System.Drawing.Point(-282, -186);
             this.label289.Name = "label289";
             this.label289.Size = new System.Drawing.Size(173, 24);
             this.label289.TabIndex = 2;
@@ -2841,9 +2919,10 @@
             // 
             // label290
             // 
+            this.label290.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label290.AutoSize = true;
             this.label290.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label290.Location = new System.Drawing.Point(29, 44);
+            this.label290.Location = new System.Drawing.Point(-282, -231);
             this.label290.Name = "label290";
             this.label290.Size = new System.Drawing.Size(253, 13);
             this.label290.TabIndex = 1;
@@ -2851,9 +2930,10 @@
             // 
             // label291
             // 
+            this.label291.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label291.AutoSize = true;
             this.label291.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label291.Location = new System.Drawing.Point(29, 17);
+            this.label291.Location = new System.Drawing.Point(-282, -258);
             this.label291.Name = "label291";
             this.label291.Size = new System.Drawing.Size(126, 24);
             this.label291.TabIndex = 0;
@@ -2861,15 +2941,13 @@
             // 
             // kebabWrapPanel
             // 
+            this.kebabWrapPanel.Controls.Add(this.button490);
             this.kebabWrapPanel.Controls.Add(this.button446);
             this.kebabWrapPanel.Controls.Add(this.button448);
             this.kebabWrapPanel.Controls.Add(this.button449);
             this.kebabWrapPanel.Controls.Add(this.button454);
-            this.kebabWrapPanel.Controls.Add(this.label251);
             this.kebabWrapPanel.Controls.Add(this.label252);
-            this.kebabWrapPanel.Controls.Add(this.label253);
             this.kebabWrapPanel.Controls.Add(this.label254);
-            this.kebabWrapPanel.Controls.Add(this.label255);
             this.kebabWrapPanel.Controls.Add(this.label256);
             this.kebabWrapPanel.Location = new System.Drawing.Point(458, 552);
             this.kebabWrapPanel.Name = "kebabWrapPanel";
@@ -2878,10 +2956,11 @@
             // 
             // button446
             // 
+            this.button446.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button446.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button446.Location = new System.Drawing.Point(12, 474);
+            this.button446.Location = new System.Drawing.Point(-506, 303);
             this.button446.Name = "button446";
-            this.button446.Size = new System.Drawing.Size(147, 38);
+            this.button446.Size = new System.Drawing.Size(198, 67);
             this.button446.TabIndex = 76;
             this.button446.Text = "Back";
             this.button446.UseVisualStyleBackColor = true;
@@ -2889,8 +2968,9 @@
             // 
             // button448
             // 
+            this.button448.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button448.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button448.Location = new System.Drawing.Point(351, 120);
+            this.button448.Location = new System.Drawing.Point(98, 54);
             this.button448.Name = "button448";
             this.button448.Size = new System.Drawing.Size(147, 38);
             this.button448.TabIndex = 70;
@@ -2900,8 +2980,9 @@
             // 
             // button449
             // 
+            this.button449.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button449.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button449.Location = new System.Drawing.Point(351, 66);
+            this.button449.Location = new System.Drawing.Point(98, -54);
             this.button449.Name = "button449";
             this.button449.Size = new System.Drawing.Size(147, 38);
             this.button449.TabIndex = 69;
@@ -2911,8 +2992,9 @@
             // 
             // button454
             // 
+            this.button454.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button454.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button454.Location = new System.Drawing.Point(351, 16);
+            this.button454.Location = new System.Drawing.Point(102, -161);
             this.button454.Name = "button454";
             this.button454.Size = new System.Drawing.Size(147, 38);
             this.button454.TabIndex = 68;
@@ -2920,235 +3002,50 @@
             this.button454.UseVisualStyleBackColor = true;
             this.button454.Click += new System.EventHandler(this.button454_Click);
             // 
-            // label251
-            // 
-            this.label251.AutoSize = true;
-            this.label251.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label251.Location = new System.Drawing.Point(29, 149);
-            this.label251.Name = "label251";
-            this.label251.Size = new System.Drawing.Size(260, 13);
-            this.label251.TabIndex = 57;
-            this.label251.Text = "1 x Large Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
-            // 
             // label252
             // 
+            this.label252.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label252.AutoSize = true;
             this.label252.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label252.Location = new System.Drawing.Point(29, 122);
+            this.label252.Location = new System.Drawing.Point(-224, 56);
             this.label252.Name = "label252";
             this.label252.Size = new System.Drawing.Size(193, 24);
             this.label252.TabIndex = 56;
             this.label252.Text = "Combination Kebab";
             // 
-            // label253
-            // 
-            this.label253.AutoSize = true;
-            this.label253.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label253.Location = new System.Drawing.Point(29, 93);
-            this.label253.Name = "label253";
-            this.label253.Size = new System.Drawing.Size(79, 13);
-            this.label253.TabIndex = 55;
-            this.label253.Text = "3 x Large Pizza";
-            // 
             // label254
             // 
+            this.label254.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label254.AutoSize = true;
             this.label254.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label254.Location = new System.Drawing.Point(29, 66);
+            this.label254.Location = new System.Drawing.Point(-224, -54);
             this.label254.Name = "label254";
             this.label254.Size = new System.Drawing.Size(127, 24);
             this.label254.TabIndex = 54;
             this.label254.Text = "Lamb Kebab";
             // 
-            // label255
-            // 
-            this.label255.AutoSize = true;
-            this.label255.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label255.Location = new System.Drawing.Point(29, 41);
-            this.label255.Name = "label255";
-            this.label255.Size = new System.Drawing.Size(253, 13);
-            this.label255.TabIndex = 53;
-            this.label255.Text = "1 x Any Pasta, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
-            // 
             // label256
             // 
+            this.label256.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label256.AutoSize = true;
             this.label256.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label256.Location = new System.Drawing.Point(29, 14);
+            this.label256.Location = new System.Drawing.Point(-220, -163);
             this.label256.Name = "label256";
             this.label256.Size = new System.Drawing.Size(152, 24);
             this.label256.TabIndex = 52;
             this.label256.Text = "Chicken Kebab";
             // 
-            // risottoPanel
-            // 
-            this.risottoPanel.Controls.Add(this.button407);
-            this.risottoPanel.Controls.Add(this.button450);
-            this.risottoPanel.Controls.Add(this.button451);
-            this.risottoPanel.Controls.Add(this.button452);
-            this.risottoPanel.Controls.Add(this.button453);
-            this.risottoPanel.Controls.Add(this.label257);
-            this.risottoPanel.Controls.Add(this.label258);
-            this.risottoPanel.Controls.Add(this.label259);
-            this.risottoPanel.Controls.Add(this.label260);
-            this.risottoPanel.Controls.Add(this.label261);
-            this.risottoPanel.Controls.Add(this.label262);
-            this.risottoPanel.Controls.Add(this.label263);
-            this.risottoPanel.Controls.Add(this.label264);
-            this.risottoPanel.Location = new System.Drawing.Point(498, 547);
-            this.risottoPanel.Name = "risottoPanel";
-            this.risottoPanel.Size = new System.Drawing.Size(29, 24);
-            this.risottoPanel.TabIndex = 32;
-            // 
-            // button407
-            // 
-            this.button407.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button407.Location = new System.Drawing.Point(12, 474);
-            this.button407.Name = "button407";
-            this.button407.Size = new System.Drawing.Size(147, 38);
-            this.button407.TabIndex = 76;
-            this.button407.Text = "Back";
-            this.button407.UseVisualStyleBackColor = true;
-            this.button407.Click += new System.EventHandler(this.button407_Click);
-            // 
-            // button450
-            // 
-            this.button450.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button450.Location = new System.Drawing.Point(351, 185);
-            this.button450.Name = "button450";
-            this.button450.Size = new System.Drawing.Size(147, 38);
-            this.button450.TabIndex = 71;
-            this.button450.Text = "Add to Order";
-            this.button450.UseVisualStyleBackColor = true;
-            this.button450.Click += new System.EventHandler(this.button450_Click);
-            // 
-            // button451
-            // 
-            this.button451.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button451.Location = new System.Drawing.Point(351, 120);
-            this.button451.Name = "button451";
-            this.button451.Size = new System.Drawing.Size(147, 38);
-            this.button451.TabIndex = 70;
-            this.button451.Text = "Add to Order";
-            this.button451.UseVisualStyleBackColor = true;
-            this.button451.Click += new System.EventHandler(this.button451_Click);
-            // 
-            // button452
-            // 
-            this.button452.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button452.Location = new System.Drawing.Point(351, 66);
-            this.button452.Name = "button452";
-            this.button452.Size = new System.Drawing.Size(147, 38);
-            this.button452.TabIndex = 69;
-            this.button452.Text = "Add to Order";
-            this.button452.UseVisualStyleBackColor = true;
-            this.button452.Click += new System.EventHandler(this.button452_Click);
-            // 
-            // button453
-            // 
-            this.button453.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button453.Location = new System.Drawing.Point(351, 16);
-            this.button453.Name = "button453";
-            this.button453.Size = new System.Drawing.Size(147, 38);
-            this.button453.TabIndex = 68;
-            this.button453.Text = "Add to Order";
-            this.button453.UseVisualStyleBackColor = true;
-            this.button453.Click += new System.EventHandler(this.button453_Click);
-            // 
-            // label257
-            // 
-            this.label257.AutoSize = true;
-            this.label257.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label257.Location = new System.Drawing.Point(29, 209);
-            this.label257.Name = "label257";
-            this.label257.Size = new System.Drawing.Size(262, 13);
-            this.label257.TabIndex = 59;
-            this.label257.Text = "1 x Family Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
-            // 
-            // label258
-            // 
-            this.label258.AutoSize = true;
-            this.label258.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label258.Location = new System.Drawing.Point(29, 182);
-            this.label258.Name = "label258";
-            this.label258.Size = new System.Drawing.Size(155, 24);
-            this.label258.TabIndex = 58;
-            this.label258.Text = "Chicken Risotto";
-            // 
-            // label259
-            // 
-            this.label259.AutoSize = true;
-            this.label259.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label259.Location = new System.Drawing.Point(29, 149);
-            this.label259.Name = "label259";
-            this.label259.Size = new System.Drawing.Size(260, 13);
-            this.label259.TabIndex = 57;
-            this.label259.Text = "1 x Large Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
-            // 
-            // label260
-            // 
-            this.label260.AutoSize = true;
-            this.label260.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label260.Location = new System.Drawing.Point(29, 122);
-            this.label260.Name = "label260";
-            this.label260.Size = new System.Drawing.Size(284, 24);
-            this.label260.TabIndex = 56;
-            this.label260.Text = "Mushroom and Bacon Risotto";
-            // 
-            // label261
-            // 
-            this.label261.AutoSize = true;
-            this.label261.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label261.Location = new System.Drawing.Point(29, 93);
-            this.label261.Name = "label261";
-            this.label261.Size = new System.Drawing.Size(79, 13);
-            this.label261.TabIndex = 55;
-            this.label261.Text = "3 x Large Pizza";
-            // 
-            // label262
-            // 
-            this.label262.AutoSize = true;
-            this.label262.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label262.Location = new System.Drawing.Point(29, 66);
-            this.label262.Name = "label262";
-            this.label262.Size = new System.Drawing.Size(301, 24);
-            this.label262.TabIndex = 54;
-            this.label262.Text = "Mushroom and Spinach Risotto";
-            // 
-            // label263
-            // 
-            this.label263.AutoSize = true;
-            this.label263.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label263.Location = new System.Drawing.Point(29, 41);
-            this.label263.Name = "label263";
-            this.label263.Size = new System.Drawing.Size(253, 13);
-            this.label263.TabIndex = 53;
-            this.label263.Text = "1 x Any Pasta, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
-            // 
-            // label264
-            // 
-            this.label264.AutoSize = true;
-            this.label264.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label264.Location = new System.Drawing.Point(29, 14);
-            this.label264.Name = "label264";
-            this.label264.Size = new System.Drawing.Size(156, 24);
-            this.label264.TabIndex = 52;
-            this.label264.Text = "Seafood Risotto";
-            // 
             // ribsnwingsPanel
             // 
+            this.ribsnwingsPanel.Controls.Add(this.button491);
             this.ribsnwingsPanel.Controls.Add(this.button408);
             this.ribsnwingsPanel.Controls.Add(this.button409);
             this.ribsnwingsPanel.Controls.Add(this.button443);
             this.ribsnwingsPanel.Controls.Add(this.button444);
             this.ribsnwingsPanel.Controls.Add(this.button445);
-            this.ribsnwingsPanel.Controls.Add(this.label235);
             this.ribsnwingsPanel.Controls.Add(this.label236);
-            this.ribsnwingsPanel.Controls.Add(this.label237);
             this.ribsnwingsPanel.Controls.Add(this.label238);
-            this.ribsnwingsPanel.Controls.Add(this.label247);
             this.ribsnwingsPanel.Controls.Add(this.label248);
-            this.ribsnwingsPanel.Controls.Add(this.label249);
             this.ribsnwingsPanel.Controls.Add(this.label250);
             this.ribsnwingsPanel.Location = new System.Drawing.Point(433, 552);
             this.ribsnwingsPanel.Name = "ribsnwingsPanel";
@@ -3157,10 +3054,11 @@
             // 
             // button408
             // 
+            this.button408.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button408.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button408.Location = new System.Drawing.Point(12, 474);
+            this.button408.Location = new System.Drawing.Point(-514, 291);
             this.button408.Name = "button408";
-            this.button408.Size = new System.Drawing.Size(147, 38);
+            this.button408.Size = new System.Drawing.Size(187, 72);
             this.button408.TabIndex = 92;
             this.button408.Text = "Back";
             this.button408.UseVisualStyleBackColor = true;
@@ -3168,8 +3066,9 @@
             // 
             // button409
             // 
+            this.button409.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button409.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button409.Location = new System.Drawing.Point(351, 185);
+            this.button409.Location = new System.Drawing.Point(99, 144);
             this.button409.Name = "button409";
             this.button409.Size = new System.Drawing.Size(147, 38);
             this.button409.TabIndex = 91;
@@ -3179,8 +3078,9 @@
             // 
             // button443
             // 
+            this.button443.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button443.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button443.Location = new System.Drawing.Point(351, 120);
+            this.button443.Location = new System.Drawing.Point(99, 17);
             this.button443.Name = "button443";
             this.button443.Size = new System.Drawing.Size(147, 38);
             this.button443.TabIndex = 90;
@@ -3190,8 +3090,9 @@
             // 
             // button444
             // 
+            this.button444.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button444.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button444.Location = new System.Drawing.Point(351, 66);
+            this.button444.Location = new System.Drawing.Point(99, -82);
             this.button444.Name = "button444";
             this.button444.Size = new System.Drawing.Size(147, 38);
             this.button444.TabIndex = 89;
@@ -3201,8 +3102,9 @@
             // 
             // button445
             // 
+            this.button445.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button445.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button445.Location = new System.Drawing.Point(351, 16);
+            this.button445.Location = new System.Drawing.Point(99, -190);
             this.button445.Name = "button445";
             this.button445.Size = new System.Drawing.Size(147, 38);
             this.button445.TabIndex = 88;
@@ -3210,81 +3112,45 @@
             this.button445.UseVisualStyleBackColor = true;
             this.button445.Click += new System.EventHandler(this.button445_Click);
             // 
-            // label235
-            // 
-            this.label235.AutoSize = true;
-            this.label235.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label235.Location = new System.Drawing.Point(29, 209);
-            this.label235.Name = "label235";
-            this.label235.Size = new System.Drawing.Size(262, 13);
-            this.label235.TabIndex = 87;
-            this.label235.Text = "1 x Family Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
-            // 
             // label236
             // 
+            this.label236.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label236.AutoSize = true;
             this.label236.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label236.Location = new System.Drawing.Point(29, 182);
+            this.label236.Location = new System.Drawing.Point(-223, 141);
             this.label236.Name = "label236";
             this.label236.Size = new System.Drawing.Size(277, 24);
             this.label236.TabIndex = 86;
             this.label236.Text = "BBQ Ribs and Wings Combo";
             // 
-            // label237
-            // 
-            this.label237.AutoSize = true;
-            this.label237.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label237.Location = new System.Drawing.Point(29, 149);
-            this.label237.Name = "label237";
-            this.label237.Size = new System.Drawing.Size(260, 13);
-            this.label237.TabIndex = 85;
-            this.label237.Text = "1 x Large Pizza, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
-            // 
             // label238
             // 
+            this.label238.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label238.AutoSize = true;
             this.label238.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label238.Location = new System.Drawing.Point(29, 122);
+            this.label238.Location = new System.Drawing.Point(-223, 19);
             this.label238.Name = "label238";
             this.label238.Size = new System.Drawing.Size(51, 24);
             this.label238.TabIndex = 84;
             this.label238.Text = "Ribs";
             // 
-            // label247
-            // 
-            this.label247.AutoSize = true;
-            this.label247.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label247.Location = new System.Drawing.Point(29, 93);
-            this.label247.Name = "label247";
-            this.label247.Size = new System.Drawing.Size(79, 13);
-            this.label247.TabIndex = 83;
-            this.label247.Text = "3 x Large Pizza";
-            // 
             // label248
             // 
+            this.label248.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label248.AutoSize = true;
             this.label248.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label248.Location = new System.Drawing.Point(29, 66);
+            this.label248.Location = new System.Drawing.Point(-223, -82);
             this.label248.Name = "label248";
             this.label248.Size = new System.Drawing.Size(198, 24);
             this.label248.TabIndex = 82;
             this.label248.Text = "BBQ Chicken Wings";
             // 
-            // label249
-            // 
-            this.label249.AutoSize = true;
-            this.label249.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label249.Location = new System.Drawing.Point(29, 41);
-            this.label249.Name = "label249";
-            this.label249.Size = new System.Drawing.Size(253, 13);
-            this.label249.TabIndex = 81;
-            this.label249.Text = "1 x Any Pasta, 1 x Garlic Bread, 1 x 1.25L Soft Drink";
-            // 
             // label250
             // 
+            this.label250.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label250.AutoSize = true;
             this.label250.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label250.Location = new System.Drawing.Point(29, 14);
+            this.label250.Location = new System.Drawing.Point(-223, -192);
             this.label250.Name = "label250";
             this.label250.Size = new System.Drawing.Size(150, 24);
             this.label250.TabIndex = 80;
@@ -3292,6 +3158,7 @@
             // 
             // pastaBakePanel
             // 
+            this.pastaBakePanel.Controls.Add(this.button475);
             this.pastaBakePanel.Controls.Add(this.button406);
             this.pastaBakePanel.Controls.Add(this.label231);
             this.pastaBakePanel.Controls.Add(this.label232);
@@ -3315,10 +3182,11 @@
             // 
             // button406
             // 
+            this.button406.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button406.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button406.Location = new System.Drawing.Point(351, 241);
+            this.button406.Location = new System.Drawing.Point(165, 101);
             this.button406.Name = "button406";
-            this.button406.Size = new System.Drawing.Size(147, 38);
+            this.button406.Size = new System.Drawing.Size(147, 59);
             this.button406.TabIndex = 79;
             this.button406.Text = "Add to Order";
             this.button406.UseVisualStyleBackColor = true;
@@ -3326,9 +3194,10 @@
             // 
             // label231
             // 
+            this.label231.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label231.AutoSize = true;
             this.label231.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label231.Location = new System.Drawing.Point(29, 265);
+            this.label231.Location = new System.Drawing.Point(-157, 125);
             this.label231.Name = "label231";
             this.label231.Size = new System.Drawing.Size(262, 13);
             this.label231.TabIndex = 78;
@@ -3336,9 +3205,10 @@
             // 
             // label232
             // 
+            this.label232.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label232.AutoSize = true;
             this.label232.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label232.Location = new System.Drawing.Point(29, 238);
+            this.label232.Location = new System.Drawing.Point(-157, 98);
             this.label232.Name = "label232";
             this.label232.Size = new System.Drawing.Size(89, 24);
             this.label232.TabIndex = 77;
@@ -3346,10 +3216,11 @@
             // 
             // button396
             // 
+            this.button396.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button396.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button396.Location = new System.Drawing.Point(12, 474);
+            this.button396.Location = new System.Drawing.Point(-497, 292);
             this.button396.Name = "button396";
-            this.button396.Size = new System.Drawing.Size(147, 38);
+            this.button396.Size = new System.Drawing.Size(178, 75);
             this.button396.TabIndex = 76;
             this.button396.Text = "Back";
             this.button396.UseVisualStyleBackColor = true;
@@ -3357,10 +3228,11 @@
             // 
             // button410
             // 
+            this.button410.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button410.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button410.Location = new System.Drawing.Point(351, 185);
+            this.button410.Location = new System.Drawing.Point(165, 5);
             this.button410.Name = "button410";
-            this.button410.Size = new System.Drawing.Size(147, 38);
+            this.button410.Size = new System.Drawing.Size(147, 59);
             this.button410.TabIndex = 71;
             this.button410.Text = "Add to Order";
             this.button410.UseVisualStyleBackColor = true;
@@ -3368,10 +3240,11 @@
             // 
             // button411
             // 
+            this.button411.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button411.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button411.Location = new System.Drawing.Point(351, 120);
+            this.button411.Location = new System.Drawing.Point(165, -80);
             this.button411.Name = "button411";
-            this.button411.Size = new System.Drawing.Size(147, 38);
+            this.button411.Size = new System.Drawing.Size(147, 59);
             this.button411.TabIndex = 70;
             this.button411.Text = "Add to Order";
             this.button411.UseVisualStyleBackColor = true;
@@ -3379,10 +3252,11 @@
             // 
             // button441
             // 
+            this.button441.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button441.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button441.Location = new System.Drawing.Point(351, 66);
+            this.button441.Location = new System.Drawing.Point(165, -172);
             this.button441.Name = "button441";
-            this.button441.Size = new System.Drawing.Size(147, 38);
+            this.button441.Size = new System.Drawing.Size(147, 64);
             this.button441.TabIndex = 69;
             this.button441.Text = "Add to Order";
             this.button441.UseVisualStyleBackColor = true;
@@ -3390,10 +3264,11 @@
             // 
             // button442
             // 
+            this.button442.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button442.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button442.Location = new System.Drawing.Point(351, 16);
+            this.button442.Location = new System.Drawing.Point(165, -263);
             this.button442.Name = "button442";
-            this.button442.Size = new System.Drawing.Size(147, 38);
+            this.button442.Size = new System.Drawing.Size(147, 71);
             this.button442.TabIndex = 68;
             this.button442.Text = "Add to Order";
             this.button442.UseVisualStyleBackColor = true;
@@ -3401,9 +3276,10 @@
             // 
             // label239
             // 
+            this.label239.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label239.AutoSize = true;
             this.label239.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label239.Location = new System.Drawing.Point(29, 209);
+            this.label239.Location = new System.Drawing.Point(-157, 50);
             this.label239.Name = "label239";
             this.label239.Size = new System.Drawing.Size(262, 13);
             this.label239.TabIndex = 59;
@@ -3411,9 +3287,10 @@
             // 
             // label240
             // 
+            this.label240.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label240.AutoSize = true;
             this.label240.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label240.Location = new System.Drawing.Point(29, 182);
+            this.label240.Location = new System.Drawing.Point(-157, 23);
             this.label240.Name = "label240";
             this.label240.Size = new System.Drawing.Size(257, 24);
             this.label240.TabIndex = 58;
@@ -3421,9 +3298,10 @@
             // 
             // label241
             // 
+            this.label241.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label241.AutoSize = true;
             this.label241.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label241.Location = new System.Drawing.Point(29, 149);
+            this.label241.Location = new System.Drawing.Point(-157, -30);
             this.label241.Name = "label241";
             this.label241.Size = new System.Drawing.Size(260, 13);
             this.label241.TabIndex = 57;
@@ -3431,9 +3309,10 @@
             // 
             // label242
             // 
+            this.label242.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label242.AutoSize = true;
             this.label242.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label242.Location = new System.Drawing.Point(29, 122);
+            this.label242.Location = new System.Drawing.Point(-157, -57);
             this.label242.Name = "label242";
             this.label242.Size = new System.Drawing.Size(180, 24);
             this.label242.TabIndex = 56;
@@ -3441,9 +3320,10 @@
             // 
             // label243
             // 
+            this.label243.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label243.AutoSize = true;
             this.label243.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label243.Location = new System.Drawing.Point(29, 93);
+            this.label243.Location = new System.Drawing.Point(-157, -119);
             this.label243.Name = "label243";
             this.label243.Size = new System.Drawing.Size(79, 13);
             this.label243.TabIndex = 55;
@@ -3451,9 +3331,10 @@
             // 
             // label244
             // 
+            this.label244.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label244.AutoSize = true;
             this.label244.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label244.Location = new System.Drawing.Point(29, 66);
+            this.label244.Location = new System.Drawing.Point(-157, -146);
             this.label244.Name = "label244";
             this.label244.Size = new System.Drawing.Size(313, 24);
             this.label244.TabIndex = 54;
@@ -3461,9 +3342,10 @@
             // 
             // label245
             // 
+            this.label245.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label245.AutoSize = true;
             this.label245.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label245.Location = new System.Drawing.Point(29, 41);
+            this.label245.Location = new System.Drawing.Point(-157, -205);
             this.label245.Name = "label245";
             this.label245.Size = new System.Drawing.Size(253, 13);
             this.label245.TabIndex = 53;
@@ -3471,9 +3353,10 @@
             // 
             // label246
             // 
+            this.label246.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label246.AutoSize = true;
             this.label246.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label246.Location = new System.Drawing.Point(29, 14);
+            this.label246.Location = new System.Drawing.Point(-157, -232);
             this.label246.Name = "label246";
             this.label246.Size = new System.Drawing.Size(201, 24);
             this.label246.TabIndex = 52;
@@ -3481,6 +3364,7 @@
             // 
             // pastaPanel
             // 
+            this.pastaPanel.Controls.Add(this.button473);
             this.pastaPanel.Controls.Add(this.button395);
             this.pastaPanel.Controls.Add(this.button397);
             this.pastaPanel.Controls.Add(this.button398);
@@ -3513,10 +3397,11 @@
             // 
             // button395
             // 
+            this.button395.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button395.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button395.Location = new System.Drawing.Point(12, 474);
+            this.button395.Location = new System.Drawing.Point(-504, 284);
             this.button395.Name = "button395";
-            this.button395.Size = new System.Drawing.Size(147, 38);
+            this.button395.Size = new System.Drawing.Size(187, 85);
             this.button395.TabIndex = 51;
             this.button395.Text = "Back";
             this.button395.UseVisualStyleBackColor = true;
@@ -3524,8 +3409,9 @@
             // 
             // button397
             // 
+            this.button397.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button397.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button397.Location = new System.Drawing.Point(351, 414);
+            this.button397.Location = new System.Drawing.Point(153, 157);
             this.button397.Name = "button397";
             this.button397.Size = new System.Drawing.Size(147, 38);
             this.button397.TabIndex = 49;
@@ -3535,8 +3421,9 @@
             // 
             // button398
             // 
+            this.button398.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button398.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button398.Location = new System.Drawing.Point(351, 361);
+            this.button398.Location = new System.Drawing.Point(153, 86);
             this.button398.Name = "button398";
             this.button398.Size = new System.Drawing.Size(147, 38);
             this.button398.TabIndex = 48;
@@ -3546,8 +3433,9 @@
             // 
             // button399
             // 
+            this.button399.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button399.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button399.Location = new System.Drawing.Point(351, 306);
+            this.button399.Location = new System.Drawing.Point(153, 19);
             this.button399.Name = "button399";
             this.button399.Size = new System.Drawing.Size(147, 38);
             this.button399.TabIndex = 47;
@@ -3557,8 +3445,9 @@
             // 
             // button400
             // 
+            this.button400.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button400.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button400.Location = new System.Drawing.Point(351, 249);
+            this.button400.Location = new System.Drawing.Point(153, -44);
             this.button400.Name = "button400";
             this.button400.Size = new System.Drawing.Size(147, 38);
             this.button400.TabIndex = 46;
@@ -3568,8 +3457,9 @@
             // 
             // button401
             // 
+            this.button401.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button401.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button401.Location = new System.Drawing.Point(351, 185);
+            this.button401.Location = new System.Drawing.Point(153, -108);
             this.button401.Name = "button401";
             this.button401.Size = new System.Drawing.Size(147, 38);
             this.button401.TabIndex = 45;
@@ -3579,8 +3469,9 @@
             // 
             // button402
             // 
+            this.button402.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button402.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button402.Location = new System.Drawing.Point(351, 120);
+            this.button402.Location = new System.Drawing.Point(153, -173);
             this.button402.Name = "button402";
             this.button402.Size = new System.Drawing.Size(147, 38);
             this.button402.TabIndex = 44;
@@ -3590,8 +3481,9 @@
             // 
             // button404
             // 
+            this.button404.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button404.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button404.Location = new System.Drawing.Point(351, 66);
+            this.button404.Location = new System.Drawing.Point(153, -233);
             this.button404.Name = "button404";
             this.button404.Size = new System.Drawing.Size(147, 38);
             this.button404.TabIndex = 43;
@@ -3601,8 +3493,9 @@
             // 
             // button405
             // 
+            this.button405.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button405.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button405.Location = new System.Drawing.Point(351, 16);
+            this.button405.Location = new System.Drawing.Point(153, -300);
             this.button405.Name = "button405";
             this.button405.Size = new System.Drawing.Size(147, 38);
             this.button405.TabIndex = 42;
@@ -3612,9 +3505,10 @@
             // 
             // label181
             // 
+            this.label181.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label181.AutoSize = true;
             this.label181.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label181.Location = new System.Drawing.Point(29, 439);
+            this.label181.Location = new System.Drawing.Point(-169, 182);
             this.label181.Name = "label181";
             this.label181.Size = new System.Drawing.Size(257, 13);
             this.label181.TabIndex = 41;
@@ -3622,9 +3516,10 @@
             // 
             // label214
             // 
+            this.label214.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label214.AutoSize = true;
             this.label214.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label214.Location = new System.Drawing.Point(29, 412);
+            this.label214.Location = new System.Drawing.Point(-169, 155);
             this.label214.Name = "label214";
             this.label214.Size = new System.Drawing.Size(143, 24);
             this.label214.TabIndex = 40;
@@ -3632,9 +3527,10 @@
             // 
             // label215
             // 
+            this.label215.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label215.AutoSize = true;
             this.label215.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label215.Location = new System.Drawing.Point(29, 386);
+            this.label215.Location = new System.Drawing.Point(-169, 111);
             this.label215.Name = "label215";
             this.label215.Size = new System.Drawing.Size(262, 13);
             this.label215.TabIndex = 39;
@@ -3642,9 +3538,10 @@
             // 
             // label216
             // 
+            this.label216.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label216.AutoSize = true;
             this.label216.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label216.Location = new System.Drawing.Point(29, 359);
+            this.label216.Location = new System.Drawing.Point(-169, 84);
             this.label216.Name = "label216";
             this.label216.Size = new System.Drawing.Size(91, 24);
             this.label216.TabIndex = 38;
@@ -3652,9 +3549,10 @@
             // 
             // label217
             // 
+            this.label217.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label217.AutoSize = true;
             this.label217.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label217.Location = new System.Drawing.Point(29, 331);
+            this.label217.Location = new System.Drawing.Point(-169, 44);
             this.label217.Name = "label217";
             this.label217.Size = new System.Drawing.Size(260, 13);
             this.label217.TabIndex = 37;
@@ -3662,9 +3560,10 @@
             // 
             // label218
             // 
+            this.label218.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label218.AutoSize = true;
             this.label218.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label218.Location = new System.Drawing.Point(29, 304);
+            this.label218.Location = new System.Drawing.Point(-169, 17);
             this.label218.Name = "label218";
             this.label218.Size = new System.Drawing.Size(255, 24);
             this.label218.TabIndex = 36;
@@ -3672,9 +3571,10 @@
             // 
             // label219
             // 
+            this.label219.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label219.AutoSize = true;
             this.label219.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label219.Location = new System.Drawing.Point(29, 270);
+            this.label219.Location = new System.Drawing.Point(-169, -23);
             this.label219.Name = "label219";
             this.label219.Size = new System.Drawing.Size(257, 13);
             this.label219.TabIndex = 35;
@@ -3682,9 +3582,10 @@
             // 
             // label220
             // 
+            this.label220.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label220.AutoSize = true;
             this.label220.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label220.Location = new System.Drawing.Point(29, 243);
+            this.label220.Location = new System.Drawing.Point(-169, -50);
             this.label220.Name = "label220";
             this.label220.Size = new System.Drawing.Size(110, 24);
             this.label220.TabIndex = 34;
@@ -3692,9 +3593,10 @@
             // 
             // label221
             // 
+            this.label221.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label221.AutoSize = true;
             this.label221.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label221.Location = new System.Drawing.Point(29, 209);
+            this.label221.Location = new System.Drawing.Point(-169, -84);
             this.label221.Name = "label221";
             this.label221.Size = new System.Drawing.Size(262, 13);
             this.label221.TabIndex = 33;
@@ -3702,9 +3604,10 @@
             // 
             // label222
             // 
+            this.label222.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label222.AutoSize = true;
             this.label222.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label222.Location = new System.Drawing.Point(29, 182);
+            this.label222.Location = new System.Drawing.Point(-169, -111);
             this.label222.Name = "label222";
             this.label222.Size = new System.Drawing.Size(107, 24);
             this.label222.TabIndex = 32;
@@ -3712,9 +3615,10 @@
             // 
             // label223
             // 
+            this.label223.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label223.AutoSize = true;
             this.label223.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label223.Location = new System.Drawing.Point(29, 149);
+            this.label223.Location = new System.Drawing.Point(-169, -144);
             this.label223.Name = "label223";
             this.label223.Size = new System.Drawing.Size(260, 13);
             this.label223.TabIndex = 31;
@@ -3722,9 +3626,10 @@
             // 
             // label224
             // 
+            this.label224.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label224.AutoSize = true;
             this.label224.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label224.Location = new System.Drawing.Point(29, 122);
+            this.label224.Location = new System.Drawing.Point(-169, -171);
             this.label224.Name = "label224";
             this.label224.Size = new System.Drawing.Size(82, 24);
             this.label224.TabIndex = 30;
@@ -3732,9 +3637,10 @@
             // 
             // label225
             // 
+            this.label225.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label225.AutoSize = true;
             this.label225.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label225.Location = new System.Drawing.Point(29, 93);
+            this.label225.Location = new System.Drawing.Point(-169, -206);
             this.label225.Name = "label225";
             this.label225.Size = new System.Drawing.Size(79, 13);
             this.label225.TabIndex = 29;
@@ -3742,9 +3648,10 @@
             // 
             // label226
             // 
+            this.label226.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label226.AutoSize = true;
             this.label226.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label226.Location = new System.Drawing.Point(29, 66);
+            this.label226.Location = new System.Drawing.Point(-169, -233);
             this.label226.Name = "label226";
             this.label226.Size = new System.Drawing.Size(98, 24);
             this.label226.TabIndex = 28;
@@ -3752,9 +3659,10 @@
             // 
             // label229
             // 
+            this.label229.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label229.AutoSize = true;
             this.label229.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label229.Location = new System.Drawing.Point(29, 41);
+            this.label229.Location = new System.Drawing.Point(-169, -275);
             this.label229.Name = "label229";
             this.label229.Size = new System.Drawing.Size(253, 13);
             this.label229.TabIndex = 27;
@@ -3762,9 +3670,10 @@
             // 
             // label230
             // 
+            this.label230.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label230.AutoSize = true;
             this.label230.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label230.Location = new System.Drawing.Point(29, 14);
+            this.label230.Location = new System.Drawing.Point(-169, -302);
             this.label230.Name = "label230";
             this.label230.Size = new System.Drawing.Size(116, 24);
             this.label230.TabIndex = 26;
@@ -3772,6 +3681,7 @@
             // 
             // abPanel
             // 
+            this.abPanel.Controls.Add(this.button472);
             this.abPanel.Controls.Add(this.ab2Panel);
             this.abPanel.Controls.Add(this.label182);
             this.abPanel.Controls.Add(this.button384);
@@ -3799,9 +3709,9 @@
             this.abPanel.Controls.Add(this.label211);
             this.abPanel.Controls.Add(this.label212);
             this.abPanel.Controls.Add(this.label213);
-            this.abPanel.Location = new System.Drawing.Point(629, 557);
+            this.abPanel.Location = new System.Drawing.Point(723, 623);
             this.abPanel.Name = "abPanel";
-            this.abPanel.Size = new System.Drawing.Size(29, 12);
+            this.abPanel.Size = new System.Drawing.Size(75, 56);
             this.abPanel.TabIndex = 28;
             this.abPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.abPanel_Paint);
             // 
@@ -3811,17 +3721,18 @@
             this.ab2Panel.Controls.Add(this.button403);
             this.ab2Panel.Controls.Add(this.label227);
             this.ab2Panel.Controls.Add(this.label228);
-            this.ab2Panel.Location = new System.Drawing.Point(219, 471);
+            this.ab2Panel.Location = new System.Drawing.Point(31, 72);
             this.ab2Panel.Name = "ab2Panel";
-            this.ab2Panel.Size = new System.Drawing.Size(88, 31);
+            this.ab2Panel.Size = new System.Drawing.Size(263, 271);
             this.ab2Panel.TabIndex = 109;
             // 
             // button394
             // 
+            this.button394.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button394.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button394.Location = new System.Drawing.Point(12, 476);
+            this.button394.Location = new System.Drawing.Point(-389, 407);
             this.button394.Name = "button394";
-            this.button394.Size = new System.Drawing.Size(147, 38);
+            this.button394.Size = new System.Drawing.Size(187, 85);
             this.button394.TabIndex = 133;
             this.button394.Text = "Back";
             this.button394.UseVisualStyleBackColor = true;
@@ -3829,10 +3740,11 @@
             // 
             // button403
             // 
+            this.button403.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button403.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button403.Location = new System.Drawing.Point(351, 14);
+            this.button403.Location = new System.Drawing.Point(245, 11);
             this.button403.Name = "button403";
-            this.button403.Size = new System.Drawing.Size(147, 38);
+            this.button403.Size = new System.Drawing.Size(187, 85);
             this.button403.TabIndex = 124;
             this.button403.Text = "Add to Order";
             this.button403.UseVisualStyleBackColor = true;
@@ -3840,9 +3752,10 @@
             // 
             // label227
             // 
+            this.label227.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label227.AutoSize = true;
             this.label227.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label227.Location = new System.Drawing.Point(29, 39);
+            this.label227.Location = new System.Drawing.Point(-98, 59);
             this.label227.Name = "label227";
             this.label227.Size = new System.Drawing.Size(304, 12);
             this.label227.TabIndex = 110;
@@ -3850,9 +3763,10 @@
             // 
             // label228
             // 
+            this.label228.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label228.AutoSize = true;
             this.label228.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label228.Location = new System.Drawing.Point(29, 12);
+            this.label228.Location = new System.Drawing.Point(-98, 32);
             this.label228.Name = "label228";
             this.label228.Size = new System.Drawing.Size(236, 24);
             this.label228.TabIndex = 109;
@@ -3860,9 +3774,10 @@
             // 
             // label182
             // 
+            this.label182.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label182.AutoSize = true;
             this.label182.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label182.Location = new System.Drawing.Point(29, 184);
+            this.label182.Location = new System.Drawing.Point(-169, -85);
             this.label182.Name = "label182";
             this.label182.Size = new System.Drawing.Size(192, 24);
             this.label182.TabIndex = 108;
@@ -3870,10 +3785,11 @@
             // 
             // button384
             // 
+            this.button384.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button384.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button384.Location = new System.Drawing.Point(12, 476);
+            this.button384.Location = new System.Drawing.Point(-492, 304);
             this.button384.Name = "button384";
-            this.button384.Size = new System.Drawing.Size(147, 38);
+            this.button384.Size = new System.Drawing.Size(187, 85);
             this.button384.TabIndex = 105;
             this.button384.Text = "Back";
             this.button384.UseVisualStyleBackColor = true;
@@ -3881,10 +3797,11 @@
             // 
             // button385
             // 
+            this.button385.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button385.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button385.Location = new System.Drawing.Point(351, 476);
+            this.button385.Location = new System.Drawing.Point(-34, 299);
             this.button385.Name = "button385";
-            this.button385.Size = new System.Drawing.Size(147, 38);
+            this.button385.Size = new System.Drawing.Size(187, 85);
             this.button385.TabIndex = 104;
             this.button385.Text = "Next Page";
             this.button385.UseVisualStyleBackColor = true;
@@ -3892,8 +3809,9 @@
             // 
             // button386
             // 
+            this.button386.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button386.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button386.Location = new System.Drawing.Point(351, 416);
+            this.button386.Location = new System.Drawing.Point(152, 204);
             this.button386.Name = "button386";
             this.button386.Size = new System.Drawing.Size(147, 38);
             this.button386.TabIndex = 103;
@@ -3903,8 +3821,9 @@
             // 
             // button387
             // 
+            this.button387.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button387.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button387.Location = new System.Drawing.Point(351, 363);
+            this.button387.Location = new System.Drawing.Point(153, 124);
             this.button387.Name = "button387";
             this.button387.Size = new System.Drawing.Size(147, 38);
             this.button387.TabIndex = 102;
@@ -3914,8 +3833,9 @@
             // 
             // button388
             // 
+            this.button388.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button388.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button388.Location = new System.Drawing.Point(351, 308);
+            this.button388.Location = new System.Drawing.Point(153, 53);
             this.button388.Name = "button388";
             this.button388.Size = new System.Drawing.Size(147, 38);
             this.button388.TabIndex = 101;
@@ -3925,8 +3845,9 @@
             // 
             // button389
             // 
+            this.button389.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button389.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button389.Location = new System.Drawing.Point(351, 251);
+            this.button389.Location = new System.Drawing.Point(153, -18);
             this.button389.Name = "button389";
             this.button389.Size = new System.Drawing.Size(147, 38);
             this.button389.TabIndex = 100;
@@ -3936,8 +3857,9 @@
             // 
             // button390
             // 
+            this.button390.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button390.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button390.Location = new System.Drawing.Point(351, 187);
+            this.button390.Location = new System.Drawing.Point(153, -82);
             this.button390.Name = "button390";
             this.button390.Size = new System.Drawing.Size(147, 38);
             this.button390.TabIndex = 99;
@@ -3947,8 +3869,9 @@
             // 
             // button391
             // 
+            this.button391.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button391.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button391.Location = new System.Drawing.Point(351, 122);
+            this.button391.Location = new System.Drawing.Point(153, -147);
             this.button391.Name = "button391";
             this.button391.Size = new System.Drawing.Size(147, 38);
             this.button391.TabIndex = 98;
@@ -3958,8 +3881,9 @@
             // 
             // button392
             // 
+            this.button392.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button392.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button392.Location = new System.Drawing.Point(351, 64);
+            this.button392.Location = new System.Drawing.Point(153, -214);
             this.button392.Name = "button392";
             this.button392.Size = new System.Drawing.Size(147, 38);
             this.button392.TabIndex = 97;
@@ -3969,9 +3893,10 @@
             // 
             // label199
             // 
+            this.label199.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label199.AutoSize = true;
             this.label199.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label199.Location = new System.Drawing.Point(29, 441);
+            this.label199.Location = new System.Drawing.Point(-170, 229);
             this.label199.Name = "label199";
             this.label199.Size = new System.Drawing.Size(41, 13);
             this.label199.TabIndex = 95;
@@ -3979,8 +3904,9 @@
             // 
             // button393
             // 
+            this.button393.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button393.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button393.Location = new System.Drawing.Point(351, 14);
+            this.button393.Location = new System.Drawing.Point(152, -291);
             this.button393.Name = "button393";
             this.button393.Size = new System.Drawing.Size(147, 38);
             this.button393.TabIndex = 96;
@@ -3990,9 +3916,10 @@
             // 
             // label200
             // 
+            this.label200.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label200.AutoSize = true;
             this.label200.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label200.Location = new System.Drawing.Point(29, 414);
+            this.label200.Location = new System.Drawing.Point(-170, 202);
             this.label200.Name = "label200";
             this.label200.Size = new System.Drawing.Size(160, 24);
             this.label200.TabIndex = 94;
@@ -4000,9 +3927,10 @@
             // 
             // label201
             // 
+            this.label201.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label201.AutoSize = true;
             this.label201.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label201.Location = new System.Drawing.Point(29, 388);
+            this.label201.Location = new System.Drawing.Point(-169, 149);
             this.label201.Name = "label201";
             this.label201.Size = new System.Drawing.Size(85, 13);
             this.label201.TabIndex = 93;
@@ -4010,9 +3938,10 @@
             // 
             // label202
             // 
+            this.label202.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label202.AutoSize = true;
             this.label202.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label202.Location = new System.Drawing.Point(29, 361);
+            this.label202.Location = new System.Drawing.Point(-169, 122);
             this.label202.Name = "label202";
             this.label202.Size = new System.Drawing.Size(178, 24);
             this.label202.TabIndex = 92;
@@ -4020,9 +3949,10 @@
             // 
             // label203
             // 
+            this.label203.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label203.AutoSize = true;
             this.label203.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label203.Location = new System.Drawing.Point(29, 333);
+            this.label203.Location = new System.Drawing.Point(-169, 78);
             this.label203.Name = "label203";
             this.label203.Size = new System.Drawing.Size(96, 13);
             this.label203.TabIndex = 91;
@@ -4030,9 +3960,10 @@
             // 
             // label204
             // 
+            this.label204.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label204.AutoSize = true;
             this.label204.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label204.Location = new System.Drawing.Point(29, 306);
+            this.label204.Location = new System.Drawing.Point(-169, 51);
             this.label204.Name = "label204";
             this.label204.Size = new System.Drawing.Size(170, 24);
             this.label204.TabIndex = 90;
@@ -4040,9 +3971,10 @@
             // 
             // label205
             // 
+            this.label205.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label205.AutoSize = true;
             this.label205.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label205.Location = new System.Drawing.Point(29, 272);
+            this.label205.Location = new System.Drawing.Point(-169, 3);
             this.label205.Name = "label205";
             this.label205.Size = new System.Drawing.Size(311, 13);
             this.label205.TabIndex = 89;
@@ -4050,9 +3982,10 @@
             // 
             // label206
             // 
+            this.label206.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label206.AutoSize = true;
             this.label206.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label206.Location = new System.Drawing.Point(29, 245);
+            this.label206.Location = new System.Drawing.Point(-169, -24);
             this.label206.Name = "label206";
             this.label206.Size = new System.Drawing.Size(94, 24);
             this.label206.TabIndex = 88;
@@ -4060,9 +3993,10 @@
             // 
             // label207
             // 
+            this.label207.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label207.AutoSize = true;
             this.label207.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label207.Location = new System.Drawing.Point(29, 211);
+            this.label207.Location = new System.Drawing.Point(-169, -58);
             this.label207.Name = "label207";
             this.label207.Size = new System.Drawing.Size(324, 13);
             this.label207.TabIndex = 87;
@@ -4070,9 +4004,10 @@
             // 
             // label208
             // 
+            this.label208.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label208.AutoSize = true;
             this.label208.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label208.Location = new System.Drawing.Point(29, 151);
+            this.label208.Location = new System.Drawing.Point(-169, -118);
             this.label208.Name = "label208";
             this.label208.Size = new System.Drawing.Size(201, 13);
             this.label208.TabIndex = 86;
@@ -4080,9 +4015,10 @@
             // 
             // label209
             // 
+            this.label209.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label209.AutoSize = true;
             this.label209.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label209.Location = new System.Drawing.Point(29, 124);
+            this.label209.Location = new System.Drawing.Point(-169, -145);
             this.label209.Name = "label209";
             this.label209.Size = new System.Drawing.Size(205, 24);
             this.label209.TabIndex = 85;
@@ -4090,9 +4026,10 @@
             // 
             // label210
             // 
+            this.label210.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label210.AutoSize = true;
             this.label210.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label210.Location = new System.Drawing.Point(29, 95);
+            this.label210.Location = new System.Drawing.Point(-169, -183);
             this.label210.Name = "label210";
             this.label210.Size = new System.Drawing.Size(299, 12);
             this.label210.TabIndex = 84;
@@ -4100,9 +4037,10 @@
             // 
             // label211
             // 
+            this.label211.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label211.AutoSize = true;
             this.label211.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label211.Location = new System.Drawing.Point(29, 64);
+            this.label211.Location = new System.Drawing.Point(-169, -214);
             this.label211.Name = "label211";
             this.label211.Size = new System.Drawing.Size(195, 24);
             this.label211.TabIndex = 83;
@@ -4110,9 +4048,10 @@
             // 
             // label212
             // 
+            this.label212.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label212.AutoSize = true;
             this.label212.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label212.Location = new System.Drawing.Point(29, 39);
+            this.label212.Location = new System.Drawing.Point(-170, -266);
             this.label212.Name = "label212";
             this.label212.Size = new System.Drawing.Size(304, 12);
             this.label212.TabIndex = 82;
@@ -4120,9 +4059,10 @@
             // 
             // label213
             // 
+            this.label213.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label213.AutoSize = true;
             this.label213.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label213.Location = new System.Drawing.Point(29, 12);
+            this.label213.Location = new System.Drawing.Point(-170, -293);
             this.label213.Name = "label213";
             this.label213.Size = new System.Drawing.Size(119, 24);
             this.label213.TabIndex = 81;
@@ -4154,7 +4094,7 @@
             // button370
             // 
             this.button370.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button370.Location = new System.Drawing.Point(12, 474);
+            this.button370.Location = new System.Drawing.Point(472, 844);
             this.button370.Name = "button370";
             this.button370.Size = new System.Drawing.Size(147, 38);
             this.button370.TabIndex = 51;
@@ -4164,10 +4104,11 @@
             // 
             // button375
             // 
+            this.button375.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button375.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button375.Location = new System.Drawing.Point(351, 249);
+            this.button375.Location = new System.Drawing.Point(273, 82);
             this.button375.Name = "button375";
-            this.button375.Size = new System.Drawing.Size(147, 38);
+            this.button375.Size = new System.Drawing.Size(188, 68);
             this.button375.TabIndex = 46;
             this.button375.Text = "Add to Order";
             this.button375.UseVisualStyleBackColor = true;
@@ -4175,10 +4116,11 @@
             // 
             // button376
             // 
+            this.button376.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button376.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button376.Location = new System.Drawing.Point(351, 185);
+            this.button376.Location = new System.Drawing.Point(273, -13);
             this.button376.Name = "button376";
-            this.button376.Size = new System.Drawing.Size(147, 38);
+            this.button376.Size = new System.Drawing.Size(188, 68);
             this.button376.TabIndex = 45;
             this.button376.Text = "Add to Order";
             this.button376.UseVisualStyleBackColor = true;
@@ -4186,10 +4128,11 @@
             // 
             // button377
             // 
+            this.button377.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button377.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button377.Location = new System.Drawing.Point(351, 120);
+            this.button377.Location = new System.Drawing.Point(273, -110);
             this.button377.Name = "button377";
-            this.button377.Size = new System.Drawing.Size(147, 38);
+            this.button377.Size = new System.Drawing.Size(188, 68);
             this.button377.TabIndex = 44;
             this.button377.Text = "Add to Order";
             this.button377.UseVisualStyleBackColor = true;
@@ -4197,10 +4140,11 @@
             // 
             // button378
             // 
+            this.button378.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button378.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button378.Location = new System.Drawing.Point(351, 66);
+            this.button378.Location = new System.Drawing.Point(273, -214);
             this.button378.Name = "button378";
-            this.button378.Size = new System.Drawing.Size(147, 38);
+            this.button378.Size = new System.Drawing.Size(188, 68);
             this.button378.TabIndex = 43;
             this.button378.Text = "Add to Order";
             this.button378.UseVisualStyleBackColor = true;
@@ -4208,10 +4152,11 @@
             // 
             // button379
             // 
+            this.button379.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button379.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button379.Location = new System.Drawing.Point(351, 16);
+            this.button379.Location = new System.Drawing.Point(273, -309);
             this.button379.Name = "button379";
-            this.button379.Size = new System.Drawing.Size(147, 38);
+            this.button379.Size = new System.Drawing.Size(188, 68);
             this.button379.TabIndex = 42;
             this.button379.Text = "Add to Order";
             this.button379.UseVisualStyleBackColor = true;
@@ -4219,9 +4164,10 @@
             // 
             // label161
             // 
+            this.label161.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label161.AutoSize = true;
             this.label161.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label161.Location = new System.Drawing.Point(29, 270);
+            this.label161.Location = new System.Drawing.Point(-230, 131);
             this.label161.Name = "label161";
             this.label161.Size = new System.Drawing.Size(104, 13);
             this.label161.TabIndex = 35;
@@ -4229,9 +4175,10 @@
             // 
             // label162
             // 
+            this.label162.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label162.AutoSize = true;
             this.label162.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label162.Location = new System.Drawing.Point(29, 243);
+            this.label162.Location = new System.Drawing.Point(-230, 104);
             this.label162.Name = "label162";
             this.label162.Size = new System.Drawing.Size(202, 24);
             this.label162.TabIndex = 34;
@@ -4239,9 +4186,10 @@
             // 
             // label165
             // 
+            this.label165.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label165.AutoSize = true;
             this.label165.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label165.Location = new System.Drawing.Point(29, 209);
+            this.label165.Location = new System.Drawing.Point(-234, 33);
             this.label165.Name = "label165";
             this.label165.Size = new System.Drawing.Size(113, 13);
             this.label165.TabIndex = 33;
@@ -4249,9 +4197,10 @@
             // 
             // label166
             // 
+            this.label166.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label166.AutoSize = true;
             this.label166.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label166.Location = new System.Drawing.Point(29, 182);
+            this.label166.Location = new System.Drawing.Point(-234, 6);
             this.label166.Name = "label166";
             this.label166.Size = new System.Drawing.Size(219, 24);
             this.label166.TabIndex = 32;
@@ -4259,9 +4208,10 @@
             // 
             // label167
             // 
+            this.label167.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label167.AutoSize = true;
             this.label167.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label167.Location = new System.Drawing.Point(29, 149);
+            this.label167.Location = new System.Drawing.Point(-229, -61);
             this.label167.Name = "label167";
             this.label167.Size = new System.Drawing.Size(149, 13);
             this.label167.TabIndex = 31;
@@ -4269,9 +4219,10 @@
             // 
             // label168
             // 
+            this.label168.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label168.AutoSize = true;
             this.label168.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label168.Location = new System.Drawing.Point(29, 122);
+            this.label168.Location = new System.Drawing.Point(-229, -88);
             this.label168.Name = "label168";
             this.label168.Size = new System.Drawing.Size(197, 24);
             this.label168.TabIndex = 30;
@@ -4279,9 +4230,10 @@
             // 
             // label169
             // 
+            this.label169.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label169.AutoSize = true;
             this.label169.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label169.Location = new System.Drawing.Point(29, 93);
+            this.label169.Location = new System.Drawing.Point(-231, -165);
             this.label169.Name = "label169";
             this.label169.Size = new System.Drawing.Size(114, 13);
             this.label169.TabIndex = 29;
@@ -4289,9 +4241,10 @@
             // 
             // label170
             // 
+            this.label170.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label170.AutoSize = true;
             this.label170.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label170.Location = new System.Drawing.Point(29, 66);
+            this.label170.Location = new System.Drawing.Point(-231, -192);
             this.label170.Name = "label170";
             this.label170.Size = new System.Drawing.Size(184, 24);
             this.label170.TabIndex = 28;
@@ -4299,9 +4252,10 @@
             // 
             // label171
             // 
+            this.label171.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label171.AutoSize = true;
             this.label171.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label171.Location = new System.Drawing.Point(29, 41);
+            this.label171.Location = new System.Drawing.Point(-230, -260);
             this.label171.Name = "label171";
             this.label171.Size = new System.Drawing.Size(107, 13);
             this.label171.TabIndex = 27;
@@ -4309,9 +4263,10 @@
             // 
             // label172
             // 
+            this.label172.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label172.AutoSize = true;
             this.label172.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label172.Location = new System.Drawing.Point(29, 14);
+            this.label172.Location = new System.Drawing.Point(-230, -287);
             this.label172.Name = "label172";
             this.label172.Size = new System.Drawing.Size(156, 24);
             this.label172.TabIndex = 26;
@@ -4319,6 +4274,7 @@
             // 
             // gourmetPanel
             // 
+            this.gourmetPanel.Controls.Add(this.button499);
             this.gourmetPanel.Controls.Add(this.gourmet2Panel);
             this.gourmetPanel.Controls.Add(this.button283);
             this.gourmetPanel.Controls.Add(this.button284);
@@ -4408,106 +4364,6 @@
             this.gourmetPanel.TabIndex = 26;
             this.gourmetPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.gourmetPanel_Paint);
             // 
-            // commentPanel
-            // 
-            this.commentPanel.Controls.Add(this.button471);
-            this.commentPanel.Controls.Add(this.label153);
-            this.commentPanel.Controls.Add(this.button383);
-            this.commentPanel.Controls.Add(this.button382);
-            this.commentPanel.Controls.Add(this.button381);
-            this.commentPanel.Controls.Add(this.button380);
-            this.commentPanel.Controls.Add(this.label151);
-            this.commentPanel.Controls.Add(this.txComments);
-            this.commentPanel.Location = new System.Drawing.Point(0, 0);
-            this.commentPanel.Name = "commentPanel";
-            this.commentPanel.Size = new System.Drawing.Size(77, 37);
-            this.commentPanel.TabIndex = 213;
-            this.commentPanel.Visible = false;
-            // 
-            // button471
-            // 
-            this.button471.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.button471.Location = new System.Drawing.Point(280, 477);
-            this.button471.Name = "button471";
-            this.button471.Size = new System.Drawing.Size(56, 31);
-            this.button471.TabIndex = 8;
-            this.button471.Text = "$10";
-            this.button471.UseVisualStyleBackColor = true;
-            this.button471.Click += new System.EventHandler(this.button471_Click);
-            // 
-            // label153
-            // 
-            this.label153.AutoSize = true;
-            this.label153.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
-            this.label153.Location = new System.Drawing.Point(186, 458);
-            this.label153.Name = "label153";
-            this.label153.Size = new System.Drawing.Size(124, 18);
-            this.label153.TabIndex = 7;
-            this.label153.Text = "Delivery charge";
-            // 
-            // button383
-            // 
-            this.button383.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.button383.Location = new System.Drawing.Point(222, 477);
-            this.button383.Name = "button383";
-            this.button383.Size = new System.Drawing.Size(56, 31);
-            this.button383.TabIndex = 6;
-            this.button383.Text = "$7";
-            this.button383.UseVisualStyleBackColor = true;
-            this.button383.Click += new System.EventHandler(this.button383_Click);
-            // 
-            // button382
-            // 
-            this.button382.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.button382.Location = new System.Drawing.Point(164, 477);
-            this.button382.Name = "button382";
-            this.button382.Size = new System.Drawing.Size(56, 31);
-            this.button382.TabIndex = 5;
-            this.button382.Text = "$5";
-            this.button382.UseVisualStyleBackColor = true;
-            this.button382.Click += new System.EventHandler(this.button382_Click);
-            // 
-            // button381
-            // 
-            this.button381.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.button381.Location = new System.Drawing.Point(342, 472);
-            this.button381.Name = "button381";
-            this.button381.Size = new System.Drawing.Size(145, 38);
-            this.button381.TabIndex = 3;
-            this.button381.Text = "Next Page";
-            this.button381.UseVisualStyleBackColor = true;
-            this.button381.Click += new System.EventHandler(this.button381_Click);
-            // 
-            // button380
-            // 
-            this.button380.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.button380.Location = new System.Drawing.Point(13, 472);
-            this.button380.Name = "button380";
-            this.button380.Size = new System.Drawing.Size(145, 38);
-            this.button380.TabIndex = 2;
-            this.button380.Text = "Back";
-            this.button380.UseVisualStyleBackColor = true;
-            this.button380.Click += new System.EventHandler(this.button380_Click);
-            // 
-            // label151
-            // 
-            this.label151.AutoSize = true;
-            this.label151.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.label151.Location = new System.Drawing.Point(19, 19);
-            this.label151.Name = "label151";
-            this.label151.Size = new System.Drawing.Size(201, 24);
-            this.label151.TabIndex = 1;
-            this.label151.Text = "Customer comments";
-            // 
-            // txComments
-            // 
-            this.txComments.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.txComments.Location = new System.Drawing.Point(23, 48);
-            this.txComments.Multiline = true;
-            this.txComments.Name = "txComments";
-            this.txComments.Size = new System.Drawing.Size(459, 406);
-            this.txComments.TabIndex = 0;
-            // 
             // gourmet2Panel
             // 
             this.gourmet2Panel.Controls.Add(this.button412);
@@ -4543,86 +4399,94 @@
             this.gourmet2Panel.Controls.Add(this.button439);
             this.gourmet2Panel.Controls.Add(this.button440);
             this.gourmet2Panel.Controls.Add(this.label160);
-            this.gourmet2Panel.Location = new System.Drawing.Point(219, 478);
+            this.gourmet2Panel.Location = new System.Drawing.Point(301, 673);
             this.gourmet2Panel.Name = "gourmet2Panel";
             this.gourmet2Panel.Size = new System.Drawing.Size(85, 44);
             this.gourmet2Panel.TabIndex = 212;
             // 
             // button412
             // 
+            this.button412.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button412.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button412.Location = new System.Drawing.Point(448, 149);
+            this.button412.Location = new System.Drawing.Point(452, 110);
             this.button412.Name = "button412";
-            this.button412.Size = new System.Drawing.Size(52, 38);
+            this.button412.Size = new System.Drawing.Size(100, 54);
             this.button412.TabIndex = 245;
             this.button412.Text = "GF";
             this.button412.UseVisualStyleBackColor = true;
             // 
             // button413
             // 
+            this.button413.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button413.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button413.Location = new System.Drawing.Point(404, 149);
+            this.button413.Location = new System.Drawing.Point(346, 110);
             this.button413.Name = "button413";
-            this.button413.Size = new System.Drawing.Size(38, 38);
+            this.button413.Size = new System.Drawing.Size(100, 54);
             this.button413.TabIndex = 244;
             this.button413.Text = "C";
             this.button413.UseVisualStyleBackColor = true;
             // 
             // button414
             // 
+            this.button414.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button414.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button414.Location = new System.Drawing.Point(360, 149);
+            this.button414.Location = new System.Drawing.Point(240, 112);
             this.button414.Name = "button414";
-            this.button414.Size = new System.Drawing.Size(38, 38);
+            this.button414.Size = new System.Drawing.Size(100, 54);
             this.button414.TabIndex = 243;
             this.button414.Text = "J";
             this.button414.UseVisualStyleBackColor = true;
             // 
             // button415
             // 
+            this.button415.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button415.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button415.Location = new System.Drawing.Point(316, 149);
+            this.button415.Location = new System.Drawing.Point(138, 112);
             this.button415.Name = "button415";
-            this.button415.Size = new System.Drawing.Size(38, 38);
+            this.button415.Size = new System.Drawing.Size(100, 54);
             this.button415.TabIndex = 242;
             this.button415.Text = "P";
             this.button415.UseVisualStyleBackColor = true;
             // 
             // button416
             // 
+            this.button416.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button416.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button416.Location = new System.Drawing.Point(272, 149);
+            this.button416.Location = new System.Drawing.Point(35, 113);
             this.button416.Name = "button416";
-            this.button416.Size = new System.Drawing.Size(38, 38);
+            this.button416.Size = new System.Drawing.Size(100, 54);
             this.button416.TabIndex = 241;
             this.button416.Text = "F";
             this.button416.UseVisualStyleBackColor = true;
             // 
             // button417
             // 
+            this.button417.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button417.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button417.Location = new System.Drawing.Point(228, 149);
+            this.button417.Location = new System.Drawing.Point(-70, 115);
             this.button417.Name = "button417";
-            this.button417.Size = new System.Drawing.Size(38, 38);
+            this.button417.Size = new System.Drawing.Size(100, 54);
             this.button417.TabIndex = 240;
             this.button417.Text = "L";
             this.button417.UseVisualStyleBackColor = true;
             // 
             // button418
             // 
+            this.button418.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button418.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button418.Location = new System.Drawing.Point(184, 149);
+            this.button418.Location = new System.Drawing.Point(-176, 116);
             this.button418.Name = "button418";
-            this.button418.Size = new System.Drawing.Size(38, 38);
+            this.button418.Size = new System.Drawing.Size(100, 54);
             this.button418.TabIndex = 239;
             this.button418.Text = "S";
             this.button418.UseVisualStyleBackColor = true;
             // 
             // label157
             // 
+            this.label157.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label157.AutoSize = true;
             this.label157.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label157.Location = new System.Drawing.Point(9, 154);
+            this.label157.Location = new System.Drawing.Point(-392, 131);
             this.label157.Name = "label157";
             this.label157.Size = new System.Drawing.Size(152, 20);
             this.label157.TabIndex = 238;
@@ -4630,79 +4494,87 @@
             // 
             // button419
             // 
+            this.button419.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button419.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button419.Location = new System.Drawing.Point(449, 105);
+            this.button419.Location = new System.Drawing.Point(451, 50);
             this.button419.Name = "button419";
-            this.button419.Size = new System.Drawing.Size(52, 38);
+            this.button419.Size = new System.Drawing.Size(100, 54);
             this.button419.TabIndex = 237;
             this.button419.Text = "GF";
             this.button419.UseVisualStyleBackColor = true;
             // 
             // button420
             // 
+            this.button420.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button420.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button420.Location = new System.Drawing.Point(405, 105);
+            this.button420.Location = new System.Drawing.Point(346, 52);
             this.button420.Name = "button420";
-            this.button420.Size = new System.Drawing.Size(38, 38);
+            this.button420.Size = new System.Drawing.Size(100, 54);
             this.button420.TabIndex = 236;
             this.button420.Text = "C";
             this.button420.UseVisualStyleBackColor = true;
             // 
             // button421
             // 
+            this.button421.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button421.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button421.Location = new System.Drawing.Point(361, 105);
+            this.button421.Location = new System.Drawing.Point(240, 52);
             this.button421.Name = "button421";
-            this.button421.Size = new System.Drawing.Size(38, 38);
+            this.button421.Size = new System.Drawing.Size(100, 54);
             this.button421.TabIndex = 235;
             this.button421.Text = "J";
             this.button421.UseVisualStyleBackColor = true;
             // 
             // button422
             // 
+            this.button422.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button422.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button422.Location = new System.Drawing.Point(317, 105);
+            this.button422.Location = new System.Drawing.Point(138, 52);
             this.button422.Name = "button422";
-            this.button422.Size = new System.Drawing.Size(38, 38);
+            this.button422.Size = new System.Drawing.Size(100, 54);
             this.button422.TabIndex = 234;
             this.button422.Text = "P";
             this.button422.UseVisualStyleBackColor = true;
             // 
             // button423
             // 
+            this.button423.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button423.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button423.Location = new System.Drawing.Point(273, 105);
+            this.button423.Location = new System.Drawing.Point(35, 54);
             this.button423.Name = "button423";
-            this.button423.Size = new System.Drawing.Size(38, 38);
+            this.button423.Size = new System.Drawing.Size(100, 54);
             this.button423.TabIndex = 233;
             this.button423.Text = "F";
             this.button423.UseVisualStyleBackColor = true;
             // 
             // button424
             // 
+            this.button424.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button424.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button424.Location = new System.Drawing.Point(229, 105);
+            this.button424.Location = new System.Drawing.Point(-70, 55);
             this.button424.Name = "button424";
-            this.button424.Size = new System.Drawing.Size(38, 38);
+            this.button424.Size = new System.Drawing.Size(100, 54);
             this.button424.TabIndex = 232;
             this.button424.Text = "L";
             this.button424.UseVisualStyleBackColor = true;
             // 
             // button425
             // 
+            this.button425.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button425.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button425.Location = new System.Drawing.Point(185, 105);
+            this.button425.Location = new System.Drawing.Point(-176, 55);
             this.button425.Name = "button425";
-            this.button425.Size = new System.Drawing.Size(38, 38);
+            this.button425.Size = new System.Drawing.Size(100, 54);
             this.button425.TabIndex = 231;
             this.button425.Text = "S";
             this.button425.UseVisualStyleBackColor = true;
             // 
             // label158
             // 
+            this.label158.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label158.AutoSize = true;
             this.label158.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label158.Location = new System.Drawing.Point(10, 110);
+            this.label158.Location = new System.Drawing.Point(-392, 69);
             this.label158.Name = "label158";
             this.label158.Size = new System.Drawing.Size(108, 20);
             this.label158.TabIndex = 230;
@@ -4710,79 +4582,87 @@
             // 
             // button426
             // 
+            this.button426.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button426.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button426.Location = new System.Drawing.Point(449, 59);
+            this.button426.Location = new System.Drawing.Point(452, -7);
             this.button426.Name = "button426";
-            this.button426.Size = new System.Drawing.Size(52, 38);
+            this.button426.Size = new System.Drawing.Size(100, 54);
             this.button426.TabIndex = 229;
             this.button426.Text = "GF";
             this.button426.UseVisualStyleBackColor = true;
             // 
             // button427
             // 
+            this.button427.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button427.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button427.Location = new System.Drawing.Point(405, 59);
+            this.button427.Location = new System.Drawing.Point(346, -6);
             this.button427.Name = "button427";
-            this.button427.Size = new System.Drawing.Size(38, 38);
+            this.button427.Size = new System.Drawing.Size(100, 54);
             this.button427.TabIndex = 228;
             this.button427.Text = "C";
             this.button427.UseVisualStyleBackColor = true;
             // 
             // button428
             // 
+            this.button428.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button428.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button428.Location = new System.Drawing.Point(361, 59);
+            this.button428.Location = new System.Drawing.Point(240, -6);
             this.button428.Name = "button428";
-            this.button428.Size = new System.Drawing.Size(38, 38);
+            this.button428.Size = new System.Drawing.Size(100, 54);
             this.button428.TabIndex = 227;
             this.button428.Text = "J";
             this.button428.UseVisualStyleBackColor = true;
             // 
             // button429
             // 
+            this.button429.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button429.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button429.Location = new System.Drawing.Point(317, 59);
+            this.button429.Location = new System.Drawing.Point(138, -6);
             this.button429.Name = "button429";
-            this.button429.Size = new System.Drawing.Size(38, 38);
+            this.button429.Size = new System.Drawing.Size(100, 54);
             this.button429.TabIndex = 226;
             this.button429.Text = "P";
             this.button429.UseVisualStyleBackColor = true;
             // 
             // button430
             // 
+            this.button430.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button430.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button430.Location = new System.Drawing.Point(273, 59);
+            this.button430.Location = new System.Drawing.Point(35, -6);
             this.button430.Name = "button430";
-            this.button430.Size = new System.Drawing.Size(38, 38);
+            this.button430.Size = new System.Drawing.Size(100, 54);
             this.button430.TabIndex = 225;
             this.button430.Text = "F";
             this.button430.UseVisualStyleBackColor = true;
             // 
             // button431
             // 
+            this.button431.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button431.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button431.Location = new System.Drawing.Point(229, 59);
+            this.button431.Location = new System.Drawing.Point(-70, -5);
             this.button431.Name = "button431";
-            this.button431.Size = new System.Drawing.Size(38, 38);
+            this.button431.Size = new System.Drawing.Size(100, 54);
             this.button431.TabIndex = 224;
             this.button431.Text = "L";
             this.button431.UseVisualStyleBackColor = true;
             // 
             // button432
             // 
+            this.button432.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button432.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button432.Location = new System.Drawing.Point(185, 59);
+            this.button432.Location = new System.Drawing.Point(-176, -7);
             this.button432.Name = "button432";
-            this.button432.Size = new System.Drawing.Size(38, 38);
+            this.button432.Size = new System.Drawing.Size(100, 54);
             this.button432.TabIndex = 223;
             this.button432.Text = "S";
             this.button432.UseVisualStyleBackColor = true;
             // 
             // label159
             // 
+            this.label159.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label159.AutoSize = true;
             this.label159.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label159.Location = new System.Drawing.Point(10, 64);
+            this.label159.Location = new System.Drawing.Point(-389, 13);
             this.label159.Name = "label159";
             this.label159.Size = new System.Drawing.Size(149, 20);
             this.label159.TabIndex = 222;
@@ -4790,80 +4670,88 @@
             // 
             // button433
             // 
+            this.button433.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button433.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button433.Location = new System.Drawing.Point(449, 11);
+            this.button433.Location = new System.Drawing.Point(452, -66);
             this.button433.Name = "button433";
-            this.button433.Size = new System.Drawing.Size(52, 38);
+            this.button433.Size = new System.Drawing.Size(100, 54);
             this.button433.TabIndex = 221;
             this.button433.Text = "GF";
             this.button433.UseVisualStyleBackColor = true;
             // 
             // button434
             // 
+            this.button434.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button434.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button434.Location = new System.Drawing.Point(405, 11);
+            this.button434.Location = new System.Drawing.Point(346, -66);
             this.button434.Name = "button434";
-            this.button434.Size = new System.Drawing.Size(38, 38);
+            this.button434.Size = new System.Drawing.Size(100, 54);
             this.button434.TabIndex = 220;
             this.button434.Text = "C";
             this.button434.UseVisualStyleBackColor = true;
             // 
             // button435
             // 
+            this.button435.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button435.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button435.Location = new System.Drawing.Point(361, 11);
+            this.button435.Location = new System.Drawing.Point(240, -66);
             this.button435.Name = "button435";
-            this.button435.Size = new System.Drawing.Size(38, 38);
+            this.button435.Size = new System.Drawing.Size(100, 54);
             this.button435.TabIndex = 219;
             this.button435.Text = "J";
             this.button435.UseVisualStyleBackColor = true;
             // 
             // button436
             // 
+            this.button436.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button436.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button436.Location = new System.Drawing.Point(317, 11);
+            this.button436.Location = new System.Drawing.Point(138, -66);
             this.button436.Name = "button436";
-            this.button436.Size = new System.Drawing.Size(38, 38);
+            this.button436.Size = new System.Drawing.Size(100, 54);
             this.button436.TabIndex = 218;
             this.button436.Text = "P";
             this.button436.UseVisualStyleBackColor = true;
             // 
             // button437
             // 
+            this.button437.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button437.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button437.Location = new System.Drawing.Point(273, 11);
+            this.button437.Location = new System.Drawing.Point(35, -66);
             this.button437.Name = "button437";
-            this.button437.Size = new System.Drawing.Size(38, 38);
+            this.button437.Size = new System.Drawing.Size(100, 54);
             this.button437.TabIndex = 217;
             this.button437.Text = "F";
             this.button437.UseVisualStyleBackColor = true;
             // 
             // button438
             // 
+            this.button438.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button438.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button438.Location = new System.Drawing.Point(229, 11);
+            this.button438.Location = new System.Drawing.Point(-70, -66);
             this.button438.Name = "button438";
-            this.button438.Size = new System.Drawing.Size(38, 38);
+            this.button438.Size = new System.Drawing.Size(100, 54);
             this.button438.TabIndex = 216;
             this.button438.Text = "L";
             this.button438.UseVisualStyleBackColor = true;
             // 
             // button439
             // 
+            this.button439.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button439.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button439.Location = new System.Drawing.Point(185, 11);
+            this.button439.Location = new System.Drawing.Point(-176, -66);
             this.button439.Name = "button439";
-            this.button439.Size = new System.Drawing.Size(38, 38);
+            this.button439.Size = new System.Drawing.Size(100, 54);
             this.button439.TabIndex = 213;
             this.button439.Text = "S";
             this.button439.UseVisualStyleBackColor = true;
             // 
             // button440
             // 
+            this.button440.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button440.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button440.Location = new System.Drawing.Point(12, 478);
+            this.button440.Location = new System.Drawing.Point(-478, 316);
             this.button440.Name = "button440";
-            this.button440.Size = new System.Drawing.Size(147, 38);
+            this.button440.Size = new System.Drawing.Size(185, 67);
             this.button440.TabIndex = 215;
             this.button440.Text = "Back";
             this.button440.UseVisualStyleBackColor = true;
@@ -4871,9 +4759,10 @@
             // 
             // label160
             // 
+            this.label160.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label160.AutoSize = true;
             this.label160.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label160.Location = new System.Drawing.Point(10, 16);
+            this.label160.Location = new System.Drawing.Point(-388, -48);
             this.label160.Name = "label160";
             this.label160.Size = new System.Drawing.Size(145, 20);
             this.label160.TabIndex = 212;
@@ -4881,10 +4770,11 @@
             // 
             // button283
             // 
+            this.button283.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button283.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button283.Location = new System.Drawing.Point(448, 409);
+            this.button283.Location = new System.Drawing.Point(448, 152);
             this.button283.Name = "button283";
-            this.button283.Size = new System.Drawing.Size(52, 38);
+            this.button283.Size = new System.Drawing.Size(100, 43);
             this.button283.TabIndex = 211;
             this.button283.Text = "GF";
             this.button283.UseVisualStyleBackColor = true;
@@ -4892,10 +4782,11 @@
             // 
             // button284
             // 
+            this.button284.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button284.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button284.Location = new System.Drawing.Point(404, 409);
+            this.button284.Location = new System.Drawing.Point(342, 152);
             this.button284.Name = "button284";
-            this.button284.Size = new System.Drawing.Size(38, 38);
+            this.button284.Size = new System.Drawing.Size(100, 43);
             this.button284.TabIndex = 210;
             this.button284.Text = "C";
             this.button284.UseVisualStyleBackColor = true;
@@ -4903,10 +4794,11 @@
             // 
             // button285
             // 
+            this.button285.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button285.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button285.Location = new System.Drawing.Point(360, 409);
+            this.button285.Location = new System.Drawing.Point(231, 152);
             this.button285.Name = "button285";
-            this.button285.Size = new System.Drawing.Size(38, 38);
+            this.button285.Size = new System.Drawing.Size(100, 43);
             this.button285.TabIndex = 209;
             this.button285.Text = "J";
             this.button285.UseVisualStyleBackColor = true;
@@ -4914,10 +4806,11 @@
             // 
             // button286
             // 
+            this.button286.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button286.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button286.Location = new System.Drawing.Point(316, 409);
+            this.button286.Location = new System.Drawing.Point(122, 152);
             this.button286.Name = "button286";
-            this.button286.Size = new System.Drawing.Size(38, 38);
+            this.button286.Size = new System.Drawing.Size(100, 43);
             this.button286.TabIndex = 208;
             this.button286.Text = "P";
             this.button286.UseVisualStyleBackColor = true;
@@ -4925,10 +4818,11 @@
             // 
             // button287
             // 
+            this.button287.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button287.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button287.Location = new System.Drawing.Point(272, 409);
+            this.button287.Location = new System.Drawing.Point(10, 152);
             this.button287.Name = "button287";
-            this.button287.Size = new System.Drawing.Size(38, 38);
+            this.button287.Size = new System.Drawing.Size(100, 43);
             this.button287.TabIndex = 207;
             this.button287.Text = "F";
             this.button287.UseVisualStyleBackColor = true;
@@ -4936,10 +4830,11 @@
             // 
             // button288
             // 
+            this.button288.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button288.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button288.Location = new System.Drawing.Point(228, 409);
+            this.button288.Location = new System.Drawing.Point(-101, 152);
             this.button288.Name = "button288";
-            this.button288.Size = new System.Drawing.Size(38, 38);
+            this.button288.Size = new System.Drawing.Size(100, 43);
             this.button288.TabIndex = 206;
             this.button288.Text = "L";
             this.button288.UseVisualStyleBackColor = true;
@@ -4947,10 +4842,11 @@
             // 
             // button289
             // 
+            this.button289.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button289.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button289.Location = new System.Drawing.Point(184, 409);
+            this.button289.Location = new System.Drawing.Point(-211, 152);
             this.button289.Name = "button289";
-            this.button289.Size = new System.Drawing.Size(38, 38);
+            this.button289.Size = new System.Drawing.Size(100, 43);
             this.button289.TabIndex = 205;
             this.button289.Text = "S";
             this.button289.UseVisualStyleBackColor = true;
@@ -4958,9 +4854,10 @@
             // 
             // label137
             // 
+            this.label137.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label137.AutoSize = true;
             this.label137.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label137.Location = new System.Drawing.Point(9, 414);
+            this.label137.Location = new System.Drawing.Point(-440, 165);
             this.label137.Name = "label137";
             this.label137.Size = new System.Drawing.Size(94, 20);
             this.label137.TabIndex = 204;
@@ -4968,10 +4865,11 @@
             // 
             // button290
             // 
+            this.button290.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button290.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button290.Location = new System.Drawing.Point(448, 368);
+            this.button290.Location = new System.Drawing.Point(448, 111);
             this.button290.Name = "button290";
-            this.button290.Size = new System.Drawing.Size(52, 38);
+            this.button290.Size = new System.Drawing.Size(100, 43);
             this.button290.TabIndex = 203;
             this.button290.Text = "GF";
             this.button290.UseVisualStyleBackColor = true;
@@ -4979,10 +4877,11 @@
             // 
             // button291
             // 
+            this.button291.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button291.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button291.Location = new System.Drawing.Point(404, 368);
+            this.button291.Location = new System.Drawing.Point(342, 111);
             this.button291.Name = "button291";
-            this.button291.Size = new System.Drawing.Size(38, 38);
+            this.button291.Size = new System.Drawing.Size(100, 43);
             this.button291.TabIndex = 202;
             this.button291.Text = "C";
             this.button291.UseVisualStyleBackColor = true;
@@ -4990,10 +4889,11 @@
             // 
             // button292
             // 
+            this.button292.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button292.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button292.Location = new System.Drawing.Point(360, 368);
+            this.button292.Location = new System.Drawing.Point(231, 111);
             this.button292.Name = "button292";
-            this.button292.Size = new System.Drawing.Size(38, 38);
+            this.button292.Size = new System.Drawing.Size(100, 43);
             this.button292.TabIndex = 201;
             this.button292.Text = "J";
             this.button292.UseVisualStyleBackColor = true;
@@ -5001,10 +4901,11 @@
             // 
             // button293
             // 
+            this.button293.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button293.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button293.Location = new System.Drawing.Point(316, 368);
+            this.button293.Location = new System.Drawing.Point(122, 111);
             this.button293.Name = "button293";
-            this.button293.Size = new System.Drawing.Size(38, 38);
+            this.button293.Size = new System.Drawing.Size(100, 43);
             this.button293.TabIndex = 200;
             this.button293.Text = "P";
             this.button293.UseVisualStyleBackColor = true;
@@ -5012,10 +4913,11 @@
             // 
             // button294
             // 
+            this.button294.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button294.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button294.Location = new System.Drawing.Point(272, 368);
+            this.button294.Location = new System.Drawing.Point(10, 111);
             this.button294.Name = "button294";
-            this.button294.Size = new System.Drawing.Size(38, 38);
+            this.button294.Size = new System.Drawing.Size(100, 43);
             this.button294.TabIndex = 199;
             this.button294.Text = "F";
             this.button294.UseVisualStyleBackColor = true;
@@ -5023,10 +4925,11 @@
             // 
             // button295
             // 
+            this.button295.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button295.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button295.Location = new System.Drawing.Point(228, 368);
+            this.button295.Location = new System.Drawing.Point(-101, 111);
             this.button295.Name = "button295";
-            this.button295.Size = new System.Drawing.Size(38, 38);
+            this.button295.Size = new System.Drawing.Size(100, 43);
             this.button295.TabIndex = 198;
             this.button295.Text = "L";
             this.button295.UseVisualStyleBackColor = true;
@@ -5034,10 +4937,11 @@
             // 
             // button296
             // 
+            this.button296.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button296.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button296.Location = new System.Drawing.Point(184, 368);
+            this.button296.Location = new System.Drawing.Point(-211, 111);
             this.button296.Name = "button296";
-            this.button296.Size = new System.Drawing.Size(38, 38);
+            this.button296.Size = new System.Drawing.Size(100, 43);
             this.button296.TabIndex = 197;
             this.button296.Text = "S";
             this.button296.UseVisualStyleBackColor = true;
@@ -5045,9 +4949,10 @@
             // 
             // label138
             // 
+            this.label138.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label138.AutoSize = true;
             this.label138.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label138.Location = new System.Drawing.Point(9, 373);
+            this.label138.Location = new System.Drawing.Point(-440, 124);
             this.label138.Name = "label138";
             this.label138.Size = new System.Drawing.Size(148, 20);
             this.label138.TabIndex = 196;
@@ -5055,10 +4960,11 @@
             // 
             // button297
             // 
+            this.button297.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button297.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button297.Location = new System.Drawing.Point(448, 322);
+            this.button297.Location = new System.Drawing.Point(448, 65);
             this.button297.Name = "button297";
-            this.button297.Size = new System.Drawing.Size(52, 38);
+            this.button297.Size = new System.Drawing.Size(100, 43);
             this.button297.TabIndex = 195;
             this.button297.Text = "GF";
             this.button297.UseVisualStyleBackColor = true;
@@ -5066,10 +4972,11 @@
             // 
             // button298
             // 
+            this.button298.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button298.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button298.Location = new System.Drawing.Point(404, 322);
+            this.button298.Location = new System.Drawing.Point(342, 65);
             this.button298.Name = "button298";
-            this.button298.Size = new System.Drawing.Size(38, 38);
+            this.button298.Size = new System.Drawing.Size(100, 43);
             this.button298.TabIndex = 194;
             this.button298.Text = "C";
             this.button298.UseVisualStyleBackColor = true;
@@ -5077,10 +4984,11 @@
             // 
             // button299
             // 
+            this.button299.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button299.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button299.Location = new System.Drawing.Point(360, 322);
+            this.button299.Location = new System.Drawing.Point(231, 65);
             this.button299.Name = "button299";
-            this.button299.Size = new System.Drawing.Size(38, 38);
+            this.button299.Size = new System.Drawing.Size(100, 43);
             this.button299.TabIndex = 193;
             this.button299.Text = "J";
             this.button299.UseVisualStyleBackColor = true;
@@ -5088,10 +4996,11 @@
             // 
             // button300
             // 
+            this.button300.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button300.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button300.Location = new System.Drawing.Point(316, 322);
+            this.button300.Location = new System.Drawing.Point(122, 65);
             this.button300.Name = "button300";
-            this.button300.Size = new System.Drawing.Size(38, 38);
+            this.button300.Size = new System.Drawing.Size(100, 43);
             this.button300.TabIndex = 192;
             this.button300.Text = "P";
             this.button300.UseVisualStyleBackColor = true;
@@ -5099,10 +5008,11 @@
             // 
             // button301
             // 
+            this.button301.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button301.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button301.Location = new System.Drawing.Point(272, 322);
+            this.button301.Location = new System.Drawing.Point(10, 65);
             this.button301.Name = "button301";
-            this.button301.Size = new System.Drawing.Size(38, 38);
+            this.button301.Size = new System.Drawing.Size(100, 43);
             this.button301.TabIndex = 191;
             this.button301.Text = "F";
             this.button301.UseVisualStyleBackColor = true;
@@ -5110,10 +5020,11 @@
             // 
             // button302
             // 
+            this.button302.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button302.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button302.Location = new System.Drawing.Point(228, 322);
+            this.button302.Location = new System.Drawing.Point(-101, 65);
             this.button302.Name = "button302";
-            this.button302.Size = new System.Drawing.Size(38, 38);
+            this.button302.Size = new System.Drawing.Size(100, 43);
             this.button302.TabIndex = 190;
             this.button302.Text = "L";
             this.button302.UseVisualStyleBackColor = true;
@@ -5121,10 +5032,11 @@
             // 
             // button303
             // 
+            this.button303.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button303.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button303.Location = new System.Drawing.Point(184, 322);
+            this.button303.Location = new System.Drawing.Point(-211, 65);
             this.button303.Name = "button303";
-            this.button303.Size = new System.Drawing.Size(38, 38);
+            this.button303.Size = new System.Drawing.Size(100, 43);
             this.button303.TabIndex = 189;
             this.button303.Text = "S";
             this.button303.UseVisualStyleBackColor = true;
@@ -5132,9 +5044,10 @@
             // 
             // label139
             // 
+            this.label139.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label139.AutoSize = true;
             this.label139.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label139.Location = new System.Drawing.Point(9, 327);
+            this.label139.Location = new System.Drawing.Point(-440, 78);
             this.label139.Name = "label139";
             this.label139.Size = new System.Drawing.Size(143, 20);
             this.label139.TabIndex = 188;
@@ -5142,10 +5055,11 @@
             // 
             // button304
             // 
+            this.button304.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button304.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button304.Location = new System.Drawing.Point(449, 277);
+            this.button304.Location = new System.Drawing.Point(449, 20);
             this.button304.Name = "button304";
-            this.button304.Size = new System.Drawing.Size(52, 38);
+            this.button304.Size = new System.Drawing.Size(100, 43);
             this.button304.TabIndex = 187;
             this.button304.Text = "GF";
             this.button304.UseVisualStyleBackColor = true;
@@ -5153,10 +5067,11 @@
             // 
             // button305
             // 
+            this.button305.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button305.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button305.Location = new System.Drawing.Point(405, 277);
+            this.button305.Location = new System.Drawing.Point(343, 20);
             this.button305.Name = "button305";
-            this.button305.Size = new System.Drawing.Size(38, 38);
+            this.button305.Size = new System.Drawing.Size(100, 43);
             this.button305.TabIndex = 186;
             this.button305.Text = "C";
             this.button305.UseVisualStyleBackColor = true;
@@ -5164,10 +5079,11 @@
             // 
             // button306
             // 
+            this.button306.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button306.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button306.Location = new System.Drawing.Point(361, 277);
+            this.button306.Location = new System.Drawing.Point(232, 20);
             this.button306.Name = "button306";
-            this.button306.Size = new System.Drawing.Size(38, 38);
+            this.button306.Size = new System.Drawing.Size(100, 43);
             this.button306.TabIndex = 185;
             this.button306.Text = "J";
             this.button306.UseVisualStyleBackColor = true;
@@ -5175,10 +5091,11 @@
             // 
             // button307
             // 
+            this.button307.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button307.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button307.Location = new System.Drawing.Point(317, 277);
+            this.button307.Location = new System.Drawing.Point(123, 20);
             this.button307.Name = "button307";
-            this.button307.Size = new System.Drawing.Size(38, 38);
+            this.button307.Size = new System.Drawing.Size(100, 43);
             this.button307.TabIndex = 184;
             this.button307.Text = "P";
             this.button307.UseVisualStyleBackColor = true;
@@ -5186,10 +5103,11 @@
             // 
             // button308
             // 
+            this.button308.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button308.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button308.Location = new System.Drawing.Point(273, 277);
+            this.button308.Location = new System.Drawing.Point(11, 20);
             this.button308.Name = "button308";
-            this.button308.Size = new System.Drawing.Size(38, 38);
+            this.button308.Size = new System.Drawing.Size(100, 43);
             this.button308.TabIndex = 183;
             this.button308.Text = "F";
             this.button308.UseVisualStyleBackColor = true;
@@ -5197,10 +5115,11 @@
             // 
             // button309
             // 
+            this.button309.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button309.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button309.Location = new System.Drawing.Point(229, 277);
+            this.button309.Location = new System.Drawing.Point(-100, 20);
             this.button309.Name = "button309";
-            this.button309.Size = new System.Drawing.Size(38, 38);
+            this.button309.Size = new System.Drawing.Size(100, 43);
             this.button309.TabIndex = 182;
             this.button309.Text = "L";
             this.button309.UseVisualStyleBackColor = true;
@@ -5208,10 +5127,11 @@
             // 
             // button310
             // 
+            this.button310.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button310.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button310.Location = new System.Drawing.Point(185, 277);
+            this.button310.Location = new System.Drawing.Point(-210, 20);
             this.button310.Name = "button310";
-            this.button310.Size = new System.Drawing.Size(38, 38);
+            this.button310.Size = new System.Drawing.Size(100, 43);
             this.button310.TabIndex = 181;
             this.button310.Text = "S";
             this.button310.UseVisualStyleBackColor = true;
@@ -5219,9 +5139,10 @@
             // 
             // label140
             // 
+            this.label140.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label140.AutoSize = true;
             this.label140.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label140.Location = new System.Drawing.Point(10, 282);
+            this.label140.Location = new System.Drawing.Point(-439, 33);
             this.label140.Name = "label140";
             this.label140.Size = new System.Drawing.Size(108, 20);
             this.label140.TabIndex = 180;
@@ -5229,10 +5150,11 @@
             // 
             // button311
             // 
+            this.button311.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button311.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button311.Location = new System.Drawing.Point(448, 235);
+            this.button311.Location = new System.Drawing.Point(448, -22);
             this.button311.Name = "button311";
-            this.button311.Size = new System.Drawing.Size(52, 38);
+            this.button311.Size = new System.Drawing.Size(100, 43);
             this.button311.TabIndex = 179;
             this.button311.Text = "GF";
             this.button311.UseVisualStyleBackColor = true;
@@ -5240,10 +5162,11 @@
             // 
             // button312
             // 
+            this.button312.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button312.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button312.Location = new System.Drawing.Point(404, 235);
+            this.button312.Location = new System.Drawing.Point(342, -22);
             this.button312.Name = "button312";
-            this.button312.Size = new System.Drawing.Size(38, 38);
+            this.button312.Size = new System.Drawing.Size(100, 43);
             this.button312.TabIndex = 178;
             this.button312.Text = "C";
             this.button312.UseVisualStyleBackColor = true;
@@ -5251,10 +5174,11 @@
             // 
             // button313
             // 
+            this.button313.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button313.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button313.Location = new System.Drawing.Point(360, 235);
+            this.button313.Location = new System.Drawing.Point(231, -22);
             this.button313.Name = "button313";
-            this.button313.Size = new System.Drawing.Size(38, 38);
+            this.button313.Size = new System.Drawing.Size(100, 43);
             this.button313.TabIndex = 177;
             this.button313.Text = "J";
             this.button313.UseVisualStyleBackColor = true;
@@ -5262,10 +5186,11 @@
             // 
             // button314
             // 
+            this.button314.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button314.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button314.Location = new System.Drawing.Point(316, 235);
+            this.button314.Location = new System.Drawing.Point(122, -22);
             this.button314.Name = "button314";
-            this.button314.Size = new System.Drawing.Size(38, 38);
+            this.button314.Size = new System.Drawing.Size(100, 43);
             this.button314.TabIndex = 176;
             this.button314.Text = "P";
             this.button314.UseVisualStyleBackColor = true;
@@ -5273,10 +5198,11 @@
             // 
             // button315
             // 
+            this.button315.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button315.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button315.Location = new System.Drawing.Point(272, 235);
+            this.button315.Location = new System.Drawing.Point(10, -22);
             this.button315.Name = "button315";
-            this.button315.Size = new System.Drawing.Size(38, 38);
+            this.button315.Size = new System.Drawing.Size(100, 43);
             this.button315.TabIndex = 175;
             this.button315.Text = "F";
             this.button315.UseVisualStyleBackColor = true;
@@ -5284,10 +5210,11 @@
             // 
             // button316
             // 
+            this.button316.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button316.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button316.Location = new System.Drawing.Point(228, 235);
+            this.button316.Location = new System.Drawing.Point(-101, -22);
             this.button316.Name = "button316";
-            this.button316.Size = new System.Drawing.Size(38, 38);
+            this.button316.Size = new System.Drawing.Size(100, 43);
             this.button316.TabIndex = 174;
             this.button316.Text = "L";
             this.button316.UseVisualStyleBackColor = true;
@@ -5295,10 +5222,11 @@
             // 
             // button317
             // 
+            this.button317.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button317.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button317.Location = new System.Drawing.Point(184, 235);
+            this.button317.Location = new System.Drawing.Point(-211, -22);
             this.button317.Name = "button317";
-            this.button317.Size = new System.Drawing.Size(38, 38);
+            this.button317.Size = new System.Drawing.Size(100, 43);
             this.button317.TabIndex = 173;
             this.button317.Text = "S";
             this.button317.UseVisualStyleBackColor = true;
@@ -5306,9 +5234,10 @@
             // 
             // label141
             // 
+            this.label141.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label141.AutoSize = true;
             this.label141.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label141.Location = new System.Drawing.Point(9, 240);
+            this.label141.Location = new System.Drawing.Point(-440, -9);
             this.label141.Name = "label141";
             this.label141.Size = new System.Drawing.Size(92, 20);
             this.label141.TabIndex = 172;
@@ -5316,10 +5245,11 @@
             // 
             // button318
             // 
+            this.button318.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button318.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button318.Location = new System.Drawing.Point(449, 191);
+            this.button318.Location = new System.Drawing.Point(449, -66);
             this.button318.Name = "button318";
-            this.button318.Size = new System.Drawing.Size(52, 38);
+            this.button318.Size = new System.Drawing.Size(100, 43);
             this.button318.TabIndex = 171;
             this.button318.Text = "GF";
             this.button318.UseVisualStyleBackColor = true;
@@ -5327,10 +5257,11 @@
             // 
             // button319
             // 
+            this.button319.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button319.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button319.Location = new System.Drawing.Point(405, 191);
+            this.button319.Location = new System.Drawing.Point(343, -66);
             this.button319.Name = "button319";
-            this.button319.Size = new System.Drawing.Size(38, 38);
+            this.button319.Size = new System.Drawing.Size(100, 43);
             this.button319.TabIndex = 170;
             this.button319.Text = "C";
             this.button319.UseVisualStyleBackColor = true;
@@ -5338,10 +5269,11 @@
             // 
             // button320
             // 
+            this.button320.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button320.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button320.Location = new System.Drawing.Point(361, 191);
+            this.button320.Location = new System.Drawing.Point(232, -66);
             this.button320.Name = "button320";
-            this.button320.Size = new System.Drawing.Size(38, 38);
+            this.button320.Size = new System.Drawing.Size(100, 43);
             this.button320.TabIndex = 169;
             this.button320.Text = "J";
             this.button320.UseVisualStyleBackColor = true;
@@ -5349,10 +5281,11 @@
             // 
             // button321
             // 
+            this.button321.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button321.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button321.Location = new System.Drawing.Point(317, 191);
+            this.button321.Location = new System.Drawing.Point(123, -66);
             this.button321.Name = "button321";
-            this.button321.Size = new System.Drawing.Size(38, 38);
+            this.button321.Size = new System.Drawing.Size(100, 43);
             this.button321.TabIndex = 168;
             this.button321.Text = "P";
             this.button321.UseVisualStyleBackColor = true;
@@ -5360,10 +5293,11 @@
             // 
             // button322
             // 
+            this.button322.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button322.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button322.Location = new System.Drawing.Point(273, 191);
+            this.button322.Location = new System.Drawing.Point(11, -66);
             this.button322.Name = "button322";
-            this.button322.Size = new System.Drawing.Size(38, 38);
+            this.button322.Size = new System.Drawing.Size(100, 43);
             this.button322.TabIndex = 167;
             this.button322.Text = "F";
             this.button322.UseVisualStyleBackColor = true;
@@ -5371,10 +5305,11 @@
             // 
             // button323
             // 
+            this.button323.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button323.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button323.Location = new System.Drawing.Point(229, 191);
+            this.button323.Location = new System.Drawing.Point(-100, -66);
             this.button323.Name = "button323";
-            this.button323.Size = new System.Drawing.Size(38, 38);
+            this.button323.Size = new System.Drawing.Size(100, 43);
             this.button323.TabIndex = 166;
             this.button323.Text = "L";
             this.button323.UseVisualStyleBackColor = true;
@@ -5382,10 +5317,11 @@
             // 
             // button324
             // 
+            this.button324.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button324.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button324.Location = new System.Drawing.Point(185, 191);
+            this.button324.Location = new System.Drawing.Point(-210, -66);
             this.button324.Name = "button324";
-            this.button324.Size = new System.Drawing.Size(38, 38);
+            this.button324.Size = new System.Drawing.Size(100, 43);
             this.button324.TabIndex = 165;
             this.button324.Text = "S";
             this.button324.UseVisualStyleBackColor = true;
@@ -5393,9 +5329,10 @@
             // 
             // label142
             // 
+            this.label142.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label142.AutoSize = true;
             this.label142.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label142.Location = new System.Drawing.Point(10, 196);
+            this.label142.Location = new System.Drawing.Point(-439, -53);
             this.label142.Name = "label142";
             this.label142.Size = new System.Drawing.Size(136, 20);
             this.label142.TabIndex = 164;
@@ -5403,10 +5340,11 @@
             // 
             // button325
             // 
+            this.button325.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button325.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button325.Location = new System.Drawing.Point(448, 149);
+            this.button325.Location = new System.Drawing.Point(448, -108);
             this.button325.Name = "button325";
-            this.button325.Size = new System.Drawing.Size(52, 38);
+            this.button325.Size = new System.Drawing.Size(100, 43);
             this.button325.TabIndex = 163;
             this.button325.Text = "GF";
             this.button325.UseVisualStyleBackColor = true;
@@ -5414,10 +5352,11 @@
             // 
             // button326
             // 
+            this.button326.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button326.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button326.Location = new System.Drawing.Point(404, 149);
+            this.button326.Location = new System.Drawing.Point(342, -108);
             this.button326.Name = "button326";
-            this.button326.Size = new System.Drawing.Size(38, 38);
+            this.button326.Size = new System.Drawing.Size(100, 43);
             this.button326.TabIndex = 162;
             this.button326.Text = "C";
             this.button326.UseVisualStyleBackColor = true;
@@ -5425,10 +5364,11 @@
             // 
             // button327
             // 
+            this.button327.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button327.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button327.Location = new System.Drawing.Point(360, 149);
+            this.button327.Location = new System.Drawing.Point(231, -108);
             this.button327.Name = "button327";
-            this.button327.Size = new System.Drawing.Size(38, 38);
+            this.button327.Size = new System.Drawing.Size(100, 43);
             this.button327.TabIndex = 161;
             this.button327.Text = "J";
             this.button327.UseVisualStyleBackColor = true;
@@ -5436,10 +5376,11 @@
             // 
             // button328
             // 
+            this.button328.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button328.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button328.Location = new System.Drawing.Point(316, 149);
+            this.button328.Location = new System.Drawing.Point(122, -108);
             this.button328.Name = "button328";
-            this.button328.Size = new System.Drawing.Size(38, 38);
+            this.button328.Size = new System.Drawing.Size(100, 43);
             this.button328.TabIndex = 160;
             this.button328.Text = "P";
             this.button328.UseVisualStyleBackColor = true;
@@ -5447,10 +5388,11 @@
             // 
             // button329
             // 
+            this.button329.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button329.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button329.Location = new System.Drawing.Point(272, 149);
+            this.button329.Location = new System.Drawing.Point(10, -108);
             this.button329.Name = "button329";
-            this.button329.Size = new System.Drawing.Size(38, 38);
+            this.button329.Size = new System.Drawing.Size(100, 43);
             this.button329.TabIndex = 159;
             this.button329.Text = "F";
             this.button329.UseVisualStyleBackColor = true;
@@ -5458,10 +5400,11 @@
             // 
             // button330
             // 
+            this.button330.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button330.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button330.Location = new System.Drawing.Point(228, 149);
+            this.button330.Location = new System.Drawing.Point(-101, -108);
             this.button330.Name = "button330";
-            this.button330.Size = new System.Drawing.Size(38, 38);
+            this.button330.Size = new System.Drawing.Size(100, 43);
             this.button330.TabIndex = 158;
             this.button330.Text = "L";
             this.button330.UseVisualStyleBackColor = true;
@@ -5469,10 +5412,11 @@
             // 
             // button331
             // 
+            this.button331.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button331.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button331.Location = new System.Drawing.Point(184, 149);
+            this.button331.Location = new System.Drawing.Point(-211, -108);
             this.button331.Name = "button331";
-            this.button331.Size = new System.Drawing.Size(38, 38);
+            this.button331.Size = new System.Drawing.Size(100, 43);
             this.button331.TabIndex = 157;
             this.button331.Text = "S";
             this.button331.UseVisualStyleBackColor = true;
@@ -5480,9 +5424,10 @@
             // 
             // label143
             // 
+            this.label143.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label143.AutoSize = true;
             this.label143.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label143.Location = new System.Drawing.Point(9, 154);
+            this.label143.Location = new System.Drawing.Point(-440, -95);
             this.label143.Name = "label143";
             this.label143.Size = new System.Drawing.Size(97, 20);
             this.label143.TabIndex = 156;
@@ -5490,10 +5435,11 @@
             // 
             // button332
             // 
+            this.button332.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button332.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button332.Location = new System.Drawing.Point(449, 105);
+            this.button332.Location = new System.Drawing.Point(449, -152);
             this.button332.Name = "button332";
-            this.button332.Size = new System.Drawing.Size(52, 38);
+            this.button332.Size = new System.Drawing.Size(100, 43);
             this.button332.TabIndex = 155;
             this.button332.Text = "GF";
             this.button332.UseVisualStyleBackColor = true;
@@ -5501,10 +5447,11 @@
             // 
             // button333
             // 
+            this.button333.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button333.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button333.Location = new System.Drawing.Point(405, 105);
+            this.button333.Location = new System.Drawing.Point(343, -152);
             this.button333.Name = "button333";
-            this.button333.Size = new System.Drawing.Size(38, 38);
+            this.button333.Size = new System.Drawing.Size(100, 43);
             this.button333.TabIndex = 154;
             this.button333.Text = "C";
             this.button333.UseVisualStyleBackColor = true;
@@ -5512,10 +5459,11 @@
             // 
             // button334
             // 
+            this.button334.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button334.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button334.Location = new System.Drawing.Point(361, 105);
+            this.button334.Location = new System.Drawing.Point(232, -152);
             this.button334.Name = "button334";
-            this.button334.Size = new System.Drawing.Size(38, 38);
+            this.button334.Size = new System.Drawing.Size(100, 43);
             this.button334.TabIndex = 153;
             this.button334.Text = "J";
             this.button334.UseVisualStyleBackColor = true;
@@ -5523,10 +5471,11 @@
             // 
             // button335
             // 
+            this.button335.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button335.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button335.Location = new System.Drawing.Point(317, 105);
+            this.button335.Location = new System.Drawing.Point(123, -152);
             this.button335.Name = "button335";
-            this.button335.Size = new System.Drawing.Size(38, 38);
+            this.button335.Size = new System.Drawing.Size(100, 43);
             this.button335.TabIndex = 152;
             this.button335.Text = "P";
             this.button335.UseVisualStyleBackColor = true;
@@ -5534,10 +5483,11 @@
             // 
             // button336
             // 
+            this.button336.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button336.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button336.Location = new System.Drawing.Point(273, 105);
+            this.button336.Location = new System.Drawing.Point(11, -152);
             this.button336.Name = "button336";
-            this.button336.Size = new System.Drawing.Size(38, 38);
+            this.button336.Size = new System.Drawing.Size(100, 43);
             this.button336.TabIndex = 151;
             this.button336.Text = "F";
             this.button336.UseVisualStyleBackColor = true;
@@ -5545,10 +5495,11 @@
             // 
             // button337
             // 
+            this.button337.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button337.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button337.Location = new System.Drawing.Point(229, 105);
+            this.button337.Location = new System.Drawing.Point(-100, -152);
             this.button337.Name = "button337";
-            this.button337.Size = new System.Drawing.Size(38, 38);
+            this.button337.Size = new System.Drawing.Size(100, 43);
             this.button337.TabIndex = 150;
             this.button337.Text = "L";
             this.button337.UseVisualStyleBackColor = true;
@@ -5556,10 +5507,11 @@
             // 
             // button338
             // 
+            this.button338.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button338.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button338.Location = new System.Drawing.Point(185, 105);
+            this.button338.Location = new System.Drawing.Point(-210, -152);
             this.button338.Name = "button338";
-            this.button338.Size = new System.Drawing.Size(38, 38);
+            this.button338.Size = new System.Drawing.Size(100, 43);
             this.button338.TabIndex = 149;
             this.button338.Text = "S";
             this.button338.UseVisualStyleBackColor = true;
@@ -5567,9 +5519,10 @@
             // 
             // label144
             // 
+            this.label144.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label144.AutoSize = true;
             this.label144.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label144.Location = new System.Drawing.Point(10, 110);
+            this.label144.Location = new System.Drawing.Point(-439, -139);
             this.label144.Name = "label144";
             this.label144.Size = new System.Drawing.Size(77, 20);
             this.label144.TabIndex = 148;
@@ -5577,10 +5530,11 @@
             // 
             // button354
             // 
+            this.button354.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button354.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button354.Location = new System.Drawing.Point(449, 59);
+            this.button354.Location = new System.Drawing.Point(449, -198);
             this.button354.Name = "button354";
-            this.button354.Size = new System.Drawing.Size(52, 38);
+            this.button354.Size = new System.Drawing.Size(100, 43);
             this.button354.TabIndex = 147;
             this.button354.Text = "GF";
             this.button354.UseVisualStyleBackColor = true;
@@ -5588,10 +5542,11 @@
             // 
             // button355
             // 
+            this.button355.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button355.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button355.Location = new System.Drawing.Point(405, 59);
+            this.button355.Location = new System.Drawing.Point(343, -198);
             this.button355.Name = "button355";
-            this.button355.Size = new System.Drawing.Size(38, 38);
+            this.button355.Size = new System.Drawing.Size(100, 43);
             this.button355.TabIndex = 146;
             this.button355.Text = "C";
             this.button355.UseVisualStyleBackColor = true;
@@ -5599,10 +5554,11 @@
             // 
             // button356
             // 
+            this.button356.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button356.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button356.Location = new System.Drawing.Point(361, 59);
+            this.button356.Location = new System.Drawing.Point(232, -198);
             this.button356.Name = "button356";
-            this.button356.Size = new System.Drawing.Size(38, 38);
+            this.button356.Size = new System.Drawing.Size(100, 43);
             this.button356.TabIndex = 145;
             this.button356.Text = "J";
             this.button356.UseVisualStyleBackColor = true;
@@ -5610,10 +5566,11 @@
             // 
             // button357
             // 
+            this.button357.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button357.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button357.Location = new System.Drawing.Point(317, 59);
+            this.button357.Location = new System.Drawing.Point(123, -198);
             this.button357.Name = "button357";
-            this.button357.Size = new System.Drawing.Size(38, 38);
+            this.button357.Size = new System.Drawing.Size(100, 43);
             this.button357.TabIndex = 144;
             this.button357.Text = "P";
             this.button357.UseVisualStyleBackColor = true;
@@ -5621,10 +5578,11 @@
             // 
             // button358
             // 
+            this.button358.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button358.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button358.Location = new System.Drawing.Point(273, 59);
+            this.button358.Location = new System.Drawing.Point(11, -198);
             this.button358.Name = "button358";
-            this.button358.Size = new System.Drawing.Size(38, 38);
+            this.button358.Size = new System.Drawing.Size(100, 43);
             this.button358.TabIndex = 143;
             this.button358.Text = "F";
             this.button358.UseVisualStyleBackColor = true;
@@ -5632,10 +5590,11 @@
             // 
             // button359
             // 
+            this.button359.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button359.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button359.Location = new System.Drawing.Point(229, 59);
+            this.button359.Location = new System.Drawing.Point(-100, -198);
             this.button359.Name = "button359";
-            this.button359.Size = new System.Drawing.Size(38, 38);
+            this.button359.Size = new System.Drawing.Size(100, 43);
             this.button359.TabIndex = 142;
             this.button359.Text = "L";
             this.button359.UseVisualStyleBackColor = true;
@@ -5643,10 +5602,11 @@
             // 
             // button360
             // 
+            this.button360.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button360.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button360.Location = new System.Drawing.Point(185, 59);
+            this.button360.Location = new System.Drawing.Point(-210, -198);
             this.button360.Name = "button360";
-            this.button360.Size = new System.Drawing.Size(38, 38);
+            this.button360.Size = new System.Drawing.Size(100, 43);
             this.button360.TabIndex = 141;
             this.button360.Text = "S";
             this.button360.UseVisualStyleBackColor = true;
@@ -5654,9 +5614,10 @@
             // 
             // label149
             // 
+            this.label149.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label149.AutoSize = true;
             this.label149.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label149.Location = new System.Drawing.Point(10, 64);
+            this.label149.Location = new System.Drawing.Point(-439, -185);
             this.label149.Name = "label149";
             this.label149.Size = new System.Drawing.Size(149, 20);
             this.label149.TabIndex = 140;
@@ -5664,10 +5625,11 @@
             // 
             // button361
             // 
+            this.button361.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button361.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button361.Location = new System.Drawing.Point(449, 11);
+            this.button361.Location = new System.Drawing.Point(449, -246);
             this.button361.Name = "button361";
-            this.button361.Size = new System.Drawing.Size(52, 38);
+            this.button361.Size = new System.Drawing.Size(100, 43);
             this.button361.TabIndex = 139;
             this.button361.Text = "GF";
             this.button361.UseVisualStyleBackColor = true;
@@ -5675,10 +5637,11 @@
             // 
             // button362
             // 
+            this.button362.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button362.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button362.Location = new System.Drawing.Point(405, 11);
+            this.button362.Location = new System.Drawing.Point(343, -246);
             this.button362.Name = "button362";
-            this.button362.Size = new System.Drawing.Size(38, 38);
+            this.button362.Size = new System.Drawing.Size(100, 43);
             this.button362.TabIndex = 138;
             this.button362.Text = "C";
             this.button362.UseVisualStyleBackColor = true;
@@ -5686,10 +5649,11 @@
             // 
             // button363
             // 
+            this.button363.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button363.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button363.Location = new System.Drawing.Point(361, 11);
+            this.button363.Location = new System.Drawing.Point(232, -246);
             this.button363.Name = "button363";
-            this.button363.Size = new System.Drawing.Size(38, 38);
+            this.button363.Size = new System.Drawing.Size(100, 43);
             this.button363.TabIndex = 137;
             this.button363.Text = "J";
             this.button363.UseVisualStyleBackColor = true;
@@ -5697,10 +5661,11 @@
             // 
             // button364
             // 
+            this.button364.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button364.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button364.Location = new System.Drawing.Point(317, 11);
+            this.button364.Location = new System.Drawing.Point(123, -246);
             this.button364.Name = "button364";
-            this.button364.Size = new System.Drawing.Size(38, 38);
+            this.button364.Size = new System.Drawing.Size(100, 43);
             this.button364.TabIndex = 136;
             this.button364.Text = "P";
             this.button364.UseVisualStyleBackColor = true;
@@ -5708,10 +5673,11 @@
             // 
             // button365
             // 
+            this.button365.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button365.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button365.Location = new System.Drawing.Point(273, 11);
+            this.button365.Location = new System.Drawing.Point(11, -246);
             this.button365.Name = "button365";
-            this.button365.Size = new System.Drawing.Size(38, 38);
+            this.button365.Size = new System.Drawing.Size(100, 43);
             this.button365.TabIndex = 135;
             this.button365.Text = "F";
             this.button365.UseVisualStyleBackColor = true;
@@ -5719,10 +5685,11 @@
             // 
             // button366
             // 
+            this.button366.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button366.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button366.Location = new System.Drawing.Point(229, 11);
+            this.button366.Location = new System.Drawing.Point(-100, -246);
             this.button366.Name = "button366";
-            this.button366.Size = new System.Drawing.Size(38, 38);
+            this.button366.Size = new System.Drawing.Size(100, 43);
             this.button366.TabIndex = 134;
             this.button366.Text = "L";
             this.button366.UseVisualStyleBackColor = true;
@@ -5730,10 +5697,11 @@
             // 
             // button367
             // 
+            this.button367.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button367.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button367.Location = new System.Drawing.Point(185, 11);
+            this.button367.Location = new System.Drawing.Point(-210, -246);
             this.button367.Name = "button367";
-            this.button367.Size = new System.Drawing.Size(38, 38);
+            this.button367.Size = new System.Drawing.Size(100, 43);
             this.button367.TabIndex = 131;
             this.button367.Text = "S";
             this.button367.UseVisualStyleBackColor = true;
@@ -5741,10 +5709,11 @@
             // 
             // button368
             // 
+            this.button368.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button368.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button368.Location = new System.Drawing.Point(12, 478);
+            this.button368.Location = new System.Drawing.Point(-491, 306);
             this.button368.Name = "button368";
-            this.button368.Size = new System.Drawing.Size(147, 38);
+            this.button368.Size = new System.Drawing.Size(185, 67);
             this.button368.TabIndex = 133;
             this.button368.Text = "Back";
             this.button368.UseVisualStyleBackColor = true;
@@ -5752,10 +5721,11 @@
             // 
             // button369
             // 
+            this.button369.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button369.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button369.Location = new System.Drawing.Point(351, 478);
+            this.button369.Location = new System.Drawing.Point(-55, 306);
             this.button369.Name = "button369";
-            this.button369.Size = new System.Drawing.Size(147, 38);
+            this.button369.Size = new System.Drawing.Size(185, 67);
             this.button369.TabIndex = 132;
             this.button369.Text = "Next Page";
             this.button369.UseVisualStyleBackColor = true;
@@ -5763,9 +5733,10 @@
             // 
             // label150
             // 
+            this.label150.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label150.AutoSize = true;
             this.label150.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label150.Location = new System.Drawing.Point(10, 16);
+            this.label150.Location = new System.Drawing.Point(-439, -233);
             this.label150.Name = "label150";
             this.label150.Size = new System.Drawing.Size(121, 20);
             this.label150.TabIndex = 130;
@@ -5773,6 +5744,7 @@
             // 
             // traditionalPanel
             // 
+            this.traditionalPanel.Controls.Add(this.button13);
             this.traditionalPanel.Controls.Add(this.traditional2Panel);
             this.traditionalPanel.Controls.Add(this.button132);
             this.traditionalPanel.Controls.Add(this.button133);
@@ -5857,9 +5829,9 @@
             this.traditionalPanel.Controls.Add(this.button56);
             this.traditionalPanel.Controls.Add(this.label121);
             this.traditionalPanel.Cursor = System.Windows.Forms.Cursors.Default;
-            this.traditionalPanel.Location = new System.Drawing.Point(487, 624);
+            this.traditionalPanel.Location = new System.Drawing.Point(777, 685);
             this.traditionalPanel.Name = "traditionalPanel";
-            this.traditionalPanel.Size = new System.Drawing.Size(26, 20);
+            this.traditionalPanel.Size = new System.Drawing.Size(102, 40);
             this.traditionalPanel.TabIndex = 23;
             this.traditionalPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.traditionalPanel_Paint);
             // 
@@ -6038,7 +6010,7 @@
             this.traditional3Panel.Controls.Add(this.button281);
             this.traditional3Panel.Controls.Add(this.button282);
             this.traditional3Panel.Controls.Add(this.label136);
-            this.traditional3Panel.Location = new System.Drawing.Point(204, 472);
+            this.traditional3Panel.Location = new System.Drawing.Point(238, 472);
             this.traditional3Panel.Name = "traditional3Panel";
             this.traditional3Panel.Size = new System.Drawing.Size(116, 40);
             this.traditional3Panel.TabIndex = 212;
@@ -6069,10 +6041,11 @@
             // 
             // button339
             // 
+            this.button339.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button339.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button339.Location = new System.Drawing.Point(449, 59);
+            this.button339.Location = new System.Drawing.Point(436, -137);
             this.button339.Name = "button339";
-            this.button339.Size = new System.Drawing.Size(52, 38);
+            this.button339.Size = new System.Drawing.Size(100, 43);
             this.button339.TabIndex = 311;
             this.button339.Text = "GF";
             this.button339.UseVisualStyleBackColor = true;
@@ -6080,10 +6053,11 @@
             // 
             // button340
             // 
+            this.button340.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button340.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button340.Location = new System.Drawing.Point(405, 59);
+            this.button340.Location = new System.Drawing.Point(330, -137);
             this.button340.Name = "button340";
-            this.button340.Size = new System.Drawing.Size(38, 38);
+            this.button340.Size = new System.Drawing.Size(100, 43);
             this.button340.TabIndex = 310;
             this.button340.Text = "C";
             this.button340.UseVisualStyleBackColor = true;
@@ -6091,10 +6065,11 @@
             // 
             // button341
             // 
+            this.button341.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button341.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button341.Location = new System.Drawing.Point(361, 59);
+            this.button341.Location = new System.Drawing.Point(221, -137);
             this.button341.Name = "button341";
-            this.button341.Size = new System.Drawing.Size(38, 38);
+            this.button341.Size = new System.Drawing.Size(100, 43);
             this.button341.TabIndex = 309;
             this.button341.Text = "J";
             this.button341.UseVisualStyleBackColor = true;
@@ -6102,10 +6077,11 @@
             // 
             // button342
             // 
+            this.button342.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button342.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button342.Location = new System.Drawing.Point(317, 59);
+            this.button342.Location = new System.Drawing.Point(115, -136);
             this.button342.Name = "button342";
-            this.button342.Size = new System.Drawing.Size(38, 38);
+            this.button342.Size = new System.Drawing.Size(100, 43);
             this.button342.TabIndex = 308;
             this.button342.Text = "P";
             this.button342.UseVisualStyleBackColor = true;
@@ -6113,10 +6089,11 @@
             // 
             // button343
             // 
+            this.button343.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button343.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button343.Location = new System.Drawing.Point(273, 59);
+            this.button343.Location = new System.Drawing.Point(4, -135);
             this.button343.Name = "button343";
-            this.button343.Size = new System.Drawing.Size(38, 38);
+            this.button343.Size = new System.Drawing.Size(100, 43);
             this.button343.TabIndex = 307;
             this.button343.Text = "F";
             this.button343.UseVisualStyleBackColor = true;
@@ -6124,10 +6101,11 @@
             // 
             // button344
             // 
+            this.button344.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button344.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button344.Location = new System.Drawing.Point(229, 59);
+            this.button344.Location = new System.Drawing.Point(-102, -135);
             this.button344.Name = "button344";
-            this.button344.Size = new System.Drawing.Size(38, 38);
+            this.button344.Size = new System.Drawing.Size(100, 43);
             this.button344.TabIndex = 306;
             this.button344.Text = "L";
             this.button344.UseVisualStyleBackColor = true;
@@ -6135,10 +6113,11 @@
             // 
             // button345
             // 
+            this.button345.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button345.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button345.Location = new System.Drawing.Point(185, 59);
+            this.button345.Location = new System.Drawing.Point(-208, -135);
             this.button345.Name = "button345";
-            this.button345.Size = new System.Drawing.Size(38, 38);
+            this.button345.Size = new System.Drawing.Size(100, 43);
             this.button345.TabIndex = 305;
             this.button345.Text = "S";
             this.button345.UseVisualStyleBackColor = true;
@@ -6146,9 +6125,10 @@
             // 
             // label147
             // 
+            this.label147.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label147.AutoSize = true;
             this.label147.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label147.Location = new System.Drawing.Point(10, 64);
+            this.label147.Location = new System.Drawing.Point(-415, -122);
             this.label147.Name = "label147";
             this.label147.Size = new System.Drawing.Size(145, 20);
             this.label147.TabIndex = 304;
@@ -6156,10 +6136,11 @@
             // 
             // button346
             // 
+            this.button346.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button346.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button346.Location = new System.Drawing.Point(449, 11);
+            this.button346.Location = new System.Drawing.Point(436, -185);
             this.button346.Name = "button346";
-            this.button346.Size = new System.Drawing.Size(52, 38);
+            this.button346.Size = new System.Drawing.Size(100, 43);
             this.button346.TabIndex = 303;
             this.button346.Text = "GF";
             this.button346.UseVisualStyleBackColor = true;
@@ -6167,10 +6148,11 @@
             // 
             // button347
             // 
+            this.button347.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button347.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button347.Location = new System.Drawing.Point(405, 11);
+            this.button347.Location = new System.Drawing.Point(330, -185);
             this.button347.Name = "button347";
-            this.button347.Size = new System.Drawing.Size(38, 38);
+            this.button347.Size = new System.Drawing.Size(100, 43);
             this.button347.TabIndex = 302;
             this.button347.Text = "C";
             this.button347.UseVisualStyleBackColor = true;
@@ -6178,10 +6160,11 @@
             // 
             // button348
             // 
+            this.button348.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button348.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button348.Location = new System.Drawing.Point(361, 11);
+            this.button348.Location = new System.Drawing.Point(221, -185);
             this.button348.Name = "button348";
-            this.button348.Size = new System.Drawing.Size(38, 38);
+            this.button348.Size = new System.Drawing.Size(100, 43);
             this.button348.TabIndex = 301;
             this.button348.Text = "J";
             this.button348.UseVisualStyleBackColor = true;
@@ -6189,10 +6172,11 @@
             // 
             // button349
             // 
+            this.button349.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button349.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button349.Location = new System.Drawing.Point(317, 11);
+            this.button349.Location = new System.Drawing.Point(115, -184);
             this.button349.Name = "button349";
-            this.button349.Size = new System.Drawing.Size(38, 38);
+            this.button349.Size = new System.Drawing.Size(100, 43);
             this.button349.TabIndex = 300;
             this.button349.Text = "P";
             this.button349.UseVisualStyleBackColor = true;
@@ -6200,10 +6184,11 @@
             // 
             // button350
             // 
+            this.button350.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button350.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button350.Location = new System.Drawing.Point(273, 11);
+            this.button350.Location = new System.Drawing.Point(4, -183);
             this.button350.Name = "button350";
-            this.button350.Size = new System.Drawing.Size(38, 38);
+            this.button350.Size = new System.Drawing.Size(100, 43);
             this.button350.TabIndex = 299;
             this.button350.Text = "F";
             this.button350.UseVisualStyleBackColor = true;
@@ -6211,10 +6196,11 @@
             // 
             // button351
             // 
+            this.button351.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button351.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button351.Location = new System.Drawing.Point(229, 11);
+            this.button351.Location = new System.Drawing.Point(-102, -183);
             this.button351.Name = "button351";
-            this.button351.Size = new System.Drawing.Size(38, 38);
+            this.button351.Size = new System.Drawing.Size(100, 43);
             this.button351.TabIndex = 298;
             this.button351.Text = "L";
             this.button351.UseVisualStyleBackColor = true;
@@ -6222,10 +6208,11 @@
             // 
             // button352
             // 
+            this.button352.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button352.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button352.Location = new System.Drawing.Point(185, 11);
+            this.button352.Location = new System.Drawing.Point(-208, -183);
             this.button352.Name = "button352";
-            this.button352.Size = new System.Drawing.Size(38, 38);
+            this.button352.Size = new System.Drawing.Size(100, 43);
             this.button352.TabIndex = 295;
             this.button352.Text = "S";
             this.button352.UseVisualStyleBackColor = true;
@@ -6233,10 +6220,11 @@
             // 
             // button353
             // 
+            this.button353.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button353.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button353.Location = new System.Drawing.Point(12, 478);
+            this.button353.Location = new System.Drawing.Point(-501, 312);
             this.button353.Name = "button353";
-            this.button353.Size = new System.Drawing.Size(147, 38);
+            this.button353.Size = new System.Drawing.Size(198, 67);
             this.button353.TabIndex = 297;
             this.button353.Text = "Back";
             this.button353.UseVisualStyleBackColor = true;
@@ -6244,9 +6232,10 @@
             // 
             // label148
             // 
+            this.label148.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label148.AutoSize = true;
             this.label148.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label148.Location = new System.Drawing.Point(10, 16);
+            this.label148.Location = new System.Drawing.Point(-415, -170);
             this.label148.Name = "label148";
             this.label148.Size = new System.Drawing.Size(84, 20);
             this.label148.TabIndex = 294;
@@ -6254,10 +6243,11 @@
             // 
             // button211
             // 
+            this.button211.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button211.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button211.Location = new System.Drawing.Point(448, 409);
+            this.button211.Location = new System.Drawing.Point(464, 104);
             this.button211.Name = "button211";
-            this.button211.Size = new System.Drawing.Size(52, 38);
+            this.button211.Size = new System.Drawing.Size(100, 43);
             this.button211.TabIndex = 293;
             this.button211.Text = "GF";
             this.button211.UseVisualStyleBackColor = true;
@@ -6265,10 +6255,11 @@
             // 
             // button212
             // 
+            this.button212.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button212.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button212.Location = new System.Drawing.Point(404, 409);
+            this.button212.Location = new System.Drawing.Point(357, 104);
             this.button212.Name = "button212";
-            this.button212.Size = new System.Drawing.Size(38, 38);
+            this.button212.Size = new System.Drawing.Size(100, 43);
             this.button212.TabIndex = 292;
             this.button212.Text = "C";
             this.button212.UseVisualStyleBackColor = true;
@@ -6276,10 +6267,11 @@
             // 
             // button213
             // 
+            this.button213.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button213.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button213.Location = new System.Drawing.Point(360, 409);
+            this.button213.Location = new System.Drawing.Point(246, 104);
             this.button213.Name = "button213";
-            this.button213.Size = new System.Drawing.Size(38, 38);
+            this.button213.Size = new System.Drawing.Size(100, 43);
             this.button213.TabIndex = 291;
             this.button213.Text = "J";
             this.button213.UseVisualStyleBackColor = true;
@@ -6287,10 +6279,11 @@
             // 
             // button214
             // 
+            this.button214.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button214.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button214.Location = new System.Drawing.Point(316, 409);
+            this.button214.Location = new System.Drawing.Point(140, 104);
             this.button214.Name = "button214";
-            this.button214.Size = new System.Drawing.Size(38, 38);
+            this.button214.Size = new System.Drawing.Size(100, 43);
             this.button214.TabIndex = 290;
             this.button214.Text = "P";
             this.button214.UseVisualStyleBackColor = true;
@@ -6298,10 +6291,11 @@
             // 
             // button215
             // 
+            this.button215.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button215.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button215.Location = new System.Drawing.Point(272, 409);
+            this.button215.Location = new System.Drawing.Point(38, 104);
             this.button215.Name = "button215";
-            this.button215.Size = new System.Drawing.Size(38, 38);
+            this.button215.Size = new System.Drawing.Size(100, 43);
             this.button215.TabIndex = 289;
             this.button215.Text = "F";
             this.button215.UseVisualStyleBackColor = true;
@@ -6309,10 +6303,11 @@
             // 
             // button216
             // 
+            this.button216.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button216.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button216.Location = new System.Drawing.Point(228, 409);
+            this.button216.Location = new System.Drawing.Point(-68, 104);
             this.button216.Name = "button216";
-            this.button216.Size = new System.Drawing.Size(38, 38);
+            this.button216.Size = new System.Drawing.Size(100, 43);
             this.button216.TabIndex = 288;
             this.button216.Text = "L";
             this.button216.UseVisualStyleBackColor = true;
@@ -6320,10 +6315,11 @@
             // 
             // button217
             // 
+            this.button217.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button217.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button217.Location = new System.Drawing.Point(184, 409);
+            this.button217.Location = new System.Drawing.Point(-178, 104);
             this.button217.Name = "button217";
-            this.button217.Size = new System.Drawing.Size(38, 38);
+            this.button217.Size = new System.Drawing.Size(100, 43);
             this.button217.TabIndex = 287;
             this.button217.Text = "S";
             this.button217.UseVisualStyleBackColor = true;
@@ -6331,9 +6327,10 @@
             // 
             // label127
             // 
+            this.label127.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label127.AutoSize = true;
             this.label127.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label127.Location = new System.Drawing.Point(9, 414);
+            this.label127.Location = new System.Drawing.Point(-437, 116);
             this.label127.Name = "label127";
             this.label127.Size = new System.Drawing.Size(121, 20);
             this.label127.TabIndex = 286;
@@ -6341,10 +6338,11 @@
             // 
             // button218
             // 
+            this.button218.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button218.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button218.Location = new System.Drawing.Point(448, 368);
+            this.button218.Location = new System.Drawing.Point(464, 63);
             this.button218.Name = "button218";
-            this.button218.Size = new System.Drawing.Size(52, 38);
+            this.button218.Size = new System.Drawing.Size(100, 43);
             this.button218.TabIndex = 285;
             this.button218.Text = "GF";
             this.button218.UseVisualStyleBackColor = true;
@@ -6352,10 +6350,11 @@
             // 
             // button219
             // 
+            this.button219.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button219.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button219.Location = new System.Drawing.Point(404, 368);
+            this.button219.Location = new System.Drawing.Point(357, 63);
             this.button219.Name = "button219";
-            this.button219.Size = new System.Drawing.Size(38, 38);
+            this.button219.Size = new System.Drawing.Size(100, 43);
             this.button219.TabIndex = 284;
             this.button219.Text = "C";
             this.button219.UseVisualStyleBackColor = true;
@@ -6363,10 +6362,11 @@
             // 
             // button220
             // 
+            this.button220.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button220.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button220.Location = new System.Drawing.Point(360, 368);
+            this.button220.Location = new System.Drawing.Point(246, 63);
             this.button220.Name = "button220";
-            this.button220.Size = new System.Drawing.Size(38, 38);
+            this.button220.Size = new System.Drawing.Size(100, 43);
             this.button220.TabIndex = 283;
             this.button220.Text = "J";
             this.button220.UseVisualStyleBackColor = true;
@@ -6374,10 +6374,11 @@
             // 
             // button221
             // 
+            this.button221.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button221.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button221.Location = new System.Drawing.Point(316, 368);
+            this.button221.Location = new System.Drawing.Point(140, 63);
             this.button221.Name = "button221";
-            this.button221.Size = new System.Drawing.Size(38, 38);
+            this.button221.Size = new System.Drawing.Size(100, 43);
             this.button221.TabIndex = 282;
             this.button221.Text = "P";
             this.button221.UseVisualStyleBackColor = true;
@@ -6385,10 +6386,11 @@
             // 
             // button222
             // 
+            this.button222.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button222.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button222.Location = new System.Drawing.Point(272, 368);
+            this.button222.Location = new System.Drawing.Point(38, 63);
             this.button222.Name = "button222";
-            this.button222.Size = new System.Drawing.Size(38, 38);
+            this.button222.Size = new System.Drawing.Size(100, 43);
             this.button222.TabIndex = 281;
             this.button222.Text = "F";
             this.button222.UseVisualStyleBackColor = true;
@@ -6396,10 +6398,11 @@
             // 
             // button223
             // 
+            this.button223.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button223.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button223.Location = new System.Drawing.Point(228, 368);
+            this.button223.Location = new System.Drawing.Point(-68, 63);
             this.button223.Name = "button223";
-            this.button223.Size = new System.Drawing.Size(38, 38);
+            this.button223.Size = new System.Drawing.Size(100, 43);
             this.button223.TabIndex = 280;
             this.button223.Text = "L";
             this.button223.UseVisualStyleBackColor = true;
@@ -6407,10 +6410,11 @@
             // 
             // button224
             // 
+            this.button224.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button224.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button224.Location = new System.Drawing.Point(184, 368);
+            this.button224.Location = new System.Drawing.Point(-178, 63);
             this.button224.Name = "button224";
-            this.button224.Size = new System.Drawing.Size(38, 38);
+            this.button224.Size = new System.Drawing.Size(100, 43);
             this.button224.TabIndex = 279;
             this.button224.Text = "S";
             this.button224.UseVisualStyleBackColor = true;
@@ -6418,9 +6422,10 @@
             // 
             // label128
             // 
+            this.label128.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label128.AutoSize = true;
             this.label128.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label128.Location = new System.Drawing.Point(9, 373);
+            this.label128.Location = new System.Drawing.Point(-437, 75);
             this.label128.Name = "label128";
             this.label128.Size = new System.Drawing.Size(150, 20);
             this.label128.TabIndex = 278;
@@ -6428,10 +6433,11 @@
             // 
             // button225
             // 
+            this.button225.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button225.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button225.Location = new System.Drawing.Point(448, 322);
+            this.button225.Location = new System.Drawing.Point(464, 17);
             this.button225.Name = "button225";
-            this.button225.Size = new System.Drawing.Size(52, 38);
+            this.button225.Size = new System.Drawing.Size(100, 43);
             this.button225.TabIndex = 277;
             this.button225.Text = "GF";
             this.button225.UseVisualStyleBackColor = true;
@@ -6439,10 +6445,11 @@
             // 
             // button226
             // 
+            this.button226.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button226.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button226.Location = new System.Drawing.Point(404, 322);
+            this.button226.Location = new System.Drawing.Point(357, 17);
             this.button226.Name = "button226";
-            this.button226.Size = new System.Drawing.Size(38, 38);
+            this.button226.Size = new System.Drawing.Size(100, 43);
             this.button226.TabIndex = 276;
             this.button226.Text = "C";
             this.button226.UseVisualStyleBackColor = true;
@@ -6450,10 +6457,11 @@
             // 
             // button227
             // 
+            this.button227.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button227.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button227.Location = new System.Drawing.Point(360, 322);
+            this.button227.Location = new System.Drawing.Point(246, 17);
             this.button227.Name = "button227";
-            this.button227.Size = new System.Drawing.Size(38, 38);
+            this.button227.Size = new System.Drawing.Size(100, 43);
             this.button227.TabIndex = 275;
             this.button227.Text = "J";
             this.button227.UseVisualStyleBackColor = true;
@@ -6461,10 +6469,11 @@
             // 
             // button228
             // 
+            this.button228.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button228.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button228.Location = new System.Drawing.Point(316, 322);
+            this.button228.Location = new System.Drawing.Point(140, 17);
             this.button228.Name = "button228";
-            this.button228.Size = new System.Drawing.Size(38, 38);
+            this.button228.Size = new System.Drawing.Size(100, 43);
             this.button228.TabIndex = 274;
             this.button228.Text = "P";
             this.button228.UseVisualStyleBackColor = true;
@@ -6472,10 +6481,11 @@
             // 
             // button229
             // 
+            this.button229.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button229.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button229.Location = new System.Drawing.Point(272, 322);
+            this.button229.Location = new System.Drawing.Point(38, 17);
             this.button229.Name = "button229";
-            this.button229.Size = new System.Drawing.Size(38, 38);
+            this.button229.Size = new System.Drawing.Size(100, 43);
             this.button229.TabIndex = 273;
             this.button229.Text = "F";
             this.button229.UseVisualStyleBackColor = true;
@@ -6483,10 +6493,11 @@
             // 
             // button230
             // 
+            this.button230.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button230.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button230.Location = new System.Drawing.Point(228, 322);
+            this.button230.Location = new System.Drawing.Point(-68, 17);
             this.button230.Name = "button230";
-            this.button230.Size = new System.Drawing.Size(38, 38);
+            this.button230.Size = new System.Drawing.Size(100, 43);
             this.button230.TabIndex = 272;
             this.button230.Text = "L";
             this.button230.UseVisualStyleBackColor = true;
@@ -6494,10 +6505,11 @@
             // 
             // button231
             // 
+            this.button231.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button231.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button231.Location = new System.Drawing.Point(184, 322);
+            this.button231.Location = new System.Drawing.Point(-178, 17);
             this.button231.Name = "button231";
-            this.button231.Size = new System.Drawing.Size(38, 38);
+            this.button231.Size = new System.Drawing.Size(100, 43);
             this.button231.TabIndex = 271;
             this.button231.Text = "S";
             this.button231.UseVisualStyleBackColor = true;
@@ -6505,9 +6517,10 @@
             // 
             // label129
             // 
+            this.label129.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label129.AutoSize = true;
             this.label129.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label129.Location = new System.Drawing.Point(9, 327);
+            this.label129.Location = new System.Drawing.Point(-437, 29);
             this.label129.Name = "label129";
             this.label129.Size = new System.Drawing.Size(132, 20);
             this.label129.TabIndex = 270;
@@ -6515,10 +6528,11 @@
             // 
             // button232
             // 
+            this.button232.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button232.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button232.Location = new System.Drawing.Point(449, 277);
+            this.button232.Location = new System.Drawing.Point(465, -28);
             this.button232.Name = "button232";
-            this.button232.Size = new System.Drawing.Size(52, 38);
+            this.button232.Size = new System.Drawing.Size(100, 43);
             this.button232.TabIndex = 269;
             this.button232.Text = "GF";
             this.button232.UseVisualStyleBackColor = true;
@@ -6526,10 +6540,11 @@
             // 
             // button233
             // 
+            this.button233.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button233.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button233.Location = new System.Drawing.Point(405, 277);
+            this.button233.Location = new System.Drawing.Point(358, -28);
             this.button233.Name = "button233";
-            this.button233.Size = new System.Drawing.Size(38, 38);
+            this.button233.Size = new System.Drawing.Size(100, 43);
             this.button233.TabIndex = 268;
             this.button233.Text = "C";
             this.button233.UseVisualStyleBackColor = true;
@@ -6537,10 +6552,11 @@
             // 
             // button234
             // 
+            this.button234.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button234.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button234.Location = new System.Drawing.Point(361, 277);
+            this.button234.Location = new System.Drawing.Point(247, -28);
             this.button234.Name = "button234";
-            this.button234.Size = new System.Drawing.Size(38, 38);
+            this.button234.Size = new System.Drawing.Size(100, 43);
             this.button234.TabIndex = 267;
             this.button234.Text = "J";
             this.button234.UseVisualStyleBackColor = true;
@@ -6548,10 +6564,11 @@
             // 
             // button235
             // 
+            this.button235.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button235.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button235.Location = new System.Drawing.Point(317, 277);
+            this.button235.Location = new System.Drawing.Point(141, -28);
             this.button235.Name = "button235";
-            this.button235.Size = new System.Drawing.Size(38, 38);
+            this.button235.Size = new System.Drawing.Size(100, 43);
             this.button235.TabIndex = 266;
             this.button235.Text = "P";
             this.button235.UseVisualStyleBackColor = true;
@@ -6559,10 +6576,11 @@
             // 
             // button236
             // 
+            this.button236.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button236.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button236.Location = new System.Drawing.Point(273, 277);
+            this.button236.Location = new System.Drawing.Point(39, -28);
             this.button236.Name = "button236";
-            this.button236.Size = new System.Drawing.Size(38, 38);
+            this.button236.Size = new System.Drawing.Size(100, 43);
             this.button236.TabIndex = 265;
             this.button236.Text = "F";
             this.button236.UseVisualStyleBackColor = true;
@@ -6570,10 +6588,11 @@
             // 
             // button237
             // 
+            this.button237.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button237.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button237.Location = new System.Drawing.Point(229, 277);
+            this.button237.Location = new System.Drawing.Point(-67, -28);
             this.button237.Name = "button237";
-            this.button237.Size = new System.Drawing.Size(38, 38);
+            this.button237.Size = new System.Drawing.Size(100, 43);
             this.button237.TabIndex = 264;
             this.button237.Text = "L";
             this.button237.UseVisualStyleBackColor = true;
@@ -6581,10 +6600,11 @@
             // 
             // button238
             // 
+            this.button238.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button238.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button238.Location = new System.Drawing.Point(185, 277);
+            this.button238.Location = new System.Drawing.Point(-177, -28);
             this.button238.Name = "button238";
-            this.button238.Size = new System.Drawing.Size(38, 38);
+            this.button238.Size = new System.Drawing.Size(100, 43);
             this.button238.TabIndex = 263;
             this.button238.Text = "S";
             this.button238.UseVisualStyleBackColor = true;
@@ -6592,9 +6612,10 @@
             // 
             // label130
             // 
+            this.label130.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label130.AutoSize = true;
             this.label130.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label130.Location = new System.Drawing.Point(10, 282);
+            this.label130.Location = new System.Drawing.Point(-436, -16);
             this.label130.Name = "label130";
             this.label130.Size = new System.Drawing.Size(148, 20);
             this.label130.TabIndex = 262;
@@ -6602,10 +6623,11 @@
             // 
             // button239
             // 
+            this.button239.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button239.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button239.Location = new System.Drawing.Point(448, 235);
+            this.button239.Location = new System.Drawing.Point(464, -70);
             this.button239.Name = "button239";
-            this.button239.Size = new System.Drawing.Size(52, 38);
+            this.button239.Size = new System.Drawing.Size(100, 43);
             this.button239.TabIndex = 261;
             this.button239.Text = "GF";
             this.button239.UseVisualStyleBackColor = true;
@@ -6613,10 +6635,11 @@
             // 
             // button240
             // 
+            this.button240.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button240.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button240.Location = new System.Drawing.Point(404, 235);
+            this.button240.Location = new System.Drawing.Point(357, -70);
             this.button240.Name = "button240";
-            this.button240.Size = new System.Drawing.Size(38, 38);
+            this.button240.Size = new System.Drawing.Size(100, 43);
             this.button240.TabIndex = 260;
             this.button240.Text = "C";
             this.button240.UseVisualStyleBackColor = true;
@@ -6624,10 +6647,11 @@
             // 
             // button241
             // 
+            this.button241.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button241.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button241.Location = new System.Drawing.Point(360, 235);
+            this.button241.Location = new System.Drawing.Point(246, -70);
             this.button241.Name = "button241";
-            this.button241.Size = new System.Drawing.Size(38, 38);
+            this.button241.Size = new System.Drawing.Size(100, 43);
             this.button241.TabIndex = 259;
             this.button241.Text = "J";
             this.button241.UseVisualStyleBackColor = true;
@@ -6635,10 +6659,11 @@
             // 
             // button242
             // 
+            this.button242.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button242.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button242.Location = new System.Drawing.Point(316, 235);
+            this.button242.Location = new System.Drawing.Point(140, -70);
             this.button242.Name = "button242";
-            this.button242.Size = new System.Drawing.Size(38, 38);
+            this.button242.Size = new System.Drawing.Size(100, 43);
             this.button242.TabIndex = 258;
             this.button242.Text = "P";
             this.button242.UseVisualStyleBackColor = true;
@@ -6646,10 +6671,11 @@
             // 
             // button243
             // 
+            this.button243.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button243.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button243.Location = new System.Drawing.Point(272, 235);
+            this.button243.Location = new System.Drawing.Point(38, -70);
             this.button243.Name = "button243";
-            this.button243.Size = new System.Drawing.Size(38, 38);
+            this.button243.Size = new System.Drawing.Size(100, 43);
             this.button243.TabIndex = 257;
             this.button243.Text = "F";
             this.button243.UseVisualStyleBackColor = true;
@@ -6657,10 +6683,11 @@
             // 
             // button244
             // 
+            this.button244.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button244.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button244.Location = new System.Drawing.Point(228, 235);
+            this.button244.Location = new System.Drawing.Point(-68, -70);
             this.button244.Name = "button244";
-            this.button244.Size = new System.Drawing.Size(38, 38);
+            this.button244.Size = new System.Drawing.Size(100, 43);
             this.button244.TabIndex = 256;
             this.button244.Text = "L";
             this.button244.UseVisualStyleBackColor = true;
@@ -6668,10 +6695,11 @@
             // 
             // button245
             // 
+            this.button245.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button245.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button245.Location = new System.Drawing.Point(184, 235);
+            this.button245.Location = new System.Drawing.Point(-178, -70);
             this.button245.Name = "button245";
-            this.button245.Size = new System.Drawing.Size(38, 38);
+            this.button245.Size = new System.Drawing.Size(100, 43);
             this.button245.TabIndex = 255;
             this.button245.Text = "S";
             this.button245.UseVisualStyleBackColor = true;
@@ -6679,9 +6707,10 @@
             // 
             // label131
             // 
+            this.label131.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label131.AutoSize = true;
             this.label131.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label131.Location = new System.Drawing.Point(9, 240);
+            this.label131.Location = new System.Drawing.Point(-437, -58);
             this.label131.Name = "label131";
             this.label131.Size = new System.Drawing.Size(112, 20);
             this.label131.TabIndex = 254;
@@ -6689,10 +6718,11 @@
             // 
             // button246
             // 
+            this.button246.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button246.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button246.Location = new System.Drawing.Point(449, 191);
+            this.button246.Location = new System.Drawing.Point(465, -114);
             this.button246.Name = "button246";
-            this.button246.Size = new System.Drawing.Size(52, 38);
+            this.button246.Size = new System.Drawing.Size(100, 43);
             this.button246.TabIndex = 253;
             this.button246.Text = "GF";
             this.button246.UseVisualStyleBackColor = true;
@@ -6700,10 +6730,11 @@
             // 
             // button247
             // 
+            this.button247.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button247.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button247.Location = new System.Drawing.Point(405, 191);
+            this.button247.Location = new System.Drawing.Point(358, -114);
             this.button247.Name = "button247";
-            this.button247.Size = new System.Drawing.Size(38, 38);
+            this.button247.Size = new System.Drawing.Size(100, 43);
             this.button247.TabIndex = 252;
             this.button247.Text = "C";
             this.button247.UseVisualStyleBackColor = true;
@@ -6711,10 +6742,11 @@
             // 
             // button248
             // 
+            this.button248.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button248.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button248.Location = new System.Drawing.Point(361, 191);
+            this.button248.Location = new System.Drawing.Point(247, -114);
             this.button248.Name = "button248";
-            this.button248.Size = new System.Drawing.Size(38, 38);
+            this.button248.Size = new System.Drawing.Size(100, 43);
             this.button248.TabIndex = 251;
             this.button248.Text = "J";
             this.button248.UseVisualStyleBackColor = true;
@@ -6722,10 +6754,11 @@
             // 
             // button249
             // 
+            this.button249.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button249.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button249.Location = new System.Drawing.Point(317, 191);
+            this.button249.Location = new System.Drawing.Point(141, -114);
             this.button249.Name = "button249";
-            this.button249.Size = new System.Drawing.Size(38, 38);
+            this.button249.Size = new System.Drawing.Size(100, 43);
             this.button249.TabIndex = 250;
             this.button249.Text = "P";
             this.button249.UseVisualStyleBackColor = true;
@@ -6733,10 +6766,11 @@
             // 
             // button250
             // 
+            this.button250.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button250.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button250.Location = new System.Drawing.Point(273, 191);
+            this.button250.Location = new System.Drawing.Point(39, -114);
             this.button250.Name = "button250";
-            this.button250.Size = new System.Drawing.Size(38, 38);
+            this.button250.Size = new System.Drawing.Size(100, 43);
             this.button250.TabIndex = 249;
             this.button250.Text = "F";
             this.button250.UseVisualStyleBackColor = true;
@@ -6744,10 +6778,11 @@
             // 
             // button251
             // 
+            this.button251.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button251.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button251.Location = new System.Drawing.Point(229, 191);
+            this.button251.Location = new System.Drawing.Point(-67, -114);
             this.button251.Name = "button251";
-            this.button251.Size = new System.Drawing.Size(38, 38);
+            this.button251.Size = new System.Drawing.Size(100, 43);
             this.button251.TabIndex = 248;
             this.button251.Text = "L";
             this.button251.UseVisualStyleBackColor = true;
@@ -6755,10 +6790,11 @@
             // 
             // button252
             // 
+            this.button252.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button252.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button252.Location = new System.Drawing.Point(185, 191);
+            this.button252.Location = new System.Drawing.Point(-177, -114);
             this.button252.Name = "button252";
-            this.button252.Size = new System.Drawing.Size(38, 38);
+            this.button252.Size = new System.Drawing.Size(100, 43);
             this.button252.TabIndex = 247;
             this.button252.Text = "S";
             this.button252.UseVisualStyleBackColor = true;
@@ -6766,9 +6802,10 @@
             // 
             // label132
             // 
+            this.label132.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label132.AutoSize = true;
             this.label132.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label132.Location = new System.Drawing.Point(10, 196);
+            this.label132.Location = new System.Drawing.Point(-436, -102);
             this.label132.Name = "label132";
             this.label132.Size = new System.Drawing.Size(70, 20);
             this.label132.TabIndex = 246;
@@ -6776,10 +6813,11 @@
             // 
             // button253
             // 
+            this.button253.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button253.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button253.Location = new System.Drawing.Point(448, 149);
+            this.button253.Location = new System.Drawing.Point(464, -156);
             this.button253.Name = "button253";
-            this.button253.Size = new System.Drawing.Size(52, 38);
+            this.button253.Size = new System.Drawing.Size(100, 43);
             this.button253.TabIndex = 245;
             this.button253.Text = "GF";
             this.button253.UseVisualStyleBackColor = true;
@@ -6787,10 +6825,11 @@
             // 
             // button254
             // 
+            this.button254.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button254.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button254.Location = new System.Drawing.Point(404, 149);
+            this.button254.Location = new System.Drawing.Point(357, -156);
             this.button254.Name = "button254";
-            this.button254.Size = new System.Drawing.Size(38, 38);
+            this.button254.Size = new System.Drawing.Size(100, 43);
             this.button254.TabIndex = 244;
             this.button254.Text = "C";
             this.button254.UseVisualStyleBackColor = true;
@@ -6798,10 +6837,11 @@
             // 
             // button255
             // 
+            this.button255.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button255.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button255.Location = new System.Drawing.Point(360, 149);
+            this.button255.Location = new System.Drawing.Point(246, -156);
             this.button255.Name = "button255";
-            this.button255.Size = new System.Drawing.Size(38, 38);
+            this.button255.Size = new System.Drawing.Size(100, 43);
             this.button255.TabIndex = 243;
             this.button255.Text = "J";
             this.button255.UseVisualStyleBackColor = true;
@@ -6809,10 +6849,11 @@
             // 
             // button256
             // 
+            this.button256.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button256.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button256.Location = new System.Drawing.Point(316, 149);
+            this.button256.Location = new System.Drawing.Point(140, -156);
             this.button256.Name = "button256";
-            this.button256.Size = new System.Drawing.Size(38, 38);
+            this.button256.Size = new System.Drawing.Size(100, 43);
             this.button256.TabIndex = 242;
             this.button256.Text = "P";
             this.button256.UseVisualStyleBackColor = true;
@@ -6820,10 +6861,11 @@
             // 
             // button257
             // 
+            this.button257.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button257.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button257.Location = new System.Drawing.Point(272, 149);
+            this.button257.Location = new System.Drawing.Point(38, -156);
             this.button257.Name = "button257";
-            this.button257.Size = new System.Drawing.Size(38, 38);
+            this.button257.Size = new System.Drawing.Size(100, 43);
             this.button257.TabIndex = 241;
             this.button257.Text = "F";
             this.button257.UseVisualStyleBackColor = true;
@@ -6831,10 +6873,11 @@
             // 
             // button258
             // 
+            this.button258.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button258.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button258.Location = new System.Drawing.Point(228, 149);
+            this.button258.Location = new System.Drawing.Point(-68, -156);
             this.button258.Name = "button258";
-            this.button258.Size = new System.Drawing.Size(38, 38);
+            this.button258.Size = new System.Drawing.Size(100, 43);
             this.button258.TabIndex = 240;
             this.button258.Text = "L";
             this.button258.UseVisualStyleBackColor = true;
@@ -6842,10 +6885,11 @@
             // 
             // button259
             // 
+            this.button259.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button259.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button259.Location = new System.Drawing.Point(184, 149);
+            this.button259.Location = new System.Drawing.Point(-178, -156);
             this.button259.Name = "button259";
-            this.button259.Size = new System.Drawing.Size(38, 38);
+            this.button259.Size = new System.Drawing.Size(100, 43);
             this.button259.TabIndex = 239;
             this.button259.Text = "S";
             this.button259.UseVisualStyleBackColor = true;
@@ -6853,9 +6897,10 @@
             // 
             // label133
             // 
+            this.label133.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label133.AutoSize = true;
             this.label133.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label133.Location = new System.Drawing.Point(9, 154);
+            this.label133.Location = new System.Drawing.Point(-437, -144);
             this.label133.Name = "label133";
             this.label133.Size = new System.Drawing.Size(81, 20);
             this.label133.TabIndex = 238;
@@ -6863,10 +6908,11 @@
             // 
             // button260
             // 
+            this.button260.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button260.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button260.Location = new System.Drawing.Point(449, 105);
+            this.button260.Location = new System.Drawing.Point(465, -200);
             this.button260.Name = "button260";
-            this.button260.Size = new System.Drawing.Size(52, 38);
+            this.button260.Size = new System.Drawing.Size(100, 43);
             this.button260.TabIndex = 237;
             this.button260.Text = "GF";
             this.button260.UseVisualStyleBackColor = true;
@@ -6874,10 +6920,11 @@
             // 
             // button261
             // 
+            this.button261.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button261.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button261.Location = new System.Drawing.Point(405, 105);
+            this.button261.Location = new System.Drawing.Point(358, -200);
             this.button261.Name = "button261";
-            this.button261.Size = new System.Drawing.Size(38, 38);
+            this.button261.Size = new System.Drawing.Size(100, 43);
             this.button261.TabIndex = 236;
             this.button261.Text = "C";
             this.button261.UseVisualStyleBackColor = true;
@@ -6885,10 +6932,11 @@
             // 
             // button262
             // 
+            this.button262.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button262.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button262.Location = new System.Drawing.Point(361, 105);
+            this.button262.Location = new System.Drawing.Point(247, -200);
             this.button262.Name = "button262";
-            this.button262.Size = new System.Drawing.Size(38, 38);
+            this.button262.Size = new System.Drawing.Size(100, 43);
             this.button262.TabIndex = 235;
             this.button262.Text = "J";
             this.button262.UseVisualStyleBackColor = true;
@@ -6896,10 +6944,11 @@
             // 
             // button263
             // 
+            this.button263.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button263.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button263.Location = new System.Drawing.Point(317, 105);
+            this.button263.Location = new System.Drawing.Point(141, -200);
             this.button263.Name = "button263";
-            this.button263.Size = new System.Drawing.Size(38, 38);
+            this.button263.Size = new System.Drawing.Size(100, 43);
             this.button263.TabIndex = 234;
             this.button263.Text = "P";
             this.button263.UseVisualStyleBackColor = true;
@@ -6907,10 +6956,11 @@
             // 
             // button264
             // 
+            this.button264.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button264.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button264.Location = new System.Drawing.Point(273, 105);
+            this.button264.Location = new System.Drawing.Point(39, -200);
             this.button264.Name = "button264";
-            this.button264.Size = new System.Drawing.Size(38, 38);
+            this.button264.Size = new System.Drawing.Size(100, 43);
             this.button264.TabIndex = 233;
             this.button264.Text = "F";
             this.button264.UseVisualStyleBackColor = true;
@@ -6918,10 +6968,11 @@
             // 
             // button265
             // 
+            this.button265.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button265.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button265.Location = new System.Drawing.Point(229, 105);
+            this.button265.Location = new System.Drawing.Point(-67, -200);
             this.button265.Name = "button265";
-            this.button265.Size = new System.Drawing.Size(38, 38);
+            this.button265.Size = new System.Drawing.Size(100, 43);
             this.button265.TabIndex = 232;
             this.button265.Text = "L";
             this.button265.UseVisualStyleBackColor = true;
@@ -6929,10 +6980,11 @@
             // 
             // button266
             // 
+            this.button266.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button266.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button266.Location = new System.Drawing.Point(185, 105);
+            this.button266.Location = new System.Drawing.Point(-177, -200);
             this.button266.Name = "button266";
-            this.button266.Size = new System.Drawing.Size(38, 38);
+            this.button266.Size = new System.Drawing.Size(100, 43);
             this.button266.TabIndex = 231;
             this.button266.Text = "S";
             this.button266.UseVisualStyleBackColor = true;
@@ -6940,9 +6992,10 @@
             // 
             // label134
             // 
+            this.label134.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label134.AutoSize = true;
             this.label134.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label134.Location = new System.Drawing.Point(10, 110);
+            this.label134.Location = new System.Drawing.Point(-436, -188);
             this.label134.Name = "label134";
             this.label134.Size = new System.Drawing.Size(76, 20);
             this.label134.TabIndex = 230;
@@ -6950,10 +7003,11 @@
             // 
             // button267
             // 
+            this.button267.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button267.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button267.Location = new System.Drawing.Point(449, 59);
+            this.button267.Location = new System.Drawing.Point(465, -246);
             this.button267.Name = "button267";
-            this.button267.Size = new System.Drawing.Size(52, 38);
+            this.button267.Size = new System.Drawing.Size(100, 43);
             this.button267.TabIndex = 229;
             this.button267.Text = "GF";
             this.button267.UseVisualStyleBackColor = true;
@@ -6961,10 +7015,11 @@
             // 
             // button268
             // 
+            this.button268.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button268.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button268.Location = new System.Drawing.Point(405, 59);
+            this.button268.Location = new System.Drawing.Point(358, -246);
             this.button268.Name = "button268";
-            this.button268.Size = new System.Drawing.Size(38, 38);
+            this.button268.Size = new System.Drawing.Size(100, 43);
             this.button268.TabIndex = 228;
             this.button268.Text = "C";
             this.button268.UseVisualStyleBackColor = true;
@@ -6972,10 +7027,11 @@
             // 
             // button269
             // 
+            this.button269.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button269.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button269.Location = new System.Drawing.Point(361, 59);
+            this.button269.Location = new System.Drawing.Point(247, -246);
             this.button269.Name = "button269";
-            this.button269.Size = new System.Drawing.Size(38, 38);
+            this.button269.Size = new System.Drawing.Size(100, 43);
             this.button269.TabIndex = 227;
             this.button269.Text = "J";
             this.button269.UseVisualStyleBackColor = true;
@@ -6983,10 +7039,11 @@
             // 
             // button270
             // 
+            this.button270.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button270.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button270.Location = new System.Drawing.Point(317, 59);
+            this.button270.Location = new System.Drawing.Point(141, -246);
             this.button270.Name = "button270";
-            this.button270.Size = new System.Drawing.Size(38, 38);
+            this.button270.Size = new System.Drawing.Size(100, 43);
             this.button270.TabIndex = 226;
             this.button270.Text = "P";
             this.button270.UseVisualStyleBackColor = true;
@@ -6994,10 +7051,11 @@
             // 
             // button271
             // 
+            this.button271.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button271.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button271.Location = new System.Drawing.Point(273, 59);
+            this.button271.Location = new System.Drawing.Point(39, -246);
             this.button271.Name = "button271";
-            this.button271.Size = new System.Drawing.Size(38, 38);
+            this.button271.Size = new System.Drawing.Size(100, 43);
             this.button271.TabIndex = 225;
             this.button271.Text = "F";
             this.button271.UseVisualStyleBackColor = true;
@@ -7005,10 +7063,11 @@
             // 
             // button272
             // 
+            this.button272.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button272.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button272.Location = new System.Drawing.Point(229, 59);
+            this.button272.Location = new System.Drawing.Point(-67, -246);
             this.button272.Name = "button272";
-            this.button272.Size = new System.Drawing.Size(38, 38);
+            this.button272.Size = new System.Drawing.Size(100, 43);
             this.button272.TabIndex = 224;
             this.button272.Text = "L";
             this.button272.UseVisualStyleBackColor = true;
@@ -7016,10 +7075,11 @@
             // 
             // button273
             // 
+            this.button273.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button273.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button273.Location = new System.Drawing.Point(185, 59);
+            this.button273.Location = new System.Drawing.Point(-177, -246);
             this.button273.Name = "button273";
-            this.button273.Size = new System.Drawing.Size(38, 38);
+            this.button273.Size = new System.Drawing.Size(100, 43);
             this.button273.TabIndex = 223;
             this.button273.Text = "S";
             this.button273.UseVisualStyleBackColor = true;
@@ -7027,9 +7087,10 @@
             // 
             // label135
             // 
+            this.label135.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label135.AutoSize = true;
             this.label135.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label135.Location = new System.Drawing.Point(10, 64);
+            this.label135.Location = new System.Drawing.Point(-436, -234);
             this.label135.Name = "label135";
             this.label135.Size = new System.Drawing.Size(120, 20);
             this.label135.TabIndex = 222;
@@ -7037,10 +7098,11 @@
             // 
             // button274
             // 
+            this.button274.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button274.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button274.Location = new System.Drawing.Point(449, 11);
+            this.button274.Location = new System.Drawing.Point(465, -294);
             this.button274.Name = "button274";
-            this.button274.Size = new System.Drawing.Size(52, 38);
+            this.button274.Size = new System.Drawing.Size(100, 43);
             this.button274.TabIndex = 221;
             this.button274.Text = "GF";
             this.button274.UseVisualStyleBackColor = true;
@@ -7048,10 +7110,11 @@
             // 
             // button275
             // 
+            this.button275.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button275.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button275.Location = new System.Drawing.Point(405, 11);
+            this.button275.Location = new System.Drawing.Point(358, -294);
             this.button275.Name = "button275";
-            this.button275.Size = new System.Drawing.Size(38, 38);
+            this.button275.Size = new System.Drawing.Size(100, 43);
             this.button275.TabIndex = 220;
             this.button275.Text = "C";
             this.button275.UseVisualStyleBackColor = true;
@@ -7059,10 +7122,11 @@
             // 
             // button276
             // 
+            this.button276.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button276.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button276.Location = new System.Drawing.Point(361, 11);
+            this.button276.Location = new System.Drawing.Point(247, -294);
             this.button276.Name = "button276";
-            this.button276.Size = new System.Drawing.Size(38, 38);
+            this.button276.Size = new System.Drawing.Size(100, 43);
             this.button276.TabIndex = 219;
             this.button276.Text = "J";
             this.button276.UseVisualStyleBackColor = true;
@@ -7070,10 +7134,11 @@
             // 
             // button277
             // 
+            this.button277.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button277.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button277.Location = new System.Drawing.Point(317, 11);
+            this.button277.Location = new System.Drawing.Point(141, -294);
             this.button277.Name = "button277";
-            this.button277.Size = new System.Drawing.Size(38, 38);
+            this.button277.Size = new System.Drawing.Size(100, 43);
             this.button277.TabIndex = 218;
             this.button277.Text = "P";
             this.button277.UseVisualStyleBackColor = true;
@@ -7081,10 +7146,11 @@
             // 
             // button278
             // 
+            this.button278.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button278.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button278.Location = new System.Drawing.Point(273, 11);
+            this.button278.Location = new System.Drawing.Point(39, -294);
             this.button278.Name = "button278";
-            this.button278.Size = new System.Drawing.Size(38, 38);
+            this.button278.Size = new System.Drawing.Size(100, 43);
             this.button278.TabIndex = 217;
             this.button278.Text = "F";
             this.button278.UseVisualStyleBackColor = true;
@@ -7092,10 +7158,11 @@
             // 
             // button279
             // 
+            this.button279.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button279.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button279.Location = new System.Drawing.Point(229, 11);
+            this.button279.Location = new System.Drawing.Point(-67, -294);
             this.button279.Name = "button279";
-            this.button279.Size = new System.Drawing.Size(38, 38);
+            this.button279.Size = new System.Drawing.Size(100, 43);
             this.button279.TabIndex = 216;
             this.button279.Text = "L";
             this.button279.UseVisualStyleBackColor = true;
@@ -7103,10 +7170,11 @@
             // 
             // button280
             // 
+            this.button280.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button280.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button280.Location = new System.Drawing.Point(185, 11);
+            this.button280.Location = new System.Drawing.Point(-177, -294);
             this.button280.Name = "button280";
-            this.button280.Size = new System.Drawing.Size(38, 38);
+            this.button280.Size = new System.Drawing.Size(100, 43);
             this.button280.TabIndex = 213;
             this.button280.Text = "S";
             this.button280.UseVisualStyleBackColor = true;
@@ -7114,10 +7182,11 @@
             // 
             // button281
             // 
+            this.button281.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button281.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button281.Location = new System.Drawing.Point(12, 478);
+            this.button281.Location = new System.Drawing.Point(-462, 317);
             this.button281.Name = "button281";
-            this.button281.Size = new System.Drawing.Size(147, 38);
+            this.button281.Size = new System.Drawing.Size(198, 67);
             this.button281.TabIndex = 215;
             this.button281.Text = "Back";
             this.button281.UseVisualStyleBackColor = true;
@@ -7125,10 +7194,11 @@
             // 
             // button282
             // 
+            this.button282.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button282.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button282.Location = new System.Drawing.Point(351, 478);
+            this.button282.Location = new System.Drawing.Point(-21, 313);
             this.button282.Name = "button282";
-            this.button282.Size = new System.Drawing.Size(147, 38);
+            this.button282.Size = new System.Drawing.Size(198, 67);
             this.button282.TabIndex = 214;
             this.button282.Text = "Next Page";
             this.button282.UseVisualStyleBackColor = true;
@@ -7136,9 +7206,10 @@
             // 
             // label136
             // 
+            this.label136.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label136.AutoSize = true;
             this.label136.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label136.Location = new System.Drawing.Point(10, 16);
+            this.label136.Location = new System.Drawing.Point(-436, -282);
             this.label136.Name = "label136";
             this.label136.Size = new System.Drawing.Size(141, 20);
             this.label136.TabIndex = 212;
@@ -7146,10 +7217,11 @@
             // 
             // button139
             // 
+            this.button139.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button139.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button139.Location = new System.Drawing.Point(448, 409);
+            this.button139.Location = new System.Drawing.Point(433, 92);
             this.button139.Name = "button139";
-            this.button139.Size = new System.Drawing.Size(52, 38);
+            this.button139.Size = new System.Drawing.Size(100, 43);
             this.button139.TabIndex = 211;
             this.button139.Text = "GF";
             this.button139.UseVisualStyleBackColor = true;
@@ -7157,10 +7229,11 @@
             // 
             // button140
             // 
+            this.button140.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button140.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button140.Location = new System.Drawing.Point(404, 409);
+            this.button140.Location = new System.Drawing.Point(320, 92);
             this.button140.Name = "button140";
-            this.button140.Size = new System.Drawing.Size(38, 38);
+            this.button140.Size = new System.Drawing.Size(100, 43);
             this.button140.TabIndex = 210;
             this.button140.Text = "C";
             this.button140.UseVisualStyleBackColor = true;
@@ -7168,10 +7241,11 @@
             // 
             // button141
             // 
+            this.button141.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button141.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button141.Location = new System.Drawing.Point(360, 409);
+            this.button141.Location = new System.Drawing.Point(210, 92);
             this.button141.Name = "button141";
-            this.button141.Size = new System.Drawing.Size(38, 38);
+            this.button141.Size = new System.Drawing.Size(100, 43);
             this.button141.TabIndex = 209;
             this.button141.Text = "J";
             this.button141.UseVisualStyleBackColor = true;
@@ -7179,10 +7253,11 @@
             // 
             // button142
             // 
+            this.button142.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button142.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button142.Location = new System.Drawing.Point(316, 409);
+            this.button142.Location = new System.Drawing.Point(99, 92);
             this.button142.Name = "button142";
-            this.button142.Size = new System.Drawing.Size(38, 38);
+            this.button142.Size = new System.Drawing.Size(100, 43);
             this.button142.TabIndex = 208;
             this.button142.Text = "P";
             this.button142.UseVisualStyleBackColor = true;
@@ -7190,10 +7265,11 @@
             // 
             // button143
             // 
+            this.button143.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button143.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button143.Location = new System.Drawing.Point(272, 409);
+            this.button143.Location = new System.Drawing.Point(-12, 92);
             this.button143.Name = "button143";
-            this.button143.Size = new System.Drawing.Size(38, 38);
+            this.button143.Size = new System.Drawing.Size(100, 43);
             this.button143.TabIndex = 207;
             this.button143.Text = "F";
             this.button143.UseVisualStyleBackColor = true;
@@ -7201,10 +7277,11 @@
             // 
             // button144
             // 
+            this.button144.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button144.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button144.Location = new System.Drawing.Point(228, 409);
+            this.button144.Location = new System.Drawing.Point(-127, 92);
             this.button144.Name = "button144";
-            this.button144.Size = new System.Drawing.Size(38, 38);
+            this.button144.Size = new System.Drawing.Size(100, 43);
             this.button144.TabIndex = 206;
             this.button144.Text = "L";
             this.button144.UseVisualStyleBackColor = true;
@@ -7212,10 +7289,11 @@
             // 
             // button145
             // 
+            this.button145.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button145.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button145.Location = new System.Drawing.Point(184, 409);
+            this.button145.Location = new System.Drawing.Point(-245, 92);
             this.button145.Name = "button145";
-            this.button145.Size = new System.Drawing.Size(38, 38);
+            this.button145.Size = new System.Drawing.Size(100, 43);
             this.button145.TabIndex = 205;
             this.button145.Text = "S";
             this.button145.UseVisualStyleBackColor = true;
@@ -7223,9 +7301,10 @@
             // 
             // label116
             // 
+            this.label116.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label116.AutoSize = true;
             this.label116.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label116.Location = new System.Drawing.Point(9, 414);
+            this.label116.Location = new System.Drawing.Point(-461, 107);
             this.label116.Name = "label116";
             this.label116.Size = new System.Drawing.Size(98, 20);
             this.label116.TabIndex = 204;
@@ -7233,10 +7312,11 @@
             // 
             // button146
             // 
+            this.button146.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button146.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button146.Location = new System.Drawing.Point(448, 368);
+            this.button146.Location = new System.Drawing.Point(433, 51);
             this.button146.Name = "button146";
-            this.button146.Size = new System.Drawing.Size(52, 38);
+            this.button146.Size = new System.Drawing.Size(100, 43);
             this.button146.TabIndex = 203;
             this.button146.Text = "GF";
             this.button146.UseVisualStyleBackColor = true;
@@ -7244,10 +7324,11 @@
             // 
             // button147
             // 
+            this.button147.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button147.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button147.Location = new System.Drawing.Point(404, 368);
+            this.button147.Location = new System.Drawing.Point(320, 51);
             this.button147.Name = "button147";
-            this.button147.Size = new System.Drawing.Size(38, 38);
+            this.button147.Size = new System.Drawing.Size(100, 43);
             this.button147.TabIndex = 202;
             this.button147.Text = "C";
             this.button147.UseVisualStyleBackColor = true;
@@ -7255,10 +7336,11 @@
             // 
             // button148
             // 
+            this.button148.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button148.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button148.Location = new System.Drawing.Point(360, 368);
+            this.button148.Location = new System.Drawing.Point(210, 51);
             this.button148.Name = "button148";
-            this.button148.Size = new System.Drawing.Size(38, 38);
+            this.button148.Size = new System.Drawing.Size(100, 43);
             this.button148.TabIndex = 201;
             this.button148.Text = "J";
             this.button148.UseVisualStyleBackColor = true;
@@ -7266,10 +7348,11 @@
             // 
             // button149
             // 
+            this.button149.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button149.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button149.Location = new System.Drawing.Point(316, 368);
+            this.button149.Location = new System.Drawing.Point(99, 51);
             this.button149.Name = "button149";
-            this.button149.Size = new System.Drawing.Size(38, 38);
+            this.button149.Size = new System.Drawing.Size(100, 43);
             this.button149.TabIndex = 200;
             this.button149.Text = "P";
             this.button149.UseVisualStyleBackColor = true;
@@ -7277,10 +7360,11 @@
             // 
             // button150
             // 
+            this.button150.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button150.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button150.Location = new System.Drawing.Point(272, 368);
+            this.button150.Location = new System.Drawing.Point(-12, 51);
             this.button150.Name = "button150";
-            this.button150.Size = new System.Drawing.Size(38, 38);
+            this.button150.Size = new System.Drawing.Size(100, 43);
             this.button150.TabIndex = 199;
             this.button150.Text = "F";
             this.button150.UseVisualStyleBackColor = true;
@@ -7288,10 +7372,11 @@
             // 
             // button151
             // 
+            this.button151.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button151.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button151.Location = new System.Drawing.Point(228, 368);
+            this.button151.Location = new System.Drawing.Point(-127, 51);
             this.button151.Name = "button151";
-            this.button151.Size = new System.Drawing.Size(38, 38);
+            this.button151.Size = new System.Drawing.Size(100, 43);
             this.button151.TabIndex = 198;
             this.button151.Text = "L";
             this.button151.UseVisualStyleBackColor = true;
@@ -7299,10 +7384,11 @@
             // 
             // button152
             // 
+            this.button152.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button152.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button152.Location = new System.Drawing.Point(184, 368);
+            this.button152.Location = new System.Drawing.Point(-245, 51);
             this.button152.Name = "button152";
-            this.button152.Size = new System.Drawing.Size(38, 38);
+            this.button152.Size = new System.Drawing.Size(100, 43);
             this.button152.TabIndex = 197;
             this.button152.Text = "S";
             this.button152.UseVisualStyleBackColor = true;
@@ -7310,9 +7396,10 @@
             // 
             // label117
             // 
+            this.label117.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label117.AutoSize = true;
             this.label117.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label117.Location = new System.Drawing.Point(9, 373);
+            this.label117.Location = new System.Drawing.Point(-461, 66);
             this.label117.Name = "label117";
             this.label117.Size = new System.Drawing.Size(65, 20);
             this.label117.TabIndex = 196;
@@ -7320,10 +7407,11 @@
             // 
             // button153
             // 
+            this.button153.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button153.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button153.Location = new System.Drawing.Point(448, 322);
+            this.button153.Location = new System.Drawing.Point(433, 5);
             this.button153.Name = "button153";
-            this.button153.Size = new System.Drawing.Size(52, 38);
+            this.button153.Size = new System.Drawing.Size(100, 43);
             this.button153.TabIndex = 195;
             this.button153.Text = "GF";
             this.button153.UseVisualStyleBackColor = true;
@@ -7331,10 +7419,11 @@
             // 
             // button154
             // 
+            this.button154.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button154.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button154.Location = new System.Drawing.Point(404, 322);
+            this.button154.Location = new System.Drawing.Point(320, 5);
             this.button154.Name = "button154";
-            this.button154.Size = new System.Drawing.Size(38, 38);
+            this.button154.Size = new System.Drawing.Size(100, 43);
             this.button154.TabIndex = 194;
             this.button154.Text = "C";
             this.button154.UseVisualStyleBackColor = true;
@@ -7342,10 +7431,11 @@
             // 
             // button155
             // 
+            this.button155.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button155.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button155.Location = new System.Drawing.Point(360, 322);
+            this.button155.Location = new System.Drawing.Point(210, 5);
             this.button155.Name = "button155";
-            this.button155.Size = new System.Drawing.Size(38, 38);
+            this.button155.Size = new System.Drawing.Size(100, 43);
             this.button155.TabIndex = 193;
             this.button155.Text = "J";
             this.button155.UseVisualStyleBackColor = true;
@@ -7353,10 +7443,11 @@
             // 
             // button156
             // 
+            this.button156.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button156.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button156.Location = new System.Drawing.Point(316, 322);
+            this.button156.Location = new System.Drawing.Point(99, 5);
             this.button156.Name = "button156";
-            this.button156.Size = new System.Drawing.Size(38, 38);
+            this.button156.Size = new System.Drawing.Size(100, 43);
             this.button156.TabIndex = 192;
             this.button156.Text = "P";
             this.button156.UseVisualStyleBackColor = true;
@@ -7364,10 +7455,11 @@
             // 
             // button157
             // 
+            this.button157.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button157.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button157.Location = new System.Drawing.Point(272, 322);
+            this.button157.Location = new System.Drawing.Point(-12, 5);
             this.button157.Name = "button157";
-            this.button157.Size = new System.Drawing.Size(38, 38);
+            this.button157.Size = new System.Drawing.Size(100, 43);
             this.button157.TabIndex = 191;
             this.button157.Text = "F";
             this.button157.UseVisualStyleBackColor = true;
@@ -7375,10 +7467,11 @@
             // 
             // button158
             // 
+            this.button158.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button158.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button158.Location = new System.Drawing.Point(228, 322);
+            this.button158.Location = new System.Drawing.Point(-127, 5);
             this.button158.Name = "button158";
-            this.button158.Size = new System.Drawing.Size(38, 38);
+            this.button158.Size = new System.Drawing.Size(100, 43);
             this.button158.TabIndex = 190;
             this.button158.Text = "L";
             this.button158.UseVisualStyleBackColor = true;
@@ -7386,10 +7479,11 @@
             // 
             // button159
             // 
+            this.button159.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button159.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button159.Location = new System.Drawing.Point(184, 322);
+            this.button159.Location = new System.Drawing.Point(-245, 5);
             this.button159.Name = "button159";
-            this.button159.Size = new System.Drawing.Size(38, 38);
+            this.button159.Size = new System.Drawing.Size(100, 43);
             this.button159.TabIndex = 189;
             this.button159.Text = "S";
             this.button159.UseVisualStyleBackColor = true;
@@ -7397,9 +7491,10 @@
             // 
             // label118
             // 
+            this.label118.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label118.AutoSize = true;
             this.label118.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label118.Location = new System.Drawing.Point(9, 327);
+            this.label118.Location = new System.Drawing.Point(-461, 20);
             this.label118.Name = "label118";
             this.label118.Size = new System.Drawing.Size(125, 20);
             this.label118.TabIndex = 188;
@@ -7407,10 +7502,11 @@
             // 
             // button160
             // 
+            this.button160.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button160.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button160.Location = new System.Drawing.Point(449, 277);
+            this.button160.Location = new System.Drawing.Point(434, -40);
             this.button160.Name = "button160";
-            this.button160.Size = new System.Drawing.Size(52, 38);
+            this.button160.Size = new System.Drawing.Size(100, 43);
             this.button160.TabIndex = 187;
             this.button160.Text = "GF";
             this.button160.UseVisualStyleBackColor = true;
@@ -7418,10 +7514,11 @@
             // 
             // button161
             // 
+            this.button161.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button161.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button161.Location = new System.Drawing.Point(405, 277);
+            this.button161.Location = new System.Drawing.Point(321, -40);
             this.button161.Name = "button161";
-            this.button161.Size = new System.Drawing.Size(38, 38);
+            this.button161.Size = new System.Drawing.Size(100, 43);
             this.button161.TabIndex = 186;
             this.button161.Text = "C";
             this.button161.UseVisualStyleBackColor = true;
@@ -7429,10 +7526,11 @@
             // 
             // button162
             // 
+            this.button162.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button162.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button162.Location = new System.Drawing.Point(361, 277);
+            this.button162.Location = new System.Drawing.Point(211, -40);
             this.button162.Name = "button162";
-            this.button162.Size = new System.Drawing.Size(38, 38);
+            this.button162.Size = new System.Drawing.Size(100, 43);
             this.button162.TabIndex = 185;
             this.button162.Text = "J";
             this.button162.UseVisualStyleBackColor = true;
@@ -7440,10 +7538,11 @@
             // 
             // button163
             // 
+            this.button163.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button163.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button163.Location = new System.Drawing.Point(317, 277);
+            this.button163.Location = new System.Drawing.Point(100, -40);
             this.button163.Name = "button163";
-            this.button163.Size = new System.Drawing.Size(38, 38);
+            this.button163.Size = new System.Drawing.Size(100, 43);
             this.button163.TabIndex = 184;
             this.button163.Text = "P";
             this.button163.UseVisualStyleBackColor = true;
@@ -7451,10 +7550,11 @@
             // 
             // button164
             // 
+            this.button164.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button164.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button164.Location = new System.Drawing.Point(273, 277);
+            this.button164.Location = new System.Drawing.Point(-11, -40);
             this.button164.Name = "button164";
-            this.button164.Size = new System.Drawing.Size(38, 38);
+            this.button164.Size = new System.Drawing.Size(100, 43);
             this.button164.TabIndex = 183;
             this.button164.Text = "F";
             this.button164.UseVisualStyleBackColor = true;
@@ -7462,10 +7562,11 @@
             // 
             // button165
             // 
+            this.button165.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button165.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button165.Location = new System.Drawing.Point(229, 277);
+            this.button165.Location = new System.Drawing.Point(-126, -40);
             this.button165.Name = "button165";
-            this.button165.Size = new System.Drawing.Size(38, 38);
+            this.button165.Size = new System.Drawing.Size(100, 43);
             this.button165.TabIndex = 182;
             this.button165.Text = "L";
             this.button165.UseVisualStyleBackColor = true;
@@ -7473,10 +7574,11 @@
             // 
             // button166
             // 
+            this.button166.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button166.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button166.Location = new System.Drawing.Point(185, 277);
+            this.button166.Location = new System.Drawing.Point(-244, -40);
             this.button166.Name = "button166";
-            this.button166.Size = new System.Drawing.Size(38, 38);
+            this.button166.Size = new System.Drawing.Size(100, 43);
             this.button166.TabIndex = 181;
             this.button166.Text = "S";
             this.button166.UseVisualStyleBackColor = true;
@@ -7484,9 +7586,10 @@
             // 
             // label119
             // 
+            this.label119.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label119.AutoSize = true;
             this.label119.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label119.Location = new System.Drawing.Point(10, 282);
+            this.label119.Location = new System.Drawing.Point(-460, -25);
             this.label119.Name = "label119";
             this.label119.Size = new System.Drawing.Size(107, 20);
             this.label119.TabIndex = 180;
@@ -7494,10 +7597,11 @@
             // 
             // button167
             // 
+            this.button167.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button167.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button167.Location = new System.Drawing.Point(448, 235);
+            this.button167.Location = new System.Drawing.Point(433, -82);
             this.button167.Name = "button167";
-            this.button167.Size = new System.Drawing.Size(52, 38);
+            this.button167.Size = new System.Drawing.Size(100, 43);
             this.button167.TabIndex = 179;
             this.button167.Text = "GF";
             this.button167.UseVisualStyleBackColor = true;
@@ -7505,10 +7609,11 @@
             // 
             // button168
             // 
+            this.button168.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button168.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button168.Location = new System.Drawing.Point(404, 235);
+            this.button168.Location = new System.Drawing.Point(320, -82);
             this.button168.Name = "button168";
-            this.button168.Size = new System.Drawing.Size(38, 38);
+            this.button168.Size = new System.Drawing.Size(100, 43);
             this.button168.TabIndex = 178;
             this.button168.Text = "C";
             this.button168.UseVisualStyleBackColor = true;
@@ -7516,10 +7621,11 @@
             // 
             // button169
             // 
+            this.button169.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button169.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button169.Location = new System.Drawing.Point(360, 235);
+            this.button169.Location = new System.Drawing.Point(210, -82);
             this.button169.Name = "button169";
-            this.button169.Size = new System.Drawing.Size(38, 38);
+            this.button169.Size = new System.Drawing.Size(100, 43);
             this.button169.TabIndex = 177;
             this.button169.Text = "J";
             this.button169.UseVisualStyleBackColor = true;
@@ -7527,10 +7633,11 @@
             // 
             // button170
             // 
+            this.button170.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button170.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button170.Location = new System.Drawing.Point(316, 235);
+            this.button170.Location = new System.Drawing.Point(99, -82);
             this.button170.Name = "button170";
-            this.button170.Size = new System.Drawing.Size(38, 38);
+            this.button170.Size = new System.Drawing.Size(100, 43);
             this.button170.TabIndex = 176;
             this.button170.Text = "P";
             this.button170.UseVisualStyleBackColor = true;
@@ -7538,10 +7645,11 @@
             // 
             // button171
             // 
+            this.button171.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button171.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button171.Location = new System.Drawing.Point(272, 235);
+            this.button171.Location = new System.Drawing.Point(-12, -82);
             this.button171.Name = "button171";
-            this.button171.Size = new System.Drawing.Size(38, 38);
+            this.button171.Size = new System.Drawing.Size(100, 43);
             this.button171.TabIndex = 175;
             this.button171.Text = "F";
             this.button171.UseVisualStyleBackColor = true;
@@ -7549,10 +7657,11 @@
             // 
             // button172
             // 
+            this.button172.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button172.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button172.Location = new System.Drawing.Point(228, 235);
+            this.button172.Location = new System.Drawing.Point(-127, -82);
             this.button172.Name = "button172";
-            this.button172.Size = new System.Drawing.Size(38, 38);
+            this.button172.Size = new System.Drawing.Size(100, 43);
             this.button172.TabIndex = 174;
             this.button172.Text = "L";
             this.button172.UseVisualStyleBackColor = true;
@@ -7560,10 +7669,11 @@
             // 
             // button173
             // 
+            this.button173.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button173.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button173.Location = new System.Drawing.Point(184, 235);
+            this.button173.Location = new System.Drawing.Point(-245, -82);
             this.button173.Name = "button173";
-            this.button173.Size = new System.Drawing.Size(38, 38);
+            this.button173.Size = new System.Drawing.Size(100, 43);
             this.button173.TabIndex = 173;
             this.button173.Text = "S";
             this.button173.UseVisualStyleBackColor = true;
@@ -7571,9 +7681,10 @@
             // 
             // label120
             // 
+            this.label120.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label120.AutoSize = true;
             this.label120.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label120.Location = new System.Drawing.Point(9, 240);
+            this.label120.Location = new System.Drawing.Point(-461, -67);
             this.label120.Name = "label120";
             this.label120.Size = new System.Drawing.Size(115, 20);
             this.label120.TabIndex = 172;
@@ -7581,10 +7692,11 @@
             // 
             // button174
             // 
+            this.button174.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button174.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button174.Location = new System.Drawing.Point(449, 191);
+            this.button174.Location = new System.Drawing.Point(434, -126);
             this.button174.Name = "button174";
-            this.button174.Size = new System.Drawing.Size(52, 38);
+            this.button174.Size = new System.Drawing.Size(100, 43);
             this.button174.TabIndex = 171;
             this.button174.Text = "GF";
             this.button174.UseVisualStyleBackColor = true;
@@ -7592,10 +7704,11 @@
             // 
             // button175
             // 
+            this.button175.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button175.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button175.Location = new System.Drawing.Point(405, 191);
+            this.button175.Location = new System.Drawing.Point(321, -126);
             this.button175.Name = "button175";
-            this.button175.Size = new System.Drawing.Size(38, 38);
+            this.button175.Size = new System.Drawing.Size(100, 43);
             this.button175.TabIndex = 170;
             this.button175.Text = "C";
             this.button175.UseVisualStyleBackColor = true;
@@ -7603,10 +7716,11 @@
             // 
             // button176
             // 
+            this.button176.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button176.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button176.Location = new System.Drawing.Point(361, 191);
+            this.button176.Location = new System.Drawing.Point(211, -126);
             this.button176.Name = "button176";
-            this.button176.Size = new System.Drawing.Size(38, 38);
+            this.button176.Size = new System.Drawing.Size(100, 43);
             this.button176.TabIndex = 169;
             this.button176.Text = "J";
             this.button176.UseVisualStyleBackColor = true;
@@ -7614,10 +7728,11 @@
             // 
             // button177
             // 
+            this.button177.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button177.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button177.Location = new System.Drawing.Point(317, 191);
+            this.button177.Location = new System.Drawing.Point(100, -126);
             this.button177.Name = "button177";
-            this.button177.Size = new System.Drawing.Size(38, 38);
+            this.button177.Size = new System.Drawing.Size(100, 43);
             this.button177.TabIndex = 168;
             this.button177.Text = "P";
             this.button177.UseVisualStyleBackColor = true;
@@ -7625,10 +7740,11 @@
             // 
             // button178
             // 
+            this.button178.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button178.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button178.Location = new System.Drawing.Point(273, 191);
+            this.button178.Location = new System.Drawing.Point(-11, -126);
             this.button178.Name = "button178";
-            this.button178.Size = new System.Drawing.Size(38, 38);
+            this.button178.Size = new System.Drawing.Size(100, 43);
             this.button178.TabIndex = 167;
             this.button178.Text = "F";
             this.button178.UseVisualStyleBackColor = true;
@@ -7636,10 +7752,11 @@
             // 
             // button179
             // 
+            this.button179.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button179.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button179.Location = new System.Drawing.Point(229, 191);
+            this.button179.Location = new System.Drawing.Point(-126, -126);
             this.button179.Name = "button179";
-            this.button179.Size = new System.Drawing.Size(38, 38);
+            this.button179.Size = new System.Drawing.Size(100, 43);
             this.button179.TabIndex = 166;
             this.button179.Text = "L";
             this.button179.UseVisualStyleBackColor = true;
@@ -7647,10 +7764,11 @@
             // 
             // button180
             // 
+            this.button180.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button180.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button180.Location = new System.Drawing.Point(185, 191);
+            this.button180.Location = new System.Drawing.Point(-244, -126);
             this.button180.Name = "button180";
-            this.button180.Size = new System.Drawing.Size(38, 38);
+            this.button180.Size = new System.Drawing.Size(100, 43);
             this.button180.TabIndex = 165;
             this.button180.Text = "S";
             this.button180.UseVisualStyleBackColor = true;
@@ -7658,9 +7776,10 @@
             // 
             // label122
             // 
+            this.label122.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label122.AutoSize = true;
             this.label122.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label122.Location = new System.Drawing.Point(10, 196);
+            this.label122.Location = new System.Drawing.Point(-460, -111);
             this.label122.Name = "label122";
             this.label122.Size = new System.Drawing.Size(90, 20);
             this.label122.TabIndex = 164;
@@ -7668,10 +7787,11 @@
             // 
             // button181
             // 
+            this.button181.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button181.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button181.Location = new System.Drawing.Point(448, 149);
+            this.button181.Location = new System.Drawing.Point(433, -168);
             this.button181.Name = "button181";
-            this.button181.Size = new System.Drawing.Size(52, 38);
+            this.button181.Size = new System.Drawing.Size(100, 43);
             this.button181.TabIndex = 163;
             this.button181.Text = "GF";
             this.button181.UseVisualStyleBackColor = true;
@@ -7679,10 +7799,11 @@
             // 
             // button182
             // 
+            this.button182.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button182.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button182.Location = new System.Drawing.Point(404, 149);
+            this.button182.Location = new System.Drawing.Point(320, -168);
             this.button182.Name = "button182";
-            this.button182.Size = new System.Drawing.Size(38, 38);
+            this.button182.Size = new System.Drawing.Size(100, 43);
             this.button182.TabIndex = 162;
             this.button182.Text = "C";
             this.button182.UseVisualStyleBackColor = true;
@@ -7690,10 +7811,11 @@
             // 
             // button183
             // 
+            this.button183.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button183.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button183.Location = new System.Drawing.Point(360, 149);
+            this.button183.Location = new System.Drawing.Point(210, -168);
             this.button183.Name = "button183";
-            this.button183.Size = new System.Drawing.Size(38, 38);
+            this.button183.Size = new System.Drawing.Size(100, 43);
             this.button183.TabIndex = 161;
             this.button183.Text = "J";
             this.button183.UseVisualStyleBackColor = true;
@@ -7701,10 +7823,11 @@
             // 
             // button184
             // 
+            this.button184.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button184.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button184.Location = new System.Drawing.Point(316, 149);
+            this.button184.Location = new System.Drawing.Point(99, -168);
             this.button184.Name = "button184";
-            this.button184.Size = new System.Drawing.Size(38, 38);
+            this.button184.Size = new System.Drawing.Size(100, 43);
             this.button184.TabIndex = 160;
             this.button184.Text = "P";
             this.button184.UseVisualStyleBackColor = true;
@@ -7712,10 +7835,11 @@
             // 
             // button185
             // 
+            this.button185.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button185.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button185.Location = new System.Drawing.Point(272, 149);
+            this.button185.Location = new System.Drawing.Point(-12, -168);
             this.button185.Name = "button185";
-            this.button185.Size = new System.Drawing.Size(38, 38);
+            this.button185.Size = new System.Drawing.Size(100, 43);
             this.button185.TabIndex = 159;
             this.button185.Text = "F";
             this.button185.UseVisualStyleBackColor = true;
@@ -7723,10 +7847,11 @@
             // 
             // button186
             // 
+            this.button186.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button186.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button186.Location = new System.Drawing.Point(228, 149);
+            this.button186.Location = new System.Drawing.Point(-127, -168);
             this.button186.Name = "button186";
-            this.button186.Size = new System.Drawing.Size(38, 38);
+            this.button186.Size = new System.Drawing.Size(100, 43);
             this.button186.TabIndex = 158;
             this.button186.Text = "L";
             this.button186.UseVisualStyleBackColor = true;
@@ -7734,10 +7859,11 @@
             // 
             // button187
             // 
+            this.button187.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button187.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button187.Location = new System.Drawing.Point(184, 149);
+            this.button187.Location = new System.Drawing.Point(-245, -168);
             this.button187.Name = "button187";
-            this.button187.Size = new System.Drawing.Size(38, 38);
+            this.button187.Size = new System.Drawing.Size(100, 43);
             this.button187.TabIndex = 157;
             this.button187.Text = "S";
             this.button187.UseVisualStyleBackColor = true;
@@ -7745,9 +7871,10 @@
             // 
             // label123
             // 
+            this.label123.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label123.AutoSize = true;
             this.label123.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label123.Location = new System.Drawing.Point(9, 154);
+            this.label123.Location = new System.Drawing.Point(-461, -153);
             this.label123.Name = "label123";
             this.label123.Size = new System.Drawing.Size(90, 20);
             this.label123.TabIndex = 156;
@@ -7755,10 +7882,11 @@
             // 
             // button188
             // 
+            this.button188.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button188.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button188.Location = new System.Drawing.Point(449, 105);
+            this.button188.Location = new System.Drawing.Point(434, -212);
             this.button188.Name = "button188";
-            this.button188.Size = new System.Drawing.Size(52, 38);
+            this.button188.Size = new System.Drawing.Size(100, 43);
             this.button188.TabIndex = 155;
             this.button188.Text = "GF";
             this.button188.UseVisualStyleBackColor = true;
@@ -7766,10 +7894,11 @@
             // 
             // button189
             // 
+            this.button189.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button189.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button189.Location = new System.Drawing.Point(405, 105);
+            this.button189.Location = new System.Drawing.Point(321, -212);
             this.button189.Name = "button189";
-            this.button189.Size = new System.Drawing.Size(38, 38);
+            this.button189.Size = new System.Drawing.Size(100, 43);
             this.button189.TabIndex = 154;
             this.button189.Text = "C";
             this.button189.UseVisualStyleBackColor = true;
@@ -7777,10 +7906,11 @@
             // 
             // button190
             // 
+            this.button190.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button190.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button190.Location = new System.Drawing.Point(361, 105);
+            this.button190.Location = new System.Drawing.Point(211, -212);
             this.button190.Name = "button190";
-            this.button190.Size = new System.Drawing.Size(38, 38);
+            this.button190.Size = new System.Drawing.Size(100, 43);
             this.button190.TabIndex = 153;
             this.button190.Text = "J";
             this.button190.UseVisualStyleBackColor = true;
@@ -7788,10 +7918,11 @@
             // 
             // button191
             // 
+            this.button191.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button191.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button191.Location = new System.Drawing.Point(317, 105);
+            this.button191.Location = new System.Drawing.Point(100, -212);
             this.button191.Name = "button191";
-            this.button191.Size = new System.Drawing.Size(38, 38);
+            this.button191.Size = new System.Drawing.Size(100, 43);
             this.button191.TabIndex = 152;
             this.button191.Text = "P";
             this.button191.UseVisualStyleBackColor = true;
@@ -7799,10 +7930,11 @@
             // 
             // button192
             // 
+            this.button192.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button192.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button192.Location = new System.Drawing.Point(273, 105);
+            this.button192.Location = new System.Drawing.Point(-11, -212);
             this.button192.Name = "button192";
-            this.button192.Size = new System.Drawing.Size(38, 38);
+            this.button192.Size = new System.Drawing.Size(100, 43);
             this.button192.TabIndex = 151;
             this.button192.Text = "F";
             this.button192.UseVisualStyleBackColor = true;
@@ -7810,10 +7942,11 @@
             // 
             // button193
             // 
+            this.button193.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button193.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button193.Location = new System.Drawing.Point(229, 105);
+            this.button193.Location = new System.Drawing.Point(-126, -212);
             this.button193.Name = "button193";
-            this.button193.Size = new System.Drawing.Size(38, 38);
+            this.button193.Size = new System.Drawing.Size(100, 43);
             this.button193.TabIndex = 150;
             this.button193.Text = "L";
             this.button193.UseVisualStyleBackColor = true;
@@ -7821,10 +7954,11 @@
             // 
             // button194
             // 
+            this.button194.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button194.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button194.Location = new System.Drawing.Point(185, 105);
+            this.button194.Location = new System.Drawing.Point(-244, -212);
             this.button194.Name = "button194";
-            this.button194.Size = new System.Drawing.Size(38, 38);
+            this.button194.Size = new System.Drawing.Size(100, 43);
             this.button194.TabIndex = 149;
             this.button194.Text = "S";
             this.button194.UseVisualStyleBackColor = true;
@@ -7832,9 +7966,10 @@
             // 
             // label124
             // 
+            this.label124.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label124.AutoSize = true;
             this.label124.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label124.Location = new System.Drawing.Point(10, 110);
+            this.label124.Location = new System.Drawing.Point(-460, -197);
             this.label124.Name = "label124";
             this.label124.Size = new System.Drawing.Size(123, 20);
             this.label124.TabIndex = 148;
@@ -7842,10 +7977,11 @@
             // 
             // button195
             // 
+            this.button195.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button195.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button195.Location = new System.Drawing.Point(449, 59);
+            this.button195.Location = new System.Drawing.Point(434, -258);
             this.button195.Name = "button195";
-            this.button195.Size = new System.Drawing.Size(52, 38);
+            this.button195.Size = new System.Drawing.Size(100, 43);
             this.button195.TabIndex = 147;
             this.button195.Text = "GF";
             this.button195.UseVisualStyleBackColor = true;
@@ -7853,10 +7989,11 @@
             // 
             // button196
             // 
+            this.button196.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button196.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button196.Location = new System.Drawing.Point(405, 59);
+            this.button196.Location = new System.Drawing.Point(321, -258);
             this.button196.Name = "button196";
-            this.button196.Size = new System.Drawing.Size(38, 38);
+            this.button196.Size = new System.Drawing.Size(100, 43);
             this.button196.TabIndex = 146;
             this.button196.Text = "C";
             this.button196.UseVisualStyleBackColor = true;
@@ -7864,10 +8001,11 @@
             // 
             // button197
             // 
+            this.button197.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button197.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button197.Location = new System.Drawing.Point(361, 59);
+            this.button197.Location = new System.Drawing.Point(211, -258);
             this.button197.Name = "button197";
-            this.button197.Size = new System.Drawing.Size(38, 38);
+            this.button197.Size = new System.Drawing.Size(100, 43);
             this.button197.TabIndex = 145;
             this.button197.Text = "J";
             this.button197.UseVisualStyleBackColor = true;
@@ -7875,10 +8013,11 @@
             // 
             // button198
             // 
+            this.button198.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button198.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button198.Location = new System.Drawing.Point(317, 59);
+            this.button198.Location = new System.Drawing.Point(100, -258);
             this.button198.Name = "button198";
-            this.button198.Size = new System.Drawing.Size(38, 38);
+            this.button198.Size = new System.Drawing.Size(100, 43);
             this.button198.TabIndex = 144;
             this.button198.Text = "P";
             this.button198.UseVisualStyleBackColor = true;
@@ -7886,10 +8025,11 @@
             // 
             // button199
             // 
+            this.button199.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button199.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button199.Location = new System.Drawing.Point(273, 59);
+            this.button199.Location = new System.Drawing.Point(-11, -258);
             this.button199.Name = "button199";
-            this.button199.Size = new System.Drawing.Size(38, 38);
+            this.button199.Size = new System.Drawing.Size(100, 43);
             this.button199.TabIndex = 143;
             this.button199.Text = "F";
             this.button199.UseVisualStyleBackColor = true;
@@ -7897,10 +8037,11 @@
             // 
             // button200
             // 
+            this.button200.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button200.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button200.Location = new System.Drawing.Point(229, 59);
+            this.button200.Location = new System.Drawing.Point(-126, -258);
             this.button200.Name = "button200";
-            this.button200.Size = new System.Drawing.Size(38, 38);
+            this.button200.Size = new System.Drawing.Size(100, 43);
             this.button200.TabIndex = 142;
             this.button200.Text = "L";
             this.button200.UseVisualStyleBackColor = true;
@@ -7908,10 +8049,11 @@
             // 
             // button201
             // 
+            this.button201.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button201.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button201.Location = new System.Drawing.Point(185, 59);
+            this.button201.Location = new System.Drawing.Point(-244, -258);
             this.button201.Name = "button201";
-            this.button201.Size = new System.Drawing.Size(38, 38);
+            this.button201.Size = new System.Drawing.Size(100, 43);
             this.button201.TabIndex = 141;
             this.button201.Text = "S";
             this.button201.UseVisualStyleBackColor = true;
@@ -7919,9 +8061,10 @@
             // 
             // label125
             // 
+            this.label125.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label125.AutoSize = true;
             this.label125.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label125.Location = new System.Drawing.Point(10, 64);
+            this.label125.Location = new System.Drawing.Point(-460, -243);
             this.label125.Name = "label125";
             this.label125.Size = new System.Drawing.Size(102, 20);
             this.label125.TabIndex = 140;
@@ -7929,10 +8072,11 @@
             // 
             // button202
             // 
+            this.button202.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button202.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button202.Location = new System.Drawing.Point(449, 11);
+            this.button202.Location = new System.Drawing.Point(434, -306);
             this.button202.Name = "button202";
-            this.button202.Size = new System.Drawing.Size(52, 38);
+            this.button202.Size = new System.Drawing.Size(100, 43);
             this.button202.TabIndex = 139;
             this.button202.Text = "GF";
             this.button202.UseVisualStyleBackColor = true;
@@ -7940,10 +8084,11 @@
             // 
             // button203
             // 
+            this.button203.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button203.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button203.Location = new System.Drawing.Point(405, 11);
+            this.button203.Location = new System.Drawing.Point(321, -306);
             this.button203.Name = "button203";
-            this.button203.Size = new System.Drawing.Size(38, 38);
+            this.button203.Size = new System.Drawing.Size(100, 43);
             this.button203.TabIndex = 138;
             this.button203.Text = "C";
             this.button203.UseVisualStyleBackColor = true;
@@ -7951,10 +8096,11 @@
             // 
             // button204
             // 
+            this.button204.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button204.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button204.Location = new System.Drawing.Point(361, 11);
+            this.button204.Location = new System.Drawing.Point(211, -306);
             this.button204.Name = "button204";
-            this.button204.Size = new System.Drawing.Size(38, 38);
+            this.button204.Size = new System.Drawing.Size(100, 43);
             this.button204.TabIndex = 137;
             this.button204.Text = "J";
             this.button204.UseVisualStyleBackColor = true;
@@ -7962,10 +8108,11 @@
             // 
             // button205
             // 
+            this.button205.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button205.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button205.Location = new System.Drawing.Point(317, 11);
+            this.button205.Location = new System.Drawing.Point(100, -306);
             this.button205.Name = "button205";
-            this.button205.Size = new System.Drawing.Size(38, 38);
+            this.button205.Size = new System.Drawing.Size(100, 43);
             this.button205.TabIndex = 136;
             this.button205.Text = "P";
             this.button205.UseVisualStyleBackColor = true;
@@ -7973,10 +8120,11 @@
             // 
             // button206
             // 
+            this.button206.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button206.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button206.Location = new System.Drawing.Point(273, 11);
+            this.button206.Location = new System.Drawing.Point(-11, -306);
             this.button206.Name = "button206";
-            this.button206.Size = new System.Drawing.Size(38, 38);
+            this.button206.Size = new System.Drawing.Size(100, 43);
             this.button206.TabIndex = 135;
             this.button206.Text = "F";
             this.button206.UseVisualStyleBackColor = true;
@@ -7984,10 +8132,11 @@
             // 
             // button207
             // 
+            this.button207.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button207.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button207.Location = new System.Drawing.Point(229, 11);
+            this.button207.Location = new System.Drawing.Point(-126, -306);
             this.button207.Name = "button207";
-            this.button207.Size = new System.Drawing.Size(38, 38);
+            this.button207.Size = new System.Drawing.Size(100, 43);
             this.button207.TabIndex = 134;
             this.button207.Text = "L";
             this.button207.UseVisualStyleBackColor = true;
@@ -7995,10 +8144,11 @@
             // 
             // button208
             // 
+            this.button208.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button208.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button208.Location = new System.Drawing.Point(185, 11);
+            this.button208.Location = new System.Drawing.Point(-244, -306);
             this.button208.Name = "button208";
-            this.button208.Size = new System.Drawing.Size(38, 38);
+            this.button208.Size = new System.Drawing.Size(100, 43);
             this.button208.TabIndex = 131;
             this.button208.Text = "S";
             this.button208.UseVisualStyleBackColor = true;
@@ -8006,10 +8156,11 @@
             // 
             // button209
             // 
+            this.button209.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button209.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button209.Location = new System.Drawing.Point(12, 478);
+            this.button209.Location = new System.Drawing.Point(-486, 310);
             this.button209.Name = "button209";
-            this.button209.Size = new System.Drawing.Size(147, 38);
+            this.button209.Size = new System.Drawing.Size(198, 67);
             this.button209.TabIndex = 133;
             this.button209.Text = "Back";
             this.button209.UseVisualStyleBackColor = true;
@@ -8017,10 +8168,11 @@
             // 
             // button210
             // 
+            this.button210.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button210.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button210.Location = new System.Drawing.Point(351, 478);
+            this.button210.Location = new System.Drawing.Point(-53, 310);
             this.button210.Name = "button210";
-            this.button210.Size = new System.Drawing.Size(147, 38);
+            this.button210.Size = new System.Drawing.Size(198, 67);
             this.button210.TabIndex = 132;
             this.button210.Text = "Next Page";
             this.button210.UseVisualStyleBackColor = true;
@@ -8028,9 +8180,10 @@
             // 
             // label126
             // 
+            this.label126.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label126.AutoSize = true;
             this.label126.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label126.Location = new System.Drawing.Point(10, 16);
+            this.label126.Location = new System.Drawing.Point(-460, -291);
             this.label126.Name = "label126";
             this.label126.Size = new System.Drawing.Size(92, 20);
             this.label126.TabIndex = 130;
@@ -8038,10 +8191,11 @@
             // 
             // button132
             // 
+            this.button132.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button132.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button132.Location = new System.Drawing.Point(448, 405);
+            this.button132.Location = new System.Drawing.Point(454, 169);
             this.button132.Name = "button132";
-            this.button132.Size = new System.Drawing.Size(52, 38);
+            this.button132.Size = new System.Drawing.Size(100, 43);
             this.button132.TabIndex = 129;
             this.button132.Text = "GF";
             this.button132.UseVisualStyleBackColor = true;
@@ -8049,10 +8203,11 @@
             // 
             // button133
             // 
+            this.button133.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button133.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button133.Location = new System.Drawing.Point(404, 405);
+            this.button133.Location = new System.Drawing.Point(347, 169);
             this.button133.Name = "button133";
-            this.button133.Size = new System.Drawing.Size(38, 38);
+            this.button133.Size = new System.Drawing.Size(100, 43);
             this.button133.TabIndex = 128;
             this.button133.Text = "C";
             this.button133.UseVisualStyleBackColor = true;
@@ -8060,10 +8215,11 @@
             // 
             // button134
             // 
+            this.button134.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button134.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button134.Location = new System.Drawing.Point(360, 405);
+            this.button134.Location = new System.Drawing.Point(241, 169);
             this.button134.Name = "button134";
-            this.button134.Size = new System.Drawing.Size(38, 38);
+            this.button134.Size = new System.Drawing.Size(100, 43);
             this.button134.TabIndex = 127;
             this.button134.Text = "J";
             this.button134.UseVisualStyleBackColor = true;
@@ -8071,10 +8227,11 @@
             // 
             // button135
             // 
+            this.button135.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button135.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button135.Location = new System.Drawing.Point(316, 405);
+            this.button135.Location = new System.Drawing.Point(137, 169);
             this.button135.Name = "button135";
-            this.button135.Size = new System.Drawing.Size(38, 38);
+            this.button135.Size = new System.Drawing.Size(100, 43);
             this.button135.TabIndex = 126;
             this.button135.Text = "P";
             this.button135.UseVisualStyleBackColor = true;
@@ -8082,10 +8239,11 @@
             // 
             // button136
             // 
+            this.button136.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button136.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button136.Location = new System.Drawing.Point(272, 405);
+            this.button136.Location = new System.Drawing.Point(31, 172);
             this.button136.Name = "button136";
-            this.button136.Size = new System.Drawing.Size(38, 38);
+            this.button136.Size = new System.Drawing.Size(100, 43);
             this.button136.TabIndex = 125;
             this.button136.Text = "F";
             this.button136.UseVisualStyleBackColor = true;
@@ -8093,10 +8251,11 @@
             // 
             // button137
             // 
+            this.button137.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button137.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button137.Location = new System.Drawing.Point(228, 405);
+            this.button137.Location = new System.Drawing.Point(-79, 172);
             this.button137.Name = "button137";
-            this.button137.Size = new System.Drawing.Size(38, 38);
+            this.button137.Size = new System.Drawing.Size(100, 43);
             this.button137.TabIndex = 124;
             this.button137.Text = "L";
             this.button137.UseVisualStyleBackColor = true;
@@ -8104,10 +8263,11 @@
             // 
             // button138
             // 
+            this.button138.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button138.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button138.Location = new System.Drawing.Point(184, 405);
+            this.button138.Location = new System.Drawing.Point(-188, 176);
             this.button138.Name = "button138";
-            this.button138.Size = new System.Drawing.Size(38, 38);
+            this.button138.Size = new System.Drawing.Size(100, 43);
             this.button138.TabIndex = 123;
             this.button138.Text = "S";
             this.button138.UseVisualStyleBackColor = true;
@@ -8115,9 +8275,10 @@
             // 
             // label115
             // 
+            this.label115.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label115.AutoSize = true;
             this.label115.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label115.Location = new System.Drawing.Point(9, 410);
+            this.label115.Location = new System.Drawing.Point(-431, 183);
             this.label115.Name = "label115";
             this.label115.Size = new System.Drawing.Size(68, 20);
             this.label115.TabIndex = 122;
@@ -8125,10 +8286,11 @@
             // 
             // button125
             // 
+            this.button125.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button125.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button125.Location = new System.Drawing.Point(448, 364);
+            this.button125.Location = new System.Drawing.Point(454, 128);
             this.button125.Name = "button125";
-            this.button125.Size = new System.Drawing.Size(52, 38);
+            this.button125.Size = new System.Drawing.Size(100, 43);
             this.button125.TabIndex = 121;
             this.button125.Text = "GF";
             this.button125.UseVisualStyleBackColor = true;
@@ -8136,10 +8298,11 @@
             // 
             // button126
             // 
+            this.button126.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button126.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button126.Location = new System.Drawing.Point(404, 364);
+            this.button126.Location = new System.Drawing.Point(347, 128);
             this.button126.Name = "button126";
-            this.button126.Size = new System.Drawing.Size(38, 38);
+            this.button126.Size = new System.Drawing.Size(100, 43);
             this.button126.TabIndex = 120;
             this.button126.Text = "C";
             this.button126.UseVisualStyleBackColor = true;
@@ -8147,10 +8310,11 @@
             // 
             // button127
             // 
+            this.button127.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button127.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button127.Location = new System.Drawing.Point(360, 364);
+            this.button127.Location = new System.Drawing.Point(241, 128);
             this.button127.Name = "button127";
-            this.button127.Size = new System.Drawing.Size(38, 38);
+            this.button127.Size = new System.Drawing.Size(100, 43);
             this.button127.TabIndex = 119;
             this.button127.Text = "J";
             this.button127.UseVisualStyleBackColor = true;
@@ -8158,10 +8322,11 @@
             // 
             // button128
             // 
+            this.button128.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button128.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button128.Location = new System.Drawing.Point(316, 364);
+            this.button128.Location = new System.Drawing.Point(137, 128);
             this.button128.Name = "button128";
-            this.button128.Size = new System.Drawing.Size(38, 38);
+            this.button128.Size = new System.Drawing.Size(100, 43);
             this.button128.TabIndex = 118;
             this.button128.Text = "P";
             this.button128.UseVisualStyleBackColor = true;
@@ -8169,10 +8334,11 @@
             // 
             // button129
             // 
+            this.button129.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button129.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button129.Location = new System.Drawing.Point(272, 364);
+            this.button129.Location = new System.Drawing.Point(31, 131);
             this.button129.Name = "button129";
-            this.button129.Size = new System.Drawing.Size(38, 38);
+            this.button129.Size = new System.Drawing.Size(100, 43);
             this.button129.TabIndex = 117;
             this.button129.Text = "F";
             this.button129.UseVisualStyleBackColor = true;
@@ -8180,10 +8346,11 @@
             // 
             // button130
             // 
+            this.button130.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button130.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button130.Location = new System.Drawing.Point(228, 364);
+            this.button130.Location = new System.Drawing.Point(-79, 131);
             this.button130.Name = "button130";
-            this.button130.Size = new System.Drawing.Size(38, 38);
+            this.button130.Size = new System.Drawing.Size(100, 43);
             this.button130.TabIndex = 116;
             this.button130.Text = "L";
             this.button130.UseVisualStyleBackColor = true;
@@ -8191,10 +8358,11 @@
             // 
             // button131
             // 
+            this.button131.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button131.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button131.Location = new System.Drawing.Point(184, 364);
+            this.button131.Location = new System.Drawing.Point(-188, 132);
             this.button131.Name = "button131";
-            this.button131.Size = new System.Drawing.Size(38, 38);
+            this.button131.Size = new System.Drawing.Size(100, 43);
             this.button131.TabIndex = 115;
             this.button131.Text = "S";
             this.button131.UseVisualStyleBackColor = true;
@@ -8202,9 +8370,10 @@
             // 
             // label114
             // 
+            this.label114.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label114.AutoSize = true;
             this.label114.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label114.Location = new System.Drawing.Point(9, 369);
+            this.label114.Location = new System.Drawing.Point(-431, 142);
             this.label114.Name = "label114";
             this.label114.Size = new System.Drawing.Size(173, 20);
             this.label114.TabIndex = 114;
@@ -8212,10 +8381,11 @@
             // 
             // button118
             // 
+            this.button118.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button118.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button118.Location = new System.Drawing.Point(448, 318);
+            this.button118.Location = new System.Drawing.Point(454, 82);
             this.button118.Name = "button118";
-            this.button118.Size = new System.Drawing.Size(52, 38);
+            this.button118.Size = new System.Drawing.Size(100, 43);
             this.button118.TabIndex = 113;
             this.button118.Text = "GF";
             this.button118.UseVisualStyleBackColor = true;
@@ -8223,10 +8393,11 @@
             // 
             // button119
             // 
+            this.button119.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button119.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button119.Location = new System.Drawing.Point(404, 318);
+            this.button119.Location = new System.Drawing.Point(347, 82);
             this.button119.Name = "button119";
-            this.button119.Size = new System.Drawing.Size(38, 38);
+            this.button119.Size = new System.Drawing.Size(100, 43);
             this.button119.TabIndex = 112;
             this.button119.Text = "C";
             this.button119.UseVisualStyleBackColor = true;
@@ -8234,10 +8405,11 @@
             // 
             // button120
             // 
+            this.button120.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button120.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button120.Location = new System.Drawing.Point(360, 318);
+            this.button120.Location = new System.Drawing.Point(241, 82);
             this.button120.Name = "button120";
-            this.button120.Size = new System.Drawing.Size(38, 38);
+            this.button120.Size = new System.Drawing.Size(100, 43);
             this.button120.TabIndex = 111;
             this.button120.Text = "J";
             this.button120.UseVisualStyleBackColor = true;
@@ -8245,10 +8417,11 @@
             // 
             // button121
             // 
+            this.button121.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button121.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button121.Location = new System.Drawing.Point(316, 318);
+            this.button121.Location = new System.Drawing.Point(137, 82);
             this.button121.Name = "button121";
-            this.button121.Size = new System.Drawing.Size(38, 38);
+            this.button121.Size = new System.Drawing.Size(100, 43);
             this.button121.TabIndex = 110;
             this.button121.Text = "P";
             this.button121.UseVisualStyleBackColor = true;
@@ -8256,10 +8429,11 @@
             // 
             // button122
             // 
+            this.button122.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button122.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button122.Location = new System.Drawing.Point(272, 318);
+            this.button122.Location = new System.Drawing.Point(31, 85);
             this.button122.Name = "button122";
-            this.button122.Size = new System.Drawing.Size(38, 38);
+            this.button122.Size = new System.Drawing.Size(100, 43);
             this.button122.TabIndex = 109;
             this.button122.Text = "F";
             this.button122.UseVisualStyleBackColor = true;
@@ -8267,10 +8441,11 @@
             // 
             // button123
             // 
+            this.button123.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button123.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button123.Location = new System.Drawing.Point(228, 318);
+            this.button123.Location = new System.Drawing.Point(-79, 85);
             this.button123.Name = "button123";
-            this.button123.Size = new System.Drawing.Size(38, 38);
+            this.button123.Size = new System.Drawing.Size(100, 43);
             this.button123.TabIndex = 108;
             this.button123.Text = "L";
             this.button123.UseVisualStyleBackColor = true;
@@ -8278,10 +8453,11 @@
             // 
             // button124
             // 
+            this.button124.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button124.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button124.Location = new System.Drawing.Point(184, 318);
+            this.button124.Location = new System.Drawing.Point(-188, 88);
             this.button124.Name = "button124";
-            this.button124.Size = new System.Drawing.Size(38, 38);
+            this.button124.Size = new System.Drawing.Size(100, 43);
             this.button124.TabIndex = 107;
             this.button124.Text = "S";
             this.button124.UseVisualStyleBackColor = true;
@@ -8289,9 +8465,10 @@
             // 
             // label113
             // 
+            this.label113.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label113.AutoSize = true;
             this.label113.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label113.Location = new System.Drawing.Point(9, 323);
+            this.label113.Location = new System.Drawing.Point(-431, 96);
             this.label113.Name = "label113";
             this.label113.Size = new System.Drawing.Size(77, 20);
             this.label113.TabIndex = 106;
@@ -8299,10 +8476,11 @@
             // 
             // button101
             // 
+            this.button101.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button101.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button101.Location = new System.Drawing.Point(449, 273);
+            this.button101.Location = new System.Drawing.Point(454, 37);
             this.button101.Name = "button101";
-            this.button101.Size = new System.Drawing.Size(52, 38);
+            this.button101.Size = new System.Drawing.Size(100, 43);
             this.button101.TabIndex = 105;
             this.button101.Text = "GF";
             this.button101.UseVisualStyleBackColor = true;
@@ -8310,10 +8488,11 @@
             // 
             // button102
             // 
+            this.button102.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button102.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button102.Location = new System.Drawing.Point(405, 273);
+            this.button102.Location = new System.Drawing.Point(347, 37);
             this.button102.Name = "button102";
-            this.button102.Size = new System.Drawing.Size(38, 38);
+            this.button102.Size = new System.Drawing.Size(100, 43);
             this.button102.TabIndex = 104;
             this.button102.Text = "C";
             this.button102.UseVisualStyleBackColor = true;
@@ -8321,10 +8500,11 @@
             // 
             // button103
             // 
+            this.button103.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button103.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button103.Location = new System.Drawing.Point(361, 273);
+            this.button103.Location = new System.Drawing.Point(241, 37);
             this.button103.Name = "button103";
-            this.button103.Size = new System.Drawing.Size(38, 38);
+            this.button103.Size = new System.Drawing.Size(100, 43);
             this.button103.TabIndex = 103;
             this.button103.Text = "J";
             this.button103.UseVisualStyleBackColor = true;
@@ -8332,10 +8512,11 @@
             // 
             // button114
             // 
+            this.button114.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button114.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button114.Location = new System.Drawing.Point(317, 273);
+            this.button114.Location = new System.Drawing.Point(137, 37);
             this.button114.Name = "button114";
-            this.button114.Size = new System.Drawing.Size(38, 38);
+            this.button114.Size = new System.Drawing.Size(100, 43);
             this.button114.TabIndex = 102;
             this.button114.Text = "P";
             this.button114.UseVisualStyleBackColor = true;
@@ -8343,10 +8524,11 @@
             // 
             // button115
             // 
+            this.button115.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button115.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button115.Location = new System.Drawing.Point(273, 273);
+            this.button115.Location = new System.Drawing.Point(31, 40);
             this.button115.Name = "button115";
-            this.button115.Size = new System.Drawing.Size(38, 38);
+            this.button115.Size = new System.Drawing.Size(100, 43);
             this.button115.TabIndex = 101;
             this.button115.Text = "F";
             this.button115.UseVisualStyleBackColor = true;
@@ -8354,10 +8536,11 @@
             // 
             // button116
             // 
+            this.button116.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button116.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button116.Location = new System.Drawing.Point(229, 273);
+            this.button116.Location = new System.Drawing.Point(-79, 40);
             this.button116.Name = "button116";
-            this.button116.Size = new System.Drawing.Size(38, 38);
+            this.button116.Size = new System.Drawing.Size(100, 43);
             this.button116.TabIndex = 100;
             this.button116.Text = "L";
             this.button116.UseVisualStyleBackColor = true;
@@ -8365,10 +8548,11 @@
             // 
             // button117
             // 
+            this.button117.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button117.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button117.Location = new System.Drawing.Point(185, 273);
+            this.button117.Location = new System.Drawing.Point(-188, 43);
             this.button117.Name = "button117";
-            this.button117.Size = new System.Drawing.Size(38, 38);
+            this.button117.Size = new System.Drawing.Size(100, 43);
             this.button117.TabIndex = 99;
             this.button117.Text = "S";
             this.button117.UseVisualStyleBackColor = true;
@@ -8376,9 +8560,10 @@
             // 
             // label112
             // 
+            this.label112.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label112.AutoSize = true;
             this.label112.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label112.Location = new System.Drawing.Point(10, 278);
+            this.label112.Location = new System.Drawing.Point(-430, 51);
             this.label112.Name = "label112";
             this.label112.Size = new System.Drawing.Size(97, 20);
             this.label112.TabIndex = 98;
@@ -8386,10 +8571,11 @@
             // 
             // button94
             // 
+            this.button94.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button94.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button94.Location = new System.Drawing.Point(448, 231);
+            this.button94.Location = new System.Drawing.Point(454, -5);
             this.button94.Name = "button94";
-            this.button94.Size = new System.Drawing.Size(52, 38);
+            this.button94.Size = new System.Drawing.Size(100, 43);
             this.button94.TabIndex = 97;
             this.button94.Text = "GF";
             this.button94.UseVisualStyleBackColor = true;
@@ -8397,10 +8583,11 @@
             // 
             // button95
             // 
+            this.button95.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button95.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button95.Location = new System.Drawing.Point(404, 231);
+            this.button95.Location = new System.Drawing.Point(347, -5);
             this.button95.Name = "button95";
-            this.button95.Size = new System.Drawing.Size(38, 38);
+            this.button95.Size = new System.Drawing.Size(100, 43);
             this.button95.TabIndex = 96;
             this.button95.Text = "C";
             this.button95.UseVisualStyleBackColor = true;
@@ -8408,10 +8595,11 @@
             // 
             // button96
             // 
+            this.button96.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button96.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button96.Location = new System.Drawing.Point(360, 231);
+            this.button96.Location = new System.Drawing.Point(241, -5);
             this.button96.Name = "button96";
-            this.button96.Size = new System.Drawing.Size(38, 38);
+            this.button96.Size = new System.Drawing.Size(100, 43);
             this.button96.TabIndex = 95;
             this.button96.Text = "J";
             this.button96.UseVisualStyleBackColor = true;
@@ -8419,10 +8607,11 @@
             // 
             // button97
             // 
+            this.button97.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button97.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button97.Location = new System.Drawing.Point(316, 231);
+            this.button97.Location = new System.Drawing.Point(137, -5);
             this.button97.Name = "button97";
-            this.button97.Size = new System.Drawing.Size(38, 38);
+            this.button97.Size = new System.Drawing.Size(100, 43);
             this.button97.TabIndex = 94;
             this.button97.Text = "P";
             this.button97.UseVisualStyleBackColor = true;
@@ -8430,10 +8619,11 @@
             // 
             // button98
             // 
+            this.button98.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button98.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button98.Location = new System.Drawing.Point(272, 231);
+            this.button98.Location = new System.Drawing.Point(31, -2);
             this.button98.Name = "button98";
-            this.button98.Size = new System.Drawing.Size(38, 38);
+            this.button98.Size = new System.Drawing.Size(100, 43);
             this.button98.TabIndex = 93;
             this.button98.Text = "F";
             this.button98.UseVisualStyleBackColor = true;
@@ -8441,10 +8631,11 @@
             // 
             // button99
             // 
+            this.button99.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button99.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button99.Location = new System.Drawing.Point(228, 231);
+            this.button99.Location = new System.Drawing.Point(-79, -2);
             this.button99.Name = "button99";
-            this.button99.Size = new System.Drawing.Size(38, 38);
+            this.button99.Size = new System.Drawing.Size(100, 43);
             this.button99.TabIndex = 92;
             this.button99.Text = "L";
             this.button99.UseVisualStyleBackColor = true;
@@ -8452,10 +8643,11 @@
             // 
             // button100
             // 
+            this.button100.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button100.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button100.Location = new System.Drawing.Point(184, 231);
+            this.button100.Location = new System.Drawing.Point(-188, -4);
             this.button100.Name = "button100";
-            this.button100.Size = new System.Drawing.Size(38, 38);
+            this.button100.Size = new System.Drawing.Size(100, 43);
             this.button100.TabIndex = 91;
             this.button100.Text = "S";
             this.button100.UseVisualStyleBackColor = true;
@@ -8463,9 +8655,10 @@
             // 
             // label111
             // 
+            this.label111.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label111.AutoSize = true;
             this.label111.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label111.Location = new System.Drawing.Point(9, 236);
+            this.label111.Location = new System.Drawing.Point(-431, 9);
             this.label111.Name = "label111";
             this.label111.Size = new System.Drawing.Size(95, 20);
             this.label111.TabIndex = 90;
@@ -8473,10 +8666,11 @@
             // 
             // button86
             // 
+            this.button86.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button86.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button86.Location = new System.Drawing.Point(449, 187);
+            this.button86.Location = new System.Drawing.Point(454, -49);
             this.button86.Name = "button86";
-            this.button86.Size = new System.Drawing.Size(52, 38);
+            this.button86.Size = new System.Drawing.Size(100, 43);
             this.button86.TabIndex = 89;
             this.button86.Text = "GF";
             this.button86.UseVisualStyleBackColor = true;
@@ -8484,10 +8678,11 @@
             // 
             // button87
             // 
+            this.button87.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button87.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button87.Location = new System.Drawing.Point(405, 187);
+            this.button87.Location = new System.Drawing.Point(347, -49);
             this.button87.Name = "button87";
-            this.button87.Size = new System.Drawing.Size(38, 38);
+            this.button87.Size = new System.Drawing.Size(100, 43);
             this.button87.TabIndex = 88;
             this.button87.Text = "C";
             this.button87.UseVisualStyleBackColor = true;
@@ -8495,10 +8690,11 @@
             // 
             // button88
             // 
+            this.button88.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button88.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button88.Location = new System.Drawing.Point(361, 187);
+            this.button88.Location = new System.Drawing.Point(241, -49);
             this.button88.Name = "button88";
-            this.button88.Size = new System.Drawing.Size(38, 38);
+            this.button88.Size = new System.Drawing.Size(100, 43);
             this.button88.TabIndex = 87;
             this.button88.Text = "J";
             this.button88.UseVisualStyleBackColor = true;
@@ -8506,10 +8702,11 @@
             // 
             // button90
             // 
+            this.button90.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button90.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button90.Location = new System.Drawing.Point(317, 187);
+            this.button90.Location = new System.Drawing.Point(137, -49);
             this.button90.Name = "button90";
-            this.button90.Size = new System.Drawing.Size(38, 38);
+            this.button90.Size = new System.Drawing.Size(100, 43);
             this.button90.TabIndex = 86;
             this.button90.Text = "P";
             this.button90.UseVisualStyleBackColor = true;
@@ -8517,10 +8714,11 @@
             // 
             // button91
             // 
+            this.button91.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button91.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button91.Location = new System.Drawing.Point(273, 187);
+            this.button91.Location = new System.Drawing.Point(31, -46);
             this.button91.Name = "button91";
-            this.button91.Size = new System.Drawing.Size(38, 38);
+            this.button91.Size = new System.Drawing.Size(100, 43);
             this.button91.TabIndex = 85;
             this.button91.Text = "F";
             this.button91.UseVisualStyleBackColor = true;
@@ -8528,10 +8726,11 @@
             // 
             // button92
             // 
+            this.button92.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button92.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button92.Location = new System.Drawing.Point(229, 187);
+            this.button92.Location = new System.Drawing.Point(-79, -46);
             this.button92.Name = "button92";
-            this.button92.Size = new System.Drawing.Size(38, 38);
+            this.button92.Size = new System.Drawing.Size(100, 43);
             this.button92.TabIndex = 84;
             this.button92.Text = "L";
             this.button92.UseVisualStyleBackColor = true;
@@ -8539,10 +8738,11 @@
             // 
             // button93
             // 
+            this.button93.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button93.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button93.Location = new System.Drawing.Point(185, 187);
+            this.button93.Location = new System.Drawing.Point(-188, -48);
             this.button93.Name = "button93";
-            this.button93.Size = new System.Drawing.Size(38, 38);
+            this.button93.Size = new System.Drawing.Size(100, 43);
             this.button93.TabIndex = 83;
             this.button93.Text = "S";
             this.button93.UseVisualStyleBackColor = true;
@@ -8550,9 +8750,10 @@
             // 
             // label110
             // 
+            this.label110.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label110.AutoSize = true;
             this.label110.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label110.Location = new System.Drawing.Point(10, 192);
+            this.label110.Location = new System.Drawing.Point(-430, -35);
             this.label110.Name = "label110";
             this.label110.Size = new System.Drawing.Size(84, 20);
             this.label110.TabIndex = 82;
@@ -8560,10 +8761,11 @@
             // 
             // button78
             // 
+            this.button78.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button78.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button78.Location = new System.Drawing.Point(448, 145);
+            this.button78.Location = new System.Drawing.Point(454, -91);
             this.button78.Name = "button78";
-            this.button78.Size = new System.Drawing.Size(52, 38);
+            this.button78.Size = new System.Drawing.Size(100, 43);
             this.button78.TabIndex = 81;
             this.button78.Text = "GF";
             this.button78.UseVisualStyleBackColor = true;
@@ -8571,10 +8773,11 @@
             // 
             // button79
             // 
+            this.button79.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button79.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button79.Location = new System.Drawing.Point(404, 145);
+            this.button79.Location = new System.Drawing.Point(347, -91);
             this.button79.Name = "button79";
-            this.button79.Size = new System.Drawing.Size(38, 38);
+            this.button79.Size = new System.Drawing.Size(100, 43);
             this.button79.TabIndex = 80;
             this.button79.Text = "C";
             this.button79.UseVisualStyleBackColor = true;
@@ -8582,10 +8785,11 @@
             // 
             // button81
             // 
+            this.button81.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button81.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button81.Location = new System.Drawing.Point(360, 145);
+            this.button81.Location = new System.Drawing.Point(241, -91);
             this.button81.Name = "button81";
-            this.button81.Size = new System.Drawing.Size(38, 38);
+            this.button81.Size = new System.Drawing.Size(100, 43);
             this.button81.TabIndex = 79;
             this.button81.Text = "J";
             this.button81.UseVisualStyleBackColor = true;
@@ -8593,10 +8797,11 @@
             // 
             // button82
             // 
+            this.button82.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button82.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button82.Location = new System.Drawing.Point(316, 145);
+            this.button82.Location = new System.Drawing.Point(137, -91);
             this.button82.Name = "button82";
-            this.button82.Size = new System.Drawing.Size(38, 38);
+            this.button82.Size = new System.Drawing.Size(100, 43);
             this.button82.TabIndex = 78;
             this.button82.Text = "P";
             this.button82.UseVisualStyleBackColor = true;
@@ -8604,10 +8809,11 @@
             // 
             // button83
             // 
+            this.button83.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button83.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button83.Location = new System.Drawing.Point(272, 145);
+            this.button83.Location = new System.Drawing.Point(31, -88);
             this.button83.Name = "button83";
-            this.button83.Size = new System.Drawing.Size(38, 38);
+            this.button83.Size = new System.Drawing.Size(100, 43);
             this.button83.TabIndex = 77;
             this.button83.Text = "F";
             this.button83.UseVisualStyleBackColor = true;
@@ -8615,10 +8821,11 @@
             // 
             // button84
             // 
+            this.button84.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button84.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button84.Location = new System.Drawing.Point(228, 145);
+            this.button84.Location = new System.Drawing.Point(-79, -88);
             this.button84.Name = "button84";
-            this.button84.Size = new System.Drawing.Size(38, 38);
+            this.button84.Size = new System.Drawing.Size(100, 43);
             this.button84.TabIndex = 76;
             this.button84.Text = "L";
             this.button84.UseVisualStyleBackColor = true;
@@ -8626,10 +8833,11 @@
             // 
             // button85
             // 
+            this.button85.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button85.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button85.Location = new System.Drawing.Point(184, 145);
+            this.button85.Location = new System.Drawing.Point(-188, -90);
             this.button85.Name = "button85";
-            this.button85.Size = new System.Drawing.Size(38, 38);
+            this.button85.Size = new System.Drawing.Size(100, 43);
             this.button85.TabIndex = 75;
             this.button85.Text = "S";
             this.button85.UseVisualStyleBackColor = true;
@@ -8637,9 +8845,10 @@
             // 
             // label109
             // 
+            this.label109.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label109.AutoSize = true;
             this.label109.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label109.Location = new System.Drawing.Point(9, 150);
+            this.label109.Location = new System.Drawing.Point(-431, -77);
             this.label109.Name = "label109";
             this.label109.Size = new System.Drawing.Size(165, 20);
             this.label109.TabIndex = 74;
@@ -8647,10 +8856,11 @@
             // 
             // button71
             // 
+            this.button71.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button71.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button71.Location = new System.Drawing.Point(449, 101);
+            this.button71.Location = new System.Drawing.Point(454, -135);
             this.button71.Name = "button71";
-            this.button71.Size = new System.Drawing.Size(52, 38);
+            this.button71.Size = new System.Drawing.Size(100, 43);
             this.button71.TabIndex = 73;
             this.button71.Text = "GF";
             this.button71.UseVisualStyleBackColor = true;
@@ -8658,10 +8868,11 @@
             // 
             // button72
             // 
+            this.button72.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button72.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button72.Location = new System.Drawing.Point(405, 101);
+            this.button72.Location = new System.Drawing.Point(347, -135);
             this.button72.Name = "button72";
-            this.button72.Size = new System.Drawing.Size(38, 38);
+            this.button72.Size = new System.Drawing.Size(100, 43);
             this.button72.TabIndex = 72;
             this.button72.Text = "C";
             this.button72.UseVisualStyleBackColor = true;
@@ -8669,10 +8880,11 @@
             // 
             // button73
             // 
+            this.button73.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button73.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button73.Location = new System.Drawing.Point(361, 101);
+            this.button73.Location = new System.Drawing.Point(241, -135);
             this.button73.Name = "button73";
-            this.button73.Size = new System.Drawing.Size(38, 38);
+            this.button73.Size = new System.Drawing.Size(100, 43);
             this.button73.TabIndex = 71;
             this.button73.Text = "J";
             this.button73.UseVisualStyleBackColor = true;
@@ -8680,10 +8892,11 @@
             // 
             // button74
             // 
+            this.button74.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button74.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button74.Location = new System.Drawing.Point(317, 101);
+            this.button74.Location = new System.Drawing.Point(137, -135);
             this.button74.Name = "button74";
-            this.button74.Size = new System.Drawing.Size(38, 38);
+            this.button74.Size = new System.Drawing.Size(100, 43);
             this.button74.TabIndex = 70;
             this.button74.Text = "P";
             this.button74.UseVisualStyleBackColor = true;
@@ -8691,10 +8904,11 @@
             // 
             // button75
             // 
+            this.button75.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button75.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button75.Location = new System.Drawing.Point(273, 101);
+            this.button75.Location = new System.Drawing.Point(31, -132);
             this.button75.Name = "button75";
-            this.button75.Size = new System.Drawing.Size(38, 38);
+            this.button75.Size = new System.Drawing.Size(100, 43);
             this.button75.TabIndex = 69;
             this.button75.Text = "F";
             this.button75.UseVisualStyleBackColor = true;
@@ -8702,10 +8916,11 @@
             // 
             // button76
             // 
+            this.button76.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button76.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button76.Location = new System.Drawing.Point(229, 101);
+            this.button76.Location = new System.Drawing.Point(-79, -132);
             this.button76.Name = "button76";
-            this.button76.Size = new System.Drawing.Size(38, 38);
+            this.button76.Size = new System.Drawing.Size(100, 43);
             this.button76.TabIndex = 68;
             this.button76.Text = "L";
             this.button76.UseVisualStyleBackColor = true;
@@ -8713,10 +8928,11 @@
             // 
             // button77
             // 
+            this.button77.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button77.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button77.Location = new System.Drawing.Point(185, 101);
+            this.button77.Location = new System.Drawing.Point(-188, -134);
             this.button77.Name = "button77";
-            this.button77.Size = new System.Drawing.Size(38, 38);
+            this.button77.Size = new System.Drawing.Size(100, 43);
             this.button77.TabIndex = 67;
             this.button77.Text = "S";
             this.button77.UseVisualStyleBackColor = true;
@@ -8724,9 +8940,10 @@
             // 
             // label108
             // 
+            this.label108.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label108.AutoSize = true;
             this.label108.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label108.Location = new System.Drawing.Point(10, 106);
+            this.label108.Location = new System.Drawing.Point(-430, -121);
             this.label108.Name = "label108";
             this.label108.Size = new System.Drawing.Size(63, 20);
             this.label108.TabIndex = 66;
@@ -8734,10 +8951,11 @@
             // 
             // button57
             // 
+            this.button57.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button57.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button57.Location = new System.Drawing.Point(449, 55);
+            this.button57.Location = new System.Drawing.Point(454, -181);
             this.button57.Name = "button57";
-            this.button57.Size = new System.Drawing.Size(52, 38);
+            this.button57.Size = new System.Drawing.Size(100, 43);
             this.button57.TabIndex = 65;
             this.button57.Text = "GF";
             this.button57.UseVisualStyleBackColor = true;
@@ -8745,10 +8963,11 @@
             // 
             // button58
             // 
+            this.button58.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button58.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button58.Location = new System.Drawing.Point(405, 55);
+            this.button58.Location = new System.Drawing.Point(347, -181);
             this.button58.Name = "button58";
-            this.button58.Size = new System.Drawing.Size(38, 38);
+            this.button58.Size = new System.Drawing.Size(100, 43);
             this.button58.TabIndex = 64;
             this.button58.Text = "C";
             this.button58.UseVisualStyleBackColor = true;
@@ -8756,10 +8975,11 @@
             // 
             // button59
             // 
+            this.button59.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button59.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button59.Location = new System.Drawing.Point(361, 55);
+            this.button59.Location = new System.Drawing.Point(241, -181);
             this.button59.Name = "button59";
-            this.button59.Size = new System.Drawing.Size(38, 38);
+            this.button59.Size = new System.Drawing.Size(100, 43);
             this.button59.TabIndex = 63;
             this.button59.Text = "J";
             this.button59.UseVisualStyleBackColor = true;
@@ -8767,10 +8987,11 @@
             // 
             // button60
             // 
+            this.button60.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button60.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button60.Location = new System.Drawing.Point(317, 55);
+            this.button60.Location = new System.Drawing.Point(137, -181);
             this.button60.Name = "button60";
-            this.button60.Size = new System.Drawing.Size(38, 38);
+            this.button60.Size = new System.Drawing.Size(100, 43);
             this.button60.TabIndex = 62;
             this.button60.Text = "P";
             this.button60.UseVisualStyleBackColor = true;
@@ -8778,10 +8999,11 @@
             // 
             // button61
             // 
+            this.button61.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button61.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button61.Location = new System.Drawing.Point(273, 55);
+            this.button61.Location = new System.Drawing.Point(31, -178);
             this.button61.Name = "button61";
-            this.button61.Size = new System.Drawing.Size(38, 38);
+            this.button61.Size = new System.Drawing.Size(100, 43);
             this.button61.TabIndex = 61;
             this.button61.Text = "F";
             this.button61.UseVisualStyleBackColor = true;
@@ -8789,10 +9011,11 @@
             // 
             // button62
             // 
+            this.button62.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button62.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button62.Location = new System.Drawing.Point(229, 55);
+            this.button62.Location = new System.Drawing.Point(-79, -178);
             this.button62.Name = "button62";
-            this.button62.Size = new System.Drawing.Size(38, 38);
+            this.button62.Size = new System.Drawing.Size(100, 43);
             this.button62.TabIndex = 60;
             this.button62.Text = "L";
             this.button62.UseVisualStyleBackColor = true;
@@ -8800,10 +9023,11 @@
             // 
             // button63
             // 
+            this.button63.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button63.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button63.Location = new System.Drawing.Point(185, 55);
+            this.button63.Location = new System.Drawing.Point(-188, -180);
             this.button63.Name = "button63";
-            this.button63.Size = new System.Drawing.Size(38, 38);
+            this.button63.Size = new System.Drawing.Size(100, 43);
             this.button63.TabIndex = 59;
             this.button63.Text = "S";
             this.button63.UseVisualStyleBackColor = true;
@@ -8811,9 +9035,10 @@
             // 
             // label107
             // 
+            this.label107.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label107.AutoSize = true;
             this.label107.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label107.Location = new System.Drawing.Point(10, 60);
+            this.label107.Location = new System.Drawing.Point(-430, -167);
             this.label107.Name = "label107";
             this.label107.Size = new System.Drawing.Size(147, 20);
             this.label107.TabIndex = 58;
@@ -8821,10 +9046,11 @@
             // 
             // button70
             // 
+            this.button70.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button70.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button70.Location = new System.Drawing.Point(449, 7);
+            this.button70.Location = new System.Drawing.Point(454, -228);
             this.button70.Name = "button70";
-            this.button70.Size = new System.Drawing.Size(52, 38);
+            this.button70.Size = new System.Drawing.Size(100, 43);
             this.button70.TabIndex = 57;
             this.button70.Text = "GF";
             this.button70.UseVisualStyleBackColor = true;
@@ -8832,10 +9058,11 @@
             // 
             // button69
             // 
+            this.button69.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button69.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button69.Location = new System.Drawing.Point(405, 7);
+            this.button69.Location = new System.Drawing.Point(347, -229);
             this.button69.Name = "button69";
-            this.button69.Size = new System.Drawing.Size(38, 38);
+            this.button69.Size = new System.Drawing.Size(100, 43);
             this.button69.TabIndex = 56;
             this.button69.Text = "C";
             this.button69.UseVisualStyleBackColor = true;
@@ -8843,10 +9070,11 @@
             // 
             // button68
             // 
+            this.button68.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button68.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button68.Location = new System.Drawing.Point(361, 7);
+            this.button68.Location = new System.Drawing.Point(241, -229);
             this.button68.Name = "button68";
-            this.button68.Size = new System.Drawing.Size(38, 38);
+            this.button68.Size = new System.Drawing.Size(100, 43);
             this.button68.TabIndex = 55;
             this.button68.Text = "J";
             this.button68.UseVisualStyleBackColor = true;
@@ -8854,10 +9082,11 @@
             // 
             // button67
             // 
+            this.button67.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button67.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button67.Location = new System.Drawing.Point(317, 7);
+            this.button67.Location = new System.Drawing.Point(137, -229);
             this.button67.Name = "button67";
-            this.button67.Size = new System.Drawing.Size(38, 38);
+            this.button67.Size = new System.Drawing.Size(100, 43);
             this.button67.TabIndex = 54;
             this.button67.Text = "P";
             this.button67.UseVisualStyleBackColor = true;
@@ -8865,10 +9094,11 @@
             // 
             // button66
             // 
+            this.button66.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button66.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button66.Location = new System.Drawing.Point(273, 7);
+            this.button66.Location = new System.Drawing.Point(31, -226);
             this.button66.Name = "button66";
-            this.button66.Size = new System.Drawing.Size(38, 38);
+            this.button66.Size = new System.Drawing.Size(100, 43);
             this.button66.TabIndex = 53;
             this.button66.Text = "F";
             this.button66.UseVisualStyleBackColor = true;
@@ -8876,10 +9106,11 @@
             // 
             // button65
             // 
+            this.button65.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button65.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button65.Location = new System.Drawing.Point(229, 7);
+            this.button65.Location = new System.Drawing.Point(-79, -227);
             this.button65.Name = "button65";
-            this.button65.Size = new System.Drawing.Size(38, 38);
+            this.button65.Size = new System.Drawing.Size(100, 43);
             this.button65.TabIndex = 52;
             this.button65.Text = "L";
             this.button65.UseVisualStyleBackColor = true;
@@ -8887,10 +9118,11 @@
             // 
             // button64
             // 
+            this.button64.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button64.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button64.Location = new System.Drawing.Point(185, 7);
+            this.button64.Location = new System.Drawing.Point(-188, -228);
             this.button64.Name = "button64";
-            this.button64.Size = new System.Drawing.Size(38, 38);
+            this.button64.Size = new System.Drawing.Size(100, 43);
             this.button64.TabIndex = 43;
             this.button64.Text = "S";
             this.button64.UseVisualStyleBackColor = true;
@@ -8898,10 +9130,11 @@
             // 
             // button55
             // 
+            this.button55.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button55.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button55.Location = new System.Drawing.Point(12, 474);
+            this.button55.Location = new System.Drawing.Point(-469, 313);
             this.button55.Name = "button55";
-            this.button55.Size = new System.Drawing.Size(147, 38);
+            this.button55.Size = new System.Drawing.Size(198, 67);
             this.button55.TabIndex = 50;
             this.button55.Text = "Back";
             this.button55.UseVisualStyleBackColor = true;
@@ -8909,10 +9142,11 @@
             // 
             // button56
             // 
+            this.button56.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button56.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button56.Location = new System.Drawing.Point(351, 474);
+            this.button56.Location = new System.Drawing.Point(-41, 313);
             this.button56.Name = "button56";
-            this.button56.Size = new System.Drawing.Size(147, 38);
+            this.button56.Size = new System.Drawing.Size(198, 67);
             this.button56.TabIndex = 49;
             this.button56.Text = "Next Page";
             this.button56.UseVisualStyleBackColor = true;
@@ -8920,415 +9154,26 @@
             // 
             // label121
             // 
+            this.label121.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label121.AutoSize = true;
             this.label121.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label121.Location = new System.Drawing.Point(10, 12);
+            this.label121.Location = new System.Drawing.Point(-430, -215);
             this.label121.Name = "label121";
             this.label121.Size = new System.Drawing.Size(127, 20);
             this.label121.TabIndex = 26;
             this.label121.Text = "Simply Cheese";
             // 
-            // mainsPanel
-            // 
-            this.mainsPanel.Controls.Add(this.mains2Panel);
-            this.mainsPanel.Controls.Add(this.label146);
-            this.mainsPanel.Controls.Add(this.label145);
-            this.mainsPanel.Controls.Add(this.button104);
-            this.mainsPanel.Controls.Add(this.button105);
-            this.mainsPanel.Controls.Add(this.button106);
-            this.mainsPanel.Controls.Add(this.button107);
-            this.mainsPanel.Controls.Add(this.button108);
-            this.mainsPanel.Controls.Add(this.button109);
-            this.mainsPanel.Controls.Add(this.button110);
-            this.mainsPanel.Controls.Add(this.button111);
-            this.mainsPanel.Controls.Add(this.button112);
-            this.mainsPanel.Controls.Add(this.button113);
-            this.mainsPanel.Controls.Add(this.label183);
-            this.mainsPanel.Controls.Add(this.label184);
-            this.mainsPanel.Controls.Add(this.label185);
-            this.mainsPanel.Controls.Add(this.label186);
-            this.mainsPanel.Controls.Add(this.label187);
-            this.mainsPanel.Controls.Add(this.label188);
-            this.mainsPanel.Controls.Add(this.label155);
-            this.mainsPanel.Controls.Add(this.label189);
-            this.mainsPanel.Controls.Add(this.label190);
-            this.mainsPanel.Controls.Add(this.label191);
-            this.mainsPanel.Controls.Add(this.label192);
-            this.mainsPanel.Controls.Add(this.label152);
-            this.mainsPanel.Controls.Add(this.label193);
-            this.mainsPanel.Controls.Add(this.label194);
-            this.mainsPanel.Controls.Add(this.label195);
-            this.mainsPanel.Controls.Add(this.label196);
-            this.mainsPanel.Controls.Add(this.label197);
-            this.mainsPanel.Controls.Add(this.label198);
-            this.mainsPanel.Location = new System.Drawing.Point(310, 625);
-            this.mainsPanel.Name = "mainsPanel";
-            this.mainsPanel.Size = new System.Drawing.Size(25, 29);
-            this.mainsPanel.TabIndex = 22;
-            // 
-            // mains2Panel
-            // 
-            this.mains2Panel.Controls.Add(this.button80);
-            this.mains2Panel.Controls.Add(this.button89);
-            this.mains2Panel.Controls.Add(this.label163);
-            this.mains2Panel.Controls.Add(this.label164);
-            this.mains2Panel.Location = new System.Drawing.Point(215, 470);
-            this.mains2Panel.Name = "mains2Panel";
-            this.mains2Panel.Size = new System.Drawing.Size(200, 86);
-            this.mains2Panel.TabIndex = 81;
-            // 
-            // button80
-            // 
-            this.button80.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button80.Location = new System.Drawing.Point(12, 474);
-            this.button80.Name = "button80";
-            this.button80.Size = new System.Drawing.Size(147, 38);
-            this.button80.TabIndex = 106;
-            this.button80.Text = "Back";
-            this.button80.UseVisualStyleBackColor = true;
-            this.button80.Click += new System.EventHandler(this.button80_Click);
-            // 
-            // button89
-            // 
-            this.button89.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button89.Location = new System.Drawing.Point(351, 16);
-            this.button89.Name = "button89";
-            this.button89.Size = new System.Drawing.Size(147, 38);
-            this.button89.TabIndex = 97;
-            this.button89.Text = "Add to Order";
-            this.button89.UseVisualStyleBackColor = true;
-            this.button89.Click += new System.EventHandler(this.button89_Click);
-            // 
-            // label163
-            // 
-            this.label163.AutoSize = true;
-            this.label163.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label163.Location = new System.Drawing.Point(29, 41);
-            this.label163.Name = "label163";
-            this.label163.Size = new System.Drawing.Size(304, 12);
-            this.label163.TabIndex = 82;
-            this.label163.Text = "Chicken breast freshly crumbed in house and served with chips and salad";
-            // 
-            // label164
-            // 
-            this.label164.AutoSize = true;
-            this.label164.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label164.Location = new System.Drawing.Point(29, 14);
-            this.label164.Name = "label164";
-            this.label164.Size = new System.Drawing.Size(235, 24);
-            this.label164.TabIndex = 81;
-            this.label164.Text = "Sicilian Veal Parmigiana";
-            // 
-            // label146
-            // 
-            this.label146.AutoSize = true;
-            this.label146.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label146.Location = new System.Drawing.Point(24, 276);
-            this.label146.Name = "label146";
-            this.label146.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label146.Size = new System.Drawing.Size(300, 12);
-            this.label146.TabIndex = 80;
-            this.label146.Text = "mozzarella, jalapeno and roasted capsicum, served with chips and salad";
-            // 
-            // label145
-            // 
-            this.label145.AutoSize = true;
-            this.label145.Location = new System.Drawing.Point(24, 155);
-            this.label145.Name = "label145";
-            this.label145.Size = new System.Drawing.Size(396, 13);
-            this.label145.TabIndex = 79;
-            this.label145.Text = "topped with napolitana sauce mozzarella and leg ham, served with chips and salad";
-            this.label145.Click += new System.EventHandler(this.label145_Click);
-            // 
-            // button104
-            // 
-            this.button104.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button104.Location = new System.Drawing.Point(6, 467);
-            this.button104.Name = "button104";
-            this.button104.Size = new System.Drawing.Size(147, 38);
-            this.button104.TabIndex = 78;
-            this.button104.Text = "Back";
-            this.button104.UseVisualStyleBackColor = true;
-            this.button104.Click += new System.EventHandler(this.button104_Click);
-            // 
             // button105
             // 
+            this.button105.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button105.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button105.Location = new System.Drawing.Point(345, 467);
+            this.button105.Location = new System.Drawing.Point(-67, 310);
             this.button105.Name = "button105";
-            this.button105.Size = new System.Drawing.Size(147, 38);
+            this.button105.Size = new System.Drawing.Size(166, 69);
             this.button105.TabIndex = 77;
             this.button105.Text = "Next Page";
             this.button105.UseVisualStyleBackColor = true;
             this.button105.Click += new System.EventHandler(this.button105_Click);
-            // 
-            // button106
-            // 
-            this.button106.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button106.Location = new System.Drawing.Point(345, 407);
-            this.button106.Name = "button106";
-            this.button106.Size = new System.Drawing.Size(147, 38);
-            this.button106.TabIndex = 76;
-            this.button106.Text = "Add to Order";
-            this.button106.UseVisualStyleBackColor = true;
-            this.button106.Click += new System.EventHandler(this.button106_Click);
-            // 
-            // button107
-            // 
-            this.button107.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button107.Location = new System.Drawing.Point(345, 354);
-            this.button107.Name = "button107";
-            this.button107.Size = new System.Drawing.Size(147, 38);
-            this.button107.TabIndex = 75;
-            this.button107.Text = "Add to Order";
-            this.button107.UseVisualStyleBackColor = true;
-            this.button107.Click += new System.EventHandler(this.button107_Click);
-            // 
-            // button108
-            // 
-            this.button108.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button108.Location = new System.Drawing.Point(345, 299);
-            this.button108.Name = "button108";
-            this.button108.Size = new System.Drawing.Size(147, 38);
-            this.button108.TabIndex = 74;
-            this.button108.Text = "Add to Order";
-            this.button108.UseVisualStyleBackColor = true;
-            this.button108.Click += new System.EventHandler(this.button108_Click);
-            // 
-            // button109
-            // 
-            this.button109.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button109.Location = new System.Drawing.Point(345, 242);
-            this.button109.Name = "button109";
-            this.button109.Size = new System.Drawing.Size(147, 38);
-            this.button109.TabIndex = 73;
-            this.button109.Text = "Add to Order";
-            this.button109.UseVisualStyleBackColor = true;
-            this.button109.Click += new System.EventHandler(this.button109_Click);
-            // 
-            // button110
-            // 
-            this.button110.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button110.Location = new System.Drawing.Point(345, 178);
-            this.button110.Name = "button110";
-            this.button110.Size = new System.Drawing.Size(147, 38);
-            this.button110.TabIndex = 72;
-            this.button110.Text = "Add to Order";
-            this.button110.UseVisualStyleBackColor = true;
-            this.button110.Click += new System.EventHandler(this.button110_Click);
-            // 
-            // button111
-            // 
-            this.button111.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button111.Location = new System.Drawing.Point(345, 108);
-            this.button111.Name = "button111";
-            this.button111.Size = new System.Drawing.Size(147, 38);
-            this.button111.TabIndex = 71;
-            this.button111.Text = "Add to Order";
-            this.button111.UseVisualStyleBackColor = true;
-            this.button111.Click += new System.EventHandler(this.button111_Click);
-            // 
-            // button112
-            // 
-            this.button112.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button112.Location = new System.Drawing.Point(345, 59);
-            this.button112.Name = "button112";
-            this.button112.Size = new System.Drawing.Size(147, 38);
-            this.button112.TabIndex = 70;
-            this.button112.Text = "Add to Order";
-            this.button112.UseVisualStyleBackColor = true;
-            this.button112.Click += new System.EventHandler(this.button112_Click);
-            // 
-            // button113
-            // 
-            this.button113.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button113.Location = new System.Drawing.Point(345, 9);
-            this.button113.Name = "button113";
-            this.button113.Size = new System.Drawing.Size(147, 38);
-            this.button113.TabIndex = 69;
-            this.button113.Text = "Add to Order";
-            this.button113.UseVisualStyleBackColor = true;
-            this.button113.Click += new System.EventHandler(this.button113_Click);
-            // 
-            // label183
-            // 
-            this.label183.AutoSize = true;
-            this.label183.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label183.Location = new System.Drawing.Point(23, 432);
-            this.label183.Name = "label183";
-            this.label183.Size = new System.Drawing.Size(41, 13);
-            this.label183.TabIndex = 68;
-            this.label183.Text = "6 Pack";
-            // 
-            // label184
-            // 
-            this.label184.AutoSize = true;
-            this.label184.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label184.Location = new System.Drawing.Point(23, 405);
-            this.label184.Name = "label184";
-            this.label184.Size = new System.Drawing.Size(247, 24);
-            this.label184.TabIndex = 67;
-            this.label184.Text = "Mexican Veal Parmigiana";
-            // 
-            // label185
-            // 
-            this.label185.AutoSize = true;
-            this.label185.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label185.Location = new System.Drawing.Point(23, 379);
-            this.label185.Name = "label185";
-            this.label185.Size = new System.Drawing.Size(85, 13);
-            this.label185.TabIndex = 66;
-            this.label185.Text = "Chips and Gravy";
-            // 
-            // label186
-            // 
-            this.label186.AutoSize = true;
-            this.label186.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label186.Location = new System.Drawing.Point(23, 352);
-            this.label186.Name = "label186";
-            this.label186.Size = new System.Drawing.Size(253, 24);
-            this.label186.TabIndex = 65;
-            this.label186.Text = "Hawaiian Veal Parmigiana";
-            // 
-            // label187
-            // 
-            this.label187.AutoSize = true;
-            this.label187.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label187.Location = new System.Drawing.Point(23, 324);
-            this.label187.Name = "label187";
-            this.label187.Size = new System.Drawing.Size(96, 13);
-            this.label187.TabIndex = 64;
-            this.label187.Text = "With tomato sauce";
-            // 
-            // label188
-            // 
-            this.label188.AutoSize = true;
-            this.label188.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label188.Location = new System.Drawing.Point(23, 297);
-            this.label188.Name = "label188";
-            this.label188.Size = new System.Drawing.Size(240, 24);
-            this.label188.TabIndex = 63;
-            this.label188.Text = "Sicilian Pollo Parmigiana";
-            // 
-            // label155
-            // 
-            this.label155.AutoSize = true;
-            this.label155.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label155.Location = new System.Drawing.Point(23, 240);
-            this.label155.Name = "label155";
-            this.label155.Size = new System.Drawing.Size(252, 24);
-            this.label155.TabIndex = 61;
-            this.label155.Text = "Mexican Pollo Parmigiana";
-            // 
-            // label189
-            // 
-            this.label189.AutoSize = true;
-            this.label189.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label189.Location = new System.Drawing.Point(23, 263);
-            this.label189.Name = "label189";
-            this.label189.Size = new System.Drawing.Size(311, 13);
-            this.label189.TabIndex = 62;
-            this.label189.Text = "Chicken breast freshly crumbed in house topped with napolitana ";
-            // 
-            // label190
-            // 
-            this.label190.AutoSize = true;
-            this.label190.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label190.Location = new System.Drawing.Point(23, 236);
-            this.label190.Name = "label190";
-            this.label190.Size = new System.Drawing.Size(252, 24);
-            this.label190.TabIndex = 61;
-            this.label190.Text = "Mexican Pollo Parmigiana";
-            // 
-            // label191
-            // 
-            this.label191.AutoSize = true;
-            this.label191.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label191.Location = new System.Drawing.Point(23, 202);
-            this.label191.Name = "label191";
-            this.label191.Size = new System.Drawing.Size(324, 13);
-            this.label191.TabIndex = 60;
-            this.label191.Text = "Cut  veal freshly crumbed in house and served with chips and salad";
-            // 
-            // label192
-            // 
-            this.label192.AutoSize = true;
-            this.label192.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label192.Location = new System.Drawing.Point(23, 175);
-            this.label192.Name = "label192";
-            this.label192.Size = new System.Drawing.Size(155, 24);
-            this.label192.TabIndex = 59;
-            this.label192.Text = "Veal Pamigiana";
-            // 
-            // label152
-            // 
-            this.label152.AutoSize = true;
-            this.label152.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label152.Location = new System.Drawing.Point(23, 119);
-            this.label152.Name = "label152";
-            this.label152.Size = new System.Drawing.Size(167, 24);
-            this.label152.TabIndex = 57;
-            this.label152.Text = "Pollo Parmigiana";
-            // 
-            // label193
-            // 
-            this.label193.AutoSize = true;
-            this.label193.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label193.Location = new System.Drawing.Point(23, 142);
-            this.label193.Name = "label193";
-            this.label193.Size = new System.Drawing.Size(201, 13);
-            this.label193.TabIndex = 58;
-            this.label193.Text = "Chicken breast freshly crumbed in house,";
-            // 
-            // label194
-            // 
-            this.label194.AutoSize = true;
-            this.label194.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label194.Location = new System.Drawing.Point(23, 115);
-            this.label194.Name = "label194";
-            this.label194.Size = new System.Drawing.Size(167, 24);
-            this.label194.TabIndex = 57;
-            this.label194.Text = "Pollo Parmigiana";
-            // 
-            // label195
-            // 
-            this.label195.AutoSize = true;
-            this.label195.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label195.Location = new System.Drawing.Point(23, 86);
-            this.label195.Name = "label195";
-            this.label195.Size = new System.Drawing.Size(299, 12);
-            this.label195.TabIndex = 56;
-            this.label195.Text = "Choice cut veal freshly crumbed in house and served with chips or salad";
-            // 
-            // label196
-            // 
-            this.label196.AutoSize = true;
-            this.label196.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label196.Location = new System.Drawing.Point(23, 59);
-            this.label196.Name = "label196";
-            this.label196.Size = new System.Drawing.Size(143, 24);
-            this.label196.TabIndex = 55;
-            this.label196.Text = "Veal Schnitzel";
-            // 
-            // label197
-            // 
-            this.label197.AutoSize = true;
-            this.label197.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label197.Location = new System.Drawing.Point(23, 34);
-            this.label197.Name = "label197";
-            this.label197.Size = new System.Drawing.Size(304, 12);
-            this.label197.TabIndex = 54;
-            this.label197.Text = "Chicken breast freshly crumbed in house and served with chips and salad";
-            // 
-            // label198
-            // 
-            this.label198.AutoSize = true;
-            this.label198.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label198.Location = new System.Drawing.Point(23, 7);
-            this.label198.Name = "label198";
-            this.label198.Size = new System.Drawing.Size(177, 24);
-            this.label198.TabIndex = 53;
-            this.label198.Text = "Chicken Schnitzel";
             // 
             // halfhalfPanel
             // 
@@ -9345,7 +9190,7 @@
             this.halfhalfPanel.Controls.Add(this.label34);
             this.halfhalfPanel.Controls.Add(this.label35);
             this.halfhalfPanel.Controls.Add(this.label36);
-            this.halfhalfPanel.Location = new System.Drawing.Point(720, 633);
+            this.halfhalfPanel.Location = new System.Drawing.Point(713, 700);
             this.halfhalfPanel.Name = "halfhalfPanel";
             this.halfhalfPanel.Size = new System.Drawing.Size(23, 22);
             this.halfhalfPanel.TabIndex = 19;
@@ -9487,11 +9332,11 @@
             // 
             // startersPanel
             // 
+            this.startersPanel.Controls.Add(this.button487);
             this.startersPanel.Controls.Add(this.starters2Panel);
             this.startersPanel.Controls.Add(this.button54);
             this.startersPanel.Controls.Add(this.button2);
             this.startersPanel.Controls.Add(this.button53);
-            this.startersPanel.Controls.Add(this.button13);
             this.startersPanel.Controls.Add(this.button52);
             this.startersPanel.Controls.Add(this.button14);
             this.startersPanel.Controls.Add(this.button48);
@@ -9509,36 +9354,20 @@
             this.startersPanel.Controls.Add(this.label106);
             this.startersPanel.Controls.Add(this.button21);
             this.startersPanel.Controls.Add(this.label105);
-            this.startersPanel.Controls.Add(this.label37);
             this.startersPanel.Controls.Add(this.label104);
-            this.startersPanel.Controls.Add(this.label38);
             this.startersPanel.Controls.Add(this.label103);
-            this.startersPanel.Controls.Add(this.label39);
             this.startersPanel.Controls.Add(this.label102);
-            this.startersPanel.Controls.Add(this.label40);
             this.startersPanel.Controls.Add(this.label101);
-            this.startersPanel.Controls.Add(this.label41);
             this.startersPanel.Controls.Add(this.label94);
-            this.startersPanel.Controls.Add(this.label42);
             this.startersPanel.Controls.Add(this.label93);
-            this.startersPanel.Controls.Add(this.label43);
             this.startersPanel.Controls.Add(this.label92);
-            this.startersPanel.Controls.Add(this.label44);
             this.startersPanel.Controls.Add(this.label91);
-            this.startersPanel.Controls.Add(this.label45);
             this.startersPanel.Controls.Add(this.label90);
-            this.startersPanel.Controls.Add(this.label46);
             this.startersPanel.Controls.Add(this.label89);
-            this.startersPanel.Controls.Add(this.label47);
             this.startersPanel.Controls.Add(this.label88);
-            this.startersPanel.Controls.Add(this.label48);
             this.startersPanel.Controls.Add(this.label87);
-            this.startersPanel.Controls.Add(this.label49);
             this.startersPanel.Controls.Add(this.label86);
-            this.startersPanel.Controls.Add(this.label50);
             this.startersPanel.Controls.Add(this.label85);
-            this.startersPanel.Controls.Add(this.label51);
-            this.startersPanel.Controls.Add(this.label52);
             this.startersPanel.Location = new System.Drawing.Point(525, 625);
             this.startersPanel.Name = "startersPanel";
             this.startersPanel.Size = new System.Drawing.Size(22, 29);
@@ -9607,7 +9436,7 @@
             this.starters3Panel.Controls.Add(this.label82);
             this.starters3Panel.Controls.Add(this.label83);
             this.starters3Panel.Controls.Add(this.label84);
-            this.starters3Panel.Location = new System.Drawing.Point(220, 60);
+            this.starters3Panel.Location = new System.Drawing.Point(90, 144);
             this.starters3Panel.Name = "starters3Panel";
             this.starters3Panel.Size = new System.Drawing.Size(142, 152);
             this.starters3Panel.TabIndex = 78;
@@ -9624,17 +9453,18 @@
             this.starters4Panel.Controls.Add(this.label98);
             this.starters4Panel.Controls.Add(this.label99);
             this.starters4Panel.Controls.Add(this.label100);
-            this.starters4Panel.Location = new System.Drawing.Point(465, 74);
+            this.starters4Panel.Location = new System.Drawing.Point(828, 514);
             this.starters4Panel.Name = "starters4Panel";
-            this.starters4Panel.Size = new System.Drawing.Size(510, 527);
+            this.starters4Panel.Size = new System.Drawing.Size(236, 109);
             this.starters4Panel.TabIndex = 104;
             // 
             // button42
             // 
+            this.button42.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button42.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button42.Location = new System.Drawing.Point(12, 474);
+            this.button42.Location = new System.Drawing.Point(-400, 346);
             this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(147, 38);
+            this.button42.Size = new System.Drawing.Size(198, 67);
             this.button42.TabIndex = 129;
             this.button42.Text = "Back";
             this.button42.UseVisualStyleBackColor = true;
@@ -9642,8 +9472,9 @@
             // 
             // button49
             // 
+            this.button49.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button49.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button49.Location = new System.Drawing.Point(351, 120);
+            this.button49.Location = new System.Drawing.Point(215, 95);
             this.button49.Name = "button49";
             this.button49.Size = new System.Drawing.Size(147, 38);
             this.button49.TabIndex = 122;
@@ -9653,8 +9484,9 @@
             // 
             // button50
             // 
+            this.button50.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button50.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button50.Location = new System.Drawing.Point(351, 66);
+            this.button50.Location = new System.Drawing.Point(214, -1);
             this.button50.Name = "button50";
             this.button50.Size = new System.Drawing.Size(147, 38);
             this.button50.TabIndex = 121;
@@ -9664,8 +9496,9 @@
             // 
             // button51
             // 
+            this.button51.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button51.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button51.Location = new System.Drawing.Point(351, 16);
+            this.button51.Location = new System.Drawing.Point(215, -88);
             this.button51.Name = "button51";
             this.button51.Size = new System.Drawing.Size(147, 38);
             this.button51.TabIndex = 120;
@@ -9675,9 +9508,10 @@
             // 
             // label95
             // 
+            this.label95.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label95.AutoSize = true;
             this.label95.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label95.Location = new System.Drawing.Point(29, 149);
+            this.label95.Location = new System.Drawing.Point(-107, 124);
             this.label95.Name = "label95";
             this.label95.Size = new System.Drawing.Size(105, 13);
             this.label95.TabIndex = 109;
@@ -9685,9 +9519,10 @@
             // 
             // label96
             // 
+            this.label96.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label96.AutoSize = true;
             this.label96.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label96.Location = new System.Drawing.Point(29, 122);
+            this.label96.Location = new System.Drawing.Point(-107, 97);
             this.label96.Name = "label96";
             this.label96.Size = new System.Drawing.Size(183, 24);
             this.label96.TabIndex = 108;
@@ -9695,9 +9530,10 @@
             // 
             // label97
             // 
+            this.label97.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label97.AutoSize = true;
             this.label97.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label97.Location = new System.Drawing.Point(29, 93);
+            this.label97.Location = new System.Drawing.Point(-108, 26);
             this.label97.Name = "label97";
             this.label97.Size = new System.Drawing.Size(94, 13);
             this.label97.TabIndex = 107;
@@ -9705,9 +9541,10 @@
             // 
             // label98
             // 
+            this.label98.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label98.AutoSize = true;
             this.label98.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label98.Location = new System.Drawing.Point(29, 66);
+            this.label98.Location = new System.Drawing.Point(-108, -1);
             this.label98.Name = "label98";
             this.label98.Size = new System.Drawing.Size(201, 24);
             this.label98.TabIndex = 106;
@@ -9715,9 +9552,10 @@
             // 
             // label99
             // 
+            this.label99.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label99.AutoSize = true;
             this.label99.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label99.Location = new System.Drawing.Point(29, 41);
+            this.label99.Location = new System.Drawing.Point(-107, -63);
             this.label99.Name = "label99";
             this.label99.Size = new System.Drawing.Size(199, 13);
             this.label99.TabIndex = 105;
@@ -9725,9 +9563,10 @@
             // 
             // label100
             // 
+            this.label100.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label100.AutoSize = true;
             this.label100.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label100.Location = new System.Drawing.Point(29, 14);
+            this.label100.Location = new System.Drawing.Point(-107, -90);
             this.label100.Name = "label100";
             this.label100.Size = new System.Drawing.Size(201, 24);
             this.label100.TabIndex = 104;
@@ -9735,10 +9574,11 @@
             // 
             // button32
             // 
+            this.button32.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button32.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button32.Location = new System.Drawing.Point(12, 474);
+            this.button32.Location = new System.Drawing.Point(-449, 369);
             this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(147, 38);
+            this.button32.Size = new System.Drawing.Size(198, 67);
             this.button32.TabIndex = 103;
             this.button32.Text = "Back";
             this.button32.UseVisualStyleBackColor = true;
@@ -9746,10 +9586,11 @@
             // 
             // button33
             // 
+            this.button33.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button33.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button33.Location = new System.Drawing.Point(351, 474);
+            this.button33.Location = new System.Drawing.Point(-22, 368);
             this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(147, 38);
+            this.button33.Size = new System.Drawing.Size(198, 67);
             this.button33.TabIndex = 102;
             this.button33.Text = "Next Page";
             this.button33.UseVisualStyleBackColor = true;
@@ -9757,8 +9598,9 @@
             // 
             // button34
             // 
+            this.button34.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button34.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button34.Location = new System.Drawing.Point(351, 414);
+            this.button34.Location = new System.Drawing.Point(176, 202);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(147, 38);
             this.button34.TabIndex = 101;
@@ -9768,8 +9610,9 @@
             // 
             // button35
             // 
+            this.button35.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button35.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button35.Location = new System.Drawing.Point(351, 361);
+            this.button35.Location = new System.Drawing.Point(176, 149);
             this.button35.Name = "button35";
             this.button35.Size = new System.Drawing.Size(147, 38);
             this.button35.TabIndex = 100;
@@ -9779,8 +9622,9 @@
             // 
             // button36
             // 
+            this.button36.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button36.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button36.Location = new System.Drawing.Point(351, 306);
+            this.button36.Location = new System.Drawing.Point(176, 94);
             this.button36.Name = "button36";
             this.button36.Size = new System.Drawing.Size(147, 38);
             this.button36.TabIndex = 99;
@@ -9790,8 +9634,9 @@
             // 
             // button37
             // 
+            this.button37.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button37.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button37.Location = new System.Drawing.Point(351, 249);
+            this.button37.Location = new System.Drawing.Point(176, 37);
             this.button37.Name = "button37";
             this.button37.Size = new System.Drawing.Size(147, 38);
             this.button37.TabIndex = 98;
@@ -9801,8 +9646,9 @@
             // 
             // button38
             // 
+            this.button38.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button38.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button38.Location = new System.Drawing.Point(351, 185);
+            this.button38.Location = new System.Drawing.Point(176, -27);
             this.button38.Name = "button38";
             this.button38.Size = new System.Drawing.Size(147, 38);
             this.button38.TabIndex = 97;
@@ -9812,8 +9658,9 @@
             // 
             // button39
             // 
+            this.button39.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button39.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button39.Location = new System.Drawing.Point(351, 120);
+            this.button39.Location = new System.Drawing.Point(176, -92);
             this.button39.Name = "button39";
             this.button39.Size = new System.Drawing.Size(147, 38);
             this.button39.TabIndex = 96;
@@ -9823,8 +9670,9 @@
             // 
             // button40
             // 
+            this.button40.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button40.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button40.Location = new System.Drawing.Point(351, 66);
+            this.button40.Location = new System.Drawing.Point(176, -146);
             this.button40.Name = "button40";
             this.button40.Size = new System.Drawing.Size(147, 38);
             this.button40.TabIndex = 95;
@@ -9834,8 +9682,9 @@
             // 
             // button41
             // 
+            this.button41.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button41.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button41.Location = new System.Drawing.Point(351, 16);
+            this.button41.Location = new System.Drawing.Point(176, -196);
             this.button41.Name = "button41";
             this.button41.Size = new System.Drawing.Size(147, 38);
             this.button41.TabIndex = 94;
@@ -9845,9 +9694,10 @@
             // 
             // label69
             // 
+            this.label69.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label69.AutoSize = true;
             this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label69.Location = new System.Drawing.Point(29, 439);
+            this.label69.Location = new System.Drawing.Point(-146, 227);
             this.label69.Name = "label69";
             this.label69.Size = new System.Drawing.Size(122, 13);
             this.label69.TabIndex = 93;
@@ -9855,9 +9705,10 @@
             // 
             // label70
             // 
+            this.label70.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label70.AutoSize = true;
             this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label70.Location = new System.Drawing.Point(29, 412);
+            this.label70.Location = new System.Drawing.Point(-146, 200);
             this.label70.Name = "label70";
             this.label70.Size = new System.Drawing.Size(227, 24);
             this.label70.TabIndex = 92;
@@ -9865,9 +9716,10 @@
             // 
             // label71
             // 
+            this.label71.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label71.AutoSize = true;
             this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label71.Location = new System.Drawing.Point(29, 386);
+            this.label71.Location = new System.Drawing.Point(-146, 174);
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(71, 13);
             this.label71.TabIndex = 91;
@@ -9875,9 +9727,10 @@
             // 
             // label72
             // 
+            this.label72.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label72.AutoSize = true;
             this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label72.Location = new System.Drawing.Point(29, 359);
+            this.label72.Location = new System.Drawing.Point(-146, 147);
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(248, 24);
             this.label72.TabIndex = 90;
@@ -9885,9 +9738,10 @@
             // 
             // label73
             // 
+            this.label73.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label73.AutoSize = true;
             this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label73.Location = new System.Drawing.Point(29, 331);
+            this.label73.Location = new System.Drawing.Point(-146, 119);
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(133, 13);
             this.label73.TabIndex = 89;
@@ -9895,9 +9749,10 @@
             // 
             // label74
             // 
+            this.label74.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label74.AutoSize = true;
             this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label74.Location = new System.Drawing.Point(29, 304);
+            this.label74.Location = new System.Drawing.Point(-146, 92);
             this.label74.Name = "label74";
             this.label74.Size = new System.Drawing.Size(232, 24);
             this.label74.TabIndex = 88;
@@ -9905,9 +9760,10 @@
             // 
             // label75
             // 
+            this.label75.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label75.AutoSize = true;
             this.label75.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label75.Location = new System.Drawing.Point(29, 270);
+            this.label75.Location = new System.Drawing.Point(-146, 58);
             this.label75.Name = "label75";
             this.label75.Size = new System.Drawing.Size(203, 13);
             this.label75.TabIndex = 87;
@@ -9915,9 +9771,10 @@
             // 
             // label76
             // 
+            this.label76.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label76.AutoSize = true;
             this.label76.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label76.Location = new System.Drawing.Point(29, 243);
+            this.label76.Location = new System.Drawing.Point(-146, 31);
             this.label76.Name = "label76";
             this.label76.Size = new System.Drawing.Size(222, 24);
             this.label76.TabIndex = 86;
@@ -9925,9 +9782,10 @@
             // 
             // label77
             // 
+            this.label77.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label77.AutoSize = true;
             this.label77.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label77.Location = new System.Drawing.Point(29, 209);
+            this.label77.Location = new System.Drawing.Point(-146, -3);
             this.label77.Name = "label77";
             this.label77.Size = new System.Drawing.Size(34, 13);
             this.label77.TabIndex = 85;
@@ -9935,9 +9793,10 @@
             // 
             // label78
             // 
+            this.label78.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label78.AutoSize = true;
             this.label78.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label78.Location = new System.Drawing.Point(29, 182);
+            this.label78.Location = new System.Drawing.Point(-146, -30);
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(270, 24);
             this.label78.TabIndex = 84;
@@ -9945,9 +9804,10 @@
             // 
             // label79
             // 
+            this.label79.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label79.AutoSize = true;
             this.label79.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label79.Location = new System.Drawing.Point(29, 149);
+            this.label79.Location = new System.Drawing.Point(-146, -63);
             this.label79.Name = "label79";
             this.label79.Size = new System.Drawing.Size(32, 13);
             this.label79.TabIndex = 83;
@@ -9955,9 +9815,10 @@
             // 
             // label80
             // 
+            this.label80.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label80.AutoSize = true;
             this.label80.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label80.Location = new System.Drawing.Point(29, 122);
+            this.label80.Location = new System.Drawing.Point(-146, -90);
             this.label80.Name = "label80";
             this.label80.Size = new System.Drawing.Size(268, 24);
             this.label80.TabIndex = 82;
@@ -9965,9 +9826,10 @@
             // 
             // label81
             // 
+            this.label81.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label81.AutoSize = true;
             this.label81.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label81.Location = new System.Drawing.Point(29, 93);
+            this.label81.Location = new System.Drawing.Point(-146, -119);
             this.label81.Name = "label81";
             this.label81.Size = new System.Drawing.Size(146, 13);
             this.label81.TabIndex = 81;
@@ -9975,9 +9837,10 @@
             // 
             // label82
             // 
+            this.label82.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label82.AutoSize = true;
             this.label82.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label82.Location = new System.Drawing.Point(29, 66);
+            this.label82.Location = new System.Drawing.Point(-146, -146);
             this.label82.Name = "label82";
             this.label82.Size = new System.Drawing.Size(262, 24);
             this.label82.TabIndex = 80;
@@ -9985,9 +9848,10 @@
             // 
             // label83
             // 
+            this.label83.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label83.AutoSize = true;
             this.label83.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label83.Location = new System.Drawing.Point(29, 41);
+            this.label83.Location = new System.Drawing.Point(-146, -171);
             this.label83.Name = "label83";
             this.label83.Size = new System.Drawing.Size(117, 13);
             this.label83.TabIndex = 79;
@@ -9995,9 +9859,10 @@
             // 
             // label84
             // 
+            this.label84.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label84.AutoSize = true;
             this.label84.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label84.Location = new System.Drawing.Point(29, 14);
+            this.label84.Location = new System.Drawing.Point(-146, -198);
             this.label84.Name = "label84";
             this.label84.Size = new System.Drawing.Size(205, 24);
             this.label84.TabIndex = 78;
@@ -10005,10 +9870,11 @@
             // 
             // button22
             // 
+            this.button22.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button22.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button22.Location = new System.Drawing.Point(12, 474);
+            this.button22.Location = new System.Drawing.Point(-426, 337);
             this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(147, 38);
+            this.button22.Size = new System.Drawing.Size(198, 67);
             this.button22.TabIndex = 77;
             this.button22.Text = "Back";
             this.button22.UseVisualStyleBackColor = true;
@@ -10016,10 +9882,11 @@
             // 
             // button23
             // 
+            this.button23.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button23.Location = new System.Drawing.Point(351, 474);
+            this.button23.Location = new System.Drawing.Point(7, 339);
             this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(147, 38);
+            this.button23.Size = new System.Drawing.Size(198, 67);
             this.button23.TabIndex = 76;
             this.button23.Text = "Next Page";
             this.button23.UseVisualStyleBackColor = true;
@@ -10027,8 +9894,9 @@
             // 
             // button24
             // 
+            this.button24.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button24.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button24.Location = new System.Drawing.Point(351, 414);
+            this.button24.Location = new System.Drawing.Point(254, 144);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(147, 38);
             this.button24.TabIndex = 75;
@@ -10038,8 +9906,9 @@
             // 
             // button25
             // 
+            this.button25.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button25.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button25.Location = new System.Drawing.Point(351, 361);
+            this.button25.Location = new System.Drawing.Point(254, 91);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(147, 38);
             this.button25.TabIndex = 74;
@@ -10049,8 +9918,9 @@
             // 
             // button26
             // 
+            this.button26.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button26.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button26.Location = new System.Drawing.Point(351, 306);
+            this.button26.Location = new System.Drawing.Point(254, 36);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(147, 38);
             this.button26.TabIndex = 73;
@@ -10060,8 +9930,9 @@
             // 
             // button27
             // 
+            this.button27.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button27.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button27.Location = new System.Drawing.Point(351, 249);
+            this.button27.Location = new System.Drawing.Point(254, -21);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(147, 38);
             this.button27.TabIndex = 72;
@@ -10071,8 +9942,9 @@
             // 
             // button28
             // 
+            this.button28.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button28.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button28.Location = new System.Drawing.Point(351, 185);
+            this.button28.Location = new System.Drawing.Point(254, -85);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(147, 38);
             this.button28.TabIndex = 71;
@@ -10082,8 +9954,9 @@
             // 
             // button29
             // 
+            this.button29.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button29.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button29.Location = new System.Drawing.Point(351, 120);
+            this.button29.Location = new System.Drawing.Point(254, -150);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(147, 38);
             this.button29.TabIndex = 70;
@@ -10093,8 +9966,9 @@
             // 
             // button30
             // 
+            this.button30.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button30.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button30.Location = new System.Drawing.Point(351, 66);
+            this.button30.Location = new System.Drawing.Point(254, -204);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(147, 38);
             this.button30.TabIndex = 69;
@@ -10104,8 +9978,9 @@
             // 
             // button31
             // 
+            this.button31.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button31.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button31.Location = new System.Drawing.Point(351, 16);
+            this.button31.Location = new System.Drawing.Point(254, -254);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(147, 38);
             this.button31.TabIndex = 68;
@@ -10115,9 +9990,10 @@
             // 
             // label53
             // 
+            this.label53.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label53.AutoSize = true;
             this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(29, 439);
+            this.label53.Location = new System.Drawing.Point(-185, 178);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(94, 13);
             this.label53.TabIndex = 67;
@@ -10125,9 +10001,10 @@
             // 
             // label54
             // 
+            this.label54.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(29, 412);
+            this.label54.Location = new System.Drawing.Point(-185, 151);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(150, 24);
             this.label54.TabIndex = 66;
@@ -10135,9 +10012,10 @@
             // 
             // label55
             // 
+            this.label55.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label55.AutoSize = true;
             this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(29, 386);
+            this.label55.Location = new System.Drawing.Point(-185, 125);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(95, 13);
             this.label55.TabIndex = 65;
@@ -10145,9 +10023,10 @@
             // 
             // label56
             // 
+            this.label56.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label56.AutoSize = true;
             this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.Location = new System.Drawing.Point(29, 359);
+            this.label56.Location = new System.Drawing.Point(-185, 98);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(151, 24);
             this.label56.TabIndex = 64;
@@ -10155,9 +10034,10 @@
             // 
             // label57
             // 
+            this.label57.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label57.AutoSize = true;
             this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.Location = new System.Drawing.Point(29, 331);
+            this.label57.Location = new System.Drawing.Point(-185, 70);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(34, 13);
             this.label57.TabIndex = 63;
@@ -10165,9 +10045,10 @@
             // 
             // label58
             // 
+            this.label58.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label58.AutoSize = true;
             this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.Location = new System.Drawing.Point(29, 304);
+            this.label58.Location = new System.Drawing.Point(-185, 43);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(199, 24);
             this.label58.TabIndex = 62;
@@ -10175,9 +10056,10 @@
             // 
             // label59
             // 
+            this.label59.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label59.AutoSize = true;
             this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.Location = new System.Drawing.Point(29, 270);
+            this.label59.Location = new System.Drawing.Point(-185, 9);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(44, 13);
             this.label59.TabIndex = 61;
@@ -10185,9 +10067,10 @@
             // 
             // label60
             // 
+            this.label60.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label60.AutoSize = true;
             this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.Location = new System.Drawing.Point(29, 243);
+            this.label60.Location = new System.Drawing.Point(-185, -18);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(221, 24);
             this.label60.TabIndex = 60;
@@ -10195,9 +10078,10 @@
             // 
             // label61
             // 
+            this.label61.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label61.AutoSize = true;
             this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.Location = new System.Drawing.Point(29, 209);
+            this.label61.Location = new System.Drawing.Point(-185, -52);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(69, 13);
             this.label61.TabIndex = 59;
@@ -10205,9 +10089,10 @@
             // 
             // label62
             // 
+            this.label62.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label62.AutoSize = true;
             this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.Location = new System.Drawing.Point(29, 182);
+            this.label62.Location = new System.Drawing.Point(-185, -79);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(111, 24);
             this.label62.TabIndex = 58;
@@ -10215,9 +10100,10 @@
             // 
             // label63
             // 
+            this.label63.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label63.AutoSize = true;
             this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.Location = new System.Drawing.Point(29, 149);
+            this.label63.Location = new System.Drawing.Point(-185, -112);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(78, 13);
             this.label63.TabIndex = 57;
@@ -10225,9 +10111,10 @@
             // 
             // label64
             // 
+            this.label64.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label64.AutoSize = true;
             this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label64.Location = new System.Drawing.Point(29, 122);
+            this.label64.Location = new System.Drawing.Point(-185, -139);
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(207, 24);
             this.label64.TabIndex = 56;
@@ -10235,9 +10122,10 @@
             // 
             // label65
             // 
+            this.label65.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label65.AutoSize = true;
             this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label65.Location = new System.Drawing.Point(29, 93);
+            this.label65.Location = new System.Drawing.Point(-185, -168);
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(122, 13);
             this.label65.TabIndex = 55;
@@ -10245,9 +10133,10 @@
             // 
             // label66
             // 
+            this.label66.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label66.AutoSize = true;
             this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label66.Location = new System.Drawing.Point(29, 66);
+            this.label66.Location = new System.Drawing.Point(-185, -195);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(207, 24);
             this.label66.TabIndex = 54;
@@ -10255,9 +10144,10 @@
             // 
             // label67
             // 
+            this.label67.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label67.AutoSize = true;
             this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label67.Location = new System.Drawing.Point(29, 41);
+            this.label67.Location = new System.Drawing.Point(-185, -220);
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(47, 13);
             this.label67.TabIndex = 53;
@@ -10265,9 +10155,10 @@
             // 
             // label68
             // 
+            this.label68.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label68.AutoSize = true;
             this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label68.Location = new System.Drawing.Point(29, 14);
+            this.label68.Location = new System.Drawing.Point(-185, -247);
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(223, 24);
             this.label68.TabIndex = 52;
@@ -10275,10 +10166,11 @@
             // 
             // button54
             // 
+            this.button54.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button54.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button54.Location = new System.Drawing.Point(351, 474);
+            this.button54.Location = new System.Drawing.Point(-95, 304);
             this.button54.Name = "button54";
-            this.button54.Size = new System.Drawing.Size(147, 38);
+            this.button54.Size = new System.Drawing.Size(198, 67);
             this.button54.TabIndex = 50;
             this.button54.Text = "Next Page";
             this.button54.UseVisualStyleBackColor = true;
@@ -10286,10 +10178,11 @@
             // 
             // button2
             // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(12, 474);
+            this.button2.Location = new System.Drawing.Point(-509, 304);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(147, 38);
+            this.button2.Size = new System.Drawing.Size(198, 67);
             this.button2.TabIndex = 51;
             this.button2.Text = "Back";
             this.button2.UseVisualStyleBackColor = true;
@@ -10297,8 +10190,9 @@
             // 
             // button53
             // 
+            this.button53.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button53.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button53.Location = new System.Drawing.Point(351, 414);
+            this.button53.Location = new System.Drawing.Point(150, 140);
             this.button53.Name = "button53";
             this.button53.Size = new System.Drawing.Size(147, 38);
             this.button53.TabIndex = 49;
@@ -10306,21 +10200,11 @@
             this.button53.UseVisualStyleBackColor = true;
             this.button53.Click += new System.EventHandler(this.button53_Click);
             // 
-            // button13
-            // 
-            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.Location = new System.Drawing.Point(351, 474);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(147, 38);
-            this.button13.TabIndex = 50;
-            this.button13.Text = "Next Page";
-            this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.button13_Click_1);
-            // 
             // button52
             // 
+            this.button52.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button52.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button52.Location = new System.Drawing.Point(351, 361);
+            this.button52.Location = new System.Drawing.Point(150, 87);
             this.button52.Name = "button52";
             this.button52.Size = new System.Drawing.Size(147, 38);
             this.button52.TabIndex = 48;
@@ -10330,8 +10214,9 @@
             // 
             // button14
             // 
+            this.button14.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.Location = new System.Drawing.Point(351, 414);
+            this.button14.Location = new System.Drawing.Point(150, 140);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(147, 38);
             this.button14.TabIndex = 49;
@@ -10340,8 +10225,9 @@
             // 
             // button48
             // 
+            this.button48.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button48.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button48.Location = new System.Drawing.Point(351, 306);
+            this.button48.Location = new System.Drawing.Point(150, 32);
             this.button48.Name = "button48";
             this.button48.Size = new System.Drawing.Size(147, 38);
             this.button48.TabIndex = 47;
@@ -10351,8 +10237,9 @@
             // 
             // button15
             // 
+            this.button15.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.Location = new System.Drawing.Point(351, 361);
+            this.button15.Location = new System.Drawing.Point(150, 87);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(147, 38);
             this.button15.TabIndex = 48;
@@ -10361,8 +10248,9 @@
             // 
             // button47
             // 
+            this.button47.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button47.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button47.Location = new System.Drawing.Point(351, 249);
+            this.button47.Location = new System.Drawing.Point(150, -25);
             this.button47.Name = "button47";
             this.button47.Size = new System.Drawing.Size(147, 38);
             this.button47.TabIndex = 46;
@@ -10372,8 +10260,9 @@
             // 
             // button16
             // 
+            this.button16.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.Location = new System.Drawing.Point(351, 306);
+            this.button16.Location = new System.Drawing.Point(150, 32);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(147, 38);
             this.button16.TabIndex = 47;
@@ -10382,8 +10271,9 @@
             // 
             // button46
             // 
+            this.button46.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button46.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button46.Location = new System.Drawing.Point(351, 185);
+            this.button46.Location = new System.Drawing.Point(150, -89);
             this.button46.Name = "button46";
             this.button46.Size = new System.Drawing.Size(147, 38);
             this.button46.TabIndex = 45;
@@ -10393,8 +10283,9 @@
             // 
             // button17
             // 
+            this.button17.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button17.Location = new System.Drawing.Point(351, 249);
+            this.button17.Location = new System.Drawing.Point(150, -25);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(147, 38);
             this.button17.TabIndex = 46;
@@ -10403,8 +10294,9 @@
             // 
             // button45
             // 
+            this.button45.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button45.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button45.Location = new System.Drawing.Point(351, 120);
+            this.button45.Location = new System.Drawing.Point(150, -154);
             this.button45.Name = "button45";
             this.button45.Size = new System.Drawing.Size(147, 38);
             this.button45.TabIndex = 44;
@@ -10414,8 +10306,9 @@
             // 
             // button18
             // 
+            this.button18.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.Location = new System.Drawing.Point(351, 185);
+            this.button18.Location = new System.Drawing.Point(150, -89);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(147, 38);
             this.button18.TabIndex = 45;
@@ -10424,8 +10317,9 @@
             // 
             // button44
             // 
+            this.button44.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button44.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button44.Location = new System.Drawing.Point(351, 66);
+            this.button44.Location = new System.Drawing.Point(150, -208);
             this.button44.Name = "button44";
             this.button44.Size = new System.Drawing.Size(147, 38);
             this.button44.TabIndex = 43;
@@ -10435,8 +10329,9 @@
             // 
             // button19
             // 
+            this.button19.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button19.Location = new System.Drawing.Point(351, 120);
+            this.button19.Location = new System.Drawing.Point(150, -154);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(147, 38);
             this.button19.TabIndex = 44;
@@ -10445,8 +10340,9 @@
             // 
             // button43
             // 
+            this.button43.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button43.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button43.Location = new System.Drawing.Point(351, 16);
+            this.button43.Location = new System.Drawing.Point(150, -258);
             this.button43.Name = "button43";
             this.button43.Size = new System.Drawing.Size(147, 38);
             this.button43.TabIndex = 42;
@@ -10456,8 +10352,9 @@
             // 
             // button20
             // 
+            this.button20.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button20.Location = new System.Drawing.Point(351, 66);
+            this.button20.Location = new System.Drawing.Point(150, -208);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(147, 38);
             this.button20.TabIndex = 43;
@@ -10466,9 +10363,10 @@
             // 
             // label106
             // 
+            this.label106.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label106.AutoSize = true;
             this.label106.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label106.Location = new System.Drawing.Point(29, 439);
+            this.label106.Location = new System.Drawing.Point(-189, 174);
             this.label106.Name = "label106";
             this.label106.Size = new System.Drawing.Size(41, 13);
             this.label106.TabIndex = 41;
@@ -10476,8 +10374,9 @@
             // 
             // button21
             // 
+            this.button21.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button21.Location = new System.Drawing.Point(351, 16);
+            this.button21.Location = new System.Drawing.Point(150, -258);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(147, 38);
             this.button21.TabIndex = 42;
@@ -10486,320 +10385,175 @@
             // 
             // label105
             // 
+            this.label105.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label105.AutoSize = true;
             this.label105.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label105.Location = new System.Drawing.Point(29, 412);
+            this.label105.Location = new System.Drawing.Point(-189, 147);
             this.label105.Name = "label105";
             this.label105.Size = new System.Drawing.Size(212, 24);
             this.label105.TabIndex = 40;
             this.label105.Text = "Chicken Nuggets (x6)";
             // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(29, 439);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(41, 13);
-            this.label37.TabIndex = 41;
-            this.label37.Text = "6 Pack";
-            // 
             // label104
             // 
+            this.label104.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label104.AutoSize = true;
             this.label104.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label104.Location = new System.Drawing.Point(29, 386);
+            this.label104.Location = new System.Drawing.Point(-189, 121);
             this.label104.Name = "label104";
             this.label104.Size = new System.Drawing.Size(85, 13);
             this.label104.TabIndex = 39;
             this.label104.Text = "Chips and Gravy";
             // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(29, 412);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(212, 24);
-            this.label38.TabIndex = 40;
-            this.label38.Text = "Chicken Nuggets (x6)";
-            // 
             // label103
             // 
+            this.label103.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label103.AutoSize = true;
             this.label103.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label103.Location = new System.Drawing.Point(29, 359);
+            this.label103.Location = new System.Drawing.Point(-189, 94);
             this.label103.Name = "label103";
             this.label103.Size = new System.Drawing.Size(163, 24);
             this.label103.TabIndex = 38;
             this.label103.Text = "Chips and Gravy";
             // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(29, 386);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(85, 13);
-            this.label39.TabIndex = 39;
-            this.label39.Text = "Chips and Gravy";
-            // 
             // label102
             // 
+            this.label102.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label102.AutoSize = true;
             this.label102.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label102.Location = new System.Drawing.Point(29, 331);
+            this.label102.Location = new System.Drawing.Point(-189, 66);
             this.label102.Name = "label102";
             this.label102.Size = new System.Drawing.Size(96, 13);
             this.label102.TabIndex = 37;
             this.label102.Text = "With tomato sauce";
             // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.Location = new System.Drawing.Point(29, 359);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(163, 24);
-            this.label40.TabIndex = 38;
-            this.label40.Text = "Chips and Gravy";
-            // 
             // label101
             // 
+            this.label101.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label101.AutoSize = true;
             this.label101.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label101.Location = new System.Drawing.Point(29, 304);
+            this.label101.Location = new System.Drawing.Point(-189, 39);
             this.label101.Name = "label101";
             this.label101.Size = new System.Drawing.Size(189, 24);
             this.label101.TabIndex = 36;
             this.label101.Text = "Diamond Cut Chips";
             // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.Location = new System.Drawing.Point(29, 331);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(96, 13);
-            this.label41.TabIndex = 37;
-            this.label41.Text = "With tomato sauce";
-            // 
             // label94
             // 
+            this.label94.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label94.AutoSize = true;
             this.label94.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label94.Location = new System.Drawing.Point(29, 270);
+            this.label94.Location = new System.Drawing.Point(-189, 5);
             this.label94.Name = "label94";
             this.label94.Size = new System.Drawing.Size(94, 13);
             this.label94.TabIndex = 35;
             this.label94.Text = "With tartare sauce";
             // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(29, 304);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(189, 24);
-            this.label42.TabIndex = 36;
-            this.label42.Text = "Diamond Cut Chips";
-            // 
             // label93
             // 
+            this.label93.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label93.AutoSize = true;
             this.label93.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label93.Location = new System.Drawing.Point(29, 243);
+            this.label93.Location = new System.Drawing.Point(-189, -22);
             this.label93.Name = "label93";
             this.label93.Size = new System.Drawing.Size(256, 24);
             this.label93.TabIndex = 34;
             this.label93.Text = "Salt and Pepper Fish Bites";
             // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(29, 270);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(94, 13);
-            this.label43.TabIndex = 35;
-            this.label43.Text = "With tartare sauce";
-            // 
             // label92
             // 
+            this.label92.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label92.AutoSize = true;
             this.label92.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label92.Location = new System.Drawing.Point(29, 209);
+            this.label92.Location = new System.Drawing.Point(-189, -56);
             this.label92.Name = "label92";
             this.label92.Size = new System.Drawing.Size(103, 13);
             this.label92.TabIndex = 33;
             this.label92.Text = "Cheesy Garlic Bread";
             // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(29, 243);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(256, 24);
-            this.label44.TabIndex = 34;
-            this.label44.Text = "Salt and Pepper Fish Bites";
-            // 
             // label91
             // 
+            this.label91.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label91.AutoSize = true;
             this.label91.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label91.Location = new System.Drawing.Point(29, 182);
+            this.label91.Location = new System.Drawing.Point(-189, -83);
             this.label91.Name = "label91";
             this.label91.Size = new System.Drawing.Size(201, 24);
             this.label91.TabIndex = 32;
             this.label91.Text = "Cheesy Garlic Bread";
             // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.Location = new System.Drawing.Point(29, 209);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(103, 13);
-            this.label45.TabIndex = 33;
-            this.label45.Text = "Cheesy Garlic Bread";
-            // 
             // label90
             // 
+            this.label90.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label90.AutoSize = true;
             this.label90.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label90.Location = new System.Drawing.Point(29, 149);
+            this.label90.Location = new System.Drawing.Point(-189, -116);
             this.label90.Name = "label90";
             this.label90.Size = new System.Drawing.Size(65, 13);
             this.label90.TabIndex = 31;
             this.label90.Text = "Garlic Bread";
             // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(29, 182);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(201, 24);
-            this.label46.TabIndex = 32;
-            this.label46.Text = "Cheesy Garlic Bread";
-            // 
             // label89
             // 
+            this.label89.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label89.AutoSize = true;
             this.label89.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label89.Location = new System.Drawing.Point(29, 122);
+            this.label89.Location = new System.Drawing.Point(-189, -143);
             this.label89.Name = "label89";
             this.label89.Size = new System.Drawing.Size(125, 24);
             this.label89.TabIndex = 30;
             this.label89.Text = "Garlic Bread";
             // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(29, 149);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(65, 13);
-            this.label47.TabIndex = 31;
-            this.label47.Text = "Garlic Bread";
-            // 
             // label88
             // 
+            this.label88.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label88.AutoSize = true;
             this.label88.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label88.Location = new System.Drawing.Point(29, 93);
+            this.label88.Location = new System.Drawing.Point(-189, -172);
             this.label88.Name = "label88";
             this.label88.Size = new System.Drawing.Size(64, 13);
             this.label88.TabIndex = 29;
             this.label88.Text = "Potato Bites";
             // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(29, 122);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(125, 24);
-            this.label48.TabIndex = 30;
-            this.label48.Text = "Garlic Bread";
-            // 
             // label87
             // 
+            this.label87.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label87.AutoSize = true;
             this.label87.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label87.Location = new System.Drawing.Point(29, 66);
+            this.label87.Location = new System.Drawing.Point(-189, -199);
             this.label87.Name = "label87";
             this.label87.Size = new System.Drawing.Size(119, 24);
             this.label87.TabIndex = 28;
             this.label87.Text = "Potato Bites";
             // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(29, 93);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(64, 13);
-            this.label49.TabIndex = 29;
-            this.label49.Text = "Potato Bites";
-            // 
             // label86
             // 
+            this.label86.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label86.AutoSize = true;
             this.label86.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label86.Location = new System.Drawing.Point(29, 41);
+            this.label86.Location = new System.Drawing.Point(-189, -224);
             this.label86.Name = "label86";
             this.label86.Size = new System.Drawing.Size(61, 13);
             this.label86.TabIndex = 27;
             this.label86.Text = "Herb Bread";
             // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(29, 66);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(119, 24);
-            this.label50.TabIndex = 28;
-            this.label50.Text = "Potato Bites";
-            // 
             // label85
             // 
+            this.label85.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label85.AutoSize = true;
             this.label85.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label85.Location = new System.Drawing.Point(29, 14);
+            this.label85.Location = new System.Drawing.Point(-189, -251);
             this.label85.Name = "label85";
             this.label85.Size = new System.Drawing.Size(117, 24);
             this.label85.TabIndex = 26;
             this.label85.Text = "Herb Bread";
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.Location = new System.Drawing.Point(29, 41);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(61, 13);
-            this.label51.TabIndex = 27;
-            this.label51.Text = "Herb Bread";
-            // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(29, 14);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(117, 24);
-            this.label52.TabIndex = 26;
-            this.label52.Text = "Herb Bread";
             // 
             // pnl2BeveragesBtn
             // 
             this.pnl2BeveragesBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2BeveragesBtn.BackColor = System.Drawing.Color.HotPink;
             this.pnl2BeveragesBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2BeveragesBtn.Location = new System.Drawing.Point(289, 415);
+            this.pnl2BeveragesBtn.Location = new System.Drawing.Point(-149, 191);
             this.pnl2BeveragesBtn.Name = "pnl2BeveragesBtn";
             this.pnl2BeveragesBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2BeveragesBtn.TabIndex = 17;
@@ -10812,7 +10566,7 @@
             this.pnl2DesertsBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2DesertsBtn.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.pnl2DesertsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2DesertsBtn.Location = new System.Drawing.Point(791, 415);
+            this.pnl2DesertsBtn.Location = new System.Drawing.Point(353, 191);
             this.pnl2DesertsBtn.Name = "pnl2DesertsBtn";
             this.pnl2DesertsBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2DesertsBtn.TabIndex = 16;
@@ -10825,7 +10579,7 @@
             this.pnl2SaladsBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2SaladsBtn.BackColor = System.Drawing.Color.DarkKhaki;
             this.pnl2SaladsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2SaladsBtn.Location = new System.Drawing.Point(542, 415);
+            this.pnl2SaladsBtn.Location = new System.Drawing.Point(104, 191);
             this.pnl2SaladsBtn.Name = "pnl2SaladsBtn";
             this.pnl2SaladsBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2SaladsBtn.TabIndex = 15;
@@ -10838,7 +10592,7 @@
             this.pnl2KebabWrapBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2KebabWrapBtn.BackColor = System.Drawing.Color.Khaki;
             this.pnl2KebabWrapBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2KebabWrapBtn.Location = new System.Drawing.Point(791, 299);
+            this.pnl2KebabWrapBtn.Location = new System.Drawing.Point(353, 75);
             this.pnl2KebabWrapBtn.Name = "pnl2KebabWrapBtn";
             this.pnl2KebabWrapBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2KebabWrapBtn.TabIndex = 14;
@@ -10851,7 +10605,7 @@
             this.pnl2RisottoBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2RisottoBtn.BackColor = System.Drawing.Color.Gold;
             this.pnl2RisottoBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2RisottoBtn.Location = new System.Drawing.Point(791, 183);
+            this.pnl2RisottoBtn.Location = new System.Drawing.Point(353, -41);
             this.pnl2RisottoBtn.Name = "pnl2RisottoBtn";
             this.pnl2RisottoBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2RisottoBtn.TabIndex = 13;
@@ -10864,7 +10618,7 @@
             this.pnl2RibsWingsBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2RibsWingsBtn.BackColor = System.Drawing.Color.Yellow;
             this.pnl2RibsWingsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2RibsWingsBtn.Location = new System.Drawing.Point(791, 67);
+            this.pnl2RibsWingsBtn.Location = new System.Drawing.Point(353, -157);
             this.pnl2RibsWingsBtn.Name = "pnl2RibsWingsBtn";
             this.pnl2RibsWingsBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2RibsWingsBtn.TabIndex = 12;
@@ -10877,7 +10631,7 @@
             this.pnl2PastaBakeBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2PastaBakeBtn.BackColor = System.Drawing.Color.Orchid;
             this.pnl2PastaBakeBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2PastaBakeBtn.Location = new System.Drawing.Point(289, 299);
+            this.pnl2PastaBakeBtn.Location = new System.Drawing.Point(-149, 75);
             this.pnl2PastaBakeBtn.Name = "pnl2PastaBakeBtn";
             this.pnl2PastaBakeBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2PastaBakeBtn.TabIndex = 11;
@@ -10890,7 +10644,7 @@
             this.pnl2PastaBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2PastaBtn.BackColor = System.Drawing.Color.MediumVioletRed;
             this.pnl2PastaBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2PastaBtn.Location = new System.Drawing.Point(537, 299);
+            this.pnl2PastaBtn.Location = new System.Drawing.Point(99, 75);
             this.pnl2PastaBtn.Name = "pnl2PastaBtn";
             this.pnl2PastaBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2PastaBtn.TabIndex = 10;
@@ -10903,7 +10657,7 @@
             this.pnl2TheABBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2TheABBtn.BackColor = System.Drawing.Color.DeepPink;
             this.pnl2TheABBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2TheABBtn.Location = new System.Drawing.Point(537, 184);
+            this.pnl2TheABBtn.Location = new System.Drawing.Point(99, -40);
             this.pnl2TheABBtn.Name = "pnl2TheABBtn";
             this.pnl2TheABBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2TheABBtn.TabIndex = 9;
@@ -10916,7 +10670,7 @@
             this.pnl2SeafoodBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2SeafoodBtn.BackColor = System.Drawing.Color.Red;
             this.pnl2SeafoodBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2SeafoodBtn.Location = new System.Drawing.Point(537, 67);
+            this.pnl2SeafoodBtn.Location = new System.Drawing.Point(99, -157);
             this.pnl2SeafoodBtn.Name = "pnl2SeafoodBtn";
             this.pnl2SeafoodBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2SeafoodBtn.TabIndex = 8;
@@ -10929,7 +10683,7 @@
             this.pnl2GourmetBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2GourmetBtn.BackColor = System.Drawing.Color.Crimson;
             this.pnl2GourmetBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2GourmetBtn.Location = new System.Drawing.Point(284, 184);
+            this.pnl2GourmetBtn.Location = new System.Drawing.Point(-154, -40);
             this.pnl2GourmetBtn.Name = "pnl2GourmetBtn";
             this.pnl2GourmetBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2GourmetBtn.TabIndex = 7;
@@ -10942,7 +10696,7 @@
             this.pnl2TraditionalBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2TraditionalBtn.BackColor = System.Drawing.Color.YellowGreen;
             this.pnl2TraditionalBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2TraditionalBtn.Location = new System.Drawing.Point(33, 183);
+            this.pnl2TraditionalBtn.Location = new System.Drawing.Point(-405, -41);
             this.pnl2TraditionalBtn.Name = "pnl2TraditionalBtn";
             this.pnl2TraditionalBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2TraditionalBtn.TabIndex = 6;
@@ -10955,7 +10709,7 @@
             this.pnl2MainsBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2MainsBtn.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.pnl2MainsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2MainsBtn.Location = new System.Drawing.Point(289, 67);
+            this.pnl2MainsBtn.Location = new System.Drawing.Point(-149, -157);
             this.pnl2MainsBtn.Name = "pnl2MainsBtn";
             this.pnl2MainsBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2MainsBtn.TabIndex = 5;
@@ -10968,7 +10722,7 @@
             this.pnl2StartersBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2StartersBtn.BackColor = System.Drawing.Color.GreenYellow;
             this.pnl2StartersBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2StartersBtn.Location = new System.Drawing.Point(33, 299);
+            this.pnl2StartersBtn.Location = new System.Drawing.Point(-405, 75);
             this.pnl2StartersBtn.Name = "pnl2StartersBtn";
             this.pnl2StartersBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2StartersBtn.TabIndex = 4;
@@ -10976,25 +10730,12 @@
             this.pnl2StartersBtn.UseVisualStyleBackColor = false;
             this.pnl2StartersBtn.Click += new System.EventHandler(this.pnl2StartersBtn_Click);
             // 
-            // pnl2HalfBtn
-            // 
-            this.pnl2HalfBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pnl2HalfBtn.BackColor = System.Drawing.Color.PaleGreen;
-            this.pnl2HalfBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2HalfBtn.Location = new System.Drawing.Point(33, 415);
-            this.pnl2HalfBtn.Name = "pnl2HalfBtn";
-            this.pnl2HalfBtn.Size = new System.Drawing.Size(242, 104);
-            this.pnl2HalfBtn.TabIndex = 3;
-            this.pnl2HalfBtn.Text = "Half \'n\' Half";
-            this.pnl2HalfBtn.UseVisualStyleBackColor = false;
-            this.pnl2HalfBtn.Click += new System.EventHandler(this.pnl2HalfBtn_Click);
-            // 
             // pnl2MealDealsBtn
             // 
             this.pnl2MealDealsBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2MealDealsBtn.BackColor = System.Drawing.Color.SeaGreen;
             this.pnl2MealDealsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2MealDealsBtn.Location = new System.Drawing.Point(33, 67);
+            this.pnl2MealDealsBtn.Location = new System.Drawing.Point(-405, -157);
             this.pnl2MealDealsBtn.Name = "pnl2MealDealsBtn";
             this.pnl2MealDealsBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2MealDealsBtn.TabIndex = 2;
@@ -11006,7 +10747,7 @@
             // 
             this.pnl2NextBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2NextBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2NextBtn.Location = new System.Drawing.Point(809, 570);
+            this.pnl2NextBtn.Location = new System.Drawing.Point(370, 365);
             this.pnl2NextBtn.Name = "pnl2NextBtn";
             this.pnl2NextBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2NextBtn.TabIndex = 1;
@@ -11018,7 +10759,7 @@
             // 
             this.pnl2BackBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2BackBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2BackBtn.Location = new System.Drawing.Point(12, 569);
+            this.pnl2BackBtn.Location = new System.Drawing.Point(-428, 365);
             this.pnl2BackBtn.Name = "pnl2BackBtn";
             this.pnl2BackBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2BackBtn.TabIndex = 0;
@@ -11026,11 +10767,722 @@
             this.pnl2BackBtn.UseVisualStyleBackColor = true;
             this.pnl2BackBtn.Click += new System.EventHandler(this.pnl2BackBtn_Click);
             // 
+            // pnl2HalfBtn
+            // 
+            this.pnl2HalfBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pnl2HalfBtn.BackColor = System.Drawing.Color.PaleGreen;
+            this.pnl2HalfBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnl2HalfBtn.Location = new System.Drawing.Point(-405, 191);
+            this.pnl2HalfBtn.Name = "pnl2HalfBtn";
+            this.pnl2HalfBtn.Size = new System.Drawing.Size(242, 104);
+            this.pnl2HalfBtn.TabIndex = 3;
+            this.pnl2HalfBtn.Text = "Half \'n\' Half";
+            this.pnl2HalfBtn.UseVisualStyleBackColor = false;
+            this.pnl2HalfBtn.Click += new System.EventHandler(this.pnl2HalfBtn_Click);
+            // 
+            // finishBevPanel
+            // 
+            this.finishBevPanel.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.finishBevPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.finishBevPanel.Location = new System.Drawing.Point(294, 267);
+            this.finishBevPanel.Name = "finishBevPanel";
+            this.finishBevPanel.Size = new System.Drawing.Size(242, 104);
+            this.finishBevPanel.TabIndex = 26;
+            this.finishBevPanel.Text = "Finish";
+            this.finishBevPanel.UseVisualStyleBackColor = true;
+            this.finishBevPanel.Click += new System.EventHandler(this.finishBevPanel_Click);
+            // 
+            // button472
+            // 
+            this.button472.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button472.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button472.Location = new System.Drawing.Point(375, 301);
+            this.button472.Name = "button472";
+            this.button472.Size = new System.Drawing.Size(187, 85);
+            this.button472.TabIndex = 110;
+            this.button472.Text = "Finish";
+            this.button472.UseVisualStyleBackColor = true;
+            this.button472.Click += new System.EventHandler(this.button472_Click);
+            // 
+            // button473
+            // 
+            this.button473.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button473.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button473.Location = new System.Drawing.Point(349, 282);
+            this.button473.Name = "button473";
+            this.button473.Size = new System.Drawing.Size(187, 85);
+            this.button473.TabIndex = 52;
+            this.button473.Text = "Finish";
+            this.button473.UseVisualStyleBackColor = true;
+            this.button473.Click += new System.EventHandler(this.button473_Click);
+            // 
+            // button475
+            // 
+            this.button475.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button475.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button475.Location = new System.Drawing.Point(367, 291);
+            this.button475.Name = "button475";
+            this.button475.Size = new System.Drawing.Size(178, 75);
+            this.button475.TabIndex = 80;
+            this.button475.Text = "Finish";
+            this.button475.UseVisualStyleBackColor = true;
+            this.button475.Click += new System.EventHandler(this.button475_Click);
+            // 
+            // label264
+            // 
+            this.label264.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label264.AutoSize = true;
+            this.label264.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label264.Location = new System.Drawing.Point(-172, -207);
+            this.label264.Name = "label264";
+            this.label264.Size = new System.Drawing.Size(156, 24);
+            this.label264.TabIndex = 52;
+            this.label264.Text = "Seafood Risotto";
+            // 
+            // label262
+            // 
+            this.label262.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label262.AutoSize = true;
+            this.label262.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label262.Location = new System.Drawing.Point(-201, -89);
+            this.label262.Name = "label262";
+            this.label262.Size = new System.Drawing.Size(301, 24);
+            this.label262.TabIndex = 54;
+            this.label262.Text = "Mushroom and Spinach Risotto";
+            // 
+            // label260
+            // 
+            this.label260.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label260.AutoSize = true;
+            this.label260.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label260.Location = new System.Drawing.Point(-172, 39);
+            this.label260.Name = "label260";
+            this.label260.Size = new System.Drawing.Size(284, 24);
+            this.label260.TabIndex = 56;
+            this.label260.Text = "Mushroom and Bacon Risotto";
+            // 
+            // label258
+            // 
+            this.label258.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label258.AutoSize = true;
+            this.label258.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label258.Location = new System.Drawing.Point(-157, 173);
+            this.label258.Name = "label258";
+            this.label258.Size = new System.Drawing.Size(155, 24);
+            this.label258.TabIndex = 58;
+            this.label258.Text = "Chicken Risotto";
+            // 
+            // button453
+            // 
+            this.button453.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button453.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button453.Location = new System.Drawing.Point(150, -234);
+            this.button453.Name = "button453";
+            this.button453.Size = new System.Drawing.Size(147, 72);
+            this.button453.TabIndex = 68;
+            this.button453.Text = "Add to Order";
+            this.button453.UseVisualStyleBackColor = true;
+            this.button453.Click += new System.EventHandler(this.button453_Click);
+            // 
+            // button452
+            // 
+            this.button452.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button452.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button452.Location = new System.Drawing.Point(150, -107);
+            this.button452.Name = "button452";
+            this.button452.Size = new System.Drawing.Size(147, 72);
+            this.button452.TabIndex = 69;
+            this.button452.Text = "Add to Order";
+            this.button452.UseVisualStyleBackColor = true;
+            this.button452.Click += new System.EventHandler(this.button452_Click);
+            // 
+            // button450
+            // 
+            this.button450.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button450.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button450.Location = new System.Drawing.Point(150, 149);
+            this.button450.Name = "button450";
+            this.button450.Size = new System.Drawing.Size(147, 72);
+            this.button450.TabIndex = 71;
+            this.button450.Text = "Add to Order";
+            this.button450.UseVisualStyleBackColor = true;
+            this.button450.Click += new System.EventHandler(this.button450_Click);
+            // 
+            // button407
+            // 
+            this.button407.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button407.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button407.Location = new System.Drawing.Point(-498, 297);
+            this.button407.Name = "button407";
+            this.button407.Size = new System.Drawing.Size(147, 80);
+            this.button407.TabIndex = 76;
+            this.button407.Text = "Back";
+            this.button407.UseVisualStyleBackColor = true;
+            this.button407.Click += new System.EventHandler(this.button407_Click);
+            // 
+            // button476
+            // 
+            this.button476.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button476.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button476.Location = new System.Drawing.Point(395, 299);
+            this.button476.Name = "button476";
+            this.button476.Size = new System.Drawing.Size(147, 80);
+            this.button476.TabIndex = 77;
+            this.button476.Text = "Finish";
+            this.button476.UseVisualStyleBackColor = true;
+            this.button476.Click += new System.EventHandler(this.button476_Click);
+            // 
+            // risottoPanel
+            // 
+            this.risottoPanel.Controls.Add(this.button476);
+            this.risottoPanel.Controls.Add(this.button407);
+            this.risottoPanel.Controls.Add(this.button450);
+            this.risottoPanel.Controls.Add(this.button451);
+            this.risottoPanel.Controls.Add(this.button452);
+            this.risottoPanel.Controls.Add(this.button453);
+            this.risottoPanel.Controls.Add(this.label258);
+            this.risottoPanel.Controls.Add(this.label260);
+            this.risottoPanel.Controls.Add(this.label262);
+            this.risottoPanel.Controls.Add(this.label264);
+            this.risottoPanel.Location = new System.Drawing.Point(650, 683);
+            this.risottoPanel.Name = "risottoPanel";
+            this.risottoPanel.Size = new System.Drawing.Size(45, 44);
+            this.risottoPanel.TabIndex = 32;
+            // 
+            // button451
+            // 
+            this.button451.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button451.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button451.Location = new System.Drawing.Point(150, 26);
+            this.button451.Name = "button451";
+            this.button451.Size = new System.Drawing.Size(147, 72);
+            this.button451.TabIndex = 70;
+            this.button451.Text = "Add to Order";
+            this.button451.UseVisualStyleBackColor = true;
+            this.button451.Click += new System.EventHandler(this.button451_Click);
+            // 
+            // button487
+            // 
+            this.button487.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button487.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button487.Location = new System.Drawing.Point(334, 306);
+            this.button487.Name = "button487";
+            this.button487.Size = new System.Drawing.Size(198, 67);
+            this.button487.TabIndex = 53;
+            this.button487.Text = "Finish";
+            this.button487.UseVisualStyleBackColor = true;
+            this.button487.Click += new System.EventHandler(this.button487_Click);
+            // 
+            // button13
+            // 
+            this.button13.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.Location = new System.Drawing.Point(379, 314);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(198, 67);
+            this.button13.TabIndex = 131;
+            this.button13.Text = "Finish";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click_2);
+            // 
+            // button490
+            // 
+            this.button490.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button490.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button490.Location = new System.Drawing.Point(338, 305);
+            this.button490.Name = "button490";
+            this.button490.Size = new System.Drawing.Size(198, 67);
+            this.button490.TabIndex = 77;
+            this.button490.Text = "Finish";
+            this.button490.UseVisualStyleBackColor = true;
+            this.button490.Click += new System.EventHandler(this.button490_Click);
+            // 
+            // button491
+            // 
+            this.button491.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button491.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button491.Location = new System.Drawing.Point(343, 293);
+            this.button491.Name = "button491";
+            this.button491.Size = new System.Drawing.Size(187, 72);
+            this.button491.TabIndex = 93;
+            this.button491.Text = "Finish";
+            this.button491.UseVisualStyleBackColor = true;
+            // 
+            // button496
+            // 
+            this.button496.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button496.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button496.Location = new System.Drawing.Point(313, 298);
+            this.button496.Name = "button496";
+            this.button496.Size = new System.Drawing.Size(222, 72);
+            this.button496.TabIndex = 27;
+            this.button496.Text = "Finish";
+            this.button496.UseVisualStyleBackColor = true;
+            this.button496.Click += new System.EventHandler(this.button496_Click);
+            // 
+            // button497
+            // 
+            this.button497.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button497.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button497.Location = new System.Drawing.Point(335, 302);
+            this.button497.Name = "button497";
+            this.button497.Size = new System.Drawing.Size(202, 70);
+            this.button497.TabIndex = 27;
+            this.button497.Text = "Finish";
+            this.button497.UseVisualStyleBackColor = true;
+            this.button497.Click += new System.EventHandler(this.button497_Click);
+            // 
+            // button498
+            // 
+            this.button498.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button498.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button498.Location = new System.Drawing.Point(352, 307);
+            this.button498.Name = "button498";
+            this.button498.Size = new System.Drawing.Size(185, 67);
+            this.button498.TabIndex = 27;
+            this.button498.Text = "Finish";
+            this.button498.UseVisualStyleBackColor = true;
+            this.button498.Click += new System.EventHandler(this.button498_Click);
+            // 
+            // button499
+            // 
+            this.button499.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button499.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button499.Location = new System.Drawing.Point(365, 308);
+            this.button499.Name = "button499";
+            this.button499.Size = new System.Drawing.Size(185, 67);
+            this.button499.TabIndex = 213;
+            this.button499.Text = "Finish";
+            this.button499.UseVisualStyleBackColor = true;
+            this.button499.Click += new System.EventHandler(this.button499_Click);
+            // 
+            // label198
+            // 
+            this.label198.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label198.AutoSize = true;
+            this.label198.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label198.Location = new System.Drawing.Point(-288, -333);
+            this.label198.Name = "label198";
+            this.label198.Size = new System.Drawing.Size(177, 24);
+            this.label198.TabIndex = 53;
+            this.label198.Text = "Chicken Schnitzel";
+            // 
+            // label197
+            // 
+            this.label197.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label197.AutoSize = true;
+            this.label197.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label197.Location = new System.Drawing.Point(-288, -306);
+            this.label197.Name = "label197";
+            this.label197.Size = new System.Drawing.Size(304, 12);
+            this.label197.TabIndex = 54;
+            this.label197.Text = "Chicken breast freshly crumbed in house and served with chips and salad";
+            // 
+            // label196
+            // 
+            this.label196.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label196.AutoSize = true;
+            this.label196.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label196.Location = new System.Drawing.Point(-288, -254);
+            this.label196.Name = "label196";
+            this.label196.Size = new System.Drawing.Size(143, 24);
+            this.label196.TabIndex = 55;
+            this.label196.Text = "Veal Schnitzel";
+            // 
+            // label195
+            // 
+            this.label195.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label195.AutoSize = true;
+            this.label195.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label195.Location = new System.Drawing.Point(-288, -227);
+            this.label195.Name = "label195";
+            this.label195.Size = new System.Drawing.Size(299, 12);
+            this.label195.TabIndex = 56;
+            this.label195.Text = "Choice cut veal freshly crumbed in house and served with chips or salad";
+            // 
+            // label194
+            // 
+            this.label194.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label194.AutoSize = true;
+            this.label194.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label194.Location = new System.Drawing.Point(-288, -181);
+            this.label194.Name = "label194";
+            this.label194.Size = new System.Drawing.Size(167, 24);
+            this.label194.TabIndex = 57;
+            this.label194.Text = "Pollo Parmigiana";
+            // 
+            // label193
+            // 
+            this.label193.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label193.AutoSize = true;
+            this.label193.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label193.Location = new System.Drawing.Point(-288, -154);
+            this.label193.Name = "label193";
+            this.label193.Size = new System.Drawing.Size(201, 13);
+            this.label193.TabIndex = 58;
+            this.label193.Text = "Chicken breast freshly crumbed in house,";
+            // 
+            // label152
+            // 
+            this.label152.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label152.AutoSize = true;
+            this.label152.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label152.Location = new System.Drawing.Point(-288, -177);
+            this.label152.Name = "label152";
+            this.label152.Size = new System.Drawing.Size(167, 24);
+            this.label152.TabIndex = 57;
+            this.label152.Text = "Pollo Parmigiana";
+            // 
+            // label192
+            // 
+            this.label192.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label192.AutoSize = true;
+            this.label192.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label192.Location = new System.Drawing.Point(-288, -101);
+            this.label192.Name = "label192";
+            this.label192.Size = new System.Drawing.Size(155, 24);
+            this.label192.TabIndex = 59;
+            this.label192.Text = "Veal Pamigiana";
+            // 
+            // label191
+            // 
+            this.label191.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label191.AutoSize = true;
+            this.label191.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label191.Location = new System.Drawing.Point(-288, -74);
+            this.label191.Name = "label191";
+            this.label191.Size = new System.Drawing.Size(324, 13);
+            this.label191.TabIndex = 60;
+            this.label191.Text = "Cut  veal freshly crumbed in house and served with chips and salad";
+            // 
+            // label190
+            // 
+            this.label190.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label190.AutoSize = true;
+            this.label190.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label190.Location = new System.Drawing.Point(-288, -40);
+            this.label190.Name = "label190";
+            this.label190.Size = new System.Drawing.Size(252, 24);
+            this.label190.TabIndex = 61;
+            this.label190.Text = "Mexican Pollo Parmigiana";
+            // 
+            // label189
+            // 
+            this.label189.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label189.AutoSize = true;
+            this.label189.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label189.Location = new System.Drawing.Point(-288, -13);
+            this.label189.Name = "label189";
+            this.label189.Size = new System.Drawing.Size(311, 13);
+            this.label189.TabIndex = 62;
+            this.label189.Text = "Chicken breast freshly crumbed in house topped with napolitana ";
+            // 
+            // label155
+            // 
+            this.label155.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label155.AutoSize = true;
+            this.label155.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label155.Location = new System.Drawing.Point(-288, -36);
+            this.label155.Name = "label155";
+            this.label155.Size = new System.Drawing.Size(252, 24);
+            this.label155.TabIndex = 61;
+            this.label155.Text = "Mexican Pollo Parmigiana";
+            // 
+            // label188
+            // 
+            this.label188.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label188.AutoSize = true;
+            this.label188.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label188.Location = new System.Drawing.Point(-288, 30);
+            this.label188.Name = "label188";
+            this.label188.Size = new System.Drawing.Size(240, 24);
+            this.label188.TabIndex = 63;
+            this.label188.Text = "Sicilian Pollo Parmigiana";
+            // 
+            // label187
+            // 
+            this.label187.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label187.AutoSize = true;
+            this.label187.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label187.Location = new System.Drawing.Point(-288, 57);
+            this.label187.Name = "label187";
+            this.label187.Size = new System.Drawing.Size(96, 13);
+            this.label187.TabIndex = 64;
+            this.label187.Text = "With tomato sauce";
+            // 
+            // label186
+            // 
+            this.label186.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label186.AutoSize = true;
+            this.label186.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label186.Location = new System.Drawing.Point(-287, 94);
+            this.label186.Name = "label186";
+            this.label186.Size = new System.Drawing.Size(253, 24);
+            this.label186.TabIndex = 65;
+            this.label186.Text = "Hawaiian Veal Parmigiana";
+            // 
+            // label185
+            // 
+            this.label185.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label185.AutoSize = true;
+            this.label185.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label185.Location = new System.Drawing.Point(-287, 121);
+            this.label185.Name = "label185";
+            this.label185.Size = new System.Drawing.Size(85, 13);
+            this.label185.TabIndex = 66;
+            this.label185.Text = "Chips and Gravy";
+            // 
+            // label184
+            // 
+            this.label184.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label184.AutoSize = true;
+            this.label184.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label184.Location = new System.Drawing.Point(-288, 163);
+            this.label184.Name = "label184";
+            this.label184.Size = new System.Drawing.Size(247, 24);
+            this.label184.TabIndex = 67;
+            this.label184.Text = "Mexican Veal Parmigiana";
+            // 
+            // button113
+            // 
+            this.button113.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button113.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button113.Location = new System.Drawing.Point(240, -340);
+            this.button113.Name = "button113";
+            this.button113.Size = new System.Drawing.Size(147, 38);
+            this.button113.TabIndex = 69;
+            this.button113.Text = "Add to Order";
+            this.button113.UseVisualStyleBackColor = true;
+            this.button113.Click += new System.EventHandler(this.button113_Click);
+            // 
+            // button112
+            // 
+            this.button112.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button112.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button112.Location = new System.Drawing.Point(240, -263);
+            this.button112.Name = "button112";
+            this.button112.Size = new System.Drawing.Size(147, 38);
+            this.button112.TabIndex = 70;
+            this.button112.Text = "Add to Order";
+            this.button112.UseVisualStyleBackColor = true;
+            this.button112.Click += new System.EventHandler(this.button112_Click);
+            // 
+            // button111
+            // 
+            this.button111.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button111.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button111.Location = new System.Drawing.Point(240, -197);
+            this.button111.Name = "button111";
+            this.button111.Size = new System.Drawing.Size(147, 38);
+            this.button111.TabIndex = 71;
+            this.button111.Text = "Add to Order";
+            this.button111.UseVisualStyleBackColor = true;
+            this.button111.Click += new System.EventHandler(this.button111_Click);
+            // 
+            // button110
+            // 
+            this.button110.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button110.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button110.Location = new System.Drawing.Point(240, -107);
+            this.button110.Name = "button110";
+            this.button110.Size = new System.Drawing.Size(147, 38);
+            this.button110.TabIndex = 72;
+            this.button110.Text = "Add to Order";
+            this.button110.UseVisualStyleBackColor = true;
+            this.button110.Click += new System.EventHandler(this.button110_Click);
+            // 
+            // button109
+            // 
+            this.button109.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button109.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button109.Location = new System.Drawing.Point(240, -43);
+            this.button109.Name = "button109";
+            this.button109.Size = new System.Drawing.Size(147, 38);
+            this.button109.TabIndex = 73;
+            this.button109.Text = "Add to Order";
+            this.button109.UseVisualStyleBackColor = true;
+            this.button109.Click += new System.EventHandler(this.button109_Click);
+            // 
+            // button108
+            // 
+            this.button108.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button108.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button108.Location = new System.Drawing.Point(240, 23);
+            this.button108.Name = "button108";
+            this.button108.Size = new System.Drawing.Size(147, 38);
+            this.button108.TabIndex = 74;
+            this.button108.Text = "Add to Order";
+            this.button108.UseVisualStyleBackColor = true;
+            this.button108.Click += new System.EventHandler(this.button108_Click);
+            // 
+            // button107
+            // 
+            this.button107.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button107.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button107.Location = new System.Drawing.Point(241, 87);
+            this.button107.Name = "button107";
+            this.button107.Size = new System.Drawing.Size(147, 38);
+            this.button107.TabIndex = 75;
+            this.button107.Text = "Add to Order";
+            this.button107.UseVisualStyleBackColor = true;
+            this.button107.Click += new System.EventHandler(this.button107_Click);
+            // 
+            // button106
+            // 
+            this.button106.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button106.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button106.Location = new System.Drawing.Point(240, 156);
+            this.button106.Name = "button106";
+            this.button106.Size = new System.Drawing.Size(147, 38);
+            this.button106.TabIndex = 76;
+            this.button106.Text = "Add to Order";
+            this.button106.UseVisualStyleBackColor = true;
+            this.button106.Click += new System.EventHandler(this.button106_Click);
+            // 
+            // button104
+            // 
+            this.button104.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button104.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button104.Location = new System.Drawing.Point(-488, 311);
+            this.button104.Name = "button104";
+            this.button104.Size = new System.Drawing.Size(166, 69);
+            this.button104.TabIndex = 78;
+            this.button104.Text = "Back";
+            this.button104.UseVisualStyleBackColor = true;
+            this.button104.Click += new System.EventHandler(this.button104_Click);
+            // 
+            // label145
+            // 
+            this.label145.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label145.AutoSize = true;
+            this.label145.Location = new System.Drawing.Point(-287, -141);
+            this.label145.Name = "label145";
+            this.label145.Size = new System.Drawing.Size(396, 13);
+            this.label145.TabIndex = 79;
+            this.label145.Text = "topped with napolitana sauce mozzarella and leg ham, served with chips and salad";
+            this.label145.Click += new System.EventHandler(this.label145_Click);
+            // 
+            // label146
+            // 
+            this.label146.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label146.AutoSize = true;
+            this.label146.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label146.Location = new System.Drawing.Point(-287, 0);
+            this.label146.Name = "label146";
+            this.label146.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label146.Size = new System.Drawing.Size(300, 12);
+            this.label146.TabIndex = 80;
+            this.label146.Text = "mozzarella, jalapeno and roasted capsicum, served with chips and salad";
+            // 
+            // mains2Panel
+            // 
+            this.mains2Panel.Controls.Add(this.button80);
+            this.mains2Panel.Controls.Add(this.button89);
+            this.mains2Panel.Controls.Add(this.label163);
+            this.mains2Panel.Controls.Add(this.label164);
+            this.mains2Panel.Location = new System.Drawing.Point(941, 525);
+            this.mains2Panel.Name = "mains2Panel";
+            this.mains2Panel.Size = new System.Drawing.Size(118, 63);
+            this.mains2Panel.TabIndex = 81;
+            // 
+            // label164
+            // 
+            this.label164.AutoSize = true;
+            this.label164.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label164.Location = new System.Drawing.Point(312, 301);
+            this.label164.Name = "label164";
+            this.label164.Size = new System.Drawing.Size(235, 24);
+            this.label164.TabIndex = 81;
+            this.label164.Text = "Sicilian Veal Parmigiana";
+            // 
+            // label163
+            // 
+            this.label163.AutoSize = true;
+            this.label163.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label163.Location = new System.Drawing.Point(312, 328);
+            this.label163.Name = "label163";
+            this.label163.Size = new System.Drawing.Size(304, 12);
+            this.label163.TabIndex = 82;
+            this.label163.Text = "Chicken breast freshly crumbed in house and served with chips and salad";
+            // 
+            // button89
+            // 
+            this.button89.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button89.Location = new System.Drawing.Point(634, 303);
+            this.button89.Name = "button89";
+            this.button89.Size = new System.Drawing.Size(147, 38);
+            this.button89.TabIndex = 97;
+            this.button89.Text = "Add to Order";
+            this.button89.UseVisualStyleBackColor = true;
+            this.button89.Click += new System.EventHandler(this.button89_Click);
+            // 
+            // button80
+            // 
+            this.button80.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button80.Location = new System.Drawing.Point(12, 653);
+            this.button80.Name = "button80";
+            this.button80.Size = new System.Drawing.Size(166, 69);
+            this.button80.TabIndex = 106;
+            this.button80.Text = "Back";
+            this.button80.UseVisualStyleBackColor = true;
+            this.button80.Click += new System.EventHandler(this.button80_Click);
+            // 
+            // button500
+            // 
+            this.button500.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button500.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button500.Location = new System.Drawing.Point(391, 310);
+            this.button500.Name = "button500";
+            this.button500.Size = new System.Drawing.Size(166, 69);
+            this.button500.TabIndex = 82;
+            this.button500.Text = "Finish";
+            this.button500.UseVisualStyleBackColor = true;
+            this.button500.Click += new System.EventHandler(this.button500_Click);
+            // 
+            // mainsPanel
+            // 
+            this.mainsPanel.Controls.Add(this.button500);
+            this.mainsPanel.Controls.Add(this.mains2Panel);
+            this.mainsPanel.Controls.Add(this.label146);
+            this.mainsPanel.Controls.Add(this.label145);
+            this.mainsPanel.Controls.Add(this.button104);
+            this.mainsPanel.Controls.Add(this.button105);
+            this.mainsPanel.Controls.Add(this.button106);
+            this.mainsPanel.Controls.Add(this.button107);
+            this.mainsPanel.Controls.Add(this.button108);
+            this.mainsPanel.Controls.Add(this.button109);
+            this.mainsPanel.Controls.Add(this.button110);
+            this.mainsPanel.Controls.Add(this.button111);
+            this.mainsPanel.Controls.Add(this.button112);
+            this.mainsPanel.Controls.Add(this.button113);
+            this.mainsPanel.Controls.Add(this.traditionalPanel);
+            this.mainsPanel.Controls.Add(this.label184);
+            this.mainsPanel.Controls.Add(this.label185);
+            this.mainsPanel.Controls.Add(this.label186);
+            this.mainsPanel.Controls.Add(this.label187);
+            this.mainsPanel.Controls.Add(this.label188);
+            this.mainsPanel.Controls.Add(this.label155);
+            this.mainsPanel.Controls.Add(this.label189);
+            this.mainsPanel.Controls.Add(this.label190);
+            this.mainsPanel.Controls.Add(this.label191);
+            this.mainsPanel.Controls.Add(this.label192);
+            this.mainsPanel.Controls.Add(this.label152);
+            this.mainsPanel.Controls.Add(this.label193);
+            this.mainsPanel.Controls.Add(this.label194);
+            this.mainsPanel.Controls.Add(this.label195);
+            this.mainsPanel.Controls.Add(this.label196);
+            this.mainsPanel.Controls.Add(this.label197);
+            this.mainsPanel.Controls.Add(this.label198);
+            this.mainsPanel.Location = new System.Drawing.Point(554, 677);
+            this.mainsPanel.Name = "mainsPanel";
+            this.mainsPanel.Size = new System.Drawing.Size(65, 40);
+            this.mainsPanel.TabIndex = 22;
+            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1060, 706);
+            this.ClientSize = new System.Drawing.Size(1064, 757);
             this.Controls.Add(this.orderPanel);
             this.Controls.Add(this.clearBtn);
             this.Controls.Add(this.continueBtn);
@@ -11053,6 +11505,8 @@
             this.mainMenu.ResumeLayout(false);
             this.mainMenu.PerformLayout();
             this.orderPanel.ResumeLayout(false);
+            this.commentPanel.ResumeLayout(false);
+            this.commentPanel.PerformLayout();
             this.mealDealPanel.ResumeLayout(false);
             this.mealDealPanel.PerformLayout();
             this.mealDealPanel2.ResumeLayout(false);
@@ -11071,8 +11525,6 @@
             this.panel2.PerformLayout();
             this.kebabWrapPanel.ResumeLayout(false);
             this.kebabWrapPanel.PerformLayout();
-            this.risottoPanel.ResumeLayout(false);
-            this.risottoPanel.PerformLayout();
             this.ribsnwingsPanel.ResumeLayout(false);
             this.ribsnwingsPanel.PerformLayout();
             this.pastaBakePanel.ResumeLayout(false);
@@ -11087,8 +11539,6 @@
             this.seafoodPanel.PerformLayout();
             this.gourmetPanel.ResumeLayout(false);
             this.gourmetPanel.PerformLayout();
-            this.commentPanel.ResumeLayout(false);
-            this.commentPanel.PerformLayout();
             this.gourmet2Panel.ResumeLayout(false);
             this.gourmet2Panel.PerformLayout();
             this.traditionalPanel.ResumeLayout(false);
@@ -11099,10 +11549,6 @@
             this.traditional3Panel.PerformLayout();
             this.traditional4Panel.ResumeLayout(false);
             this.traditional4Panel.PerformLayout();
-            this.mainsPanel.ResumeLayout(false);
-            this.mainsPanel.PerformLayout();
-            this.mains2Panel.ResumeLayout(false);
-            this.mains2Panel.PerformLayout();
             this.halfhalfPanel.ResumeLayout(false);
             this.halfhalfPanel.PerformLayout();
             this.startersPanel.ResumeLayout(false);
@@ -11113,6 +11559,12 @@
             this.starters3Panel.PerformLayout();
             this.starters4Panel.ResumeLayout(false);
             this.starters4Panel.PerformLayout();
+            this.risottoPanel.ResumeLayout(false);
+            this.risottoPanel.PerformLayout();
+            this.mains2Panel.ResumeLayout(false);
+            this.mains2Panel.PerformLayout();
+            this.mainsPanel.ResumeLayout(false);
+            this.mainsPanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -11270,7 +11722,6 @@
         private System.Windows.Forms.Label label67;
         private System.Windows.Forms.Label label68;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button16;
@@ -11279,22 +11730,6 @@
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.Label label52;
         private System.Windows.Forms.Panel halfhalfPanel;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
@@ -11309,30 +11744,7 @@
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Panel mainsPanel;
-        private System.Windows.Forms.Label label145;
-        private System.Windows.Forms.Button button104;
         private System.Windows.Forms.Button button105;
-        private System.Windows.Forms.Button button106;
-        private System.Windows.Forms.Button button107;
-        private System.Windows.Forms.Button button108;
-        private System.Windows.Forms.Button button109;
-        private System.Windows.Forms.Button button110;
-        private System.Windows.Forms.Button button111;
-        private System.Windows.Forms.Button button113;
-        private System.Windows.Forms.Label label183;
-        private System.Windows.Forms.Label label185;
-        private System.Windows.Forms.Label label186;
-        private System.Windows.Forms.Label label187;
-        private System.Windows.Forms.Label label188;
-        private System.Windows.Forms.Label label189;
-        private System.Windows.Forms.Label label190;
-        private System.Windows.Forms.Label label191;
-        private System.Windows.Forms.Label label193;
-        private System.Windows.Forms.Label label194;
-        private System.Windows.Forms.Label label195;
-        private System.Windows.Forms.Label label197;
-        private System.Windows.Forms.Label label198;
         private System.Windows.Forms.Button button54;
         private System.Windows.Forms.Button button53;
         private System.Windows.Forms.Button button52;
@@ -11358,12 +11770,6 @@
         private System.Windows.Forms.Label label87;
         private System.Windows.Forms.Label label86;
         private System.Windows.Forms.Label label85;
-        private System.Windows.Forms.Label label146;
-        private System.Windows.Forms.Panel mains2Panel;
-        private System.Windows.Forms.Button button80;
-        private System.Windows.Forms.Button button89;
-        private System.Windows.Forms.Label label163;
-        private System.Windows.Forms.Label label164;
         private System.Windows.Forms.Panel traditionalPanel;
         private System.Windows.Forms.Button button70;
         private System.Windows.Forms.Button button69;
@@ -11792,8 +12198,6 @@
         private System.Windows.Forms.Label label211;
         private System.Windows.Forms.Label label212;
         private System.Windows.Forms.Label label213;
-        private System.Windows.Forms.Label label155;
-        private System.Windows.Forms.Label label152;
         private System.Windows.Forms.Panel ab2Panel;
         private System.Windows.Forms.Button button394;
         private System.Windows.Forms.Button button403;
@@ -11848,38 +12252,17 @@
         private System.Windows.Forms.Button button443;
         private System.Windows.Forms.Button button444;
         private System.Windows.Forms.Button button445;
-        private System.Windows.Forms.Label label235;
         private System.Windows.Forms.Label label236;
-        private System.Windows.Forms.Label label237;
         private System.Windows.Forms.Label label238;
-        private System.Windows.Forms.Label label247;
         private System.Windows.Forms.Label label248;
-        private System.Windows.Forms.Label label249;
         private System.Windows.Forms.Label label250;
-        private System.Windows.Forms.Panel risottoPanel;
-        private System.Windows.Forms.Button button407;
-        private System.Windows.Forms.Button button450;
-        private System.Windows.Forms.Button button451;
-        private System.Windows.Forms.Button button452;
-        private System.Windows.Forms.Button button453;
-        private System.Windows.Forms.Label label257;
-        private System.Windows.Forms.Label label258;
-        private System.Windows.Forms.Label label259;
-        private System.Windows.Forms.Label label260;
-        private System.Windows.Forms.Label label261;
-        private System.Windows.Forms.Label label262;
-        private System.Windows.Forms.Label label263;
-        private System.Windows.Forms.Label label264;
         private System.Windows.Forms.Panel kebabWrapPanel;
         private System.Windows.Forms.Button button446;
         private System.Windows.Forms.Button button448;
         private System.Windows.Forms.Button button449;
         private System.Windows.Forms.Button button454;
-        private System.Windows.Forms.Label label251;
         private System.Windows.Forms.Label label252;
-        private System.Windows.Forms.Label label253;
         private System.Windows.Forms.Label label254;
-        private System.Windows.Forms.Label label255;
         private System.Windows.Forms.Label label256;
         private System.Windows.Forms.Panel saladsPanel;
         private System.Windows.Forms.Panel panel2;
@@ -11939,29 +12322,19 @@
         private System.Windows.Forms.Button button484;
         private System.Windows.Forms.Button button485;
         private System.Windows.Forms.Button button486;
-        private System.Windows.Forms.Label label305;
         private System.Windows.Forms.Label label306;
-        private System.Windows.Forms.Label label307;
         private System.Windows.Forms.Label label308;
-        private System.Windows.Forms.Label label309;
         private System.Windows.Forms.Label label310;
-        private System.Windows.Forms.Label label311;
         private System.Windows.Forms.Label label312;
-        private System.Windows.Forms.Label label313;
         private System.Windows.Forms.Label label314;
-        private System.Windows.Forms.Label label315;
         private System.Windows.Forms.Label label316;
-        private System.Windows.Forms.Label label317;
         private System.Windows.Forms.Label label318;
-        private System.Windows.Forms.Label label319;
         private System.Windows.Forms.Label label320;
         private System.Windows.Forms.Panel desert2Panel;
         private System.Windows.Forms.Button button462;
         private System.Windows.Forms.Button button488;
         private System.Windows.Forms.Button button489;
-        private System.Windows.Forms.Label label304;
         private System.Windows.Forms.Label label321;
-        private System.Windows.Forms.Label label322;
         private System.Windows.Forms.Label label323;
         private System.Windows.Forms.Panel beveragesPanel;
         private System.Windows.Forms.Button button474;
@@ -11977,10 +12350,6 @@
         private System.Windows.Forms.Label label329;
         private System.Windows.Forms.Label label330;
         private System.Windows.Forms.Label label331;
-        private System.Windows.Forms.Button button112;
-        private System.Windows.Forms.Label label184;
-        private System.Windows.Forms.Label label192;
-        private System.Windows.Forms.Label label196;
         private System.Windows.Forms.Panel summaryPanel;
         private System.Windows.Forms.RichTextBox orderSummary;
         private System.Windows.Forms.Button button372;
@@ -11999,6 +12368,64 @@
         private System.Windows.Forms.Button button383;
         private System.Windows.Forms.Button button471;
         private System.Windows.Forms.Label label153;
+        private System.Windows.Forms.Button finishBevPanel;
+        private System.Windows.Forms.Button button472;
+        private System.Windows.Forms.Button button473;
+        private System.Windows.Forms.Button button475;
+        private System.Windows.Forms.Panel risottoPanel;
+        private System.Windows.Forms.Button button476;
+        private System.Windows.Forms.Button button407;
+        private System.Windows.Forms.Button button450;
+        private System.Windows.Forms.Button button451;
+        private System.Windows.Forms.Button button452;
+        private System.Windows.Forms.Button button453;
+        private System.Windows.Forms.Label label258;
+        private System.Windows.Forms.Label label260;
+        private System.Windows.Forms.Label label262;
+        private System.Windows.Forms.Label label264;
+        private System.Windows.Forms.Button button487;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button490;
+        private System.Windows.Forms.Button button491;
+        private System.Windows.Forms.Button button496;
+        private System.Windows.Forms.Button button497;
+        private System.Windows.Forms.Button button498;
+        private System.Windows.Forms.Button button499;
+        private System.Windows.Forms.Panel mainsPanel;
+        private System.Windows.Forms.Button button500;
+        private System.Windows.Forms.Panel mains2Panel;
+        private System.Windows.Forms.Button button80;
+        private System.Windows.Forms.Button button89;
+        private System.Windows.Forms.Label label163;
+        private System.Windows.Forms.Label label164;
+        private System.Windows.Forms.Label label146;
+        private System.Windows.Forms.Label label145;
+        private System.Windows.Forms.Button button104;
+        private System.Windows.Forms.Button button106;
+        private System.Windows.Forms.Button button107;
+        private System.Windows.Forms.Button button108;
+        private System.Windows.Forms.Button button109;
+        private System.Windows.Forms.Button button110;
+        private System.Windows.Forms.Button button111;
+        private System.Windows.Forms.Button button112;
+        private System.Windows.Forms.Button button113;
+        private System.Windows.Forms.Label label184;
+        private System.Windows.Forms.Label label185;
+        private System.Windows.Forms.Label label186;
+        private System.Windows.Forms.Label label187;
+        private System.Windows.Forms.Label label188;
+        private System.Windows.Forms.Label label155;
+        private System.Windows.Forms.Label label189;
+        private System.Windows.Forms.Label label190;
+        private System.Windows.Forms.Label label191;
+        private System.Windows.Forms.Label label192;
+        private System.Windows.Forms.Label label152;
+        private System.Windows.Forms.Label label193;
+        private System.Windows.Forms.Label label194;
+        private System.Windows.Forms.Label label195;
+        private System.Windows.Forms.Label label196;
+        private System.Windows.Forms.Label label197;
+        private System.Windows.Forms.Label label198;
     }
 }
 
