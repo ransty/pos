@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Drawing.Printing;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -481,21 +482,23 @@ namespace Dernancourt_POS
                 // move to orderPanel
                 orderPanel.Visible = true;
 
-                //before your loop
-                var csv = new StringBuilder();
+                if (!(isAlreadyInDB(customerPhoneNumberTxt.Text.ToString())))
+                {
+                    var csv = new StringBuilder();
 
-                //in your loop
-                var first = customerNameTxt.Text.ToString();
-                var second = customerPhoneNumberTxt.Text.ToString();
-                var third = customerAddressTxt.Text.ToString();
-                var fourth = customerSuburbTxt.Text.ToString();
-                var newLine = string.Format("{0},{1},{2},{3}", first, second, third, fourth);
-                csv.Append(newLine);
+                    //in your loop
+                    var first = customerNameTxt.Text.ToString();
+                    var second = customerPhoneNumberTxt.Text.ToString();
+                    var third = customerAddressTxt.Text.ToString();
+                    var fourth = customerSuburbTxt.Text.ToString();
+                    var newLine = string.Format("{0},{1},{2},{3}", first, second, third, fourth);
+                    csv.AppendLine(newLine);
 
-                //after your loop
-                TextWriter tsw = new StreamWriter(filePath, true);
-                tsw.Write(csv.ToString());
-                tsw.Close();
+                    //after your loop
+                    TextWriter tsw = new StreamWriter(filePath, true);
+                    tsw.Write(csv.ToString());
+                    tsw.Close();
+                }
             }
             else if (!string.IsNullOrEmpty(customerPhoneNumberTxt.Text))
             {
@@ -507,20 +510,22 @@ namespace Dernancourt_POS
                 // move to orderPanel
                 orderPanel.Visible = true;
 
+                if (!(isAlreadyInDB(customerPhoneNumberTxt.Text.ToString())))
+                {
+                    //before your loop
+                    var csv = new StringBuilder();
 
-                //before your loop
-                var csv = new StringBuilder();
+                    //in your loop
+                    var first = customerNameTxt.Text.ToString();
+                    var second = customerPhoneNumberTxt.Text.ToString();
+                    var newLine = string.Format("{0},{1}", first, second);
+                    csv.AppendLine(newLine);
 
-                //in your loop
-                var first = customerNameTxt.Text.ToString();
-                var second = customerPhoneNumberTxt.Text.ToString();
-                var newLine = string.Format("{0},{1}", first, second);
-                csv.Append(newLine);
-
-                //after your loop
-                TextWriter tsw = new StreamWriter(filePath, true);
-                tsw.Write(csv.ToString());
-                tsw.Close();
+                    //after your loop
+                    TextWriter tsw = new StreamWriter(filePath, true);
+                    tsw.Write(csv.ToString());
+                    tsw.Close();
+                }
             }
 
         }
@@ -3383,6 +3388,24 @@ namespace Dernancourt_POS
             }
 
             return "";
+        }
+
+        private bool isAlreadyInDB(String phoneNumber)
+        {
+            if (!(GetDetails(phoneNumber).Equals("")))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        private void button501_Click(object sender, EventArgs e)
+        {
+            using (var client = new HttpClient())
+            {
+                var response = await client.GetStringAsync(string.Format("https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={0},{1}&radius=500&type=bar&key=YourAPIKey", latitude, longitude));
+                var result = JsonConvert.DeserializeObxject<PlacesApiQueryResponse>(response);
+            }
         }
     }
 }

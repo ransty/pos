@@ -23,7 +23,7 @@ using System.Runtime.InteropServices;
 [assembly: Guid("fce42bb9-2aa7-4992-a936-c8d682b99c4f")]
 
 // Version information for an assembly consists of the following four values:
-//
+ //
 //      Major Version
 //      Minor Version
 //      Build Number
