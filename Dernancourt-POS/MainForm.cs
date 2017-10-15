@@ -20,11 +20,8 @@ namespace Dernancourt_POS
     {
         public Order myOrder;
         string filePath;
-        bool isBusyProcessing = false;
 
         Timer timer;
-
-        private int apiCallCount = 5;
 
         List<string> simplyCheese = new List<string>();
         List<string> hamCheese = new List<string>();
@@ -468,7 +465,7 @@ namespace Dernancourt_POS
             TextBox t = customerAddressTxt;
             if (t != null)
             {
-                if (t.Text.Length >= 5 && apiCallCount != 0)
+                if (t.Text.Length >= 3)
                 {
                     string[] arr = SuggestAddresses(t.Text);
                     // now cut the string and remove the , (then autofill suburb)
@@ -3485,9 +3482,6 @@ namespace Dernancourt_POS
                     arr[count] = address.FormattedAddress;
                     count++;
                 }
-
-                apiCallCount--;
-                Console.WriteLine(apiCallCount);
                 return arr;
             }
             return null;

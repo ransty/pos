@@ -882,7 +882,6 @@
             this.pnl2NextBtn = new System.Windows.Forms.Button();
             this.pnl2BackBtn = new System.Windows.Forms.Button();
             this.pnl2HalfBtn = new System.Windows.Forms.Button();
-            this.button501 = new System.Windows.Forms.Button();
             this.mainMenu.SuspendLayout();
             this.orderPanel.SuspendLayout();
             this.commentPanel.SuspendLayout();
@@ -11600,23 +11599,11 @@
             this.pnl2HalfBtn.UseVisualStyleBackColor = false;
             this.pnl2HalfBtn.Click += new System.EventHandler(this.pnl2HalfBtn_Click);
             // 
-            // button501
-            // 
-            this.button501.Location = new System.Drawing.Point(521, 391);
-            this.button501.Name = "button501";
-            this.button501.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.button501.Size = new System.Drawing.Size(75, 23);
-            this.button501.TabIndex = 13;
-            this.button501.Text = "Google Test";
-            this.button501.UseVisualStyleBackColor = true;
-            this.button501.Click += new System.EventHandler(this.button501_Click_1);
-            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1064, 757);
-            this.Controls.Add(this.button501);
             this.Controls.Add(this.orderPanel);
             this.Controls.Add(this.clearBtn);
             this.Controls.Add(this.continueBtn);
@@ -12560,7 +12547,6 @@
         private System.Windows.Forms.Label label196;
         private System.Windows.Forms.Label label197;
         private System.Windows.Forms.Label label198;
-        private System.Windows.Forms.Button button501;
     }
 }
 
