@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Google.Maps;
+using Google.Maps.Geocoding;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -3399,13 +3402,26 @@ namespace Dernancourt_POS
             return false;
         }
 
-        private void button501_Click(object sender, EventArgs e)
+        private void button501_Click_1(object sender, EventArgs e)
         {
-            using (var client = new HttpClient())
-            {
-                var response = await client.GetStringAsync(string.Format("https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={0},{1}&radius=500&type=bar&key=YourAPIKey", latitude, longitude));
-                var result = JsonConvert.DeserializeObxject<PlacesApiQueryResponse>(response);
-            }
+            GoogleSigned.AssignAllServices(new GoogleSigned("AIzaSyAPHdgV_ZwRdVWG-Hqw0930mB4j_qcSMKI"));
+
+            var southWest = new Google.Maps.LatLng(-34.905294, 138.598400);
+            var northEast = new Google.Maps.LatLng(-34.758993, 138.753387);
+
+            var request = new GeocodingRequest();
+            request.Address = customerAddressTxt.Text.ToString();
+            request.Sensor = false;
+            request.Region = "au";
+            request.Bounds = new Google.Maps.Shared.Viewport(southWest, northEast);
+            var response = new GeocodingService().GetResponse(request);
+
+
+            var result = response.Results.First();
+
+            Console.WriteLine("Full Address: " + result.FormattedAddress);         // "1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA"
+            Console.WriteLine("Latitude: " + result.Geometry.Location.Latitude);   // 37.4230180
+            Console.WriteLine("Longitude: " + result.Geometry.Location.Longitude); // -122.0818530
         }
     }
 }

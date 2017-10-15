@@ -11602,13 +11602,14 @@
             // 
             // button501
             // 
-            this.button501.Location = new System.Drawing.Point(982, 724);
+            this.button501.Location = new System.Drawing.Point(521, 391);
             this.button501.Name = "button501";
+            this.button501.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.button501.Size = new System.Drawing.Size(75, 23);
             this.button501.TabIndex = 13;
-            this.button501.Text = "JSON Test";
+            this.button501.Text = "Google Test";
             this.button501.UseVisualStyleBackColor = true;
-            this.button501.Click += new System.EventHandler(this.button501_Click);
+            this.button501.Click += new System.EventHandler(this.button501_Click_1);
             // 
             // mainForm
             // 
