@@ -20,6 +20,11 @@ namespace Dernancourt_POS
     {
         public Order myOrder;
         string filePath;
+        bool isBusyProcessing = false;
+
+        Timer timer;
+
+        private int apiCallCount = 5;
 
         List<string> simplyCheese = new List<string>();
         List<string> hamCheese = new List<string>();
@@ -66,7 +71,7 @@ namespace Dernancourt_POS
 
         public mainForm()
         {
-            
+
             InitializeComponent();
             //Order order = new Order();
             simplyCheese.Add("Tomato Sauce");
@@ -406,6 +411,12 @@ namespace Dernancourt_POS
             editItemsPanel.Dock = DockStyle.Fill;
             commentPanel.Dock = DockStyle.Fill;
 
+            // textbox stuff
+            this.customerAddressTxt.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            this.customerAddressTxt.AutoCompleteSource = AutoCompleteSource.CustomSource;
+
+            this.timer = new Timer();
+            timer.Tick += new EventHandler(Timer_Tick);
             this.filePath = @"data.csv";
             if (!(File.Exists(filePath)))
             {
@@ -413,6 +424,7 @@ namespace Dernancourt_POS
             }
 
         }
+
 
         private void nameLbl_Click(object sender, EventArgs e)
         {
@@ -441,7 +453,39 @@ namespace Dernancourt_POS
 
         private void customerAddressTxt_TextChanged(object sender, EventArgs e)
         {
+            timer.Interval = 300;
+            timer.Enabled = true;
+        }
 
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            SearchAddress();
+            timer.Enabled = false;
+        }
+
+        private void SearchAddress()
+        {
+            TextBox t = customerAddressTxt;
+            if (t != null)
+            {
+                if (t.Text.Length >= 5 && apiCallCount != 0)
+                {
+                    string[] arr = SuggestAddresses(t.Text);
+                    // now cut the string and remove the , (then autofill suburb)
+
+                    for (int i = 0; i < arr.Length; i++)
+                    {
+                        int index = arr[i].IndexOf(",");
+                        if (index > 0)
+                            arr[i] = arr[i].Substring(0, index);
+                    }
+
+                    AutoCompleteStringCollection collection = new AutoCompleteStringCollection();
+                    collection.AddRange(arr);
+
+                    this.customerAddressTxt.AutoCompleteCustomSource = collection;
+                }
+            }
         }
 
         private void customerPhoneNumberTxt_TextChanged(object sender, EventArgs e)
@@ -2769,7 +2813,7 @@ namespace Dernancourt_POS
             //orderPanel.Visible = false;
             editItemsBox.Items.Clear();
             editItemsPanel.Visible = true;
-           // panel
+            // panel
 
             // populate the listbox with the order summary (items only)
             foreach (Item item in myOrder.Items)
@@ -2781,12 +2825,15 @@ namespace Dernancourt_POS
         private void deleteItemButton_Click(object sender, EventArgs e)
         {
             int index = this.editItemsBox.SelectedIndex;
-            if (this.editItemsBox.SelectedIndex >= 0) { 
+            if (this.editItemsBox.SelectedIndex >= 0)
+            {
                 this.editItemsBox.Items.RemoveAt(this.editItemsBox.SelectedIndex);
                 // delete from myOrder
                 myOrder.RemoveItemAtIndex(index);
                 updateItems();
-            } else {
+            }
+            else
+            {
                 MessageBox.Show("Please select an item before deleting");
             }
         }
@@ -3182,7 +3229,8 @@ namespace Dernancourt_POS
                 if (item.ItemName == null)
                 {
                     continue;
-                } else
+                }
+                else
                 {
                     if (item.isModified && item.added.Count > 0 && item.removed.Count > 0)
                     {
@@ -3195,22 +3243,25 @@ namespace Dernancourt_POS
                         {
                             orderSummary.Text += "ADD -- " + item.added[i] + Environment.NewLine;
                         }
-                    } else if (item.isModified && item.removed.Count > 0)
+                    }
+                    else if (item.isModified && item.removed.Count > 0)
                     {
                         orderSummary.Text += item.ToString();
                         for (int i = 0; i < item.removed.Count; i++)
                         {
                             orderSummary.Text += "REMOVE -- " + item.removed[i] + Environment.NewLine;
                         }
-                    } else if (item.isModified && item.added.Count > 0)
+                    }
+                    else if (item.isModified && item.added.Count > 0)
                     {
                         orderSummary.Text += item.ToString();
                         for (int i = 0; i < item.added.Count; i++)
                         {
                             orderSummary.Text += "ADD -- " + item.added[i] + Environment.NewLine;
                         }
-                        
-                    }  else
+
+                    }
+                    else
                     {
                         orderSummary.Text += item.ToString();
                     }
@@ -3246,7 +3297,7 @@ namespace Dernancourt_POS
 
         private void button380_Click(object sender, EventArgs e)
         {
-            commentPanel.Visible = false;            
+            commentPanel.Visible = false;
         }
 
         private void gourmetPanel_Paint(object sender, PaintEventArgs e)
@@ -3360,7 +3411,8 @@ namespace Dernancourt_POS
             if (line.Equals(""))
             {
                 return;
-            } else
+            }
+            else
             {
                 if (results.Length == 2)
                 {
@@ -3404,24 +3456,41 @@ namespace Dernancourt_POS
 
         private void button501_Click_1(object sender, EventArgs e)
         {
-            GoogleSigned.AssignAllServices(new GoogleSigned("AIzaSyAPHdgV_ZwRdVWG-Hqw0930mB4j_qcSMKI"));
 
-            var southWest = new Google.Maps.LatLng(-34.905294, 138.598400);
-            var northEast = new Google.Maps.LatLng(-34.758993, 138.753387);
+        }
 
-            var request = new GeocodingRequest();
-            request.Address = customerAddressTxt.Text.ToString();
-            request.Sensor = false;
-            request.Region = "au";
-            request.Bounds = new Google.Maps.Shared.Viewport(southWest, northEast);
-            var response = new GeocodingService().GetResponse(request);
+        private string[] SuggestAddresses(string text)
+        {
+            if (text != null)
+            {
+                GoogleSigned.AssignAllServices(new GoogleSigned("AIzaSyAPHdgV_ZwRdVWG-Hqw0930mB4j_qcSMKI"));
+
+                var southWest = new Google.Maps.LatLng(-34.905294, 138.598400);
+                var northEast = new Google.Maps.LatLng(-34.758993, 138.753387);
+
+                var request = new GeocodingRequest();
+                request.Address = text;
+                request.Sensor = false;
+                request.Region = "au";
+                request.Bounds = new Google.Maps.Shared.Viewport(southWest, northEast);
+                var response = new GeocodingService().GetResponse(request);
 
 
-            var result = response.Results.First();
+                var result = response.Results;
+                string[] arr = new string[result.Length];
 
-            Console.WriteLine("Full Address: " + result.FormattedAddress);         // "1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA"
-            Console.WriteLine("Latitude: " + result.Geometry.Location.Latitude);   // 37.4230180
-            Console.WriteLine("Longitude: " + result.Geometry.Location.Longitude); // -122.0818530
+                var count = 0;
+                foreach (Result address in result)
+                {
+                    arr[count] = address.FormattedAddress;
+                    count++;
+                }
+
+                apiCallCount--;
+                Console.WriteLine(apiCallCount);
+                return arr;
+            }
+            return null;
         }
     }
 }
