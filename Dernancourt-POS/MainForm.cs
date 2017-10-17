@@ -1,7 +1,4 @@
-﻿using Google.Maps;
-using Google.Maps.Geocoding;
-using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,8 +17,6 @@ namespace Dernancourt_POS
     {
         public Order myOrder;
         string filePath;
-
-        Timer timer;
 
         List<string> simplyCheese = new List<string>();
         List<string> hamCheese = new List<string>();
@@ -412,13 +407,18 @@ namespace Dernancourt_POS
             this.customerAddressTxt.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             this.customerAddressTxt.AutoCompleteSource = AutoCompleteSource.CustomSource;
 
-            this.timer = new Timer();
-            timer.Tick += new EventHandler(Timer_Tick);
             this.filePath = @"data.csv";
             if (!(File.Exists(filePath)))
             {
                 File.Create(filePath).Dispose();
             }
+
+            var source = new AutoCompleteStringCollection();
+            source.AddRange(File.ReadAllLines(@"streets.txt"));
+            
+            customerAddressTxt.AutoCompleteCustomSource = source;
+            customerAddressTxt.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            customerAddressTxt.AutoCompleteSource = AutoCompleteSource.CustomSource;
 
         }
 
@@ -450,39 +450,17 @@ namespace Dernancourt_POS
 
         private void customerAddressTxt_TextChanged(object sender, EventArgs e)
         {
-            timer.Interval = 300;
-            timer.Enabled = true;
+
         }
 
         private void Timer_Tick(object sender, EventArgs e)
         {
-            SearchAddress();
-            timer.Enabled = false;
+
         }
 
         private void SearchAddress()
         {
-            TextBox t = customerAddressTxt;
-            if (t != null)
-            {
-                if (t.Text.Length >= 3)
-                {
-                    string[] arr = SuggestAddresses(t.Text);
-                    // now cut the string and remove the , (then autofill suburb)
 
-                    for (int i = 0; i < arr.Length; i++)
-                    {
-                        int index = arr[i].IndexOf(",");
-                        if (index > 0)
-                            arr[i] = arr[i].Substring(0, index);
-                    }
-
-                    AutoCompleteStringCollection collection = new AutoCompleteStringCollection();
-                    collection.AddRange(arr);
-
-                    this.customerAddressTxt.AutoCompleteCustomSource = collection;
-                }
-            }
         }
 
         private void customerPhoneNumberTxt_TextChanged(object sender, EventArgs e)
@@ -520,7 +498,7 @@ namespace Dernancourt_POS
             if (customerAddressTxt.Text.Length > 0 && (!string.IsNullOrEmpty(customerPhoneNumberTxt.Text)))
             {
                 // delivery
-                myOrder = new Order(customerNameTxt.Text, customerPhoneNumberTxt.Text, customerAddressTxt.Text, customerSuburbTxt.Text);
+                myOrder = new Order(customerNameTxt.Text, customerPhoneNumberTxt.Text, customerAddressTxt.Text, customerSuburbTxt.Text, customerStreetNumberTxt.Text);
                 Console.WriteLine(myOrder.ToString());
 
                 // move to orderPanel
@@ -533,9 +511,10 @@ namespace Dernancourt_POS
                     //in your loop
                     var first = customerNameTxt.Text.ToString();
                     var second = customerPhoneNumberTxt.Text.ToString();
+                    var fith = customerStreetNumberTxt.Text.ToString();
                     var third = customerAddressTxt.Text.ToString();
                     var fourth = customerSuburbTxt.Text.ToString();
-                    var newLine = string.Format("{0},{1},{2},{3}", first, second, third, fourth);
+                    var newLine = string.Format("{0},{1},{2},{3},{4}", first, second, fith, third, fourth);
                     csv.AppendLine(newLine);
 
                     //after your loop
@@ -3398,6 +3377,7 @@ namespace Dernancourt_POS
             customerSuburbTxt.Text = "";
             customerPhoneNumberTxt.Text = "";
             customerAddressTxt.Text = "";
+            customerStreetNumberTxt.Text = "";
             customerNameTxt.Text = "";
         }
 
@@ -3420,8 +3400,9 @@ namespace Dernancourt_POS
                 {
                     customerNameTxt.Text = results[0];
                     customerPhoneNumberTxt.Text = results[1];
-                    customerAddressTxt.Text = results[2];
-                    customerSuburbTxt.Text = results[3];
+                    customerStreetNumberTxt.Text = results[2];
+                    customerAddressTxt.Text = results[3];
+                    customerSuburbTxt.Text = results[4];
                 }
             }
         }
@@ -3456,6 +3437,7 @@ namespace Dernancourt_POS
 
         }
 
+        /*
         private string[] SuggestAddresses(string text)
         {
             if (text != null)
@@ -3486,5 +3468,6 @@ namespace Dernancourt_POS
             }
             return null;
         }
+        */
     }
 }

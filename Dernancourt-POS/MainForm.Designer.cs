@@ -882,6 +882,8 @@
             this.pnl2NextBtn = new System.Windows.Forms.Button();
             this.pnl2BackBtn = new System.Windows.Forms.Button();
             this.pnl2HalfBtn = new System.Windows.Forms.Button();
+            this.customerStreetNumberLbl = new System.Windows.Forms.Label();
+            this.customerStreetNumberTxt = new System.Windows.Forms.TextBox();
             this.mainMenu.SuspendLayout();
             this.orderPanel.SuspendLayout();
             this.commentPanel.SuspendLayout();
@@ -933,7 +935,7 @@
             this.customerPhoneNumberTxt.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.customerPhoneNumberTxt.BackColor = System.Drawing.SystemColors.Window;
             this.customerPhoneNumberTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerPhoneNumberTxt.Location = new System.Drawing.Point(506, 207);
+            this.customerPhoneNumberTxt.Location = new System.Drawing.Point(506, 200);
             this.customerPhoneNumberTxt.Name = "customerPhoneNumberTxt";
             this.customerPhoneNumberTxt.Size = new System.Drawing.Size(230, 29);
             this.customerPhoneNumberTxt.TabIndex = 1;
@@ -944,10 +946,10 @@
             this.customerAddressTxt.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.customerAddressTxt.BackColor = System.Drawing.SystemColors.Window;
             this.customerAddressTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerAddressTxt.Location = new System.Drawing.Point(506, 261);
+            this.customerAddressTxt.Location = new System.Drawing.Point(506, 313);
             this.customerAddressTxt.Name = "customerAddressTxt";
             this.customerAddressTxt.Size = new System.Drawing.Size(230, 29);
-            this.customerAddressTxt.TabIndex = 2;
+            this.customerAddressTxt.TabIndex = 3;
             this.customerAddressTxt.TextChanged += new System.EventHandler(this.customerAddressTxt_TextChanged);
             // 
             // customerSuburbTxt
@@ -1045,7 +1047,7 @@
             "Ridgehaven",
             "Rose Park",
             "Rosslyn Park",
-            "Rostresvor",
+            "Rostrevor",
             "Royston Park",
             "Salisbury East",
             "Salisbury Heights",
@@ -1076,10 +1078,10 @@
             this.customerSuburbTxt.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.customerSuburbTxt.BackColor = System.Drawing.SystemColors.Window;
             this.customerSuburbTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerSuburbTxt.Location = new System.Drawing.Point(506, 324);
+            this.customerSuburbTxt.Location = new System.Drawing.Point(506, 376);
             this.customerSuburbTxt.Name = "customerSuburbTxt";
             this.customerSuburbTxt.Size = new System.Drawing.Size(230, 29);
-            this.customerSuburbTxt.TabIndex = 3;
+            this.customerSuburbTxt.TabIndex = 4;
             this.customerSuburbTxt.TextChanged += new System.EventHandler(this.customerSuburbTxt_TextChanged);
             // 
             // mainMenu
@@ -1137,7 +1139,7 @@
             this.phoneNumberLbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.phoneNumberLbl.AutoSize = true;
             this.phoneNumberLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.phoneNumberLbl.Location = new System.Drawing.Point(305, 210);
+            this.phoneNumberLbl.Location = new System.Drawing.Point(305, 203);
             this.phoneNumberLbl.Name = "phoneNumberLbl";
             this.phoneNumberLbl.Size = new System.Drawing.Size(152, 24);
             this.phoneNumberLbl.TabIndex = 6;
@@ -1149,7 +1151,7 @@
             this.addressLbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.addressLbl.AutoSize = true;
             this.addressLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addressLbl.Location = new System.Drawing.Point(305, 264);
+            this.addressLbl.Location = new System.Drawing.Point(305, 316);
             this.addressLbl.Name = "addressLbl";
             this.addressLbl.Size = new System.Drawing.Size(87, 24);
             this.addressLbl.TabIndex = 7;
@@ -1161,7 +1163,7 @@
             this.suburbLbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.suburbLbl.AutoSize = true;
             this.suburbLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.suburbLbl.Location = new System.Drawing.Point(305, 327);
+            this.suburbLbl.Location = new System.Drawing.Point(305, 379);
             this.suburbLbl.Name = "suburbLbl";
             this.suburbLbl.Size = new System.Drawing.Size(78, 24);
             this.suburbLbl.TabIndex = 8;
@@ -11599,6 +11601,113 @@
             this.pnl2HalfBtn.UseVisualStyleBackColor = false;
             this.pnl2HalfBtn.Click += new System.EventHandler(this.pnl2HalfBtn_Click);
             // 
+            // customerStreetNumberLbl
+            // 
+            this.customerStreetNumberLbl.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.customerStreetNumberLbl.AutoSize = true;
+            this.customerStreetNumberLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customerStreetNumberLbl.Location = new System.Drawing.Point(305, 262);
+            this.customerStreetNumberLbl.Name = "customerStreetNumberLbl";
+            this.customerStreetNumberLbl.Size = new System.Drawing.Size(145, 24);
+            this.customerStreetNumberLbl.TabIndex = 14;
+            this.customerStreetNumberLbl.Text = "Street Number";
+            // 
+            // customerStreetNumberTxt
+            // 
+            this.customerStreetNumberTxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.customerStreetNumberTxt.AutoCompleteCustomSource.AddRange(new string[] {
+            "Acacia Av",
+            "Alec Av",
+            "Almond Av",
+            "Arcowie Rd",
+            "Ash Av",
+            "Avoca St",
+            "Balmoral Rd",
+            "Beck St",
+            "Bernard St",
+            "Bickham Ct",
+            "Birch Gr",
+            "Boord Ct",
+            "Brookvale Rd",
+            "Callemondah Rd",
+            "Cedar Av",
+            "Cheringar Bvd",
+            "Christopher St",
+            "Deconno Ct",
+            "Dernancourt Dr",
+            "Donnika St",
+            "Farnham Tce",
+            "Fir Pl",
+            "Gaskmore Wy",
+            "Giles St",
+            "Glenwood Wk",
+            "Heathfield Av",
+            "Hogarth Rd",
+            "Ilga Ct",
+            "Ind Ct",
+            "Jarbin Av",
+            "Jarrah Rd",
+            "Jenny Av",
+            "Kanangra Rd",
+            "Karingal Rd",
+            "Karri Dr",
+            "Kildare Cl",
+            "Kurno Wy",
+            "Kurrua Gr",
+            "Landseer Cr",
+            "Larch St",
+            "Lawrence Av",
+            "Lower North East Rd",
+            "Lutana Gr",
+            "Lyons Rd",
+            "Mahogany Av",
+            "Moule Cr",
+            "Myrtle Rd",
+            "Nioka Rd",
+            "Northeast Busway",
+            "Adelaide O Bahn",
+            "Orange Grove Cct",
+            "Parkinson Av",
+            "Parsons Rd",
+            "Payton Av",
+            "Peenar Gr",
+            "Puringa Rd",
+            "Raphael Av",
+            "Reids Rd",
+            "Reynolds Av",
+            "Ridgefield Av",
+            "Riverside Gr",
+            "Rosa Ct",
+            "Rosebud Gr",
+            "Sargeant Av",
+            "Scot Rd",
+            "Shepley Ct",
+            "Short Pl",
+            "Signet Ct",
+            "Stuart St",
+            "Talgara Av",
+            "Tandee Rd",
+            "Track/trail",
+            "Treelake St",
+            "Tristania Tce",
+            "Turner Tce",
+            "Vingara Dr",
+            "Walnut Gr",
+            "Warkeerin Rd",
+            "Waterford Av",
+            "Watts Rd",
+            "Wells Rd",
+            "Willowbrook Rd",
+            "Wyuna Ct",
+            "Yaralinda St"});
+            this.customerStreetNumberTxt.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.customerStreetNumberTxt.BackColor = System.Drawing.SystemColors.Window;
+            this.customerStreetNumberTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customerStreetNumberTxt.Location = new System.Drawing.Point(506, 257);
+            this.customerStreetNumberTxt.Name = "customerStreetNumberTxt";
+            this.customerStreetNumberTxt.Size = new System.Drawing.Size(230, 29);
+            this.customerStreetNumberTxt.TabIndex = 2;
+            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -11612,8 +11721,10 @@
             this.Controls.Add(this.addressLbl);
             this.Controls.Add(this.phoneNumberLbl);
             this.Controls.Add(this.nameLbl);
+            this.Controls.Add(this.customerStreetNumberLbl);
             this.Controls.Add(this.customerSuburbTxt);
             this.Controls.Add(this.customerAddressTxt);
+            this.Controls.Add(this.customerStreetNumberTxt);
             this.Controls.Add(this.customerPhoneNumberTxt);
             this.Controls.Add(this.customerNameTxt);
             this.Controls.Add(this.mainMenu);
@@ -12547,6 +12658,8 @@
         private System.Windows.Forms.Label label196;
         private System.Windows.Forms.Label label197;
         private System.Windows.Forms.Label label198;
+        private System.Windows.Forms.Label customerStreetNumberLbl;
+        private System.Windows.Forms.TextBox customerStreetNumberTxt;
     }
 }
 

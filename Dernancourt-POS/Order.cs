@@ -16,6 +16,7 @@ namespace Dernancourt_POS
         private string Address;
         private string Suburb;
         private bool Delivery;
+        private string StreetNumber;
 
         public Order()
         {
@@ -31,7 +32,7 @@ namespace Dernancourt_POS
             this.Delivery = false;
         }
 
-        public Order(string Name, string PhoneNumber, string Address, string Suburb)
+        public Order(string Name, string PhoneNumber, string Address, string Suburb, string StreetNumber)
         {
             // delivery order
             Items = new List<Item>();
@@ -40,6 +41,7 @@ namespace Dernancourt_POS
             this.Address = Address;
             this.Suburb = Suburb;
             this.Delivery = true;
+            this.StreetNumber = StreetNumber;
             // add $5 to delivery
             this.Price += 5;
         }
@@ -107,7 +109,7 @@ namespace Dernancourt_POS
         {
             if (this.isDelivery())
             {
-                return "Name: " + this.Name + Environment.NewLine + "Phone Number: " + this.PhoneNumber + Environment.NewLine + "Address: " + this.Address + Environment.NewLine + "Suburb: " + this.Suburb + Environment.NewLine + Environment.NewLine;
+                return "Name: " + this.Name + Environment.NewLine + "Phone Number: " + this.PhoneNumber + Environment.NewLine + "Address: " + this.StreetNumber + " " + this.Address + Environment.NewLine + "Suburb: " + this.Suburb + Environment.NewLine + Environment.NewLine;
             }
             return "Name: " + this.Name + Environment.NewLine + "Phone Number: " + this.PhoneNumber + Environment.NewLine + Environment.NewLine;
         }
