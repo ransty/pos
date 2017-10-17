@@ -3247,18 +3247,10 @@ namespace Dernancourt_POS
             orderSummary.Text += Environment.NewLine;
             if (myOrder.getPrice() % 1 != 0)
             {
-                if (myOrder.isDelivery())
-                {
-                    orderSummary.Text += "Delivery Charge: $5" + Environment.NewLine;
-                }
                 orderSummary.Text += "Total price: $" + myOrder.getTotalPrice() + "0";
             }
             else
             {
-                if (myOrder.isDelivery())
-                {
-                    orderSummary.Text += "Delivery Charge: $5" + Environment.NewLine;
-                }
                 orderSummary.Text += "Total price: $" + myOrder.getTotalPrice();
             }
 

@@ -1208,6 +1208,7 @@
             // 
             // orderPanel
             // 
+            this.orderPanel.Controls.Add(this.traditionalPanel);
             this.orderPanel.Controls.Add(this.commentPanel);
             this.orderPanel.Controls.Add(this.mealDealPanel);
             this.orderPanel.Controls.Add(this.summaryPanel);
@@ -1243,9 +1244,10 @@
             this.orderPanel.Controls.Add(this.pnl2NextBtn);
             this.orderPanel.Controls.Add(this.pnl2BackBtn);
             this.orderPanel.Controls.Add(this.pnl2HalfBtn);
-            this.orderPanel.Location = new System.Drawing.Point(63, 144);
+            this.orderPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.orderPanel.Location = new System.Drawing.Point(0, 24);
             this.orderPanel.Name = "orderPanel";
-            this.orderPanel.Size = new System.Drawing.Size(184, 234);
+            this.orderPanel.Size = new System.Drawing.Size(1064, 733);
             this.orderPanel.TabIndex = 12;
             this.orderPanel.Visible = false;
             this.orderPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.orderPanel_Paint);
@@ -6133,7 +6135,6 @@
             this.mainsPanel.Controls.Add(this.button111);
             this.mainsPanel.Controls.Add(this.button112);
             this.mainsPanel.Controls.Add(this.button113);
-            this.mainsPanel.Controls.Add(this.traditionalPanel);
             this.mainsPanel.Controls.Add(this.label184);
             this.mainsPanel.Controls.Add(this.label185);
             this.mainsPanel.Controls.Add(this.label186);
@@ -6451,7 +6452,7 @@
             this.traditionalPanel.Controls.Add(this.button56);
             this.traditionalPanel.Controls.Add(this.label121);
             this.traditionalPanel.Cursor = System.Windows.Forms.Cursors.Default;
-            this.traditionalPanel.Location = new System.Drawing.Point(777, 685);
+            this.traditionalPanel.Location = new System.Drawing.Point(355, 675);
             this.traditionalPanel.Name = "traditionalPanel";
             this.traditionalPanel.Size = new System.Drawing.Size(102, 40);
             this.traditionalPanel.TabIndex = 23;
@@ -11374,7 +11375,7 @@
             this.pnl2BeveragesBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2BeveragesBtn.BackColor = System.Drawing.Color.HotPink;
             this.pnl2BeveragesBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2BeveragesBtn.Location = new System.Drawing.Point(-149, 191);
+            this.pnl2BeveragesBtn.Location = new System.Drawing.Point(291, 440);
             this.pnl2BeveragesBtn.Name = "pnl2BeveragesBtn";
             this.pnl2BeveragesBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2BeveragesBtn.TabIndex = 17;
@@ -11387,7 +11388,7 @@
             this.pnl2DesertsBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2DesertsBtn.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.pnl2DesertsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2DesertsBtn.Location = new System.Drawing.Point(353, 191);
+            this.pnl2DesertsBtn.Location = new System.Drawing.Point(793, 440);
             this.pnl2DesertsBtn.Name = "pnl2DesertsBtn";
             this.pnl2DesertsBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2DesertsBtn.TabIndex = 16;
@@ -11400,7 +11401,7 @@
             this.pnl2SaladsBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2SaladsBtn.BackColor = System.Drawing.Color.DarkKhaki;
             this.pnl2SaladsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2SaladsBtn.Location = new System.Drawing.Point(104, 191);
+            this.pnl2SaladsBtn.Location = new System.Drawing.Point(544, 440);
             this.pnl2SaladsBtn.Name = "pnl2SaladsBtn";
             this.pnl2SaladsBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2SaladsBtn.TabIndex = 15;
@@ -11413,7 +11414,7 @@
             this.pnl2KebabWrapBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2KebabWrapBtn.BackColor = System.Drawing.Color.Khaki;
             this.pnl2KebabWrapBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2KebabWrapBtn.Location = new System.Drawing.Point(353, 75);
+            this.pnl2KebabWrapBtn.Location = new System.Drawing.Point(793, 324);
             this.pnl2KebabWrapBtn.Name = "pnl2KebabWrapBtn";
             this.pnl2KebabWrapBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2KebabWrapBtn.TabIndex = 14;
@@ -11426,7 +11427,7 @@
             this.pnl2RisottoBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2RisottoBtn.BackColor = System.Drawing.Color.Gold;
             this.pnl2RisottoBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2RisottoBtn.Location = new System.Drawing.Point(353, -41);
+            this.pnl2RisottoBtn.Location = new System.Drawing.Point(793, 208);
             this.pnl2RisottoBtn.Name = "pnl2RisottoBtn";
             this.pnl2RisottoBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2RisottoBtn.TabIndex = 13;
@@ -11439,7 +11440,7 @@
             this.pnl2RibsWingsBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2RibsWingsBtn.BackColor = System.Drawing.Color.Yellow;
             this.pnl2RibsWingsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2RibsWingsBtn.Location = new System.Drawing.Point(353, -157);
+            this.pnl2RibsWingsBtn.Location = new System.Drawing.Point(793, 92);
             this.pnl2RibsWingsBtn.Name = "pnl2RibsWingsBtn";
             this.pnl2RibsWingsBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2RibsWingsBtn.TabIndex = 12;
@@ -11452,7 +11453,7 @@
             this.pnl2PastaBakeBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2PastaBakeBtn.BackColor = System.Drawing.Color.Orchid;
             this.pnl2PastaBakeBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2PastaBakeBtn.Location = new System.Drawing.Point(-149, 75);
+            this.pnl2PastaBakeBtn.Location = new System.Drawing.Point(291, 324);
             this.pnl2PastaBakeBtn.Name = "pnl2PastaBakeBtn";
             this.pnl2PastaBakeBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2PastaBakeBtn.TabIndex = 11;
@@ -11465,7 +11466,7 @@
             this.pnl2PastaBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2PastaBtn.BackColor = System.Drawing.Color.MediumVioletRed;
             this.pnl2PastaBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2PastaBtn.Location = new System.Drawing.Point(99, 75);
+            this.pnl2PastaBtn.Location = new System.Drawing.Point(539, 324);
             this.pnl2PastaBtn.Name = "pnl2PastaBtn";
             this.pnl2PastaBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2PastaBtn.TabIndex = 10;
@@ -11478,7 +11479,7 @@
             this.pnl2TheABBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2TheABBtn.BackColor = System.Drawing.Color.DeepPink;
             this.pnl2TheABBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2TheABBtn.Location = new System.Drawing.Point(99, -40);
+            this.pnl2TheABBtn.Location = new System.Drawing.Point(539, 209);
             this.pnl2TheABBtn.Name = "pnl2TheABBtn";
             this.pnl2TheABBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2TheABBtn.TabIndex = 9;
@@ -11491,7 +11492,7 @@
             this.pnl2SeafoodBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2SeafoodBtn.BackColor = System.Drawing.Color.Red;
             this.pnl2SeafoodBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2SeafoodBtn.Location = new System.Drawing.Point(99, -157);
+            this.pnl2SeafoodBtn.Location = new System.Drawing.Point(539, 92);
             this.pnl2SeafoodBtn.Name = "pnl2SeafoodBtn";
             this.pnl2SeafoodBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2SeafoodBtn.TabIndex = 8;
@@ -11504,7 +11505,7 @@
             this.pnl2GourmetBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2GourmetBtn.BackColor = System.Drawing.Color.Crimson;
             this.pnl2GourmetBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2GourmetBtn.Location = new System.Drawing.Point(-154, -40);
+            this.pnl2GourmetBtn.Location = new System.Drawing.Point(286, 209);
             this.pnl2GourmetBtn.Name = "pnl2GourmetBtn";
             this.pnl2GourmetBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2GourmetBtn.TabIndex = 7;
@@ -11517,7 +11518,7 @@
             this.pnl2TraditionalBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2TraditionalBtn.BackColor = System.Drawing.Color.YellowGreen;
             this.pnl2TraditionalBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2TraditionalBtn.Location = new System.Drawing.Point(-405, -41);
+            this.pnl2TraditionalBtn.Location = new System.Drawing.Point(35, 208);
             this.pnl2TraditionalBtn.Name = "pnl2TraditionalBtn";
             this.pnl2TraditionalBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2TraditionalBtn.TabIndex = 6;
@@ -11530,7 +11531,7 @@
             this.pnl2MainsBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2MainsBtn.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.pnl2MainsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2MainsBtn.Location = new System.Drawing.Point(-149, -157);
+            this.pnl2MainsBtn.Location = new System.Drawing.Point(291, 92);
             this.pnl2MainsBtn.Name = "pnl2MainsBtn";
             this.pnl2MainsBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2MainsBtn.TabIndex = 5;
@@ -11543,7 +11544,7 @@
             this.pnl2StartersBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2StartersBtn.BackColor = System.Drawing.Color.GreenYellow;
             this.pnl2StartersBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2StartersBtn.Location = new System.Drawing.Point(-405, 75);
+            this.pnl2StartersBtn.Location = new System.Drawing.Point(35, 324);
             this.pnl2StartersBtn.Name = "pnl2StartersBtn";
             this.pnl2StartersBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2StartersBtn.TabIndex = 4;
@@ -11556,7 +11557,7 @@
             this.pnl2MealDealsBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2MealDealsBtn.BackColor = System.Drawing.Color.SeaGreen;
             this.pnl2MealDealsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2MealDealsBtn.Location = new System.Drawing.Point(-405, -157);
+            this.pnl2MealDealsBtn.Location = new System.Drawing.Point(35, 92);
             this.pnl2MealDealsBtn.Name = "pnl2MealDealsBtn";
             this.pnl2MealDealsBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2MealDealsBtn.TabIndex = 2;
@@ -11568,7 +11569,7 @@
             // 
             this.pnl2NextBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2NextBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2NextBtn.Location = new System.Drawing.Point(370, 365);
+            this.pnl2NextBtn.Location = new System.Drawing.Point(810, 614);
             this.pnl2NextBtn.Name = "pnl2NextBtn";
             this.pnl2NextBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2NextBtn.TabIndex = 1;
@@ -11580,7 +11581,7 @@
             // 
             this.pnl2BackBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2BackBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2BackBtn.Location = new System.Drawing.Point(-428, 365);
+            this.pnl2BackBtn.Location = new System.Drawing.Point(12, 614);
             this.pnl2BackBtn.Name = "pnl2BackBtn";
             this.pnl2BackBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2BackBtn.TabIndex = 0;
@@ -11593,7 +11594,7 @@
             this.pnl2HalfBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnl2HalfBtn.BackColor = System.Drawing.Color.PaleGreen;
             this.pnl2HalfBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2HalfBtn.Location = new System.Drawing.Point(-405, 191);
+            this.pnl2HalfBtn.Location = new System.Drawing.Point(35, 440);
             this.pnl2HalfBtn.Name = "pnl2HalfBtn";
             this.pnl2HalfBtn.Size = new System.Drawing.Size(242, 104);
             this.pnl2HalfBtn.TabIndex = 3;
