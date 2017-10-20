@@ -1635,7 +1635,6 @@ namespace Dernancourt_POS
             SolidBrush PrintBrush = new SolidBrush(Color.Black);
 
             LinesPerPage = e.MarginBounds.Height / PrintFont.GetHeight(e.Graphics);
-
             while (Count <= LinesPerPage && ((line = reader.ReadLine()) != null))
             {
                 YPosition = TopMargin + (Count * PrintFont.GetHeight(e.Graphics));
@@ -3258,7 +3257,7 @@ namespace Dernancourt_POS
 
             orderSummary.Text += Environment.NewLine + txComments.Text;
 
-            orderSummary.Text += Environment.NewLine;
+            orderSummary.Text += Environment.NewLine + Environment.NewLine;
 
 
         }
