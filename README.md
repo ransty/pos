@@ -15,6 +15,3 @@ Project has been disconntinued. This POS can be used as a template for other pro
 
 ## Delivery notes page:
 ![delivery notes](https://github.com/ransty/pos/blob/master/photos/customercomments.png?raw=true)
-
-## Receipt summary page:
-![receipt](https://github.com/ransty/pos/blob/master/photos/reciept.png?raw=true)
